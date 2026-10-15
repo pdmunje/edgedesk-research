@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "check": "Portable command-line reproduction compared with original saved results",
+  "sections_compared": [
+    "primary",
+    "extended",
+    "first_half",
+    "second_half",
+    "five_period_warmup",
+    "exclude_roll_sessions",
+    "B_quarter_hour_decisions",
+    "paired_weekly_bootstrap"
+  ],
+  "all_sections_identical": true,
+  "input_sha256_matches": true,
+  "checked_date": "2026-10-15",
+  "source_archive_not_redistributed": true
+}

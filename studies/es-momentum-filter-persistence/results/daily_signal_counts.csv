@@ -1,0 +1,2737 @@
+trading_date,minutes_measured,minutes_allowing_long_or_short_entries,separate_periods_allowing_entries,periods_starting_after_measurement_began,longest_observed_period_minutes,calculation_used
+2024-09-05,390,165,3,3,90,15-minute momentum + hourly EMA20
+2024-09-06,390,255,4,4,195,15-minute momentum + hourly EMA20
+2024-09-09,390,225,3,2,120,15-minute momentum + hourly EMA20
+2024-09-10,390,195,4,3,60,15-minute momentum + hourly EMA20
+2024-09-11,390,210,3,2,120,15-minute momentum + hourly EMA20
+2024-09-12,390,225,3,3,150,15-minute momentum + hourly EMA20
+2024-09-13,390,240,4,4,120,15-minute momentum + hourly EMA20
+2024-09-24,390,105,4,3,45,15-minute momentum + hourly EMA20
+2024-10-01,390,180,4,4,90,15-minute momentum + hourly EMA20
+2024-10-02,390,165,4,4,60,15-minute momentum + hourly EMA20
+2024-10-03,390,225,4,3,75,15-minute momentum + hourly EMA20
+2024-10-04,390,195,3,2,120,15-minute momentum + hourly EMA20
+2024-10-07,390,285,5,5,150,15-minute momentum + hourly EMA20
+2024-10-08,390,315,2,1,210,15-minute momentum + hourly EMA20
+2024-10-09,390,270,3,2,195,15-minute momentum + hourly EMA20
+2024-10-18,390,225,4,3,75,15-minute momentum + hourly EMA20
+2024-10-21,390,150,2,2,90,15-minute momentum + hourly EMA20
+2024-10-22,390,180,4,3,105,15-minute momentum + hourly EMA20
+2024-10-29,390,210,3,2,105,15-minute momentum + hourly EMA20
+2024-10-30,390,165,5,4,45,15-minute momentum + hourly EMA20
+2024-10-31,390,255,2,1,165,15-minute momentum + hourly EMA20
+2024-11-01,390,195,4,3,120,15-minute momentum + hourly EMA20
+2024-11-04,390,210,3,2,90,15-minute momentum + hourly EMA20
+2024-11-08,390,300,2,1,165,15-minute momentum + hourly EMA20
+2024-11-11,390,60,1,1,60,15-minute momentum + hourly EMA20
+2024-11-12,390,210,3,3,165,15-minute momentum + hourly EMA20
+2024-11-13,390,210,5,5,135,15-minute momentum + hourly EMA20
+2024-11-14,390,240,5,5,90,15-minute momentum + hourly EMA20
+2024-11-15,390,315,3,2,180,15-minute momentum + hourly EMA20
+2024-11-21,390,255,4,3,105,15-minute momentum + hourly EMA20
+2024-11-22,390,180,4,3,75,15-minute momentum + hourly EMA20
+2024-11-25,390,135,5,4,60,15-minute momentum + hourly EMA20
+2024-11-26,390,285,5,4,120,15-minute momentum + hourly EMA20
+2024-11-27,390,180,2,2,120,15-minute momentum + hourly EMA20
+2024-12-02,390,285,5,4,105,15-minute momentum + hourly EMA20
+2024-12-03,390,180,5,5,60,15-minute momentum + hourly EMA20
+2024-12-23,390,195,4,3,105,15-minute momentum + hourly EMA20
+2024-12-31,390,240,5,5,120,15-minute momentum + hourly EMA20
+2025-01-02,390,120,4,4,75,15-minute momentum + hourly EMA20
+2025-01-03,390,285,3,3,135,15-minute momentum + hourly EMA20
+2025-01-06,390,150,1,1,150,15-minute momentum + hourly EMA20
+2025-01-07,390,210,4,3,105,15-minute momentum + hourly EMA20
+2025-01-08,390,195,5,5,75,15-minute momentum + hourly EMA20
+2025-01-14,390,210,4,3,105,15-minute momentum + hourly EMA20
+2025-01-15,390,300,2,1,210,15-minute momentum + hourly EMA20
+2025-01-16,390,180,5,4,60,15-minute momentum + hourly EMA20
+2025-01-17,390,255,1,0,255,15-minute momentum + hourly EMA20
+2025-01-21,390,240,5,4,150,15-minute momentum + hourly EMA20
+2025-01-22,390,195,4,4,75,15-minute momentum + hourly EMA20
+2025-01-23,390,285,4,3,105,15-minute momentum + hourly EMA20
+2025-01-29,390,255,5,4,105,15-minute momentum + hourly EMA20
+2025-01-30,390,210,5,5,105,15-minute momentum + hourly EMA20
+2025-01-31,390,225,3,3,105,15-minute momentum + hourly EMA20
+2025-02-03,390,180,3,2,135,15-minute momentum + hourly EMA20
+2025-02-04,390,270,3,3,165,15-minute momentum + hourly EMA20
+2025-02-05,390,285,4,3,120,15-minute momentum + hourly EMA20
+2025-02-06,390,180,4,3,75,15-minute momentum + hourly EMA20
+2025-02-07,390,195,4,3,120,15-minute momentum + hourly EMA20
+2025-02-10,390,195,2,2,120,15-minute momentum + hourly EMA20
+2025-02-14,390,180,3,2,90,15-minute momentum + hourly EMA20
+2025-02-21,390,300,3,3,195,15-minute momentum + hourly EMA20
+2025-02-24,390,240,3,2,120,15-minute momentum + hourly EMA20
+2025-02-25,390,210,4,3,120,15-minute momentum + hourly EMA20
+2025-02-26,390,165,2,2,120,15-minute momentum + hourly EMA20
+2025-02-27,390,255,3,3,105,15-minute momentum + hourly EMA20
+2025-02-28,390,165,5,4,60,15-minute momentum + hourly EMA20
+2025-03-03,390,165,4,4,75,15-minute momentum + hourly EMA20
+2025-03-04,390,165,3,3,135,15-minute momentum + hourly EMA20
+2025-03-05,390,255,6,5,120,15-minute momentum + hourly EMA20
+2025-03-06,390,210,4,4,90,15-minute momentum + hourly EMA20
+2025-03-07,390,150,3,2,105,15-minute momentum + hourly EMA20
+2025-03-10,390,375,2,1,360,15-minute momentum + hourly EMA20
+2025-03-11,390,240,3,2,120,15-minute momentum + hourly EMA20
+2025-03-12,390,120,5,4,45,15-minute momentum + hourly EMA20
+2025-03-13,390,270,4,4,105,15-minute momentum + hourly EMA20
+2025-03-14,390,240,4,4,120,15-minute momentum + hourly EMA20
+2025-03-17,390,270,3,2,180,15-minute momentum + hourly EMA20
+2025-03-21,390,90,4,3,45,15-minute momentum + hourly EMA20
+2025-03-24,390,240,2,2,165,15-minute momentum + hourly EMA20
+2025-03-25,390,120,4,4,60,15-minute momentum + hourly EMA20
+2025-03-26,390,345,3,3,270,15-minute momentum + hourly EMA20
+2025-03-27,390,150,3,2,60,15-minute momentum + hourly EMA20
+2025-03-28,390,345,3,2,255,15-minute momentum + hourly EMA20
+2025-03-31,390,195,4,3,105,15-minute momentum + hourly EMA20
+2025-04-01,390,195,3,2,105,15-minute momentum + hourly EMA20
+2025-04-02,390,150,2,2,120,15-minute momentum + hourly EMA20
+2025-04-08,390,195,3,2,90,15-minute momentum + hourly EMA20
+2025-04-09,390,285,3,3,180,15-minute momentum + hourly EMA20
+2025-04-10,390,165,3,3,120,15-minute momentum + hourly EMA20
+2025-04-11,390,210,3,3,105,15-minute momentum + hourly EMA20
+2025-04-14,390,135,5,4,60,15-minute momentum + hourly EMA20
+2025-04-15,390,105,5,5,30,15-minute momentum + hourly EMA20
+2025-04-16,390,315,2,1,240,15-minute momentum + hourly EMA20
+2025-04-17,390,135,5,4,60,15-minute momentum + hourly EMA20
+2025-04-21,390,300,2,2,180,15-minute momentum + hourly EMA20
+2025-04-22,390,285,4,3,135,15-minute momentum + hourly EMA20
+2025-04-23,390,165,2,1,90,15-minute momentum + hourly EMA20
+2025-04-24,390,315,4,3,165,15-minute momentum + hourly EMA20
+2025-04-25,390,225,6,6,120,15-minute momentum + hourly EMA20
+2025-04-28,390,105,3,2,60,15-minute momentum + hourly EMA20
+2025-04-29,390,225,5,4,75,15-minute momentum + hourly EMA20
+2025-04-30,390,180,4,3,75,15-minute momentum + hourly EMA20
+2025-05-01,390,210,4,4,90,15-minute momentum + hourly EMA20
+2025-05-02,390,225,4,3,90,15-minute momentum + hourly EMA20
+2025-05-05,390,195,3,3,75,15-minute momentum + hourly EMA20
+2025-05-09,390,165,5,4,75,15-minute momentum + hourly EMA20
+2025-05-12,390,210,4,4,105,15-minute momentum + hourly EMA20
+2025-05-13,390,300,5,4,105,15-minute momentum + hourly EMA20
+2025-05-14,390,180,3,3,90,15-minute momentum + hourly EMA20
+2025-05-15,390,210,3,3,180,15-minute momentum + hourly EMA20
+2025-05-16,390,270,1,1,270,15-minute momentum + hourly EMA20
+2025-05-19,390,255,2,2,240,15-minute momentum + hourly EMA20
+2025-05-20,390,105,5,5,30,15-minute momentum + hourly EMA20
+2025-05-21,390,165,6,5,75,15-minute momentum + hourly EMA20
+2025-05-22,390,150,4,4,60,15-minute momentum + hourly EMA20
+2025-05-23,390,105,4,4,60,15-minute momentum + hourly EMA20
+2025-05-27,390,270,1,1,270,15-minute momentum + hourly EMA20
+2025-05-28,390,135,4,4,60,15-minute momentum + hourly EMA20
+2025-05-29,390,240,4,4,105,15-minute momentum + hourly EMA20
+2025-05-30,390,165,2,2,135,15-minute momentum + hourly EMA20
+2025-06-02,390,345,6,5,135,15-minute momentum + hourly EMA20
+2025-06-03,390,315,2,1,270,15-minute momentum + hourly EMA20
+2025-06-04,390,195,3,2,105,15-minute momentum + hourly EMA20
+2025-06-05,390,225,5,4,90,15-minute momentum + hourly EMA20
+2025-06-06,390,180,3,2,90,15-minute momentum + hourly EMA20
+2025-06-09,390,225,3,3,180,15-minute momentum + hourly EMA20
+2025-06-10,390,255,3,3,105,15-minute momentum + hourly EMA20
+2025-06-11,390,165,5,4,60,15-minute momentum + hourly EMA20
+2025-06-12,390,150,5,5,45,15-minute momentum + hourly EMA20
+2025-06-13,390,135,3,3,105,15-minute momentum + hourly EMA20
+2025-06-16,390,165,4,4,105,15-minute momentum + hourly EMA20
+2025-06-20,390,180,4,3,60,15-minute momentum + hourly EMA20
+2025-06-23,390,210,3,2,90,15-minute momentum + hourly EMA20
+2025-06-24,390,315,3,3,180,15-minute momentum + hourly EMA20
+2025-06-30,390,180,5,4,75,15-minute momentum + hourly EMA20
+2025-07-01,390,120,6,6,30,15-minute momentum + hourly EMA20
+2025-07-02,390,210,3,2,105,15-minute momentum + hourly EMA20
+2025-07-07,390,240,5,5,90,15-minute momentum + hourly EMA20
+2025-07-08,390,240,7,7,60,15-minute momentum + hourly EMA20
+2025-07-14,390,300,4,4,150,15-minute momentum + hourly EMA20
+2025-07-15,390,210,4,3,90,15-minute momentum + hourly EMA20
+2025-07-16,390,240,5,4,90,15-minute momentum + hourly EMA20
+2025-07-17,390,330,3,2,150,15-minute momentum + hourly EMA20
+2025-07-18,390,150,5,4,75,15-minute momentum + hourly EMA20
+2025-07-24,390,255,2,2,150,15-minute momentum + hourly EMA20
+2025-07-25,390,315,3,2,225,15-minute momentum + hourly EMA20
+2025-08-04,390,315,3,2,135,15-minute momentum + hourly EMA20
+2025-08-05,390,150,4,4,60,15-minute momentum + hourly EMA20
+2025-08-06,390,270,5,5,105,15-minute momentum + hourly EMA20
+2025-08-07,390,180,3,3,150,15-minute momentum + hourly EMA20
+2025-08-08,390,285,5,4,90,15-minute momentum + hourly EMA20
+2025-08-11,390,300,4,4,165,15-minute momentum + hourly EMA20
+2025-08-15,390,225,4,3,135,15-minute momentum + hourly EMA20
+2025-08-18,390,165,6,5,60,15-minute momentum + hourly EMA20
+2025-08-22,390,225,2,1,150,15-minute momentum + hourly EMA20
+2025-09-03,390,195,4,4,105,15-minute momentum + hourly EMA20
+2025-09-04,390,315,3,2,150,15-minute momentum + hourly EMA20
+2025-09-05,390,180,5,4,60,15-minute momentum + hourly EMA20
+2025-09-08,390,165,4,3,75,15-minute momentum + hourly EMA20
+2025-10-14,390,150,3,2,90,15-minute momentum + hourly EMA20
+2025-10-15,390,90,2,2,75,15-minute momentum + hourly EMA20
+2025-10-16,390,240,4,4,90,15-minute momentum + hourly EMA20
+2025-10-17,390,300,4,3,120,15-minute momentum + hourly EMA20
+2025-10-20,390,255,3,2,135,15-minute momentum + hourly EMA20
+2025-10-21,390,180,4,4,75,15-minute momentum + hourly EMA20
+2025-10-22,390,270,2,2,150,15-minute momentum + hourly EMA20
+2025-10-23,390,255,2,2,210,15-minute momentum + hourly EMA20
+2025-10-24,390,285,5,4,90,15-minute momentum + hourly EMA20
+2025-10-27,390,345,3,2,135,15-minute momentum + hourly EMA20
+2025-10-28,390,240,3,2,195,15-minute momentum + hourly EMA20
+2025-10-29,390,180,5,4,60,15-minute momentum + hourly EMA20
+2025-10-30,390,255,6,5,105,15-minute momentum + hourly EMA20
+2025-10-31,390,180,2,2,135,15-minute momentum + hourly EMA20
+2025-11-03,390,105,3,2,75,15-minute momentum + hourly EMA20
+2025-11-04,390,225,3,3,105,15-minute momentum + hourly EMA20
+2025-11-05,390,285,4,3,225,15-minute momentum + hourly EMA20
+2025-11-06,390,210,3,3,165,15-minute momentum + hourly EMA20
+2025-11-07,390,180,2,2,165,15-minute momentum + hourly EMA20
+2025-11-10,390,300,2,2,240,15-minute momentum + hourly EMA20
+2025-11-11,390,270,5,4,180,15-minute momentum + hourly EMA20
+2025-11-12,390,165,2,2,90,15-minute momentum + hourly EMA20
+2025-11-13,390,345,3,2,180,15-minute momentum + hourly EMA20
+2025-11-14,390,120,2,2,60,15-minute momentum + hourly EMA20
+2025-11-17,390,270,3,2,195,15-minute momentum + hourly EMA20
+2025-11-18,390,180,5,4,105,15-minute momentum + hourly EMA20
+2025-11-19,390,135,4,4,75,15-minute momentum + hourly EMA20
+2025-11-20,390,240,4,3,90,15-minute momentum + hourly EMA20
+2025-11-21,390,165,2,2,105,15-minute momentum + hourly EMA20
+2025-11-24,390,255,3,3,135,15-minute momentum + hourly EMA20
+2025-11-25,390,285,4,4,180,15-minute momentum + hourly EMA20
+2025-11-26,390,285,6,5,120,15-minute momentum + hourly EMA20
+2025-12-04,390,105,5,4,45,15-minute momentum + hourly EMA20
+2025-12-05,390,195,5,5,75,15-minute momentum + hourly EMA20
+2025-12-08,390,240,2,2,180,15-minute momentum + hourly EMA20
+2025-12-09,390,105,3,2,60,15-minute momentum + hourly EMA20
+2025-12-10,390,225,5,4,105,15-minute momentum + hourly EMA20
+2025-12-11,390,285,4,4,195,15-minute momentum + hourly EMA20
+2025-12-12,390,180,3,3,75,15-minute momentum + hourly EMA20
+2025-12-15,390,225,6,5,90,15-minute momentum + hourly EMA20
+2025-12-19,390,255,3,2,150,15-minute momentum + hourly EMA20
+2025-12-22,390,255,7,6,90,15-minute momentum + hourly EMA20
+2025-12-23,390,345,2,1,330,15-minute momentum + hourly EMA20
+2025-12-31,390,195,5,4,90,15-minute momentum + hourly EMA20
+2026-01-02,390,165,4,4,75,15-minute momentum + hourly EMA20
+2026-01-05,390,210,3,2,180,15-minute momentum + hourly EMA20
+2026-01-06,390,300,3,2,195,15-minute momentum + hourly EMA20
+2026-01-07,390,150,2,1,105,15-minute momentum + hourly EMA20
+2026-01-08,390,180,4,3,75,15-minute momentum + hourly EMA20
+2026-01-09,390,270,3,3,120,15-minute momentum + hourly EMA20
+2026-01-12,390,345,1,1,345,15-minute momentum + hourly EMA20
+2026-01-13,390,240,5,4,90,15-minute momentum + hourly EMA20
+2026-01-14,390,225,4,3,120,15-minute momentum + hourly EMA20
+2026-01-15,390,195,3,2,90,15-minute momentum + hourly EMA20
+2026-01-16,390,195,4,4,90,15-minute momentum + hourly EMA20
+2026-01-20,390,270,2,1,255,15-minute momentum + hourly EMA20
+2026-01-21,390,195,3,3,75,15-minute momentum + hourly EMA20
+2026-01-22,390,225,3,2,165,15-minute momentum + hourly EMA20
+2026-01-23,390,120,3,3,60,15-minute momentum + hourly EMA20
+2026-01-26,390,300,3,2,225,15-minute momentum + hourly EMA20
+2026-01-27,390,225,2,2,120,15-minute momentum + hourly EMA20
+2026-01-28,390,225,4,3,105,15-minute momentum + hourly EMA20
+2026-01-29,390,135,3,3,105,15-minute momentum + hourly EMA20
+2026-01-30,390,210,6,5,60,15-minute momentum + hourly EMA20
+2026-02-02,390,300,3,2,120,15-minute momentum + hourly EMA20
+2026-02-03,390,210,2,2,195,15-minute momentum + hourly EMA20
+2026-02-04,390,225,2,1,135,15-minute momentum + hourly EMA20
+2026-02-05,390,225,6,5,90,15-minute momentum + hourly EMA20
+2026-02-06,390,345,3,3,270,15-minute momentum + hourly EMA20
+2026-02-09,390,285,2,2,180,15-minute momentum + hourly EMA20
+2026-02-10,390,180,4,3,90,15-minute momentum + hourly EMA20
+2026-02-11,390,210,5,4,60,15-minute momentum + hourly EMA20
+2026-02-12,390,195,4,3,90,15-minute momentum + hourly EMA20
+2026-02-13,390,75,3,3,45,15-minute momentum + hourly EMA20
+2026-02-17,390,180,4,4,90,15-minute momentum + hourly EMA20
+2026-02-18,390,180,3,3,135,15-minute momentum + hourly EMA20
+2026-02-19,390,180,3,3,60,15-minute momentum + hourly EMA20
+2026-02-20,390,180,6,5,90,15-minute momentum + hourly EMA20
+2026-02-23,390,225,4,3,90,15-minute momentum + hourly EMA20
+2026-02-24,390,195,6,5,90,15-minute momentum + hourly EMA20
+2026-02-25,390,330,3,2,165,15-minute momentum + hourly EMA20
+2026-02-26,390,135,2,2,120,15-minute momentum + hourly EMA20
+2026-02-27,390,240,3,2,150,15-minute momentum + hourly EMA20
+2026-03-02,390,210,4,3,120,15-minute momentum + hourly EMA20
+2026-03-03,390,210,4,3,105,15-minute momentum + hourly EMA20
+2026-03-04,390,240,5,5,105,15-minute momentum + hourly EMA20
+2026-03-05,390,240,5,4,105,15-minute momentum + hourly EMA20
+2026-03-06,390,180,5,4,60,15-minute momentum + hourly EMA20
+2026-03-09,390,255,3,2,90,15-minute momentum + hourly EMA20
+2026-03-10,390,225,5,4,105,15-minute momentum + hourly EMA20
+2026-03-11,390,180,4,4,75,15-minute momentum + hourly EMA20
+2026-03-12,390,300,3,2,120,15-minute momentum + hourly EMA20
+2026-03-13,390,180,5,4,45,15-minute momentum + hourly EMA20
+2026-03-20,390,270,2,2,195,15-minute momentum + hourly EMA20
+2026-03-23,390,195,2,2,120,15-minute momentum + hourly EMA20
+2026-03-24,390,150,4,4,75,15-minute momentum + hourly EMA20
+2026-03-25,390,150,3,2,105,15-minute momentum + hourly EMA20
+2026-03-26,390,300,2,2,255,15-minute momentum + hourly EMA20
+2026-03-27,390,315,2,1,225,15-minute momentum + hourly EMA20
+2026-03-30,390,285,5,4,210,15-minute momentum + hourly EMA20
+2026-03-31,390,270,5,5,90,15-minute momentum + hourly EMA20
+2026-04-01,390,255,3,3,180,15-minute momentum + hourly EMA20
+2026-04-02,390,135,3,3,60,15-minute momentum + hourly EMA20
+2026-04-06,390,240,4,4,75,15-minute momentum + hourly EMA20
+2026-04-07,390,195,3,3,135,15-minute momentum + hourly EMA20
+2026-04-08,390,150,3,3,120,15-minute momentum + hourly EMA20
+2026-04-09,390,255,3,3,180,15-minute momentum + hourly EMA20
+2026-04-16,390,195,4,3,105,15-minute momentum + hourly EMA20
+2026-04-17,390,240,4,3,135,15-minute momentum + hourly EMA20
+2026-04-20,390,270,3,2,165,15-minute momentum + hourly EMA20
+2026-04-21,390,255,4,4,165,15-minute momentum + hourly EMA20
+2026-04-22,390,210,4,3,105,15-minute momentum + hourly EMA20
+2026-04-23,390,210,3,3,135,15-minute momentum + hourly EMA20
+2026-04-24,390,210,3,3,120,15-minute momentum + hourly EMA20
+2026-04-27,390,270,3,3,165,15-minute momentum + hourly EMA20
+2026-04-28,390,165,3,3,120,15-minute momentum + hourly EMA20
+2026-05-04,390,225,3,2,120,15-minute momentum + hourly EMA20
+2026-05-05,390,345,3,2,150,15-minute momentum + hourly EMA20
+2026-05-06,390,285,4,4,135,15-minute momentum + hourly EMA20
+2026-05-07,390,165,3,3,75,15-minute momentum + hourly EMA20
+2026-05-08,390,225,5,5,75,15-minute momentum + hourly EMA20
+2026-05-11,390,240,2,2,180,15-minute momentum + hourly EMA20
+2026-05-12,390,180,2,2,150,15-minute momentum + hourly EMA20
+2026-05-13,390,270,3,3,210,15-minute momentum + hourly EMA20
+2026-05-14,390,255,3,3,135,15-minute momentum + hourly EMA20
+2026-05-15,390,195,5,5,90,15-minute momentum + hourly EMA20
+2026-05-18,390,105,4,3,60,15-minute momentum + hourly EMA20
+2026-05-19,390,240,4,3,105,15-minute momentum + hourly EMA20
+2026-05-20,390,240,3,3,120,15-minute momentum + hourly EMA20
+2026-05-21,390,150,5,4,45,15-minute momentum + hourly EMA20
+2026-05-22,390,180,3,2,75,15-minute momentum + hourly EMA20
+2026-05-28,390,255,5,5,150,15-minute momentum + hourly EMA20
+2026-05-29,390,210,4,4,75,15-minute momentum + hourly EMA20
+2026-06-01,390,150,6,6,60,15-minute momentum + hourly EMA20
+2026-06-02,390,225,4,3,120,15-minute momentum + hourly EMA20
+2026-06-03,390,270,3,2,135,15-minute momentum + hourly EMA20
+2026-06-04,390,300,3,3,240,15-minute momentum + hourly EMA20
+2026-06-05,390,345,3,2,150,15-minute momentum + hourly EMA20
+2026-06-08,390,150,4,4,60,15-minute momentum + hourly EMA20
+2026-06-09,390,150,3,2,75,15-minute momentum + hourly EMA20
+2026-06-10,390,270,3,3,195,15-minute momentum + hourly EMA20
+2026-06-11,390,240,7,6,60,15-minute momentum + hourly EMA20
+2026-06-12,390,180,4,4,75,15-minute momentum + hourly EMA20
+2026-06-15,390,210,1,0,210,15-minute momentum + hourly EMA20
+2026-06-22,390,210,5,5,60,15-minute momentum + hourly EMA20
+2026-06-23,390,225,4,3,120,15-minute momentum + hourly EMA20
+2026-06-24,390,195,3,3,120,15-minute momentum + hourly EMA20
+2026-06-25,390,240,5,4,75,15-minute momentum + hourly EMA20
+2026-06-26,390,120,5,4,45,15-minute momentum + hourly EMA20
+2026-06-29,390,285,3,3,255,15-minute momentum + hourly EMA20
+2026-06-30,390,360,3,2,165,15-minute momentum + hourly EMA20
+2026-07-01,390,165,2,2,150,15-minute momentum + hourly EMA20
+2026-07-02,390,165,3,3,75,15-minute momentum + hourly EMA20
+2026-07-06,390,300,3,2,180,15-minute momentum + hourly EMA20
+2026-07-07,390,180,2,2,105,15-minute momentum + hourly EMA20
+2026-07-08,390,210,6,5,120,15-minute momentum + hourly EMA20
+2026-07-09,390,285,3,3,210,15-minute momentum + hourly EMA20
+2026-07-10,390,300,5,4,105,15-minute momentum + hourly EMA20
+2026-07-13,390,255,4,3,120,15-minute momentum + hourly EMA20
+2026-07-14,390,210,5,4,105,15-minute momentum + hourly EMA20
+2026-07-15,390,105,3,2,75,15-minute momentum + hourly EMA20
+2026-07-16,390,270,3,3,135,15-minute momentum + hourly EMA20
+2026-07-17,390,210,4,3,120,15-minute momentum + hourly EMA20
+2026-07-20,390,240,4,3,75,15-minute momentum + hourly EMA20
+2026-07-21,390,255,3,2,210,15-minute momentum + hourly EMA20
+2026-07-22,390,135,2,2,120,15-minute momentum + hourly EMA20
+2026-07-23,390,270,5,4,120,15-minute momentum + hourly EMA20
+2026-07-24,390,120,4,3,45,15-minute momentum + hourly EMA20
+2026-07-27,390,120,3,3,60,15-minute momentum + hourly EMA20
+2026-07-28,390,180,5,5,60,15-minute momentum + hourly EMA20
+2026-07-29,390,210,2,2,180,15-minute momentum + hourly EMA20
+2026-08-05,390,180,5,4,75,15-minute momentum + hourly EMA20
+2026-08-06,390,210,6,5,105,15-minute momentum + hourly EMA20
+2026-08-07,390,195,5,4,105,15-minute momentum + hourly EMA20
+2026-08-10,390,120,4,4,75,15-minute momentum + hourly EMA20
+2026-08-11,390,210,4,3,120,15-minute momentum + hourly EMA20
+2026-08-17,390,330,4,3,150,15-minute momentum + hourly EMA20
+2026-08-21,390,165,2,2,105,15-minute momentum + hourly EMA20
+2026-08-24,390,210,4,4,90,15-minute momentum + hourly EMA20
+2026-08-25,390,150,3,3,75,15-minute momentum + hourly EMA20
+2026-08-26,390,195,6,5,60,15-minute momentum + hourly EMA20
+2026-08-27,390,240,4,4,120,15-minute momentum + hourly EMA20
+2026-08-28,390,120,4,4,60,15-minute momentum + hourly EMA20
+2024-09-05,390,145,5,5,61,Every-minute momentum + minute EMA1200
+2024-09-06,390,268,10,10,195,Every-minute momentum + minute EMA1200
+2024-09-09,390,216,5,4,121,Every-minute momentum + minute EMA1200
+2024-09-10,390,131,8,7,44,Every-minute momentum + minute EMA1200
+2024-09-11,390,181,5,4,114,Every-minute momentum + minute EMA1200
+2024-09-12,390,221,17,17,127,Every-minute momentum + minute EMA1200
+2024-09-13,390,253,12,12,104,Every-minute momentum + minute EMA1200
+2024-09-24,390,125,20,19,31,Every-minute momentum + minute EMA1200
+2024-10-01,390,202,9,9,94,Every-minute momentum + minute EMA1200
+2024-10-02,390,154,12,12,38,Every-minute momentum + minute EMA1200
+2024-10-03,390,187,19,18,44,Every-minute momentum + minute EMA1200
+2024-10-04,390,216,12,11,84,Every-minute momentum + minute EMA1200
+2024-10-07,390,244,21,21,151,Every-minute momentum + minute EMA1200
+2024-10-08,390,291,10,9,118,Every-minute momentum + minute EMA1200
+2024-10-09,390,288,12,11,176,Every-minute momentum + minute EMA1200
+2024-10-18,390,228,15,14,77,Every-minute momentum + minute EMA1200
+2024-10-21,390,162,6,6,91,Every-minute momentum + minute EMA1200
+2024-10-22,390,146,10,9,59,Every-minute momentum + minute EMA1200
+2024-10-29,390,202,18,17,70,Every-minute momentum + minute EMA1200
+2024-10-30,390,163,10,9,57,Every-minute momentum + minute EMA1200
+2024-10-31,390,251,10,9,152,Every-minute momentum + minute EMA1200
+2024-11-01,390,185,15,14,105,Every-minute momentum + minute EMA1200
+2024-11-04,390,195,9,8,79,Every-minute momentum + minute EMA1200
+2024-11-08,390,301,3,2,146,Every-minute momentum + minute EMA1200
+2024-11-11,390,134,18,18,56,Every-minute momentum + minute EMA1200
+2024-11-12,390,205,5,5,141,Every-minute momentum + minute EMA1200
+2024-11-13,390,204,11,11,132,Every-minute momentum + minute EMA1200
+2024-11-14,390,244,15,15,91,Every-minute momentum + minute EMA1200
+2024-11-15,390,308,7,6,113,Every-minute momentum + minute EMA1200
+2024-11-21,390,241,17,16,93,Every-minute momentum + minute EMA1200
+2024-11-22,390,216,17,16,59,Every-minute momentum + minute EMA1200
+2024-11-25,390,114,10,9,28,Every-minute momentum + minute EMA1200
+2024-11-26,390,270,20,19,76,Every-minute momentum + minute EMA1200
+2024-11-27,390,187,9,9,70,Every-minute momentum + minute EMA1200
+2024-12-02,390,259,25,24,61,Every-minute momentum + minute EMA1200
+2024-12-03,390,193,18,18,55,Every-minute momentum + minute EMA1200
+2024-12-23,390,171,7,6,80,Every-minute momentum + minute EMA1200
+2024-12-31,390,220,21,21,109,Every-minute momentum + minute EMA1200
+2025-01-02,390,150,12,12,81,Every-minute momentum + minute EMA1200
+2025-01-03,390,278,13,13,107,Every-minute momentum + minute EMA1200
+2025-01-06,390,161,5,5,154,Every-minute momentum + minute EMA1200
+2025-01-07,390,248,12,11,113,Every-minute momentum + minute EMA1200
+2025-01-08,390,197,12,12,77,Every-minute momentum + minute EMA1200
+2025-01-14,390,144,6,5,70,Every-minute momentum + minute EMA1200
+2025-01-15,390,269,10,9,187,Every-minute momentum + minute EMA1200
+2025-01-16,390,135,19,18,43,Every-minute momentum + minute EMA1200
+2025-01-17,390,236,12,11,91,Every-minute momentum + minute EMA1200
+2025-01-21,390,259,13,12,150,Every-minute momentum + minute EMA1200
+2025-01-22,390,203,13,13,75,Every-minute momentum + minute EMA1200
+2025-01-23,390,282,18,17,91,Every-minute momentum + minute EMA1200
+2025-01-29,390,248,20,19,74,Every-minute momentum + minute EMA1200
+2025-01-30,390,203,16,16,62,Every-minute momentum + minute EMA1200
+2025-01-31,390,216,8,8,91,Every-minute momentum + minute EMA1200
+2025-02-03,390,155,13,12,101,Every-minute momentum + minute EMA1200
+2025-02-04,390,277,7,7,147,Every-minute momentum + minute EMA1200
+2025-02-05,390,298,19,18,110,Every-minute momentum + minute EMA1200
+2025-02-06,390,161,13,12,61,Every-minute momentum + minute EMA1200
+2025-02-07,390,257,10,9,98,Every-minute momentum + minute EMA1200
+2025-02-10,390,201,12,12,112,Every-minute momentum + minute EMA1200
+2025-02-14,390,174,13,12,84,Every-minute momentum + minute EMA1200
+2025-02-21,390,289,11,11,195,Every-minute momentum + minute EMA1200
+2025-02-24,390,232,8,7,111,Every-minute momentum + minute EMA1200
+2025-02-25,390,214,9,8,99,Every-minute momentum + minute EMA1200
+2025-02-26,390,173,13,13,102,Every-minute momentum + minute EMA1200
+2025-02-27,390,235,6,6,119,Every-minute momentum + minute EMA1200
+2025-02-28,390,158,12,11,72,Every-minute momentum + minute EMA1200
+2025-03-03,390,206,11,11,79,Every-minute momentum + minute EMA1200
+2025-03-04,390,159,8,8,105,Every-minute momentum + minute EMA1200
+2025-03-05,390,176,20,19,60,Every-minute momentum + minute EMA1200
+2025-03-06,390,218,13,13,99,Every-minute momentum + minute EMA1200
+2025-03-07,390,147,9,8,116,Every-minute momentum + minute EMA1200
+2025-03-10,390,315,9,8,121,Every-minute momentum + minute EMA1200
+2025-03-11,390,230,8,7,106,Every-minute momentum + minute EMA1200
+2025-03-12,390,66,13,12,35,Every-minute momentum + minute EMA1200
+2025-03-13,390,282,12,12,90,Every-minute momentum + minute EMA1200
+2025-03-14,390,274,19,19,80,Every-minute momentum + minute EMA1200
+2025-03-17,390,255,12,11,123,Every-minute momentum + minute EMA1200
+2025-03-21,390,128,21,20,30,Every-minute momentum + minute EMA1200
+2025-03-24,390,246,9,9,133,Every-minute momentum + minute EMA1200
+2025-03-25,390,142,14,14,61,Every-minute momentum + minute EMA1200
+2025-03-26,390,298,10,10,174,Every-minute momentum + minute EMA1200
+2025-03-27,390,181,12,11,68,Every-minute momentum + minute EMA1200
+2025-03-28,390,294,18,17,110,Every-minute momentum + minute EMA1200
+2025-03-31,390,181,13,12,91,Every-minute momentum + minute EMA1200
+2025-04-01,390,212,14,13,91,Every-minute momentum + minute EMA1200
+2025-04-02,390,168,5,5,113,Every-minute momentum + minute EMA1200
+2025-04-08,390,201,8,7,84,Every-minute momentum + minute EMA1200
+2025-04-09,390,281,13,13,152,Every-minute momentum + minute EMA1200
+2025-04-10,390,160,9,9,104,Every-minute momentum + minute EMA1200
+2025-04-11,390,224,17,17,61,Every-minute momentum + minute EMA1200
+2025-04-14,390,135,20,19,41,Every-minute momentum + minute EMA1200
+2025-04-15,390,123,28,28,30,Every-minute momentum + minute EMA1200
+2025-04-16,390,300,10,9,147,Every-minute momentum + minute EMA1200
+2025-04-17,390,147,14,13,53,Every-minute momentum + minute EMA1200
+2025-04-21,390,293,8,8,183,Every-minute momentum + minute EMA1200
+2025-04-22,390,283,9,8,135,Every-minute momentum + minute EMA1200
+2025-04-23,390,157,14,13,72,Every-minute momentum + minute EMA1200
+2025-04-24,390,321,17,16,121,Every-minute momentum + minute EMA1200
+2025-04-25,390,221,16,16,108,Every-minute momentum + minute EMA1200
+2025-04-28,390,100,7,6,28,Every-minute momentum + minute EMA1200
+2025-04-29,390,166,20,19,71,Every-minute momentum + minute EMA1200
+2025-04-30,390,166,10,9,61,Every-minute momentum + minute EMA1200
+2025-05-01,390,237,11,11,87,Every-minute momentum + minute EMA1200
+2025-05-02,390,226,11,10,87,Every-minute momentum + minute EMA1200
+2025-05-05,390,188,16,16,62,Every-minute momentum + minute EMA1200
+2025-05-09,390,133,16,15,45,Every-minute momentum + minute EMA1200
+2025-05-12,390,204,14,14,107,Every-minute momentum + minute EMA1200
+2025-05-13,390,296,12,11,97,Every-minute momentum + minute EMA1200
+2025-05-14,390,176,20,20,61,Every-minute momentum + minute EMA1200
+2025-05-15,390,218,16,16,167,Every-minute momentum + minute EMA1200
+2025-05-16,390,267,14,14,167,Every-minute momentum + minute EMA1200
+2025-05-19,390,220,13,13,74,Every-minute momentum + minute EMA1200
+2025-05-20,390,203,8,8,109,Every-minute momentum + minute EMA1200
+2025-05-21,390,176,12,11,83,Every-minute momentum + minute EMA1200
+2025-05-22,390,163,15,15,51,Every-minute momentum + minute EMA1200
+2025-05-23,390,100,13,13,44,Every-minute momentum + minute EMA1200
+2025-05-27,390,277,8,8,202,Every-minute momentum + minute EMA1200
+2025-05-28,390,127,14,14,38,Every-minute momentum + minute EMA1200
+2025-05-29,390,242,16,16,88,Every-minute momentum + minute EMA1200
+2025-05-30,390,164,5,5,76,Every-minute momentum + minute EMA1200
+2025-06-02,390,307,10,10,105,Every-minute momentum + minute EMA1200
+2025-06-03,390,308,8,7,261,Every-minute momentum + minute EMA1200
+2025-06-04,390,200,12,11,87,Every-minute momentum + minute EMA1200
+2025-06-05,390,189,7,6,70,Every-minute momentum + minute EMA1200
+2025-06-06,390,191,10,9,92,Every-minute momentum + minute EMA1200
+2025-06-09,390,220,15,15,113,Every-minute momentum + minute EMA1200
+2025-06-10,390,269,8,8,94,Every-minute momentum + minute EMA1200
+2025-06-11,390,148,12,11,51,Every-minute momentum + minute EMA1200
+2025-06-12,390,203,18,18,44,Every-minute momentum + minute EMA1200
+2025-06-13,390,180,13,13,109,Every-minute momentum + minute EMA1200
+2025-06-16,390,154,8,8,108,Every-minute momentum + minute EMA1200
+2025-06-20,390,184,10,9,59,Every-minute momentum + minute EMA1200
+2025-06-23,390,224,14,13,83,Every-minute momentum + minute EMA1200
+2025-06-24,390,324,13,13,159,Every-minute momentum + minute EMA1200
+2025-06-30,390,178,13,12,50,Every-minute momentum + minute EMA1200
+2025-07-01,390,194,14,14,66,Every-minute momentum + minute EMA1200
+2025-07-02,390,216,18,17,72,Every-minute momentum + minute EMA1200
+2025-07-07,390,202,18,18,61,Every-minute momentum + minute EMA1200
+2025-07-08,390,212,18,18,58,Every-minute momentum + minute EMA1200
+2025-07-14,390,302,12,11,89,Every-minute momentum + minute EMA1200
+2025-07-15,390,177,9,8,75,Every-minute momentum + minute EMA1200
+2025-07-16,390,174,12,11,91,Every-minute momentum + minute EMA1200
+2025-07-17,390,321,10,9,142,Every-minute momentum + minute EMA1200
+2025-07-18,390,136,16,15,62,Every-minute momentum + minute EMA1200
+2025-07-24,390,249,10,10,72,Every-minute momentum + minute EMA1200
+2025-07-25,390,279,15,14,196,Every-minute momentum + minute EMA1200
+2025-08-04,390,281,14,13,115,Every-minute momentum + minute EMA1200
+2025-08-05,390,148,15,15,62,Every-minute momentum + minute EMA1200
+2025-08-06,390,230,25,25,66,Every-minute momentum + minute EMA1200
+2025-08-07,390,184,14,14,41,Every-minute momentum + minute EMA1200
+2025-08-08,390,247,8,7,89,Every-minute momentum + minute EMA1200
+2025-08-11,390,184,19,19,37,Every-minute momentum + minute EMA1200
+2025-08-15,390,203,20,19,70,Every-minute momentum + minute EMA1200
+2025-08-18,390,163,21,20,35,Every-minute momentum + minute EMA1200
+2025-08-22,390,206,4,3,139,Every-minute momentum + minute EMA1200
+2025-09-03,390,152,27,27,55,Every-minute momentum + minute EMA1200
+2025-09-04,390,344,11,10,164,Every-minute momentum + minute EMA1200
+2025-09-05,390,147,14,13,51,Every-minute momentum + minute EMA1200
+2025-09-08,390,154,17,16,72,Every-minute momentum + minute EMA1200
+2025-10-14,390,166,15,14,95,Every-minute momentum + minute EMA1200
+2025-10-15,390,115,9,9,72,Every-minute momentum + minute EMA1200
+2025-10-16,390,191,10,10,73,Every-minute momentum + minute EMA1200
+2025-10-17,390,250,21,21,97,Every-minute momentum + minute EMA1200
+2025-10-20,390,254,11,10,132,Every-minute momentum + minute EMA1200
+2025-10-21,390,203,13,13,74,Every-minute momentum + minute EMA1200
+2025-10-22,390,277,5,4,131,Every-minute momentum + minute EMA1200
+2025-10-23,390,245,7,7,136,Every-minute momentum + minute EMA1200
+2025-10-24,390,245,18,17,68,Every-minute momentum + minute EMA1200
+2025-10-27,390,318,13,12,124,Every-minute momentum + minute EMA1200
+2025-10-28,390,238,12,11,177,Every-minute momentum + minute EMA1200
+2025-10-29,390,167,14,13,58,Every-minute momentum + minute EMA1200
+2025-10-30,390,255,20,19,106,Every-minute momentum + minute EMA1200
+2025-10-31,390,151,3,3,134,Every-minute momentum + minute EMA1200
+2025-11-03,390,153,13,12,58,Every-minute momentum + minute EMA1200
+2025-11-04,390,238,12,12,114,Every-minute momentum + minute EMA1200
+2025-11-05,390,275,17,16,133,Every-minute momentum + minute EMA1200
+2025-11-06,390,183,7,7,131,Every-minute momentum + minute EMA1200
+2025-11-07,390,172,7,7,94,Every-minute momentum + minute EMA1200
+2025-11-10,390,306,3,3,236,Every-minute momentum + minute EMA1200
+2025-11-11,390,266,19,18,117,Every-minute momentum + minute EMA1200
+2025-11-12,390,129,11,11,66,Every-minute momentum + minute EMA1200
+2025-11-13,390,324,17,16,109,Every-minute momentum + minute EMA1200
+2025-11-14,390,88,5,5,60,Every-minute momentum + minute EMA1200
+2025-11-17,390,250,4,3,185,Every-minute momentum + minute EMA1200
+2025-11-18,390,213,15,14,85,Every-minute momentum + minute EMA1200
+2025-11-19,390,162,8,8,72,Every-minute momentum + minute EMA1200
+2025-11-20,390,221,8,7,79,Every-minute momentum + minute EMA1200
+2025-11-21,390,180,12,12,60,Every-minute momentum + minute EMA1200
+2025-11-24,390,285,15,15,127,Every-minute momentum + minute EMA1200
+2025-11-25,390,278,11,11,109,Every-minute momentum + minute EMA1200
+2025-11-26,390,279,21,20,95,Every-minute momentum + minute EMA1200
+2025-12-04,390,122,26,25,23,Every-minute momentum + minute EMA1200
+2025-12-05,390,180,15,15,86,Every-minute momentum + minute EMA1200
+2025-12-08,390,234,10,10,104,Every-minute momentum + minute EMA1200
+2025-12-09,390,116,13,12,58,Every-minute momentum + minute EMA1200
+2025-12-10,390,224,12,11,114,Every-minute momentum + minute EMA1200
+2025-12-11,390,284,9,9,86,Every-minute momentum + minute EMA1200
+2025-12-12,390,214,9,9,102,Every-minute momentum + minute EMA1200
+2025-12-15,390,181,22,21,44,Every-minute momentum + minute EMA1200
+2025-12-19,390,262,16,15,75,Every-minute momentum + minute EMA1200
+2025-12-22,390,258,22,21,76,Every-minute momentum + minute EMA1200
+2025-12-23,390,313,11,10,147,Every-minute momentum + minute EMA1200
+2025-12-31,390,185,8,7,94,Every-minute momentum + minute EMA1200
+2026-01-02,390,213,17,17,57,Every-minute momentum + minute EMA1200
+2026-01-05,390,215,14,13,124,Every-minute momentum + minute EMA1200
+2026-01-06,390,312,7,6,105,Every-minute momentum + minute EMA1200
+2026-01-07,390,152,10,9,73,Every-minute momentum + minute EMA1200
+2026-01-08,390,168,18,17,41,Every-minute momentum + minute EMA1200
+2026-01-09,390,277,6,6,83,Every-minute momentum + minute EMA1200
+2026-01-12,390,297,11,11,138,Every-minute momentum + minute EMA1200
+2026-01-13,390,226,14,13,78,Every-minute momentum + minute EMA1200
+2026-01-14,390,200,14,13,112,Every-minute momentum + minute EMA1200
+2026-01-15,390,167,17,16,39,Every-minute momentum + minute EMA1200
+2026-01-16,390,203,14,14,70,Every-minute momentum + minute EMA1200
+2026-01-20,390,270,13,12,204,Every-minute momentum + minute EMA1200
+2026-01-21,390,188,8,8,73,Every-minute momentum + minute EMA1200
+2026-01-22,390,202,8,7,165,Every-minute momentum + minute EMA1200
+2026-01-23,390,109,8,8,73,Every-minute momentum + minute EMA1200
+2026-01-26,390,282,18,17,107,Every-minute momentum + minute EMA1200
+2026-01-27,390,251,7,7,131,Every-minute momentum + minute EMA1200
+2026-01-28,390,236,20,19,131,Every-minute momentum + minute EMA1200
+2026-01-29,390,136,6,6,96,Every-minute momentum + minute EMA1200
+2026-01-30,390,186,14,13,60,Every-minute momentum + minute EMA1200
+2026-02-02,390,270,17,16,96,Every-minute momentum + minute EMA1200
+2026-02-03,390,233,14,14,164,Every-minute momentum + minute EMA1200
+2026-02-04,390,236,10,9,144,Every-minute momentum + minute EMA1200
+2026-02-05,390,207,16,15,80,Every-minute momentum + minute EMA1200
+2026-02-06,390,358,8,8,183,Every-minute momentum + minute EMA1200
+2026-02-09,390,271,7,7,171,Every-minute momentum + minute EMA1200
+2026-02-10,390,218,13,12,65,Every-minute momentum + minute EMA1200
+2026-02-11,390,168,13,12,48,Every-minute momentum + minute EMA1200
+2026-02-12,390,220,10,9,97,Every-minute momentum + minute EMA1200
+2026-02-13,390,118,21,21,42,Every-minute momentum + minute EMA1200
+2026-02-17,390,202,7,7,84,Every-minute momentum + minute EMA1200
+2026-02-18,390,182,10,10,114,Every-minute momentum + minute EMA1200
+2026-02-19,390,213,12,12,72,Every-minute momentum + minute EMA1200
+2026-02-20,390,158,12,11,91,Every-minute momentum + minute EMA1200
+2026-02-23,390,215,7,6,93,Every-minute momentum + minute EMA1200
+2026-02-24,390,187,10,9,85,Every-minute momentum + minute EMA1200
+2026-02-25,390,330,10,9,139,Every-minute momentum + minute EMA1200
+2026-02-26,390,175,7,7,110,Every-minute momentum + minute EMA1200
+2026-02-27,390,180,19,18,69,Every-minute momentum + minute EMA1200
+2026-03-02,390,203,11,10,75,Every-minute momentum + minute EMA1200
+2026-03-03,390,152,14,13,76,Every-minute momentum + minute EMA1200
+2026-03-04,390,250,17,17,72,Every-minute momentum + minute EMA1200
+2026-03-05,390,226,16,15,82,Every-minute momentum + minute EMA1200
+2026-03-06,390,185,15,14,49,Every-minute momentum + minute EMA1200
+2026-03-09,390,268,7,6,103,Every-minute momentum + minute EMA1200
+2026-03-10,390,198,18,17,88,Every-minute momentum + minute EMA1200
+2026-03-11,390,187,10,10,60,Every-minute momentum + minute EMA1200
+2026-03-12,390,279,20,19,46,Every-minute momentum + minute EMA1200
+2026-03-13,390,217,15,14,49,Every-minute momentum + minute EMA1200
+2026-03-20,390,303,20,20,166,Every-minute momentum + minute EMA1200
+2026-03-23,390,196,9,9,116,Every-minute momentum + minute EMA1200
+2026-03-24,390,159,14,13,84,Every-minute momentum + minute EMA1200
+2026-03-25,390,98,11,10,24,Every-minute momentum + minute EMA1200
+2026-03-26,390,302,4,4,175,Every-minute momentum + minute EMA1200
+2026-03-27,390,330,7,6,217,Every-minute momentum + minute EMA1200
+2026-03-30,390,291,8,7,137,Every-minute momentum + minute EMA1200
+2026-03-31,390,291,14,14,83,Every-minute momentum + minute EMA1200
+2026-04-01,390,274,6,6,135,Every-minute momentum + minute EMA1200
+2026-04-02,390,151,16,16,60,Every-minute momentum + minute EMA1200
+2026-04-06,390,240,16,16,72,Every-minute momentum + minute EMA1200
+2026-04-07,390,212,9,9,104,Every-minute momentum + minute EMA1200
+2026-04-08,390,152,6,6,118,Every-minute momentum + minute EMA1200
+2026-04-09,390,272,10,10,109,Every-minute momentum + minute EMA1200
+2026-04-16,390,195,13,12,102,Every-minute momentum + minute EMA1200
+2026-04-17,390,240,14,13,111,Every-minute momentum + minute EMA1200
+2026-04-20,390,243,14,13,76,Every-minute momentum + minute EMA1200
+2026-04-21,390,223,8,8,64,Every-minute momentum + minute EMA1200
+2026-04-22,390,221,16,15,84,Every-minute momentum + minute EMA1200
+2026-04-23,390,169,11,11,104,Every-minute momentum + minute EMA1200
+2026-04-24,390,249,18,18,126,Every-minute momentum + minute EMA1200
+2026-04-27,390,266,13,13,75,Every-minute momentum + minute EMA1200
+2026-04-28,390,150,12,12,68,Every-minute momentum + minute EMA1200
+2026-05-04,390,194,8,7,114,Every-minute momentum + minute EMA1200
+2026-05-05,390,342,14,13,143,Every-minute momentum + minute EMA1200
+2026-05-06,390,273,14,14,136,Every-minute momentum + minute EMA1200
+2026-05-07,390,173,15,15,54,Every-minute momentum + minute EMA1200
+2026-05-08,390,243,18,18,86,Every-minute momentum + minute EMA1200
+2026-05-11,390,246,6,6,82,Every-minute momentum + minute EMA1200
+2026-05-12,390,191,4,4,159,Every-minute momentum + minute EMA1200
+2026-05-13,390,219,7,7,109,Every-minute momentum + minute EMA1200
+2026-05-14,390,271,8,8,145,Every-minute momentum + minute EMA1200
+2026-05-15,390,189,13,13,95,Every-minute momentum + minute EMA1200
+2026-05-18,390,121,18,17,60,Every-minute momentum + minute EMA1200
+2026-05-19,390,210,9,8,104,Every-minute momentum + minute EMA1200
+2026-05-20,390,266,9,9,119,Every-minute momentum + minute EMA1200
+2026-05-21,390,183,16,15,63,Every-minute momentum + minute EMA1200
+2026-05-22,390,170,11,10,74,Every-minute momentum + minute EMA1200
+2026-05-28,390,294,10,10,82,Every-minute momentum + minute EMA1200
+2026-05-29,390,235,11,11,65,Every-minute momentum + minute EMA1200
+2026-06-01,390,123,19,19,37,Every-minute momentum + minute EMA1200
+2026-06-02,390,212,17,16,119,Every-minute momentum + minute EMA1200
+2026-06-03,390,272,11,10,140,Every-minute momentum + minute EMA1200
+2026-06-04,390,274,5,5,232,Every-minute momentum + minute EMA1200
+2026-06-05,390,348,9,8,148,Every-minute momentum + minute EMA1200
+2026-06-08,390,163,12,12,61,Every-minute momentum + minute EMA1200
+2026-06-09,390,185,5,4,109,Every-minute momentum + minute EMA1200
+2026-06-10,390,251,17,17,83,Every-minute momentum + minute EMA1200
+2026-06-11,390,226,21,20,73,Every-minute momentum + minute EMA1200
+2026-06-12,390,219,14,14,83,Every-minute momentum + minute EMA1200
+2026-06-15,390,202,11,10,111,Every-minute momentum + minute EMA1200
+2026-06-22,390,188,19,19,61,Every-minute momentum + minute EMA1200
+2026-06-23,390,197,11,10,106,Every-minute momentum + minute EMA1200
+2026-06-24,390,191,13,13,68,Every-minute momentum + minute EMA1200
+2026-06-25,390,222,13,12,72,Every-minute momentum + minute EMA1200
+2026-06-26,390,126,15,14,43,Every-minute momentum + minute EMA1200
+2026-06-29,390,293,10,10,164,Every-minute momentum + minute EMA1200
+2026-06-30,390,334,10,9,153,Every-minute momentum + minute EMA1200
+2026-07-01,390,191,9,9,151,Every-minute momentum + minute EMA1200
+2026-07-02,390,171,8,8,79,Every-minute momentum + minute EMA1200
+2026-07-06,390,304,9,8,165,Every-minute momentum + minute EMA1200
+2026-07-07,390,194,11,11,91,Every-minute momentum + minute EMA1200
+2026-07-08,390,176,17,16,98,Every-minute momentum + minute EMA1200
+2026-07-09,390,262,12,12,196,Every-minute momentum + minute EMA1200
+2026-07-10,390,335,7,6,119,Every-minute momentum + minute EMA1200
+2026-07-13,390,252,17,16,72,Every-minute momentum + minute EMA1200
+2026-07-14,390,207,21,20,93,Every-minute momentum + minute EMA1200
+2026-07-15,390,102,10,9,27,Every-minute momentum + minute EMA1200
+2026-07-16,390,264,17,17,142,Every-minute momentum + minute EMA1200
+2026-07-17,390,218,12,11,77,Every-minute momentum + minute EMA1200
+2026-07-20,390,215,14,13,64,Every-minute momentum + minute EMA1200
+2026-07-21,390,250,12,11,182,Every-minute momentum + minute EMA1200
+2026-07-22,390,138,6,6,115,Every-minute momentum + minute EMA1200
+2026-07-23,390,247,19,18,91,Every-minute momentum + minute EMA1200
+2026-07-24,390,132,16,15,32,Every-minute momentum + minute EMA1200
+2026-07-27,390,168,9,9,57,Every-minute momentum + minute EMA1200
+2026-07-28,390,178,14,14,59,Every-minute momentum + minute EMA1200
+2026-07-29,390,220,6,6,93,Every-minute momentum + minute EMA1200
+2026-08-05,390,176,19,18,30,Every-minute momentum + minute EMA1200
+2026-08-06,390,224,18,17,96,Every-minute momentum + minute EMA1200
+2026-08-07,390,199,9,8,81,Every-minute momentum + minute EMA1200
+2026-08-10,390,184,14,14,75,Every-minute momentum + minute EMA1200
+2026-08-11,390,233,9,8,99,Every-minute momentum + minute EMA1200
+2026-08-17,390,322,16,15,98,Every-minute momentum + minute EMA1200
+2026-08-21,390,175,6,6,102,Every-minute momentum + minute EMA1200
+2026-08-24,390,212,14,14,63,Every-minute momentum + minute EMA1200
+2026-08-25,390,148,10,10,84,Every-minute momentum + minute EMA1200
+2026-08-26,390,144,16,15,47,Every-minute momentum + minute EMA1200
+2026-08-27,390,251,11,11,97,Every-minute momentum + minute EMA1200
+2026-08-28,390,135,15,15,62,Every-minute momentum + minute EMA1200
+2024-09-05,390,165,4,4,65,15-minute momentum + minute EMA1200
+2024-09-06,390,255,4,4,195,15-minute momentum + minute EMA1200
+2024-09-09,390,225,3,2,120,15-minute momentum + minute EMA1200
+2024-09-10,390,161,4,3,64,15-minute momentum + minute EMA1200
+2024-09-11,390,186,3,2,114,15-minute momentum + minute EMA1200
+2024-09-12,390,225,3,3,150,15-minute momentum + minute EMA1200
+2024-09-13,390,240,4,4,120,15-minute momentum + minute EMA1200
+2024-09-24,390,132,6,5,45,15-minute momentum + minute EMA1200
+2024-10-01,390,185,4,4,95,15-minute momentum + minute EMA1200
+2024-10-02,390,151,4,4,60,15-minute momentum + minute EMA1200
+2024-10-03,390,228,5,4,60,15-minute momentum + minute EMA1200
+2024-10-04,390,195,3,2,120,15-minute momentum + minute EMA1200
+2024-10-07,390,274,6,6,150,15-minute momentum + minute EMA1200
+2024-10-08,390,315,2,1,210,15-minute momentum + minute EMA1200
+2024-10-09,390,270,3,2,195,15-minute momentum + minute EMA1200
+2024-10-18,390,225,4,3,75,15-minute momentum + minute EMA1200
+2024-10-21,390,150,2,2,90,15-minute momentum + minute EMA1200
+2024-10-22,390,138,4,3,63,15-minute momentum + minute EMA1200
+2024-10-29,390,220,4,3,100,15-minute momentum + minute EMA1200
+2024-10-30,390,155,5,4,61,15-minute momentum + minute EMA1200
+2024-10-31,390,255,2,1,165,15-minute momentum + minute EMA1200
+2024-11-01,390,201,5,4,120,15-minute momentum + minute EMA1200
+2024-11-04,390,210,3,2,90,15-minute momentum + minute EMA1200
+2024-11-08,390,300,2,1,165,15-minute momentum + minute EMA1200
+2024-11-11,390,116,2,2,60,15-minute momentum + minute EMA1200
+2024-11-12,390,207,3,3,150,15-minute momentum + minute EMA1200
+2024-11-13,390,202,5,5,135,15-minute momentum + minute EMA1200
+2024-11-14,390,229,5,5,90,15-minute momentum + minute EMA1200
+2024-11-15,390,315,3,2,180,15-minute momentum + minute EMA1200
+2024-11-21,390,255,4,3,105,15-minute momentum + minute EMA1200
+2024-11-22,390,180,4,3,75,15-minute momentum + minute EMA1200
+2024-11-25,390,145,5,4,60,15-minute momentum + minute EMA1200
+2024-11-26,390,285,5,4,120,15-minute momentum + minute EMA1200
+2024-11-27,390,186,2,2,126,15-minute momentum + minute EMA1200
+2024-12-02,390,285,5,4,105,15-minute momentum + minute EMA1200
+2024-12-03,390,200,5,5,60,15-minute momentum + minute EMA1200
+2024-12-23,390,177,4,3,87,15-minute momentum + minute EMA1200
+2024-12-31,390,230,5,5,110,15-minute momentum + minute EMA1200
+2025-01-02,390,137,4,4,75,15-minute momentum + minute EMA1200
+2025-01-03,390,312,3,3,135,15-minute momentum + minute EMA1200
+2025-01-06,390,150,1,1,150,15-minute momentum + minute EMA1200
+2025-01-07,390,246,4,3,105,15-minute momentum + minute EMA1200
+2025-01-08,390,195,5,5,75,15-minute momentum + minute EMA1200
+2025-01-14,390,157,4,3,60,15-minute momentum + minute EMA1200
+2025-01-15,390,300,2,1,210,15-minute momentum + minute EMA1200
+2025-01-16,390,156,5,4,60,15-minute momentum + minute EMA1200
+2025-01-17,390,255,1,0,255,15-minute momentum + minute EMA1200
+2025-01-21,390,240,5,4,150,15-minute momentum + minute EMA1200
+2025-01-22,390,195,4,4,75,15-minute momentum + minute EMA1200
+2025-01-23,390,285,4,3,105,15-minute momentum + minute EMA1200
+2025-01-29,390,269,5,4,105,15-minute momentum + minute EMA1200
+2025-01-30,390,210,4,4,90,15-minute momentum + minute EMA1200
+2025-01-31,390,239,3,3,105,15-minute momentum + minute EMA1200
+2025-02-03,390,187,4,3,135,15-minute momentum + minute EMA1200
+2025-02-04,390,270,3,3,165,15-minute momentum + minute EMA1200
+2025-02-05,390,285,4,3,120,15-minute momentum + minute EMA1200
+2025-02-06,390,180,4,3,75,15-minute momentum + minute EMA1200
+2025-02-07,390,251,4,3,120,15-minute momentum + minute EMA1200
+2025-02-10,390,195,2,2,120,15-minute momentum + minute EMA1200
+2025-02-14,390,180,3,2,90,15-minute momentum + minute EMA1200
+2025-02-21,390,294,3,3,195,15-minute momentum + minute EMA1200
+2025-02-24,390,240,3,2,120,15-minute momentum + minute EMA1200
+2025-02-25,390,210,4,3,120,15-minute momentum + minute EMA1200
+2025-02-26,390,161,2,2,120,15-minute momentum + minute EMA1200
+2025-02-27,390,227,3,3,105,15-minute momentum + minute EMA1200
+2025-02-28,390,165,5,4,60,15-minute momentum + minute EMA1200
+2025-03-03,390,171,5,5,75,15-minute momentum + minute EMA1200
+2025-03-04,390,165,3,3,135,15-minute momentum + minute EMA1200
+2025-03-05,390,216,6,5,81,15-minute momentum + minute EMA1200
+2025-03-06,390,210,4,4,90,15-minute momentum + minute EMA1200
+2025-03-07,390,164,4,3,105,15-minute momentum + minute EMA1200
+2025-03-10,390,375,2,1,360,15-minute momentum + minute EMA1200
+2025-03-11,390,240,3,2,120,15-minute momentum + minute EMA1200
+2025-03-12,390,85,5,4,45,15-minute momentum + minute EMA1200
+2025-03-13,390,270,4,4,105,15-minute momentum + minute EMA1200
+2025-03-14,390,240,4,4,120,15-minute momentum + minute EMA1200
+2025-03-17,390,270,3,2,180,15-minute momentum + minute EMA1200
+2025-03-21,390,91,5,4,45,15-minute momentum + minute EMA1200
+2025-03-24,390,240,2,2,165,15-minute momentum + minute EMA1200
+2025-03-25,390,120,4,4,60,15-minute momentum + minute EMA1200
+2025-03-26,390,309,3,3,234,15-minute momentum + minute EMA1200
+2025-03-27,390,150,3,2,60,15-minute momentum + minute EMA1200
+2025-03-28,390,345,3,2,255,15-minute momentum + minute EMA1200
+2025-03-31,390,166,4,3,105,15-minute momentum + minute EMA1200
+2025-04-01,390,210,4,3,94,15-minute momentum + minute EMA1200
+2025-04-02,390,177,2,2,147,15-minute momentum + minute EMA1200
+2025-04-08,390,204,3,2,90,15-minute momentum + minute EMA1200
+2025-04-09,390,246,3,3,180,15-minute momentum + minute EMA1200
+2025-04-10,390,156,3,3,111,15-minute momentum + minute EMA1200
+2025-04-11,390,209,4,4,103,15-minute momentum + minute EMA1200
+2025-04-14,390,132,5,4,52,15-minute momentum + minute EMA1200
+2025-04-15,390,127,6,6,33,15-minute momentum + minute EMA1200
+2025-04-16,390,315,2,1,240,15-minute momentum + minute EMA1200
+2025-04-17,390,163,7,6,60,15-minute momentum + minute EMA1200
+2025-04-21,390,300,2,2,180,15-minute momentum + minute EMA1200
+2025-04-22,390,285,4,3,135,15-minute momentum + minute EMA1200
+2025-04-23,390,165,2,1,90,15-minute momentum + minute EMA1200
+2025-04-24,390,315,4,3,165,15-minute momentum + minute EMA1200
+2025-04-25,390,221,6,6,120,15-minute momentum + minute EMA1200
+2025-04-28,390,120,3,2,75,15-minute momentum + minute EMA1200
+2025-04-29,390,174,5,4,75,15-minute momentum + minute EMA1200
+2025-04-30,390,180,4,3,75,15-minute momentum + minute EMA1200
+2025-05-01,390,210,4,4,90,15-minute momentum + minute EMA1200
+2025-05-02,390,225,4,3,90,15-minute momentum + minute EMA1200
+2025-05-05,390,176,3,3,75,15-minute momentum + minute EMA1200
+2025-05-09,390,148,5,4,75,15-minute momentum + minute EMA1200
+2025-05-12,390,210,4,4,105,15-minute momentum + minute EMA1200
+2025-05-13,390,300,5,4,105,15-minute momentum + minute EMA1200
+2025-05-14,390,180,3,3,90,15-minute momentum + minute EMA1200
+2025-05-15,390,201,3,3,171,15-minute momentum + minute EMA1200
+2025-05-16,390,270,1,1,270,15-minute momentum + minute EMA1200
+2025-05-19,390,233,2,2,218,15-minute momentum + minute EMA1200
+2025-05-20,390,204,4,4,105,15-minute momentum + minute EMA1200
+2025-05-21,390,166,6,5,75,15-minute momentum + minute EMA1200
+2025-05-22,390,157,4,4,60,15-minute momentum + minute EMA1200
+2025-05-23,390,105,4,4,60,15-minute momentum + minute EMA1200
+2025-05-27,390,270,1,1,270,15-minute momentum + minute EMA1200
+2025-05-28,390,126,4,4,60,15-minute momentum + minute EMA1200
+2025-05-29,390,240,4,4,105,15-minute momentum + minute EMA1200
+2025-05-30,390,165,2,2,135,15-minute momentum + minute EMA1200
+2025-06-02,390,310,5,5,135,15-minute momentum + minute EMA1200
+2025-06-03,390,315,2,1,270,15-minute momentum + minute EMA1200
+2025-06-04,390,195,3,2,105,15-minute momentum + minute EMA1200
+2025-06-05,390,214,5,4,83,15-minute momentum + minute EMA1200
+2025-06-06,390,180,3,2,90,15-minute momentum + minute EMA1200
+2025-06-09,390,225,3,3,180,15-minute momentum + minute EMA1200
+2025-06-10,390,255,3,3,105,15-minute momentum + minute EMA1200
+2025-06-11,390,154,5,4,60,15-minute momentum + minute EMA1200
+2025-06-12,390,168,5,5,48,15-minute momentum + minute EMA1200
+2025-06-13,390,152,4,4,105,15-minute momentum + minute EMA1200
+2025-06-16,390,165,4,4,105,15-minute momentum + minute EMA1200
+2025-06-20,390,204,5,4,60,15-minute momentum + minute EMA1200
+2025-06-23,390,210,3,2,90,15-minute momentum + minute EMA1200
+2025-06-24,390,315,3,3,180,15-minute momentum + minute EMA1200
+2025-06-30,390,168,5,4,75,15-minute momentum + minute EMA1200
+2025-07-01,390,172,6,6,60,15-minute momentum + minute EMA1200
+2025-07-02,390,217,3,2,112,15-minute momentum + minute EMA1200
+2025-07-07,390,213,5,5,90,15-minute momentum + minute EMA1200
+2025-07-08,390,222,7,7,60,15-minute momentum + minute EMA1200
+2025-07-14,390,300,4,3,150,15-minute momentum + minute EMA1200
+2025-07-15,390,179,4,3,90,15-minute momentum + minute EMA1200
+2025-07-16,390,187,5,4,90,15-minute momentum + minute EMA1200
+2025-07-17,390,330,3,2,150,15-minute momentum + minute EMA1200
+2025-07-18,390,127,5,4,75,15-minute momentum + minute EMA1200
+2025-07-24,390,255,2,2,150,15-minute momentum + minute EMA1200
+2025-07-25,390,314,3,2,225,15-minute momentum + minute EMA1200
+2025-08-04,390,315,3,2,135,15-minute momentum + minute EMA1200
+2025-08-05,390,154,4,4,64,15-minute momentum + minute EMA1200
+2025-08-06,390,244,5,5,79,15-minute momentum + minute EMA1200
+2025-08-07,390,193,3,3,150,15-minute momentum + minute EMA1200
+2025-08-08,390,285,5,4,90,15-minute momentum + minute EMA1200
+2025-08-11,390,191,4,4,103,15-minute momentum + minute EMA1200
+2025-08-15,390,216,4,3,126,15-minute momentum + minute EMA1200
+2025-08-18,390,165,6,5,60,15-minute momentum + minute EMA1200
+2025-08-22,390,225,2,1,150,15-minute momentum + minute EMA1200
+2025-09-03,390,176,4,4,86,15-minute momentum + minute EMA1200
+2025-09-04,390,315,3,2,150,15-minute momentum + minute EMA1200
+2025-09-05,390,171,5,4,60,15-minute momentum + minute EMA1200
+2025-09-08,390,164,4,3,75,15-minute momentum + minute EMA1200
+2025-10-14,390,178,3,2,118,15-minute momentum + minute EMA1200
+2025-10-15,390,104,3,3,75,15-minute momentum + minute EMA1200
+2025-10-16,390,210,4,4,75,15-minute momentum + minute EMA1200
+2025-10-17,390,270,3,3,120,15-minute momentum + minute EMA1200
+2025-10-20,390,255,3,2,135,15-minute momentum + minute EMA1200
+2025-10-21,390,180,4,4,75,15-minute momentum + minute EMA1200
+2025-10-22,390,274,3,2,150,15-minute momentum + minute EMA1200
+2025-10-23,390,244,2,2,210,15-minute momentum + minute EMA1200
+2025-10-24,390,285,5,4,90,15-minute momentum + minute EMA1200
+2025-10-27,390,345,3,2,135,15-minute momentum + minute EMA1200
+2025-10-28,390,240,3,2,195,15-minute momentum + minute EMA1200
+2025-10-29,390,191,5,4,60,15-minute momentum + minute EMA1200
+2025-10-30,390,255,6,5,105,15-minute momentum + minute EMA1200
+2025-10-31,390,154,2,2,135,15-minute momentum + minute EMA1200
+2025-11-03,390,168,3,2,105,15-minute momentum + minute EMA1200
+2025-11-04,390,225,3,3,105,15-minute momentum + minute EMA1200
+2025-11-05,390,282,4,3,225,15-minute momentum + minute EMA1200
+2025-11-06,390,185,3,3,140,15-minute momentum + minute EMA1200
+2025-11-07,390,180,2,2,165,15-minute momentum + minute EMA1200
+2025-11-10,390,300,2,2,240,15-minute momentum + minute EMA1200
+2025-11-11,390,281,6,5,142,15-minute momentum + minute EMA1200
+2025-11-12,390,144,2,2,90,15-minute momentum + minute EMA1200
+2025-11-13,390,345,3,2,180,15-minute momentum + minute EMA1200
+2025-11-14,390,92,2,2,60,15-minute momentum + minute EMA1200
+2025-11-17,390,270,3,2,195,15-minute momentum + minute EMA1200
+2025-11-18,390,210,5,4,105,15-minute momentum + minute EMA1200
+2025-11-19,390,163,4,4,75,15-minute momentum + minute EMA1200
+2025-11-20,390,210,4,3,90,15-minute momentum + minute EMA1200
+2025-11-21,390,181,3,3,105,15-minute momentum + minute EMA1200
+2025-11-24,390,255,3,3,135,15-minute momentum + minute EMA1200
+2025-11-25,390,285,4,4,180,15-minute momentum + minute EMA1200
+2025-11-26,390,285,6,5,120,15-minute momentum + minute EMA1200
+2025-12-04,390,162,7,6,33,15-minute momentum + minute EMA1200
+2025-12-05,390,195,5,5,75,15-minute momentum + minute EMA1200
+2025-12-08,390,222,2,2,162,15-minute momentum + minute EMA1200
+2025-12-09,390,125,3,2,86,15-minute momentum + minute EMA1200
+2025-12-10,390,210,5,4,105,15-minute momentum + minute EMA1200
+2025-12-11,390,285,4,4,195,15-minute momentum + minute EMA1200
+2025-12-12,390,218,3,3,113,15-minute momentum + minute EMA1200
+2025-12-15,390,197,6,5,62,15-minute momentum + minute EMA1200
+2025-12-19,390,255,3,2,150,15-minute momentum + minute EMA1200
+2025-12-22,390,255,7,6,90,15-minute momentum + minute EMA1200
+2025-12-23,390,319,2,1,304,15-minute momentum + minute EMA1200
+2025-12-31,390,209,5,4,90,15-minute momentum + minute EMA1200
+2026-01-02,390,194,4,4,104,15-minute momentum + minute EMA1200
+2026-01-05,390,210,3,2,180,15-minute momentum + minute EMA1200
+2026-01-06,390,300,3,2,195,15-minute momentum + minute EMA1200
+2026-01-07,390,153,3,2,105,15-minute momentum + minute EMA1200
+2026-01-08,390,206,5,4,51,15-minute momentum + minute EMA1200
+2026-01-09,390,270,3,3,120,15-minute momentum + minute EMA1200
+2026-01-12,390,347,1,1,347,15-minute momentum + minute EMA1200
+2026-01-13,390,219,5,4,105,15-minute momentum + minute EMA1200
+2026-01-14,390,225,4,3,120,15-minute momentum + minute EMA1200
+2026-01-15,390,195,3,2,90,15-minute momentum + minute EMA1200
+2026-01-16,390,195,4,4,90,15-minute momentum + minute EMA1200
+2026-01-20,390,270,2,1,255,15-minute momentum + minute EMA1200
+2026-01-21,390,210,3,3,75,15-minute momentum + minute EMA1200
+2026-01-22,390,225,3,2,165,15-minute momentum + minute EMA1200
+2026-01-23,390,113,3,3,75,15-minute momentum + minute EMA1200
+2026-01-26,390,300,3,2,225,15-minute momentum + minute EMA1200
+2026-01-27,390,225,2,2,120,15-minute momentum + minute EMA1200
+2026-01-28,390,251,4,3,131,15-minute momentum + minute EMA1200
+2026-01-29,390,138,3,3,108,15-minute momentum + minute EMA1200
+2026-01-30,390,215,6,5,60,15-minute momentum + minute EMA1200
+2026-02-02,390,300,3,2,120,15-minute momentum + minute EMA1200
+2026-02-03,390,235,2,2,195,15-minute momentum + minute EMA1200
+2026-02-04,390,225,2,1,135,15-minute momentum + minute EMA1200
+2026-02-05,390,225,6,5,90,15-minute momentum + minute EMA1200
+2026-02-06,390,345,3,3,270,15-minute momentum + minute EMA1200
+2026-02-09,390,285,2,2,180,15-minute momentum + minute EMA1200
+2026-02-10,390,219,5,4,90,15-minute momentum + minute EMA1200
+2026-02-11,390,188,5,4,60,15-minute momentum + minute EMA1200
+2026-02-12,390,209,4,3,104,15-minute momentum + minute EMA1200
+2026-02-13,390,119,3,3,59,15-minute momentum + minute EMA1200
+2026-02-17,390,186,4,4,90,15-minute momentum + minute EMA1200
+2026-02-18,390,180,3,3,135,15-minute momentum + minute EMA1200
+2026-02-19,390,180,3,3,60,15-minute momentum + minute EMA1200
+2026-02-20,390,155,6,5,90,15-minute momentum + minute EMA1200
+2026-02-23,390,227,4,3,90,15-minute momentum + minute EMA1200
+2026-02-24,390,190,6,5,90,15-minute momentum + minute EMA1200
+2026-02-25,390,330,3,2,165,15-minute momentum + minute EMA1200
+2026-02-26,390,161,2,2,120,15-minute momentum + minute EMA1200
+2026-02-27,390,240,3,2,150,15-minute momentum + minute EMA1200
+2026-03-02,390,220,4,3,120,15-minute momentum + minute EMA1200
+2026-03-03,390,203,4,3,105,15-minute momentum + minute EMA1200
+2026-03-04,390,240,5,5,105,15-minute momentum + minute EMA1200
+2026-03-05,390,240,5,4,105,15-minute momentum + minute EMA1200
+2026-03-06,390,180,5,4,60,15-minute momentum + minute EMA1200
+2026-03-09,390,278,3,2,113,15-minute momentum + minute EMA1200
+2026-03-10,390,225,5,4,105,15-minute momentum + minute EMA1200
+2026-03-11,390,180,4,4,75,15-minute momentum + minute EMA1200
+2026-03-12,390,300,3,2,120,15-minute momentum + minute EMA1200
+2026-03-13,390,193,5,4,58,15-minute momentum + minute EMA1200
+2026-03-20,390,270,2,2,195,15-minute momentum + minute EMA1200
+2026-03-23,390,195,2,2,120,15-minute momentum + minute EMA1200
+2026-03-24,390,157,5,4,75,15-minute momentum + minute EMA1200
+2026-03-25,390,86,5,4,30,15-minute momentum + minute EMA1200
+2026-03-26,390,300,2,2,255,15-minute momentum + minute EMA1200
+2026-03-27,390,315,2,1,225,15-minute momentum + minute EMA1200
+2026-03-30,390,282,5,4,210,15-minute momentum + minute EMA1200
+2026-03-31,390,270,5,5,90,15-minute momentum + minute EMA1200
+2026-04-01,390,255,3,3,180,15-minute momentum + minute EMA1200
+2026-04-02,390,114,3,3,60,15-minute momentum + minute EMA1200
+2026-04-06,390,240,4,4,75,15-minute momentum + minute EMA1200
+2026-04-07,390,200,4,4,135,15-minute momentum + minute EMA1200
+2026-04-08,390,150,3,3,120,15-minute momentum + minute EMA1200
+2026-04-09,390,275,3,3,180,15-minute momentum + minute EMA1200
+2026-04-16,390,195,4,3,105,15-minute momentum + minute EMA1200
+2026-04-17,390,240,4,3,135,15-minute momentum + minute EMA1200
+2026-04-20,390,270,3,2,165,15-minute momentum + minute EMA1200
+2026-04-21,390,227,4,4,137,15-minute momentum + minute EMA1200
+2026-04-22,390,210,4,3,105,15-minute momentum + minute EMA1200
+2026-04-23,390,168,3,3,135,15-minute momentum + minute EMA1200
+2026-04-24,390,210,3,3,120,15-minute momentum + minute EMA1200
+2026-04-27,390,270,3,3,165,15-minute momentum + minute EMA1200
+2026-04-28,390,165,3,3,120,15-minute momentum + minute EMA1200
+2026-05-04,390,225,3,2,120,15-minute momentum + minute EMA1200
+2026-05-05,390,345,3,2,150,15-minute momentum + minute EMA1200
+2026-05-06,390,285,4,4,135,15-minute momentum + minute EMA1200
+2026-05-07,390,193,3,3,75,15-minute momentum + minute EMA1200
+2026-05-08,390,225,5,5,75,15-minute momentum + minute EMA1200
+2026-05-11,390,240,2,2,180,15-minute momentum + minute EMA1200
+2026-05-12,390,180,2,2,150,15-minute momentum + minute EMA1200
+2026-05-13,390,248,3,3,198,15-minute momentum + minute EMA1200
+2026-05-14,390,255,3,3,135,15-minute momentum + minute EMA1200
+2026-05-15,390,195,5,5,90,15-minute momentum + minute EMA1200
+2026-05-18,390,131,5,4,60,15-minute momentum + minute EMA1200
+2026-05-19,390,222,5,4,105,15-minute momentum + minute EMA1200
+2026-05-20,390,240,3,3,120,15-minute momentum + minute EMA1200
+2026-05-21,390,171,5,4,66,15-minute momentum + minute EMA1200
+2026-05-22,390,180,3,2,75,15-minute momentum + minute EMA1200
+2026-05-28,390,290,5,5,185,15-minute momentum + minute EMA1200
+2026-05-29,390,210,4,4,75,15-minute momentum + minute EMA1200
+2026-06-01,390,143,6,6,50,15-minute momentum + minute EMA1200
+2026-06-02,390,224,4,3,120,15-minute momentum + minute EMA1200
+2026-06-03,390,270,3,2,135,15-minute momentum + minute EMA1200
+2026-06-04,390,294,3,3,234,15-minute momentum + minute EMA1200
+2026-06-05,390,345,3,2,150,15-minute momentum + minute EMA1200
+2026-06-08,390,148,4,4,60,15-minute momentum + minute EMA1200
+2026-06-09,390,184,3,2,109,15-minute momentum + minute EMA1200
+2026-06-10,390,270,3,3,195,15-minute momentum + minute EMA1200
+2026-06-11,390,225,7,6,60,15-minute momentum + minute EMA1200
+2026-06-12,390,180,4,4,75,15-minute momentum + minute EMA1200
+2026-06-15,390,210,1,0,210,15-minute momentum + minute EMA1200
+2026-06-22,390,215,6,6,60,15-minute momentum + minute EMA1200
+2026-06-23,390,225,4,3,120,15-minute momentum + minute EMA1200
+2026-06-24,390,181,3,3,120,15-minute momentum + minute EMA1200
+2026-06-25,390,226,5,4,75,15-minute momentum + minute EMA1200
+2026-06-26,390,141,5,4,51,15-minute momentum + minute EMA1200
+2026-06-29,390,285,3,3,255,15-minute momentum + minute EMA1200
+2026-06-30,390,360,3,2,165,15-minute momentum + minute EMA1200
+2026-07-01,390,165,2,2,150,15-minute momentum + minute EMA1200
+2026-07-02,390,179,3,3,89,15-minute momentum + minute EMA1200
+2026-07-06,390,300,3,2,180,15-minute momentum + minute EMA1200
+2026-07-07,390,169,2,2,94,15-minute momentum + minute EMA1200
+2026-07-08,390,196,6,5,120,15-minute momentum + minute EMA1200
+2026-07-09,390,285,3,3,210,15-minute momentum + minute EMA1200
+2026-07-10,390,300,5,4,105,15-minute momentum + minute EMA1200
+2026-07-13,390,296,4,3,161,15-minute momentum + minute EMA1200
+2026-07-14,390,210,5,4,105,15-minute momentum + minute EMA1200
+2026-07-15,390,122,4,3,75,15-minute momentum + minute EMA1200
+2026-07-16,390,270,3,3,135,15-minute momentum + minute EMA1200
+2026-07-17,390,210,4,3,120,15-minute momentum + minute EMA1200
+2026-07-20,390,198,4,3,75,15-minute momentum + minute EMA1200
+2026-07-21,390,255,3,2,210,15-minute momentum + minute EMA1200
+2026-07-22,390,135,2,2,120,15-minute momentum + minute EMA1200
+2026-07-23,390,270,5,4,120,15-minute momentum + minute EMA1200
+2026-07-24,390,123,4,3,45,15-minute momentum + minute EMA1200
+2026-07-27,390,142,3,3,60,15-minute momentum + minute EMA1200
+2026-07-28,390,191,5,5,77,15-minute momentum + minute EMA1200
+2026-07-29,390,217,2,2,187,15-minute momentum + minute EMA1200
+2026-08-05,390,197,6,5,75,15-minute momentum + minute EMA1200
+2026-08-06,390,210,6,5,105,15-minute momentum + minute EMA1200
+2026-08-07,390,195,5,4,105,15-minute momentum + minute EMA1200
+2026-08-10,390,146,4,4,75,15-minute momentum + minute EMA1200
+2026-08-11,390,228,4,3,138,15-minute momentum + minute EMA1200
+2026-08-17,390,330,4,3,150,15-minute momentum + minute EMA1200
+2026-08-21,390,165,2,2,105,15-minute momentum + minute EMA1200
+2026-08-24,390,210,4,4,90,15-minute momentum + minute EMA1200
+2026-08-25,390,125,3,3,75,15-minute momentum + minute EMA1200
+2026-08-26,390,199,6,5,59,15-minute momentum + minute EMA1200
+2026-08-27,390,240,4,4,120,15-minute momentum + minute EMA1200
+2026-08-28,390,123,4,4,60,15-minute momentum + minute EMA1200
+2024-09-05,390,173,4,4,100,Every-minute momentum + hourly EMA20
+2024-09-06,390,268,10,10,195,Every-minute momentum + hourly EMA20
+2024-09-09,390,216,5,4,121,Every-minute momentum + hourly EMA20
+2024-09-10,390,165,8,7,53,Every-minute momentum + hourly EMA20
+2024-09-11,390,205,5,4,120,Every-minute momentum + hourly EMA20
+2024-09-12,390,221,17,17,127,Every-minute momentum + hourly EMA20
+2024-09-13,390,253,12,12,104,Every-minute momentum + hourly EMA20
+2024-09-24,390,100,19,18,31,Every-minute momentum + hourly EMA20
+2024-10-01,390,197,9,9,89,Every-minute momentum + hourly EMA20
+2024-10-02,390,180,12,12,38,Every-minute momentum + hourly EMA20
+2024-10-03,390,192,18,17,66,Every-minute momentum + hourly EMA20
+2024-10-04,390,216,12,11,84,Every-minute momentum + hourly EMA20
+2024-10-07,390,262,19,19,151,Every-minute momentum + hourly EMA20
+2024-10-08,390,291,10,9,118,Every-minute momentum + hourly EMA20
+2024-10-09,390,288,12,11,176,Every-minute momentum + hourly EMA20
+2024-10-18,390,228,15,14,77,Every-minute momentum + hourly EMA20
+2024-10-21,390,162,6,6,91,Every-minute momentum + hourly EMA20
+2024-10-22,390,188,10,9,101,Every-minute momentum + hourly EMA20
+2024-10-29,390,217,17,16,70,Every-minute momentum + hourly EMA20
+2024-10-30,390,168,9,8,57,Every-minute momentum + hourly EMA20
+2024-10-31,390,251,10,9,152,Every-minute momentum + hourly EMA20
+2024-11-01,390,179,14,13,105,Every-minute momentum + hourly EMA20
+2024-11-04,390,195,9,8,79,Every-minute momentum + hourly EMA20
+2024-11-08,390,301,3,2,146,Every-minute momentum + hourly EMA20
+2024-11-11,390,78,17,17,40,Every-minute momentum + hourly EMA20
+2024-11-12,390,208,5,5,156,Every-minute momentum + hourly EMA20
+2024-11-13,390,226,11,11,132,Every-minute momentum + hourly EMA20
+2024-11-14,390,255,15,15,91,Every-minute momentum + hourly EMA20
+2024-11-15,390,308,7,6,113,Every-minute momentum + hourly EMA20
+2024-11-21,390,241,17,16,93,Every-minute momentum + hourly EMA20
+2024-11-22,390,216,17,16,59,Every-minute momentum + hourly EMA20
+2024-11-25,390,104,10,9,28,Every-minute momentum + hourly EMA20
+2024-11-26,390,270,20,19,76,Every-minute momentum + hourly EMA20
+2024-11-27,390,181,9,9,70,Every-minute momentum + hourly EMA20
+2024-12-02,390,259,25,24,61,Every-minute momentum + hourly EMA20
+2024-12-03,390,165,18,18,42,Every-minute momentum + hourly EMA20
+2024-12-23,390,189,7,6,98,Every-minute momentum + hourly EMA20
+2024-12-31,390,230,21,21,119,Every-minute momentum + hourly EMA20
+2025-01-02,390,151,12,12,81,Every-minute momentum + hourly EMA20
+2025-01-03,390,251,13,13,107,Every-minute momentum + hourly EMA20
+2025-01-06,390,161,5,5,154,Every-minute momentum + hourly EMA20
+2025-01-07,390,219,12,11,113,Every-minute momentum + hourly EMA20
+2025-01-08,390,197,12,12,77,Every-minute momentum + hourly EMA20
+2025-01-14,390,197,6,5,103,Every-minute momentum + hourly EMA20
+2025-01-15,390,269,10,9,187,Every-minute momentum + hourly EMA20
+2025-01-16,390,159,19,18,43,Every-minute momentum + hourly EMA20
+2025-01-17,390,236,12,11,91,Every-minute momentum + hourly EMA20
+2025-01-21,390,259,13,12,150,Every-minute momentum + hourly EMA20
+2025-01-22,390,203,13,13,75,Every-minute momentum + hourly EMA20
+2025-01-23,390,282,18,17,91,Every-minute momentum + hourly EMA20
+2025-01-29,390,248,21,20,74,Every-minute momentum + hourly EMA20
+2025-01-30,390,193,19,19,51,Every-minute momentum + hourly EMA20
+2025-01-31,390,202,8,8,91,Every-minute momentum + hourly EMA20
+2025-02-03,390,154,13,12,101,Every-minute momentum + hourly EMA20
+2025-02-04,390,277,7,7,147,Every-minute momentum + hourly EMA20
+2025-02-05,390,298,19,18,110,Every-minute momentum + hourly EMA20
+2025-02-06,390,161,13,12,61,Every-minute momentum + hourly EMA20
+2025-02-07,390,201,10,9,98,Every-minute momentum + hourly EMA20
+2025-02-10,390,201,12,12,112,Every-minute momentum + hourly EMA20
+2025-02-14,390,174,13,12,84,Every-minute momentum + hourly EMA20
+2025-02-21,390,295,11,11,195,Every-minute momentum + hourly EMA20
+2025-02-24,390,232,8,7,111,Every-minute momentum + hourly EMA20
+2025-02-25,390,214,9,8,99,Every-minute momentum + hourly EMA20
+2025-02-26,390,177,13,13,102,Every-minute momentum + hourly EMA20
+2025-02-27,390,263,6,6,119,Every-minute momentum + hourly EMA20
+2025-02-28,390,158,12,11,72,Every-minute momentum + hourly EMA20
+2025-03-03,390,207,12,12,79,Every-minute momentum + hourly EMA20
+2025-03-04,390,159,8,8,105,Every-minute momentum + hourly EMA20
+2025-03-05,390,215,20,19,77,Every-minute momentum + hourly EMA20
+2025-03-06,390,218,13,13,99,Every-minute momentum + hourly EMA20
+2025-03-07,390,149,9,8,116,Every-minute momentum + hourly EMA20
+2025-03-10,390,315,9,8,121,Every-minute momentum + hourly EMA20
+2025-03-11,390,230,8,7,106,Every-minute momentum + hourly EMA20
+2025-03-12,390,113,13,12,49,Every-minute momentum + hourly EMA20
+2025-03-13,390,282,12,12,90,Every-minute momentum + hourly EMA20
+2025-03-14,390,274,19,19,80,Every-minute momentum + hourly EMA20
+2025-03-17,390,255,12,11,123,Every-minute momentum + hourly EMA20
+2025-03-21,390,127,20,19,30,Every-minute momentum + hourly EMA20
+2025-03-24,390,246,9,9,133,Every-minute momentum + hourly EMA20
+2025-03-25,390,142,14,14,61,Every-minute momentum + hourly EMA20
+2025-03-26,390,334,10,10,174,Every-minute momentum + hourly EMA20
+2025-03-27,390,181,12,11,68,Every-minute momentum + hourly EMA20
+2025-03-28,390,294,18,17,110,Every-minute momentum + hourly EMA20
+2025-03-31,390,210,15,14,91,Every-minute momentum + hourly EMA20
+2025-04-01,390,195,13,12,96,Every-minute momentum + hourly EMA20
+2025-04-02,390,143,5,5,106,Every-minute momentum + hourly EMA20
+2025-04-08,390,192,8,7,84,Every-minute momentum + hourly EMA20
+2025-04-09,390,280,13,13,152,Every-minute momentum + hourly EMA20
+2025-04-10,390,167,9,9,104,Every-minute momentum + hourly EMA20
+2025-04-11,390,225,17,17,61,Every-minute momentum + hourly EMA20
+2025-04-14,390,118,20,19,49,Every-minute momentum + hourly EMA20
+2025-04-15,390,118,28,28,27,Every-minute momentum + hourly EMA20
+2025-04-16,390,300,10,9,147,Every-minute momentum + hourly EMA20
+2025-04-17,390,137,13,12,53,Every-minute momentum + hourly EMA20
+2025-04-21,390,293,8,8,183,Every-minute momentum + hourly EMA20
+2025-04-22,390,283,9,8,135,Every-minute momentum + hourly EMA20
+2025-04-23,390,157,14,13,72,Every-minute momentum + hourly EMA20
+2025-04-24,390,321,17,16,121,Every-minute momentum + hourly EMA20
+2025-04-25,390,217,16,16,104,Every-minute momentum + hourly EMA20
+2025-04-28,390,85,7,6,28,Every-minute momentum + hourly EMA20
+2025-04-29,390,209,20,19,71,Every-minute momentum + hourly EMA20
+2025-04-30,390,166,10,9,61,Every-minute momentum + hourly EMA20
+2025-05-01,390,237,11,11,87,Every-minute momentum + hourly EMA20
+2025-05-02,390,226,11,10,87,Every-minute momentum + hourly EMA20
+2025-05-05,390,207,16,16,62,Every-minute momentum + hourly EMA20
+2025-05-09,390,150,16,15,45,Every-minute momentum + hourly EMA20
+2025-05-12,390,204,14,14,107,Every-minute momentum + hourly EMA20
+2025-05-13,390,296,12,11,97,Every-minute momentum + hourly EMA20
+2025-05-14,390,176,20,20,61,Every-minute momentum + hourly EMA20
+2025-05-15,390,225,16,16,173,Every-minute momentum + hourly EMA20
+2025-05-16,390,267,14,14,167,Every-minute momentum + hourly EMA20
+2025-05-19,390,242,13,13,74,Every-minute momentum + hourly EMA20
+2025-05-20,390,127,9,9,32,Every-minute momentum + hourly EMA20
+2025-05-21,390,183,12,11,83,Every-minute momentum + hourly EMA20
+2025-05-22,390,128,15,15,39,Every-minute momentum + hourly EMA20
+2025-05-23,390,100,13,13,44,Every-minute momentum + hourly EMA20
+2025-05-27,390,277,8,8,202,Every-minute momentum + hourly EMA20
+2025-05-28,390,136,15,15,38,Every-minute momentum + hourly EMA20
+2025-05-29,390,242,16,16,88,Every-minute momentum + hourly EMA20
+2025-05-30,390,164,5,5,76,Every-minute momentum + hourly EMA20
+2025-06-02,390,327,11,10,105,Every-minute momentum + hourly EMA20
+2025-06-03,390,308,8,7,261,Every-minute momentum + hourly EMA20
+2025-06-04,390,200,12,11,87,Every-minute momentum + hourly EMA20
+2025-06-05,390,200,7,6,77,Every-minute momentum + hourly EMA20
+2025-06-06,390,191,10,9,92,Every-minute momentum + hourly EMA20
+2025-06-09,390,220,15,15,113,Every-minute momentum + hourly EMA20
+2025-06-10,390,269,8,8,94,Every-minute momentum + hourly EMA20
+2025-06-11,390,159,12,11,51,Every-minute momentum + hourly EMA20
+2025-06-12,390,185,18,18,44,Every-minute momentum + hourly EMA20
+2025-06-13,390,173,12,12,109,Every-minute momentum + hourly EMA20
+2025-06-16,390,154,8,8,108,Every-minute momentum + hourly EMA20
+2025-06-20,390,182,10,9,59,Every-minute momentum + hourly EMA20
+2025-06-23,390,224,14,13,83,Every-minute momentum + hourly EMA20
+2025-06-24,390,324,13,13,159,Every-minute momentum + hourly EMA20
+2025-06-30,390,190,13,12,60,Every-minute momentum + hourly EMA20
+2025-07-01,390,118,14,14,41,Every-minute momentum + hourly EMA20
+2025-07-02,390,209,18,17,72,Every-minute momentum + hourly EMA20
+2025-07-07,390,229,18,18,62,Every-minute momentum + hourly EMA20
+2025-07-08,390,230,18,18,58,Every-minute momentum + hourly EMA20
+2025-07-14,390,278,11,11,89,Every-minute momentum + hourly EMA20
+2025-07-15,390,208,9,8,75,Every-minute momentum + hourly EMA20
+2025-07-16,390,208,11,10,91,Every-minute momentum + hourly EMA20
+2025-07-17,390,321,10,9,142,Every-minute momentum + hourly EMA20
+2025-07-18,390,155,16,15,62,Every-minute momentum + hourly EMA20
+2025-07-24,390,249,10,10,72,Every-minute momentum + hourly EMA20
+2025-07-25,390,280,15,14,196,Every-minute momentum + hourly EMA20
+2025-08-04,390,281,14,13,115,Every-minute momentum + hourly EMA20
+2025-08-05,390,144,15,15,62,Every-minute momentum + hourly EMA20
+2025-08-06,390,256,25,25,92,Every-minute momentum + hourly EMA20
+2025-08-07,390,171,14,14,41,Every-minute momentum + hourly EMA20
+2025-08-08,390,247,8,7,89,Every-minute momentum + hourly EMA20
+2025-08-11,390,293,19,19,99,Every-minute momentum + hourly EMA20
+2025-08-15,390,212,20,19,79,Every-minute momentum + hourly EMA20
+2025-08-18,390,163,21,20,35,Every-minute momentum + hourly EMA20
+2025-08-22,390,206,4,3,139,Every-minute momentum + hourly EMA20
+2025-09-03,390,171,27,27,55,Every-minute momentum + hourly EMA20
+2025-09-04,390,344,11,10,164,Every-minute momentum + hourly EMA20
+2025-09-05,390,156,14,13,51,Every-minute momentum + hourly EMA20
+2025-09-08,390,157,17,16,72,Every-minute momentum + hourly EMA20
+2025-10-14,390,138,15,14,67,Every-minute momentum + hourly EMA20
+2025-10-15,390,103,7,7,72,Every-minute momentum + hourly EMA20
+2025-10-16,390,221,10,10,79,Every-minute momentum + hourly EMA20
+2025-10-17,390,256,22,21,97,Every-minute momentum + hourly EMA20
+2025-10-20,390,254,11,10,132,Every-minute momentum + hourly EMA20
+2025-10-21,390,203,13,13,74,Every-minute momentum + hourly EMA20
+2025-10-22,390,279,4,4,134,Every-minute momentum + hourly EMA20
+2025-10-23,390,252,7,7,136,Every-minute momentum + hourly EMA20
+2025-10-24,390,245,18,17,68,Every-minute momentum + hourly EMA20
+2025-10-27,390,318,13,12,124,Every-minute momentum + hourly EMA20
+2025-10-28,390,238,12,11,177,Every-minute momentum + hourly EMA20
+2025-10-29,390,148,14,13,53,Every-minute momentum + hourly EMA20
+2025-10-30,390,255,20,19,106,Every-minute momentum + hourly EMA20
+2025-10-31,390,177,3,3,134,Every-minute momentum + hourly EMA20
+2025-11-03,390,99,12,11,59,Every-minute momentum + hourly EMA20
+2025-11-04,390,238,12,12,114,Every-minute momentum + hourly EMA20
+2025-11-05,390,272,17,16,133,Every-minute momentum + hourly EMA20
+2025-11-06,390,208,7,7,156,Every-minute momentum + hourly EMA20
+2025-11-07,390,172,7,7,94,Every-minute momentum + hourly EMA20
+2025-11-10,390,306,3,3,236,Every-minute momentum + hourly EMA20
+2025-11-11,390,279,18,17,157,Every-minute momentum + hourly EMA20
+2025-11-12,390,150,11,11,66,Every-minute momentum + hourly EMA20
+2025-11-13,390,324,17,16,109,Every-minute momentum + hourly EMA20
+2025-11-14,390,116,6,6,60,Every-minute momentum + hourly EMA20
+2025-11-17,390,250,4,3,185,Every-minute momentum + hourly EMA20
+2025-11-18,390,168,14,13,85,Every-minute momentum + hourly EMA20
+2025-11-19,390,144,8,8,72,Every-minute momentum + hourly EMA20
+2025-11-20,390,251,8,7,79,Every-minute momentum + hourly EMA20
+2025-11-21,390,166,12,12,60,Every-minute momentum + hourly EMA20
+2025-11-24,390,285,15,15,127,Every-minute momentum + hourly EMA20
+2025-11-25,390,278,11,11,109,Every-minute momentum + hourly EMA20
+2025-11-26,390,279,21,20,95,Every-minute momentum + hourly EMA20
+2025-12-04,390,134,24,23,24,Every-minute momentum + hourly EMA20
+2025-12-05,390,180,15,15,86,Every-minute momentum + hourly EMA20
+2025-12-08,390,252,10,10,122,Every-minute momentum + hourly EMA20
+2025-12-09,390,98,13,12,46,Every-minute momentum + hourly EMA20
+2025-12-10,390,239,12,11,114,Every-minute momentum + hourly EMA20
+2025-12-11,390,284,9,9,86,Every-minute momentum + hourly EMA20
+2025-12-12,390,176,9,9,71,Every-minute momentum + hourly EMA20
+2025-12-15,390,209,22,21,72,Every-minute momentum + hourly EMA20
+2025-12-19,390,262,16,15,75,Every-minute momentum + hourly EMA20
+2025-12-22,390,258,22,21,76,Every-minute momentum + hourly EMA20
+2025-12-23,390,339,11,10,147,Every-minute momentum + hourly EMA20
+2025-12-31,390,171,8,7,94,Every-minute momentum + hourly EMA20
+2026-01-02,390,184,17,17,57,Every-minute momentum + hourly EMA20
+2026-01-05,390,215,14,13,124,Every-minute momentum + hourly EMA20
+2026-01-06,390,312,7,6,105,Every-minute momentum + hourly EMA20
+2026-01-07,390,149,9,8,73,Every-minute momentum + hourly EMA20
+2026-01-08,390,151,17,16,41,Every-minute momentum + hourly EMA20
+2026-01-09,390,277,6,6,83,Every-minute momentum + hourly EMA20
+2026-01-12,390,295,11,11,138,Every-minute momentum + hourly EMA20
+2026-01-13,390,236,14,13,69,Every-minute momentum + hourly EMA20
+2026-01-14,390,200,14,13,112,Every-minute momentum + hourly EMA20
+2026-01-15,390,167,17,16,39,Every-minute momentum + hourly EMA20
+2026-01-16,390,203,14,14,70,Every-minute momentum + hourly EMA20
+2026-01-20,390,270,13,12,204,Every-minute momentum + hourly EMA20
+2026-01-21,390,173,8,8,73,Every-minute momentum + hourly EMA20
+2026-01-22,390,202,8,7,165,Every-minute momentum + hourly EMA20
+2026-01-23,390,130,9,9,53,Every-minute momentum + hourly EMA20
+2026-01-26,390,282,18,17,107,Every-minute momentum + hourly EMA20
+2026-01-27,390,251,7,7,131,Every-minute momentum + hourly EMA20
+2026-01-28,390,210,20,19,105,Every-minute momentum + hourly EMA20
+2026-01-29,390,133,6,6,93,Every-minute momentum + hourly EMA20
+2026-01-30,390,181,14,13,60,Every-minute momentum + hourly EMA20
+2026-02-02,390,270,17,16,96,Every-minute momentum + hourly EMA20
+2026-02-03,390,208,14,14,164,Every-minute momentum + hourly EMA20
+2026-02-04,390,236,10,9,144,Every-minute momentum + hourly EMA20
+2026-02-05,390,207,16,15,80,Every-minute momentum + hourly EMA20
+2026-02-06,390,358,8,8,183,Every-minute momentum + hourly EMA20
+2026-02-09,390,271,7,7,171,Every-minute momentum + hourly EMA20
+2026-02-10,390,180,11,10,65,Every-minute momentum + hourly EMA20
+2026-02-11,390,184,13,12,48,Every-minute momentum + hourly EMA20
+2026-02-12,390,206,10,9,83,Every-minute momentum + hourly EMA20
+2026-02-13,390,76,21,21,19,Every-minute momentum + hourly EMA20
+2026-02-17,390,196,7,7,84,Every-minute momentum + hourly EMA20
+2026-02-18,390,182,10,10,114,Every-minute momentum + hourly EMA20
+2026-02-19,390,213,12,12,72,Every-minute momentum + hourly EMA20
+2026-02-20,390,175,12,11,91,Every-minute momentum + hourly EMA20
+2026-02-23,390,213,7,6,93,Every-minute momentum + hourly EMA20
+2026-02-24,390,192,10,9,85,Every-minute momentum + hourly EMA20
+2026-02-25,390,330,10,9,139,Every-minute momentum + hourly EMA20
+2026-02-26,390,149,7,7,110,Every-minute momentum + hourly EMA20
+2026-02-27,390,180,19,18,69,Every-minute momentum + hourly EMA20
+2026-03-02,390,193,11,10,75,Every-minute momentum + hourly EMA20
+2026-03-03,390,159,14,13,76,Every-minute momentum + hourly EMA20
+2026-03-04,390,250,17,17,72,Every-minute momentum + hourly EMA20
+2026-03-05,390,226,16,15,82,Every-minute momentum + hourly EMA20
+2026-03-06,390,185,15,14,49,Every-minute momentum + hourly EMA20
+2026-03-09,390,245,7,6,101,Every-minute momentum + hourly EMA20
+2026-03-10,390,198,18,17,88,Every-minute momentum + hourly EMA20
+2026-03-11,390,187,10,10,60,Every-minute momentum + hourly EMA20
+2026-03-12,390,279,20,19,46,Every-minute momentum + hourly EMA20
+2026-03-13,390,204,15,14,49,Every-minute momentum + hourly EMA20
+2026-03-20,390,303,20,20,166,Every-minute momentum + hourly EMA20
+2026-03-23,390,196,9,9,116,Every-minute momentum + hourly EMA20
+2026-03-24,390,144,13,13,84,Every-minute momentum + hourly EMA20
+2026-03-25,390,165,10,9,51,Every-minute momentum + hourly EMA20
+2026-03-26,390,302,4,4,175,Every-minute momentum + hourly EMA20
+2026-03-27,390,330,7,6,217,Every-minute momentum + hourly EMA20
+2026-03-30,390,294,8,7,137,Every-minute momentum + hourly EMA20
+2026-03-31,390,291,14,14,83,Every-minute momentum + hourly EMA20
+2026-04-01,390,274,6,6,135,Every-minute momentum + hourly EMA20
+2026-04-02,390,172,16,16,60,Every-minute momentum + hourly EMA20
+2026-04-06,390,240,16,16,72,Every-minute momentum + hourly EMA20
+2026-04-07,390,207,8,8,104,Every-minute momentum + hourly EMA20
+2026-04-08,390,152,6,6,118,Every-minute momentum + hourly EMA20
+2026-04-09,390,252,10,10,109,Every-minute momentum + hourly EMA20
+2026-04-16,390,195,13,12,102,Every-minute momentum + hourly EMA20
+2026-04-17,390,240,14,13,111,Every-minute momentum + hourly EMA20
+2026-04-20,390,243,14,13,76,Every-minute momentum + hourly EMA20
+2026-04-21,390,251,8,8,64,Every-minute momentum + hourly EMA20
+2026-04-22,390,221,16,15,84,Every-minute momentum + hourly EMA20
+2026-04-23,390,211,11,11,104,Every-minute momentum + hourly EMA20
+2026-04-24,390,249,18,18,126,Every-minute momentum + hourly EMA20
+2026-04-27,390,266,13,13,75,Every-minute momentum + hourly EMA20
+2026-04-28,390,150,12,12,68,Every-minute momentum + hourly EMA20
+2026-05-04,390,194,8,7,114,Every-minute momentum + hourly EMA20
+2026-05-05,390,342,14,13,143,Every-minute momentum + hourly EMA20
+2026-05-06,390,273,14,14,136,Every-minute momentum + hourly EMA20
+2026-05-07,390,145,15,15,54,Every-minute momentum + hourly EMA20
+2026-05-08,390,243,18,18,86,Every-minute momentum + hourly EMA20
+2026-05-11,390,246,6,6,82,Every-minute momentum + hourly EMA20
+2026-05-12,390,191,4,4,159,Every-minute momentum + hourly EMA20
+2026-05-13,390,241,7,7,121,Every-minute momentum + hourly EMA20
+2026-05-14,390,271,8,8,145,Every-minute momentum + hourly EMA20
+2026-05-15,390,189,13,13,95,Every-minute momentum + hourly EMA20
+2026-05-18,390,105,18,17,60,Every-minute momentum + hourly EMA20
+2026-05-19,390,228,8,7,104,Every-minute momentum + hourly EMA20
+2026-05-20,390,266,9,9,119,Every-minute momentum + hourly EMA20
+2026-05-21,390,162,16,15,42,Every-minute momentum + hourly EMA20
+2026-05-22,390,170,11,10,74,Every-minute momentum + hourly EMA20
+2026-05-28,390,259,10,10,82,Every-minute momentum + hourly EMA20
+2026-05-29,390,235,11,11,65,Every-minute momentum + hourly EMA20
+2026-06-01,390,130,19,19,47,Every-minute momentum + hourly EMA20
+2026-06-02,390,211,17,16,118,Every-minute momentum + hourly EMA20
+2026-06-03,390,272,11,10,140,Every-minute momentum + hourly EMA20
+2026-06-04,390,280,5,5,238,Every-minute momentum + hourly EMA20
+2026-06-05,390,348,9,8,148,Every-minute momentum + hourly EMA20
+2026-06-08,390,137,12,12,61,Every-minute momentum + hourly EMA20
+2026-06-09,390,151,5,4,75,Every-minute momentum + hourly EMA20
+2026-06-10,390,251,17,17,83,Every-minute momentum + hourly EMA20
+2026-06-11,390,247,20,19,73,Every-minute momentum + hourly EMA20
+2026-06-12,390,219,14,14,83,Every-minute momentum + hourly EMA20
+2026-06-15,390,202,11,10,111,Every-minute momentum + hourly EMA20
+2026-06-22,390,183,19,19,61,Every-minute momentum + hourly EMA20
+2026-06-23,390,197,11,10,106,Every-minute momentum + hourly EMA20
+2026-06-24,390,205,13,13,68,Every-minute momentum + hourly EMA20
+2026-06-25,390,236,13,12,72,Every-minute momentum + hourly EMA20
+2026-06-26,390,105,15,14,27,Every-minute momentum + hourly EMA20
+2026-06-29,390,293,10,10,164,Every-minute momentum + hourly EMA20
+2026-06-30,390,334,10,9,153,Every-minute momentum + hourly EMA20
+2026-07-01,390,191,9,9,151,Every-minute momentum + hourly EMA20
+2026-07-02,390,157,8,8,65,Every-minute momentum + hourly EMA20
+2026-07-06,390,304,9,8,165,Every-minute momentum + hourly EMA20
+2026-07-07,390,205,11,11,102,Every-minute momentum + hourly EMA20
+2026-07-08,390,180,17,16,98,Every-minute momentum + hourly EMA20
+2026-07-09,390,262,12,12,196,Every-minute momentum + hourly EMA20
+2026-07-10,390,335,7,6,119,Every-minute momentum + hourly EMA20
+2026-07-13,390,211,17,16,37,Every-minute momentum + hourly EMA20
+2026-07-14,390,207,21,20,93,Every-minute momentum + hourly EMA20
+2026-07-15,390,85,10,9,27,Every-minute momentum + hourly EMA20
+2026-07-16,390,264,17,17,142,Every-minute momentum + hourly EMA20
+2026-07-17,390,218,12,11,77,Every-minute momentum + hourly EMA20
+2026-07-20,390,257,14,13,64,Every-minute momentum + hourly EMA20
+2026-07-21,390,250,12,11,182,Every-minute momentum + hourly EMA20
+2026-07-22,390,138,6,6,115,Every-minute momentum + hourly EMA20
+2026-07-23,390,247,19,18,91,Every-minute momentum + hourly EMA20
+2026-07-24,390,123,16,15,32,Every-minute momentum + hourly EMA20
+2026-07-27,390,146,9,9,57,Every-minute momentum + hourly EMA20
+2026-07-28,390,167,14,14,55,Every-minute momentum + hourly EMA20
+2026-07-29,390,213,6,6,86,Every-minute momentum + hourly EMA20
+2026-08-05,390,159,19,18,30,Every-minute momentum + hourly EMA20
+2026-08-06,390,224,18,17,96,Every-minute momentum + hourly EMA20
+2026-08-07,390,199,9,8,81,Every-minute momentum + hourly EMA20
+2026-08-10,390,165,14,14,75,Every-minute momentum + hourly EMA20
+2026-08-11,390,215,9,8,99,Every-minute momentum + hourly EMA20
+2026-08-17,390,322,16,15,98,Every-minute momentum + hourly EMA20
+2026-08-21,390,175,6,6,102,Every-minute momentum + hourly EMA20
+2026-08-24,390,212,14,14,63,Every-minute momentum + hourly EMA20
+2026-08-25,390,172,10,10,65,Every-minute momentum + hourly EMA20
+2026-08-26,390,140,16,15,54,Every-minute momentum + hourly EMA20
+2026-08-27,390,251,11,11,97,Every-minute momentum + hourly EMA20
+2026-08-28,390,132,15,15,62,Every-minute momentum + hourly EMA20
+2024-09-05,390,165,3,3,90,15-minute/hourly version; direction needs two hourly readings
+2024-09-06,390,255,4,4,195,15-minute/hourly version; direction needs two hourly readings
+2024-09-09,390,225,3,2,120,15-minute/hourly version; direction needs two hourly readings
+2024-09-10,390,75,2,1,45,15-minute/hourly version; direction needs two hourly readings
+2024-09-11,390,90,3,2,60,15-minute/hourly version; direction needs two hourly readings
+2024-09-12,390,225,3,3,150,15-minute/hourly version; direction needs two hourly readings
+2024-09-13,390,240,4,4,120,15-minute/hourly version; direction needs two hourly readings
+2024-09-24,390,165,6,5,60,15-minute/hourly version; direction needs two hourly readings
+2024-10-01,390,120,4,4,45,15-minute/hourly version; direction needs two hourly readings
+2024-10-02,390,225,4,4,90,15-minute/hourly version; direction needs two hourly readings
+2024-10-03,390,225,4,3,75,15-minute/hourly version; direction needs two hourly readings
+2024-10-04,390,195,3,2,120,15-minute/hourly version; direction needs two hourly readings
+2024-10-07,390,285,5,5,150,15-minute/hourly version; direction needs two hourly readings
+2024-10-08,390,315,2,1,210,15-minute/hourly version; direction needs two hourly readings
+2024-10-09,390,270,3,2,195,15-minute/hourly version; direction needs two hourly readings
+2024-10-18,390,225,4,3,75,15-minute/hourly version; direction needs two hourly readings
+2024-10-21,390,150,2,2,90,15-minute/hourly version; direction needs two hourly readings
+2024-10-22,390,120,4,3,45,15-minute/hourly version; direction needs two hourly readings
+2024-10-29,390,180,4,3,75,15-minute/hourly version; direction needs two hourly readings
+2024-10-30,390,135,5,4,45,15-minute/hourly version; direction needs two hourly readings
+2024-10-31,390,255,2,1,165,15-minute/hourly version; direction needs two hourly readings
+2024-11-01,390,165,4,4,90,15-minute/hourly version; direction needs two hourly readings
+2024-11-04,390,180,3,3,90,15-minute/hourly version; direction needs two hourly readings
+2024-11-08,390,300,2,1,165,15-minute/hourly version; direction needs two hourly readings
+2024-11-11,390,120,2,2,60,15-minute/hourly version; direction needs two hourly readings
+2024-11-12,390,240,2,2,210,15-minute/hourly version; direction needs two hourly readings
+2024-11-13,390,270,5,5,135,15-minute/hourly version; direction needs two hourly readings
+2024-11-14,390,210,5,5,90,15-minute/hourly version; direction needs two hourly readings
+2024-11-15,390,315,3,2,180,15-minute/hourly version; direction needs two hourly readings
+2024-11-21,390,255,4,3,105,15-minute/hourly version; direction needs two hourly readings
+2024-11-22,390,150,4,4,75,15-minute/hourly version; direction needs two hourly readings
+2024-11-25,390,165,5,4,60,15-minute/hourly version; direction needs two hourly readings
+2024-11-26,390,285,5,4,120,15-minute/hourly version; direction needs two hourly readings
+2024-11-27,390,150,3,2,60,15-minute/hourly version; direction needs two hourly readings
+2024-12-02,390,285,5,4,105,15-minute/hourly version; direction needs two hourly readings
+2024-12-03,390,120,5,5,45,15-minute/hourly version; direction needs two hourly readings
+2024-12-23,390,135,4,3,60,15-minute/hourly version; direction needs two hourly readings
+2024-12-31,390,180,5,5,60,15-minute/hourly version; direction needs two hourly readings
+2025-01-02,390,120,4,4,45,15-minute/hourly version; direction needs two hourly readings
+2025-01-03,390,255,3,3,135,15-minute/hourly version; direction needs two hourly readings
+2025-01-06,390,150,1,1,150,15-minute/hourly version; direction needs two hourly readings
+2025-01-07,390,150,3,2,105,15-minute/hourly version; direction needs two hourly readings
+2025-01-08,390,195,5,5,75,15-minute/hourly version; direction needs two hourly readings
+2025-01-14,390,150,4,3,60,15-minute/hourly version; direction needs two hourly readings
+2025-01-15,390,300,2,1,210,15-minute/hourly version; direction needs two hourly readings
+2025-01-16,390,180,5,4,60,15-minute/hourly version; direction needs two hourly readings
+2025-01-17,390,255,1,0,255,15-minute/hourly version; direction needs two hourly readings
+2025-01-21,390,240,5,4,150,15-minute/hourly version; direction needs two hourly readings
+2025-01-22,390,195,4,4,75,15-minute/hourly version; direction needs two hourly readings
+2025-01-23,390,255,4,4,105,15-minute/hourly version; direction needs two hourly readings
+2025-01-29,390,225,5,4,105,15-minute/hourly version; direction needs two hourly readings
+2025-01-30,390,165,4,4,60,15-minute/hourly version; direction needs two hourly readings
+2025-01-31,390,165,2,2,105,15-minute/hourly version; direction needs two hourly readings
+2025-02-03,390,240,4,3,135,15-minute/hourly version; direction needs two hourly readings
+2025-02-04,390,270,4,3,150,15-minute/hourly version; direction needs two hourly readings
+2025-02-05,390,285,4,3,120,15-minute/hourly version; direction needs two hourly readings
+2025-02-06,390,180,4,3,75,15-minute/hourly version; direction needs two hourly readings
+2025-02-07,390,195,4,3,120,15-minute/hourly version; direction needs two hourly readings
+2025-02-10,390,195,2,2,120,15-minute/hourly version; direction needs two hourly readings
+2025-02-14,390,180,3,2,90,15-minute/hourly version; direction needs two hourly readings
+2025-02-21,390,240,3,3,195,15-minute/hourly version; direction needs two hourly readings
+2025-02-24,390,240,3,2,120,15-minute/hourly version; direction needs two hourly readings
+2025-02-25,390,210,4,3,120,15-minute/hourly version; direction needs two hourly readings
+2025-02-26,390,135,2,2,120,15-minute/hourly version; direction needs two hourly readings
+2025-02-27,390,195,2,2,105,15-minute/hourly version; direction needs two hourly readings
+2025-02-28,390,165,5,4,60,15-minute/hourly version; direction needs two hourly readings
+2025-03-03,390,225,5,5,75,15-minute/hourly version; direction needs two hourly readings
+2025-03-04,390,165,3,3,135,15-minute/hourly version; direction needs two hourly readings
+2025-03-05,390,195,6,5,60,15-minute/hourly version; direction needs two hourly readings
+2025-03-06,390,210,4,4,90,15-minute/hourly version; direction needs two hourly readings
+2025-03-07,390,180,4,3,105,15-minute/hourly version; direction needs two hourly readings
+2025-03-10,390,375,2,1,360,15-minute/hourly version; direction needs two hourly readings
+2025-03-11,390,210,3,3,105,15-minute/hourly version; direction needs two hourly readings
+2025-03-12,390,180,5,4,75,15-minute/hourly version; direction needs two hourly readings
+2025-03-13,390,270,4,4,105,15-minute/hourly version; direction needs two hourly readings
+2025-03-14,390,240,4,4,120,15-minute/hourly version; direction needs two hourly readings
+2025-03-17,390,270,3,2,180,15-minute/hourly version; direction needs two hourly readings
+2025-03-21,390,150,5,4,60,15-minute/hourly version; direction needs two hourly readings
+2025-03-24,390,240,2,2,165,15-minute/hourly version; direction needs two hourly readings
+2025-03-25,390,120,4,4,60,15-minute/hourly version; direction needs two hourly readings
+2025-03-26,390,285,3,3,210,15-minute/hourly version; direction needs two hourly readings
+2025-03-27,390,150,3,2,60,15-minute/hourly version; direction needs two hourly readings
+2025-03-28,390,345,3,2,255,15-minute/hourly version; direction needs two hourly readings
+2025-03-31,390,165,4,3,60,15-minute/hourly version; direction needs two hourly readings
+2025-04-01,390,195,3,2,105,15-minute/hourly version; direction needs two hourly readings
+2025-04-02,390,90,2,2,60,15-minute/hourly version; direction needs two hourly readings
+2025-04-08,390,165,3,2,90,15-minute/hourly version; direction needs two hourly readings
+2025-04-09,390,225,3,3,120,15-minute/hourly version; direction needs two hourly readings
+2025-04-10,390,105,3,3,60,15-minute/hourly version; direction needs two hourly readings
+2025-04-11,390,150,4,4,45,15-minute/hourly version; direction needs two hourly readings
+2025-04-14,390,75,3,2,30,15-minute/hourly version; direction needs two hourly readings
+2025-04-15,390,165,5,4,60,15-minute/hourly version; direction needs two hourly readings
+2025-04-16,390,315,2,1,240,15-minute/hourly version; direction needs two hourly readings
+2025-04-17,390,195,6,5,60,15-minute/hourly version; direction needs two hourly readings
+2025-04-21,390,300,2,2,180,15-minute/hourly version; direction needs two hourly readings
+2025-04-22,390,285,4,3,135,15-minute/hourly version; direction needs two hourly readings
+2025-04-23,390,165,2,1,90,15-minute/hourly version; direction needs two hourly readings
+2025-04-24,390,285,4,4,135,15-minute/hourly version; direction needs two hourly readings
+2025-04-25,390,165,6,6,60,15-minute/hourly version; direction needs two hourly readings
+2025-04-28,390,45,2,1,30,15-minute/hourly version; direction needs two hourly readings
+2025-04-29,390,135,3,3,75,15-minute/hourly version; direction needs two hourly readings
+2025-04-30,390,150,4,4,60,15-minute/hourly version; direction needs two hourly readings
+2025-05-01,390,210,4,4,90,15-minute/hourly version; direction needs two hourly readings
+2025-05-02,390,225,4,3,90,15-minute/hourly version; direction needs two hourly readings
+2025-05-05,390,135,2,2,75,15-minute/hourly version; direction needs two hourly readings
+2025-05-09,390,135,5,4,45,15-minute/hourly version; direction needs two hourly readings
+2025-05-12,390,210,4,4,105,15-minute/hourly version; direction needs two hourly readings
+2025-05-13,390,300,5,4,105,15-minute/hourly version; direction needs two hourly readings
+2025-05-14,390,180,3,3,90,15-minute/hourly version; direction needs two hourly readings
+2025-05-15,390,150,3,3,120,15-minute/hourly version; direction needs two hourly readings
+2025-05-16,390,270,1,1,270,15-minute/hourly version; direction needs two hourly readings
+2025-05-19,390,195,2,2,180,15-minute/hourly version; direction needs two hourly readings
+2025-05-20,390,195,3,3,105,15-minute/hourly version; direction needs two hourly readings
+2025-05-21,390,135,5,4,60,15-minute/hourly version; direction needs two hourly readings
+2025-05-22,390,120,4,4,60,15-minute/hourly version; direction needs two hourly readings
+2025-05-23,390,105,4,4,60,15-minute/hourly version; direction needs two hourly readings
+2025-05-27,390,270,1,1,270,15-minute/hourly version; direction needs two hourly readings
+2025-05-28,390,165,4,4,60,15-minute/hourly version; direction needs two hourly readings
+2025-05-29,390,240,4,4,105,15-minute/hourly version; direction needs two hourly readings
+2025-05-30,390,165,2,2,135,15-minute/hourly version; direction needs two hourly readings
+2025-06-02,390,285,5,5,120,15-minute/hourly version; direction needs two hourly readings
+2025-06-03,390,315,2,1,270,15-minute/hourly version; direction needs two hourly readings
+2025-06-04,390,195,3,2,105,15-minute/hourly version; direction needs two hourly readings
+2025-06-05,390,135,3,2,105,15-minute/hourly version; direction needs two hourly readings
+2025-06-06,390,180,3,2,90,15-minute/hourly version; direction needs two hourly readings
+2025-06-09,390,225,3,3,180,15-minute/hourly version; direction needs two hourly readings
+2025-06-10,390,285,4,3,105,15-minute/hourly version; direction needs two hourly readings
+2025-06-11,390,135,4,3,60,15-minute/hourly version; direction needs two hourly readings
+2025-06-12,390,150,5,5,45,15-minute/hourly version; direction needs two hourly readings
+2025-06-13,390,135,3,2,105,15-minute/hourly version; direction needs two hourly readings
+2025-06-16,390,165,4,4,105,15-minute/hourly version; direction needs two hourly readings
+2025-06-20,390,180,5,4,60,15-minute/hourly version; direction needs two hourly readings
+2025-06-23,390,210,3,2,90,15-minute/hourly version; direction needs two hourly readings
+2025-06-24,390,315,3,3,180,15-minute/hourly version; direction needs two hourly readings
+2025-06-30,390,180,4,3,75,15-minute/hourly version; direction needs two hourly readings
+2025-07-01,390,90,5,5,30,15-minute/hourly version; direction needs two hourly readings
+2025-07-02,390,150,3,2,90,15-minute/hourly version; direction needs two hourly readings
+2025-07-07,390,180,5,5,90,15-minute/hourly version; direction needs two hourly readings
+2025-07-08,390,195,6,6,60,15-minute/hourly version; direction needs two hourly readings
+2025-07-14,390,270,4,4,150,15-minute/hourly version; direction needs two hourly readings
+2025-07-15,390,180,4,3,90,15-minute/hourly version; direction needs two hourly readings
+2025-07-16,390,240,4,4,105,15-minute/hourly version; direction needs two hourly readings
+2025-07-17,390,330,3,2,150,15-minute/hourly version; direction needs two hourly readings
+2025-07-18,390,150,5,4,75,15-minute/hourly version; direction needs two hourly readings
+2025-07-24,390,255,2,2,150,15-minute/hourly version; direction needs two hourly readings
+2025-07-25,390,285,3,2,225,15-minute/hourly version; direction needs two hourly readings
+2025-08-04,390,315,3,2,135,15-minute/hourly version; direction needs two hourly readings
+2025-08-05,390,90,3,3,60,15-minute/hourly version; direction needs two hourly readings
+2025-08-06,390,210,5,5,60,15-minute/hourly version; direction needs two hourly readings
+2025-08-07,390,180,3,3,135,15-minute/hourly version; direction needs two hourly readings
+2025-08-08,390,285,5,4,90,15-minute/hourly version; direction needs two hourly readings
+2025-08-11,390,180,3,3,105,15-minute/hourly version; direction needs two hourly readings
+2025-08-15,390,165,4,3,75,15-minute/hourly version; direction needs two hourly readings
+2025-08-18,390,165,6,5,60,15-minute/hourly version; direction needs two hourly readings
+2025-08-22,390,225,2,1,150,15-minute/hourly version; direction needs two hourly readings
+2025-09-03,390,135,4,4,60,15-minute/hourly version; direction needs two hourly readings
+2025-09-04,390,315,3,2,150,15-minute/hourly version; direction needs two hourly readings
+2025-09-05,390,150,5,4,60,15-minute/hourly version; direction needs two hourly readings
+2025-09-08,390,135,3,2,75,15-minute/hourly version; direction needs two hourly readings
+2025-10-14,390,90,3,2,45,15-minute/hourly version; direction needs two hourly readings
+2025-10-15,390,150,3,3,75,15-minute/hourly version; direction needs two hourly readings
+2025-10-16,390,180,4,4,75,15-minute/hourly version; direction needs two hourly readings
+2025-10-17,390,240,3,2,120,15-minute/hourly version; direction needs two hourly readings
+2025-10-20,390,255,3,2,135,15-minute/hourly version; direction needs two hourly readings
+2025-10-21,390,180,4,4,75,15-minute/hourly version; direction needs two hourly readings
+2025-10-22,390,270,2,2,150,15-minute/hourly version; direction needs two hourly readings
+2025-10-23,390,225,2,2,210,15-minute/hourly version; direction needs two hourly readings
+2025-10-24,390,285,5,4,90,15-minute/hourly version; direction needs two hourly readings
+2025-10-27,390,345,3,2,135,15-minute/hourly version; direction needs two hourly readings
+2025-10-28,390,240,3,2,195,15-minute/hourly version; direction needs two hourly readings
+2025-10-29,390,150,5,4,60,15-minute/hourly version; direction needs two hourly readings
+2025-10-30,390,255,6,5,105,15-minute/hourly version; direction needs two hourly readings
+2025-10-31,390,150,2,2,135,15-minute/hourly version; direction needs two hourly readings
+2025-11-03,390,105,4,3,60,15-minute/hourly version; direction needs two hourly readings
+2025-11-04,390,225,3,3,105,15-minute/hourly version; direction needs two hourly readings
+2025-11-05,390,225,4,3,165,15-minute/hourly version; direction needs two hourly readings
+2025-11-06,390,150,3,3,105,15-minute/hourly version; direction needs two hourly readings
+2025-11-07,390,180,2,2,165,15-minute/hourly version; direction needs two hourly readings
+2025-11-10,390,300,2,2,240,15-minute/hourly version; direction needs two hourly readings
+2025-11-11,390,270,5,4,180,15-minute/hourly version; direction needs two hourly readings
+2025-11-12,390,105,2,2,90,15-minute/hourly version; direction needs two hourly readings
+2025-11-13,390,345,3,2,180,15-minute/hourly version; direction needs two hourly readings
+2025-11-14,390,60,1,1,60,15-minute/hourly version; direction needs two hourly readings
+2025-11-17,390,270,3,2,195,15-minute/hourly version; direction needs two hourly readings
+2025-11-18,390,210,5,4,105,15-minute/hourly version; direction needs two hourly readings
+2025-11-19,390,165,4,4,75,15-minute/hourly version; direction needs two hourly readings
+2025-11-20,390,180,4,3,90,15-minute/hourly version; direction needs two hourly readings
+2025-11-21,390,225,3,3,105,15-minute/hourly version; direction needs two hourly readings
+2025-11-24,390,255,3,3,135,15-minute/hourly version; direction needs two hourly readings
+2025-11-25,390,285,4,4,180,15-minute/hourly version; direction needs two hourly readings
+2025-11-26,390,285,6,5,120,15-minute/hourly version; direction needs two hourly readings
+2025-12-04,390,105,5,4,30,15-minute/hourly version; direction needs two hourly readings
+2025-12-05,390,195,5,5,75,15-minute/hourly version; direction needs two hourly readings
+2025-12-08,390,180,2,2,120,15-minute/hourly version; direction needs two hourly readings
+2025-12-09,390,45,2,1,30,15-minute/hourly version; direction needs two hourly readings
+2025-12-10,390,225,5,4,105,15-minute/hourly version; direction needs two hourly readings
+2025-12-11,390,285,4,4,195,15-minute/hourly version; direction needs two hourly readings
+2025-12-12,390,150,4,3,75,15-minute/hourly version; direction needs two hourly readings
+2025-12-15,390,165,6,5,60,15-minute/hourly version; direction needs two hourly readings
+2025-12-19,390,255,3,2,150,15-minute/hourly version; direction needs two hourly readings
+2025-12-22,390,255,7,6,90,15-minute/hourly version; direction needs two hourly readings
+2025-12-23,390,345,1,1,345,15-minute/hourly version; direction needs two hourly readings
+2025-12-31,390,135,4,4,90,15-minute/hourly version; direction needs two hourly readings
+2026-01-02,390,105,4,4,60,15-minute/hourly version; direction needs two hourly readings
+2026-01-05,390,210,3,2,180,15-minute/hourly version; direction needs two hourly readings
+2026-01-06,390,300,3,2,195,15-minute/hourly version; direction needs two hourly readings
+2026-01-07,390,150,2,1,105,15-minute/hourly version; direction needs two hourly readings
+2026-01-08,390,180,5,4,60,15-minute/hourly version; direction needs two hourly readings
+2026-01-09,390,270,3,3,120,15-minute/hourly version; direction needs two hourly readings
+2026-01-12,390,285,1,1,285,15-minute/hourly version; direction needs two hourly readings
+2026-01-13,390,180,5,4,90,15-minute/hourly version; direction needs two hourly readings
+2026-01-14,390,225,4,3,120,15-minute/hourly version; direction needs two hourly readings
+2026-01-15,390,195,3,2,90,15-minute/hourly version; direction needs two hourly readings
+2026-01-16,390,195,5,4,75,15-minute/hourly version; direction needs two hourly readings
+2026-01-20,390,270,2,1,255,15-minute/hourly version; direction needs two hourly readings
+2026-01-21,390,165,3,3,75,15-minute/hourly version; direction needs two hourly readings
+2026-01-22,390,225,3,2,165,15-minute/hourly version; direction needs two hourly readings
+2026-01-23,390,120,3,3,60,15-minute/hourly version; direction needs two hourly readings
+2026-01-26,390,300,3,2,225,15-minute/hourly version; direction needs two hourly readings
+2026-01-27,390,225,2,2,120,15-minute/hourly version; direction needs two hourly readings
+2026-01-28,390,165,4,3,60,15-minute/hourly version; direction needs two hourly readings
+2026-01-29,390,75,3,3,45,15-minute/hourly version; direction needs two hourly readings
+2026-01-30,390,150,5,5,60,15-minute/hourly version; direction needs two hourly readings
+2026-02-02,390,300,3,2,120,15-minute/hourly version; direction needs two hourly readings
+2026-02-03,390,180,2,2,165,15-minute/hourly version; direction needs two hourly readings
+2026-02-04,390,225,2,1,135,15-minute/hourly version; direction needs two hourly readings
+2026-02-05,390,225,6,5,90,15-minute/hourly version; direction needs two hourly readings
+2026-02-06,390,345,3,3,270,15-minute/hourly version; direction needs two hourly readings
+2026-02-09,390,285,2,2,180,15-minute/hourly version; direction needs two hourly readings
+2026-02-10,390,180,4,3,90,15-minute/hourly version; direction needs two hourly readings
+2026-02-11,390,180,4,4,60,15-minute/hourly version; direction needs two hourly readings
+2026-02-12,390,135,4,3,60,15-minute/hourly version; direction needs two hourly readings
+2026-02-13,390,75,3,3,45,15-minute/hourly version; direction needs two hourly readings
+2026-02-17,390,180,4,4,60,15-minute/hourly version; direction needs two hourly readings
+2026-02-18,390,180,3,3,135,15-minute/hourly version; direction needs two hourly readings
+2026-02-19,390,180,3,3,60,15-minute/hourly version; direction needs two hourly readings
+2026-02-20,390,150,5,4,90,15-minute/hourly version; direction needs two hourly readings
+2026-02-23,390,165,4,3,90,15-minute/hourly version; direction needs two hourly readings
+2026-02-24,390,195,6,5,90,15-minute/hourly version; direction needs two hourly readings
+2026-02-25,390,330,3,2,165,15-minute/hourly version; direction needs two hourly readings
+2026-02-26,390,135,2,2,105,15-minute/hourly version; direction needs two hourly readings
+2026-02-27,390,240,3,2,150,15-minute/hourly version; direction needs two hourly readings
+2026-03-02,390,180,4,3,105,15-minute/hourly version; direction needs two hourly readings
+2026-03-03,390,150,3,2,105,15-minute/hourly version; direction needs two hourly readings
+2026-03-04,390,240,5,5,105,15-minute/hourly version; direction needs two hourly readings
+2026-03-05,390,210,4,4,105,15-minute/hourly version; direction needs two hourly readings
+2026-03-06,390,180,5,4,60,15-minute/hourly version; direction needs two hourly readings
+2026-03-09,390,195,3,2,90,15-minute/hourly version; direction needs two hourly readings
+2026-03-10,390,225,5,4,105,15-minute/hourly version; direction needs two hourly readings
+2026-03-11,390,180,4,4,75,15-minute/hourly version; direction needs two hourly readings
+2026-03-12,390,270,3,3,90,15-minute/hourly version; direction needs two hourly readings
+2026-03-13,390,120,5,5,45,15-minute/hourly version; direction needs two hourly readings
+2026-03-20,390,270,2,2,195,15-minute/hourly version; direction needs two hourly readings
+2026-03-23,390,225,3,2,120,15-minute/hourly version; direction needs two hourly readings
+2026-03-24,390,210,4,4,75,15-minute/hourly version; direction needs two hourly readings
+2026-03-25,390,150,3,2,105,15-minute/hourly version; direction needs two hourly readings
+2026-03-26,390,300,2,2,255,15-minute/hourly version; direction needs two hourly readings
+2026-03-27,390,315,2,1,225,15-minute/hourly version; direction needs two hourly readings
+2026-03-30,390,255,5,4,180,15-minute/hourly version; direction needs two hourly readings
+2026-03-31,390,270,5,5,90,15-minute/hourly version; direction needs two hourly readings
+2026-04-01,390,255,3,3,180,15-minute/hourly version; direction needs two hourly readings
+2026-04-02,390,105,3,3,60,15-minute/hourly version; direction needs two hourly readings
+2026-04-06,390,240,4,4,75,15-minute/hourly version; direction needs two hourly readings
+2026-04-07,390,195,3,3,135,15-minute/hourly version; direction needs two hourly readings
+2026-04-08,390,150,3,3,120,15-minute/hourly version; direction needs two hourly readings
+2026-04-09,390,255,3,3,180,15-minute/hourly version; direction needs two hourly readings
+2026-04-16,390,195,4,3,105,15-minute/hourly version; direction needs two hourly readings
+2026-04-17,390,240,4,3,135,15-minute/hourly version; direction needs two hourly readings
+2026-04-20,390,270,3,2,165,15-minute/hourly version; direction needs two hourly readings
+2026-04-21,390,195,4,4,105,15-minute/hourly version; direction needs two hourly readings
+2026-04-22,390,210,4,3,105,15-minute/hourly version; direction needs two hourly readings
+2026-04-23,390,210,2,2,135,15-minute/hourly version; direction needs two hourly readings
+2026-04-24,390,210,3,3,120,15-minute/hourly version; direction needs two hourly readings
+2026-04-27,390,270,3,3,165,15-minute/hourly version; direction needs two hourly readings
+2026-04-28,390,165,3,3,120,15-minute/hourly version; direction needs two hourly readings
+2026-05-04,390,225,3,2,120,15-minute/hourly version; direction needs two hourly readings
+2026-05-05,390,345,3,2,150,15-minute/hourly version; direction needs two hourly readings
+2026-05-06,390,285,4,4,135,15-minute/hourly version; direction needs two hourly readings
+2026-05-07,390,135,3,3,75,15-minute/hourly version; direction needs two hourly readings
+2026-05-08,390,225,5,5,75,15-minute/hourly version; direction needs two hourly readings
+2026-05-11,390,240,2,2,180,15-minute/hourly version; direction needs two hourly readings
+2026-05-12,390,180,2,2,150,15-minute/hourly version; direction needs two hourly readings
+2026-05-13,390,180,3,3,150,15-minute/hourly version; direction needs two hourly readings
+2026-05-14,390,255,3,3,135,15-minute/hourly version; direction needs two hourly readings
+2026-05-15,390,195,5,5,90,15-minute/hourly version; direction needs two hourly readings
+2026-05-18,390,135,5,5,60,15-minute/hourly version; direction needs two hourly readings
+2026-05-19,390,240,4,3,105,15-minute/hourly version; direction needs two hourly readings
+2026-05-20,390,240,3,3,120,15-minute/hourly version; direction needs two hourly readings
+2026-05-21,390,90,4,4,30,15-minute/hourly version; direction needs two hourly readings
+2026-05-22,390,180,3,2,75,15-minute/hourly version; direction needs two hourly readings
+2026-05-28,390,195,5,5,90,15-minute/hourly version; direction needs two hourly readings
+2026-05-29,390,210,4,4,75,15-minute/hourly version; direction needs two hourly readings
+2026-06-01,390,60,4,4,15,15-minute/hourly version; direction needs two hourly readings
+2026-06-02,390,195,3,3,120,15-minute/hourly version; direction needs two hourly readings
+2026-06-03,390,270,3,2,135,15-minute/hourly version; direction needs two hourly readings
+2026-06-04,390,240,3,3,180,15-minute/hourly version; direction needs two hourly readings
+2026-06-05,390,345,3,2,150,15-minute/hourly version; direction needs two hourly readings
+2026-06-08,390,180,5,4,60,15-minute/hourly version; direction needs two hourly readings
+2026-06-09,390,90,3,2,45,15-minute/hourly version; direction needs two hourly readings
+2026-06-10,390,270,3,3,195,15-minute/hourly version; direction needs two hourly readings
+2026-06-11,390,150,6,5,60,15-minute/hourly version; direction needs two hourly readings
+2026-06-12,390,180,4,4,75,15-minute/hourly version; direction needs two hourly readings
+2026-06-15,390,210,1,0,210,15-minute/hourly version; direction needs two hourly readings
+2026-06-22,390,180,6,6,60,15-minute/hourly version; direction needs two hourly readings
+2026-06-23,390,225,4,3,120,15-minute/hourly version; direction needs two hourly readings
+2026-06-24,390,195,3,3,120,15-minute/hourly version; direction needs two hourly readings
+2026-06-25,390,210,5,4,75,15-minute/hourly version; direction needs two hourly readings
+2026-06-26,390,120,5,4,45,15-minute/hourly version; direction needs two hourly readings
+2026-06-29,390,285,3,3,255,15-minute/hourly version; direction needs two hourly readings
+2026-06-30,390,360,3,2,165,15-minute/hourly version; direction needs two hourly readings
+2026-07-01,390,165,2,2,150,15-minute/hourly version; direction needs two hourly readings
+2026-07-02,390,105,4,3,45,15-minute/hourly version; direction needs two hourly readings
+2026-07-06,390,300,3,2,180,15-minute/hourly version; direction needs two hourly readings
+2026-07-07,390,120,2,2,75,15-minute/hourly version; direction needs two hourly readings
+2026-07-08,390,180,5,4,120,15-minute/hourly version; direction needs two hourly readings
+2026-07-09,390,285,3,3,210,15-minute/hourly version; direction needs two hourly readings
+2026-07-10,390,300,5,4,105,15-minute/hourly version; direction needs two hourly readings
+2026-07-13,390,195,4,3,75,15-minute/hourly version; direction needs two hourly readings
+2026-07-14,390,210,5,5,105,15-minute/hourly version; direction needs two hourly readings
+2026-07-15,390,165,3,2,75,15-minute/hourly version; direction needs two hourly readings
+2026-07-16,390,270,3,3,135,15-minute/hourly version; direction needs two hourly readings
+2026-07-17,390,210,4,3,120,15-minute/hourly version; direction needs two hourly readings
+2026-07-20,390,180,4,3,75,15-minute/hourly version; direction needs two hourly readings
+2026-07-21,390,255,3,2,210,15-minute/hourly version; direction needs two hourly readings
+2026-07-22,390,105,2,2,75,15-minute/hourly version; direction needs two hourly readings
+2026-07-23,390,270,5,4,120,15-minute/hourly version; direction needs two hourly readings
+2026-07-24,390,60,4,4,15,15-minute/hourly version; direction needs two hourly readings
+2026-07-27,390,120,3,3,60,15-minute/hourly version; direction needs two hourly readings
+2026-07-28,390,180,5,4,75,15-minute/hourly version; direction needs two hourly readings
+2026-07-29,390,150,2,2,120,15-minute/hourly version; direction needs two hourly readings
+2026-08-05,390,210,6,5,75,15-minute/hourly version; direction needs two hourly readings
+2026-08-06,390,210,6,5,105,15-minute/hourly version; direction needs two hourly readings
+2026-08-07,390,195,5,4,105,15-minute/hourly version; direction needs two hourly readings
+2026-08-10,390,180,4,4,75,15-minute/hourly version; direction needs two hourly readings
+2026-08-11,390,150,4,3,60,15-minute/hourly version; direction needs two hourly readings
+2026-08-17,390,300,4,4,150,15-minute/hourly version; direction needs two hourly readings
+2026-08-21,390,165,2,2,105,15-minute/hourly version; direction needs two hourly readings
+2026-08-24,390,210,4,4,90,15-minute/hourly version; direction needs two hourly readings
+2026-08-25,390,210,3,3,90,15-minute/hourly version; direction needs two hourly readings
+2026-08-26,390,165,4,4,60,15-minute/hourly version; direction needs two hourly readings
+2026-08-27,390,240,4,4,120,15-minute/hourly version; direction needs two hourly readings
+2026-08-28,390,120,4,4,60,15-minute/hourly version; direction needs two hourly readings
+2024-09-05,390,173,4,4,100,Every-minute version; direction needs two hourly readings
+2024-09-06,390,268,10,10,195,Every-minute version; direction needs two hourly readings
+2024-09-09,390,216,5,4,121,Every-minute version; direction needs two hourly readings
+2024-09-10,390,121,7,6,67,Every-minute version; direction needs two hourly readings
+2024-09-11,390,51,4,3,35,Every-minute version; direction needs two hourly readings
+2024-09-12,390,221,17,17,127,Every-minute version; direction needs two hourly readings
+2024-09-13,390,253,12,12,104,Every-minute version; direction needs two hourly readings
+2024-09-24,390,210,20,19,60,Every-minute version; direction needs two hourly readings
+2024-10-01,390,137,9,9,41,Every-minute version; direction needs two hourly readings
+2024-10-02,390,220,12,12,80,Every-minute version; direction needs two hourly readings
+2024-10-03,390,192,18,17,66,Every-minute version; direction needs two hourly readings
+2024-10-04,390,216,12,11,84,Every-minute version; direction needs two hourly readings
+2024-10-07,390,262,19,19,151,Every-minute version; direction needs two hourly readings
+2024-10-08,390,291,10,9,118,Every-minute version; direction needs two hourly readings
+2024-10-09,390,288,12,11,176,Every-minute version; direction needs two hourly readings
+2024-10-18,390,228,15,14,77,Every-minute version; direction needs two hourly readings
+2024-10-21,390,162,6,6,91,Every-minute version; direction needs two hourly readings
+2024-10-22,390,103,10,9,29,Every-minute version; direction needs two hourly readings
+2024-10-29,390,122,15,14,70,Every-minute version; direction needs two hourly readings
+2024-10-30,390,210,10,10,118,Every-minute version; direction needs two hourly readings
+2024-10-31,390,251,10,9,152,Every-minute version; direction needs two hourly readings
+2024-11-01,390,91,14,14,32,Every-minute version; direction needs two hourly readings
+2024-11-04,390,165,9,9,79,Every-minute version; direction needs two hourly readings
+2024-11-08,390,301,3,2,146,Every-minute version; direction needs two hourly readings
+2024-11-11,390,118,18,18,47,Every-minute version; direction needs two hourly readings
+2024-11-12,390,135,5,5,46,Every-minute version; direction needs two hourly readings
+2024-11-13,390,270,11,11,132,Every-minute version; direction needs two hourly readings
+2024-11-14,390,229,15,15,75,Every-minute version; direction needs two hourly readings
+2024-11-15,390,308,7,6,113,Every-minute version; direction needs two hourly readings
+2024-11-21,390,241,17,16,93,Every-minute version; direction needs two hourly readings
+2024-11-22,390,186,17,17,49,Every-minute version; direction needs two hourly readings
+2024-11-25,390,140,10,9,48,Every-minute version; direction needs two hourly readings
+2024-11-26,390,270,20,19,76,Every-minute version; direction needs two hourly readings
+2024-11-27,390,152,10,9,51,Every-minute version; direction needs two hourly readings
+2024-12-02,390,259,25,24,61,Every-minute version; direction needs two hourly readings
+2024-12-03,390,127,18,18,37,Every-minute version; direction needs two hourly readings
+2024-12-23,390,126,7,7,60,Every-minute version; direction needs two hourly readings
+2024-12-31,390,112,21,21,30,Every-minute version; direction needs two hourly readings
+2025-01-02,390,139,12,12,45,Every-minute version; direction needs two hourly readings
+2025-01-03,390,216,13,13,107,Every-minute version; direction needs two hourly readings
+2025-01-06,390,161,5,5,154,Every-minute version; direction needs two hourly readings
+2025-01-07,390,219,12,11,113,Every-minute version; direction needs two hourly readings
+2025-01-08,390,197,12,12,77,Every-minute version; direction needs two hourly readings
+2025-01-14,390,111,6,5,70,Every-minute version; direction needs two hourly readings
+2025-01-15,390,269,10,9,187,Every-minute version; direction needs two hourly readings
+2025-01-16,390,189,18,17,48,Every-minute version; direction needs two hourly readings
+2025-01-17,390,236,12,11,91,Every-minute version; direction needs two hourly readings
+2025-01-21,390,259,13,12,150,Every-minute version; direction needs two hourly readings
+2025-01-22,390,203,13,13,75,Every-minute version; direction needs two hourly readings
+2025-01-23,390,212,16,16,69,Every-minute version; direction needs two hourly readings
+2025-01-29,390,219,20,19,74,Every-minute version; direction needs two hourly readings
+2025-01-30,390,183,17,16,62,Every-minute version; direction needs two hourly readings
+2025-01-31,390,148,7,7,91,Every-minute version; direction needs two hourly readings
+2025-02-03,390,206,13,12,101,Every-minute version; direction needs two hourly readings
+2025-02-04,390,264,7,6,130,Every-minute version; direction needs two hourly readings
+2025-02-05,390,272,19,19,110,Every-minute version; direction needs two hourly readings
+2025-02-06,390,161,13,12,61,Every-minute version; direction needs two hourly readings
+2025-02-07,390,177,10,9,98,Every-minute version; direction needs two hourly readings
+2025-02-10,390,201,12,12,112,Every-minute version; direction needs two hourly readings
+2025-02-14,390,174,13,12,84,Every-minute version; direction needs two hourly readings
+2025-02-21,390,237,11,11,195,Every-minute version; direction needs two hourly readings
+2025-02-24,390,232,8,7,111,Every-minute version; direction needs two hourly readings
+2025-02-25,390,214,9,8,99,Every-minute version; direction needs two hourly readings
+2025-02-26,390,186,14,14,102,Every-minute version; direction needs two hourly readings
+2025-02-27,390,208,5,5,119,Every-minute version; direction needs two hourly readings
+2025-02-28,390,158,12,11,72,Every-minute version; direction needs two hourly readings
+2025-03-03,390,179,13,13,70,Every-minute version; direction needs two hourly readings
+2025-03-04,390,159,8,8,105,Every-minute version; direction needs two hourly readings
+2025-03-05,390,142,19,18,60,Every-minute version; direction needs two hourly readings
+2025-03-06,390,218,13,13,99,Every-minute version; direction needs two hourly readings
+2025-03-07,390,168,8,7,116,Every-minute version; direction needs two hourly readings
+2025-03-10,390,315,9,8,121,Every-minute version; direction needs two hourly readings
+2025-03-11,390,230,8,7,106,Every-minute version; direction needs two hourly readings
+2025-03-12,390,182,13,12,84,Every-minute version; direction needs two hourly readings
+2025-03-13,390,282,12,12,90,Every-minute version; direction needs two hourly readings
+2025-03-14,390,274,19,19,80,Every-minute version; direction needs two hourly readings
+2025-03-17,390,255,12,11,123,Every-minute version; direction needs two hourly readings
+2025-03-21,390,167,20,19,48,Every-minute version; direction needs two hourly readings
+2025-03-24,390,246,9,9,133,Every-minute version; direction needs two hourly readings
+2025-03-25,390,142,14,14,61,Every-minute version; direction needs two hourly readings
+2025-03-26,390,228,11,10,139,Every-minute version; direction needs two hourly readings
+2025-03-27,390,181,12,11,68,Every-minute version; direction needs two hourly readings
+2025-03-28,390,294,18,17,110,Every-minute version; direction needs two hourly readings
+2025-03-31,390,152,15,14,32,Every-minute version; direction needs two hourly readings
+2025-04-01,390,195,13,12,96,Every-minute version; direction needs two hourly readings
+2025-04-02,390,83,5,5,46,Every-minute version; direction needs two hourly readings
+2025-04-08,390,158,8,7,83,Every-minute version; direction needs two hourly readings
+2025-04-09,390,224,13,13,118,Every-minute version; direction needs two hourly readings
+2025-04-10,390,59,9,9,31,Every-minute version; direction needs two hourly readings
+2025-04-11,390,140,16,16,53,Every-minute version; direction needs two hourly readings
+2025-04-14,390,178,20,19,71,Every-minute version; direction needs two hourly readings
+2025-04-15,390,173,28,27,57,Every-minute version; direction needs two hourly readings
+2025-04-16,390,300,10,9,147,Every-minute version; direction needs two hourly readings
+2025-04-17,390,197,13,12,66,Every-minute version; direction needs two hourly readings
+2025-04-21,390,293,8,8,183,Every-minute version; direction needs two hourly readings
+2025-04-22,390,283,9,8,135,Every-minute version; direction needs two hourly readings
+2025-04-23,390,157,14,13,72,Every-minute version; direction needs two hourly readings
+2025-04-24,390,231,17,17,62,Every-minute version; direction needs two hourly readings
+2025-04-25,390,175,17,16,50,Every-minute version; direction needs two hourly readings
+2025-04-28,390,47,7,6,28,Every-minute version; direction needs two hourly readings
+2025-04-29,390,133,21,21,71,Every-minute version; direction needs two hourly readings
+2025-04-30,390,136,10,10,31,Every-minute version; direction needs two hourly readings
+2025-05-01,390,237,11,11,87,Every-minute version; direction needs two hourly readings
+2025-05-02,390,226,11,10,87,Every-minute version; direction needs two hourly readings
+2025-05-05,390,106,17,17,62,Every-minute version; direction needs two hourly readings
+2025-05-09,390,103,16,15,29,Every-minute version; direction needs two hourly readings
+2025-05-12,390,204,14,14,107,Every-minute version; direction needs two hourly readings
+2025-05-13,390,296,12,11,97,Every-minute version; direction needs two hourly readings
+2025-05-14,390,176,20,20,61,Every-minute version; direction needs two hourly readings
+2025-05-15,390,107,16,16,56,Every-minute version; direction needs two hourly readings
+2025-05-16,390,267,14,14,167,Every-minute version; direction needs two hourly readings
+2025-05-19,390,152,13,13,74,Every-minute version; direction needs two hourly readings
+2025-05-20,390,193,8,8,109,Every-minute version; direction needs two hourly readings
+2025-05-21,390,209,11,10,90,Every-minute version; direction needs two hourly readings
+2025-05-22,390,101,14,14,39,Every-minute version; direction needs two hourly readings
+2025-05-23,390,100,13,13,44,Every-minute version; direction needs two hourly readings
+2025-05-27,390,277,8,8,202,Every-minute version; direction needs two hourly readings
+2025-05-28,390,190,14,14,71,Every-minute version; direction needs two hourly readings
+2025-05-29,390,214,17,16,62,Every-minute version; direction needs two hourly readings
+2025-05-30,390,164,5,5,76,Every-minute version; direction needs two hourly readings
+2025-06-02,390,313,10,10,105,Every-minute version; direction needs two hourly readings
+2025-06-03,390,308,8,7,261,Every-minute version; direction needs two hourly readings
+2025-06-04,390,200,12,11,87,Every-minute version; direction needs two hourly readings
+2025-06-05,390,130,5,4,95,Every-minute version; direction needs two hourly readings
+2025-06-06,390,191,10,9,92,Every-minute version; direction needs two hourly readings
+2025-06-09,390,220,15,15,113,Every-minute version; direction needs two hourly readings
+2025-06-10,390,257,9,8,92,Every-minute version; direction needs two hourly readings
+2025-06-11,390,128,12,11,51,Every-minute version; direction needs two hourly readings
+2025-06-12,390,195,18,18,44,Every-minute version; direction needs two hourly readings
+2025-06-13,390,145,12,11,109,Every-minute version; direction needs two hourly readings
+2025-06-16,390,154,8,8,108,Every-minute version; direction needs two hourly readings
+2025-06-20,390,176,10,9,56,Every-minute version; direction needs two hourly readings
+2025-06-23,390,224,14,13,83,Every-minute version; direction needs two hourly readings
+2025-06-24,390,324,13,13,159,Every-minute version; direction needs two hourly readings
+2025-06-30,390,147,12,11,60,Every-minute version; direction needs two hourly readings
+2025-07-01,390,118,14,14,41,Every-minute version; direction needs two hourly readings
+2025-07-02,390,171,15,15,72,Every-minute version; direction needs two hourly readings
+2025-07-07,390,132,17,17,45,Every-minute version; direction needs two hourly readings
+2025-07-08,390,202,18,18,58,Every-minute version; direction needs two hourly readings
+2025-07-14,390,278,11,11,89,Every-minute version; direction needs two hourly readings
+2025-07-15,390,147,10,9,67,Every-minute version; direction needs two hourly readings
+2025-07-16,390,157,12,12,68,Every-minute version; direction needs two hourly readings
+2025-07-17,390,321,10,9,142,Every-minute version; direction needs two hourly readings
+2025-07-18,390,149,16,15,56,Every-minute version; direction needs two hourly readings
+2025-07-24,390,249,10,10,72,Every-minute version; direction needs two hourly readings
+2025-07-25,390,194,14,13,143,Every-minute version; direction needs two hourly readings
+2025-08-04,390,281,14,13,115,Every-minute version; direction needs two hourly readings
+2025-08-05,390,107,15,15,62,Every-minute version; direction needs two hourly readings
+2025-08-06,390,167,24,24,64,Every-minute version; direction needs two hourly readings
+2025-08-07,390,141,14,14,41,Every-minute version; direction needs two hourly readings
+2025-08-08,390,247,8,7,89,Every-minute version; direction needs two hourly readings
+2025-08-11,390,99,16,16,66,Every-minute version; direction needs two hourly readings
+2025-08-15,390,115,20,19,65,Every-minute version; direction needs two hourly readings
+2025-08-18,390,163,21,20,35,Every-minute version; direction needs two hourly readings
+2025-08-22,390,206,4,3,139,Every-minute version; direction needs two hourly readings
+2025-09-03,390,142,25,25,55,Every-minute version; direction needs two hourly readings
+2025-09-04,390,344,11,10,164,Every-minute version; direction needs two hourly readings
+2025-09-05,390,151,15,14,51,Every-minute version; direction needs two hourly readings
+2025-09-08,390,141,15,14,72,Every-minute version; direction needs two hourly readings
+2025-10-14,390,78,15,14,31,Every-minute version; direction needs two hourly readings
+2025-10-15,390,163,8,8,72,Every-minute version; direction needs two hourly readings
+2025-10-16,390,159,10,10,67,Every-minute version; direction needs two hourly readings
+2025-10-17,390,214,22,21,97,Every-minute version; direction needs two hourly readings
+2025-10-20,390,254,11,10,132,Every-minute version; direction needs two hourly readings
+2025-10-21,390,203,13,13,74,Every-minute version; direction needs two hourly readings
+2025-10-22,390,191,5,4,96,Every-minute version; direction needs two hourly readings
+2025-10-23,390,173,6,6,136,Every-minute version; direction needs two hourly readings
+2025-10-24,390,245,18,17,68,Every-minute version; direction needs two hourly readings
+2025-10-27,390,318,13,12,124,Every-minute version; direction needs two hourly readings
+2025-10-28,390,238,12,11,177,Every-minute version; direction needs two hourly readings
+2025-10-29,390,128,14,13,53,Every-minute version; direction needs two hourly readings
+2025-10-30,390,255,20,19,106,Every-minute version; direction needs two hourly readings
+2025-10-31,390,165,3,3,111,Every-minute version; direction needs two hourly readings
+2025-11-03,390,165,12,11,58,Every-minute version; direction needs two hourly readings
+2025-11-04,390,238,12,12,114,Every-minute version; direction needs two hourly readings
+2025-11-05,390,217,17,16,133,Every-minute version; direction needs two hourly readings
+2025-11-06,390,88,7,7,36,Every-minute version; direction needs two hourly readings
+2025-11-07,390,172,7,7,94,Every-minute version; direction needs two hourly readings
+2025-11-10,390,306,3,3,236,Every-minute version; direction needs two hourly readings
+2025-11-11,390,159,19,18,23,Every-minute version; direction needs two hourly readings
+2025-11-12,390,134,11,11,66,Every-minute version; direction needs two hourly readings
+2025-11-13,390,324,17,16,109,Every-minute version; direction needs two hourly readings
+2025-11-14,390,141,5,5,70,Every-minute version; direction needs two hourly readings
+2025-11-17,390,250,4,3,185,Every-minute version; direction needs two hourly readings
+2025-11-18,390,213,15,14,85,Every-minute version; direction needs two hourly readings
+2025-11-19,390,144,8,8,72,Every-minute version; direction needs two hourly readings
+2025-11-20,390,188,8,7,79,Every-minute version; direction needs two hourly readings
+2025-11-21,390,198,12,12,49,Every-minute version; direction needs two hourly readings
+2025-11-24,390,285,15,15,127,Every-minute version; direction needs two hourly readings
+2025-11-25,390,278,11,11,109,Every-minute version; direction needs two hourly readings
+2025-11-26,390,279,21,20,95,Every-minute version; direction needs two hourly readings
+2025-12-04,390,214,25,24,66,Every-minute version; direction needs two hourly readings
+2025-12-05,390,180,15,15,86,Every-minute version; direction needs two hourly readings
+2025-12-08,390,132,10,10,50,Every-minute version; direction needs two hourly readings
+2025-12-09,390,111,11,10,94,Every-minute version; direction needs two hourly readings
+2025-12-10,390,189,12,11,58,Every-minute version; direction needs two hourly readings
+2025-12-11,390,284,9,9,86,Every-minute version; direction needs two hourly readings
+2025-12-12,390,116,9,9,71,Every-minute version; direction needs two hourly readings
+2025-12-15,390,147,22,21,32,Every-minute version; direction needs two hourly readings
+2025-12-19,390,262,16,15,75,Every-minute version; direction needs two hourly readings
+2025-12-22,390,258,22,21,76,Every-minute version; direction needs two hourly readings
+2025-12-23,390,367,10,10,147,Every-minute version; direction needs two hourly readings
+2025-12-31,390,247,7,7,129,Every-minute version; direction needs two hourly readings
+2026-01-02,390,129,17,17,57,Every-minute version; direction needs two hourly readings
+2026-01-05,390,215,14,13,124,Every-minute version; direction needs two hourly readings
+2026-01-06,390,282,7,7,105,Every-minute version; direction needs two hourly readings
+2026-01-07,390,149,9,8,73,Every-minute version; direction needs two hourly readings
+2026-01-08,390,171,18,17,36,Every-minute version; direction needs two hourly readings
+2026-01-09,390,277,6,6,83,Every-minute version; direction needs two hourly readings
+2026-01-12,390,238,10,10,138,Every-minute version; direction needs two hourly readings
+2026-01-13,390,178,14,13,69,Every-minute version; direction needs two hourly readings
+2026-01-14,390,200,14,13,112,Every-minute version; direction needs two hourly readings
+2026-01-15,390,167,17,16,39,Every-minute version; direction needs two hourly readings
+2026-01-16,390,213,15,14,61,Every-minute version; direction needs two hourly readings
+2026-01-20,390,270,13,12,204,Every-minute version; direction needs two hourly readings
+2026-01-21,390,165,8,8,73,Every-minute version; direction needs two hourly readings
+2026-01-22,390,202,8,7,165,Every-minute version; direction needs two hourly readings
+2026-01-23,390,146,8,8,73,Every-minute version; direction needs two hourly readings
+2026-01-26,390,282,18,17,107,Every-minute version; direction needs two hourly readings
+2026-01-27,390,251,7,7,131,Every-minute version; direction needs two hourly readings
+2026-01-28,390,150,20,19,45,Every-minute version; direction needs two hourly readings
+2026-01-29,390,73,6,6,33,Every-minute version; direction needs two hourly readings
+2026-01-30,390,91,14,14,47,Every-minute version; direction needs two hourly readings
+2026-02-02,390,270,17,16,96,Every-minute version; direction needs two hourly readings
+2026-02-03,390,163,14,14,141,Every-minute version; direction needs two hourly readings
+2026-02-04,390,236,10,9,144,Every-minute version; direction needs two hourly readings
+2026-02-05,390,207,16,15,80,Every-minute version; direction needs two hourly readings
+2026-02-06,390,358,8,8,183,Every-minute version; direction needs two hourly readings
+2026-02-09,390,271,7,7,171,Every-minute version; direction needs two hourly readings
+2026-02-10,390,180,11,10,65,Every-minute version; direction needs two hourly readings
+2026-02-11,390,260,13,13,70,Every-minute version; direction needs two hourly readings
+2026-02-12,390,146,10,9,57,Every-minute version; direction needs two hourly readings
+2026-02-13,390,102,23,23,19,Every-minute version; direction needs two hourly readings
+2026-02-17,390,138,7,7,63,Every-minute version; direction needs two hourly readings
+2026-02-18,390,182,10,10,114,Every-minute version; direction needs two hourly readings
+2026-02-19,390,213,12,12,72,Every-minute version; direction needs two hourly readings
+2026-02-20,390,197,12,11,91,Every-minute version; direction needs two hourly readings
+2026-02-23,390,153,7,6,93,Every-minute version; direction needs two hourly readings
+2026-02-24,390,112,10,9,25,Every-minute version; direction needs two hourly readings
+2026-02-25,390,330,10,9,139,Every-minute version; direction needs two hourly readings
+2026-02-26,390,149,7,7,95,Every-minute version; direction needs two hourly readings
+2026-02-27,390,180,19,18,69,Every-minute version; direction needs two hourly readings
+2026-03-02,390,149,11,10,54,Every-minute version; direction needs two hourly readings
+2026-03-03,390,144,14,13,76,Every-minute version; direction needs two hourly readings
+2026-03-04,390,250,17,17,72,Every-minute version; direction needs two hourly readings
+2026-03-05,390,225,17,17,82,Every-minute version; direction needs two hourly readings
+2026-03-06,390,185,15,14,49,Every-minute version; direction needs two hourly readings
+2026-03-09,390,185,7,6,101,Every-minute version; direction needs two hourly readings
+2026-03-10,390,198,18,17,88,Every-minute version; direction needs two hourly readings
+2026-03-11,390,187,10,10,60,Every-minute version; direction needs two hourly readings
+2026-03-12,390,249,20,20,35,Every-minute version; direction needs two hourly readings
+2026-03-13,390,150,15,15,49,Every-minute version; direction needs two hourly readings
+2026-03-20,390,303,20,20,166,Every-minute version; direction needs two hourly readings
+2026-03-23,390,196,9,9,116,Every-minute version; direction needs two hourly readings
+2026-03-24,390,241,13,13,84,Every-minute version; direction needs two hourly readings
+2026-03-25,390,227,11,10,89,Every-minute version; direction needs two hourly readings
+2026-03-26,390,302,4,4,175,Every-minute version; direction needs two hourly readings
+2026-03-27,390,330,7,6,217,Every-minute version; direction needs two hourly readings
+2026-03-30,390,182,8,7,77,Every-minute version; direction needs two hourly readings
+2026-03-31,390,291,14,14,83,Every-minute version; direction needs two hourly readings
+2026-04-01,390,274,6,6,135,Every-minute version; direction needs two hourly readings
+2026-04-02,390,198,16,16,60,Every-minute version; direction needs two hourly readings
+2026-04-06,390,240,16,16,72,Every-minute version; direction needs two hourly readings
+2026-04-07,390,181,9,8,76,Every-minute version; direction needs two hourly readings
+2026-04-08,390,152,6,6,118,Every-minute version; direction needs two hourly readings
+2026-04-09,390,250,9,9,109,Every-minute version; direction needs two hourly readings
+2026-04-16,390,195,13,12,102,Every-minute version; direction needs two hourly readings
+2026-04-17,390,240,14,13,111,Every-minute version; direction needs two hourly readings
+2026-04-20,390,243,14,13,76,Every-minute version; direction needs two hourly readings
+2026-04-21,390,150,8,8,54,Every-minute version; direction needs two hourly readings
+2026-04-22,390,221,16,15,84,Every-minute version; direction needs two hourly readings
+2026-04-23,390,196,12,11,104,Every-minute version; direction needs two hourly readings
+2026-04-24,390,249,18,18,126,Every-minute version; direction needs two hourly readings
+2026-04-27,390,266,13,13,75,Every-minute version; direction needs two hourly readings
+2026-04-28,390,150,12,12,68,Every-minute version; direction needs two hourly readings
+2026-05-04,390,194,8,7,114,Every-minute version; direction needs two hourly readings
+2026-05-05,390,342,14,13,143,Every-minute version; direction needs two hourly readings
+2026-05-06,390,273,14,14,136,Every-minute version; direction needs two hourly readings
+2026-05-07,390,138,14,14,54,Every-minute version; direction needs two hourly readings
+2026-05-08,390,243,18,18,86,Every-minute version; direction needs two hourly readings
+2026-05-11,390,246,6,6,82,Every-minute version; direction needs two hourly readings
+2026-05-12,390,191,4,4,159,Every-minute version; direction needs two hourly readings
+2026-05-13,390,179,7,7,89,Every-minute version; direction needs two hourly readings
+2026-05-14,390,271,8,8,145,Every-minute version; direction needs two hourly readings
+2026-05-15,390,189,13,13,95,Every-minute version; direction needs two hourly readings
+2026-05-18,390,191,16,16,60,Every-minute version; direction needs two hourly readings
+2026-05-19,390,228,8,7,104,Every-minute version; direction needs two hourly readings
+2026-05-20,390,266,9,9,119,Every-minute version; direction needs two hourly readings
+2026-05-21,390,116,16,16,33,Every-minute version; direction needs two hourly readings
+2026-05-22,390,170,11,10,74,Every-minute version; direction needs two hourly readings
+2026-05-28,390,201,10,10,38,Every-minute version; direction needs two hourly readings
+2026-05-29,390,235,11,11,65,Every-minute version; direction needs two hourly readings
+2026-06-01,390,97,19,19,41,Every-minute version; direction needs two hourly readings
+2026-06-02,390,227,16,16,132,Every-minute version; direction needs two hourly readings
+2026-06-03,390,272,11,10,140,Every-minute version; direction needs two hourly readings
+2026-06-04,390,160,5,5,118,Every-minute version; direction needs two hourly readings
+2026-06-05,390,319,8,8,148,Every-minute version; direction needs two hourly readings
+2026-06-08,390,141,12,11,45,Every-minute version; direction needs two hourly readings
+2026-06-09,390,91,5,4,41,Every-minute version; direction needs two hourly readings
+2026-06-10,390,251,17,17,83,Every-minute version; direction needs two hourly readings
+2026-06-11,390,140,19,18,34,Every-minute version; direction needs two hourly readings
+2026-06-12,390,219,14,14,83,Every-minute version; direction needs two hourly readings
+2026-06-15,390,202,11,10,111,Every-minute version; direction needs two hourly readings
+2026-06-22,390,195,20,20,61,Every-minute version; direction needs two hourly readings
+2026-06-23,390,197,11,10,106,Every-minute version; direction needs two hourly readings
+2026-06-24,390,165,15,14,68,Every-minute version; direction needs two hourly readings
+2026-06-25,390,177,13,12,72,Every-minute version; direction needs two hourly readings
+2026-06-26,390,116,15,14,27,Every-minute version; direction needs two hourly readings
+2026-06-29,390,293,10,10,164,Every-minute version; direction needs two hourly readings
+2026-06-30,390,334,10,9,153,Every-minute version; direction needs two hourly readings
+2026-07-01,390,191,9,9,151,Every-minute version; direction needs two hourly readings
+2026-07-02,390,91,9,8,35,Every-minute version; direction needs two hourly readings
+2026-07-06,390,304,9,8,165,Every-minute version; direction needs two hourly readings
+2026-07-07,390,121,11,11,76,Every-minute version; direction needs two hourly readings
+2026-07-08,390,166,16,15,98,Every-minute version; direction needs two hourly readings
+2026-07-09,390,262,12,12,196,Every-minute version; direction needs two hourly readings
+2026-07-10,390,335,7,6,119,Every-minute version; direction needs two hourly readings
+2026-07-13,390,169,17,16,37,Every-minute version; direction needs two hourly readings
+2026-07-14,390,233,21,21,93,Every-minute version; direction needs two hourly readings
+2026-07-15,390,169,9,8,58,Every-minute version; direction needs two hourly readings
+2026-07-16,390,264,17,17,142,Every-minute version; direction needs two hourly readings
+2026-07-17,390,218,12,11,77,Every-minute version; direction needs two hourly readings
+2026-07-20,390,199,14,13,52,Every-minute version; direction needs two hourly readings
+2026-07-21,390,250,12,11,182,Every-minute version; direction needs two hourly readings
+2026-07-22,390,96,6,6,64,Every-minute version; direction needs two hourly readings
+2026-07-23,390,247,19,18,91,Every-minute version; direction needs two hourly readings
+2026-07-24,390,74,17,17,23,Every-minute version; direction needs two hourly readings
+2026-07-27,390,94,9,9,57,Every-minute version; direction needs two hourly readings
+2026-07-28,390,167,14,13,68,Every-minute version; direction needs two hourly readings
+2026-07-29,390,153,6,6,64,Every-minute version; direction needs two hourly readings
+2026-08-05,390,196,19,18,32,Every-minute version; direction needs two hourly readings
+2026-08-06,390,224,18,17,96,Every-minute version; direction needs two hourly readings
+2026-08-07,390,199,9,8,81,Every-minute version; direction needs two hourly readings
+2026-08-10,390,165,14,14,75,Every-minute version; direction needs two hourly readings
+2026-08-11,390,156,8,7,61,Every-minute version; direction needs two hourly readings
+2026-08-17,390,292,16,16,98,Every-minute version; direction needs two hourly readings
+2026-08-21,390,175,6,6,102,Every-minute version; direction needs two hourly readings
+2026-08-24,390,212,14,14,63,Every-minute version; direction needs two hourly readings
+2026-08-25,390,149,10,10,95,Every-minute version; direction needs two hourly readings
+2026-08-26,390,196,15,15,62,Every-minute version; direction needs two hourly readings
+2026-08-27,390,251,11,11,97,Every-minute version; direction needs two hourly readings
+2026-08-28,390,151,15,15,62,Every-minute version; direction needs two hourly readings
+2024-09-05,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2024-09-06,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2024-09-09,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2024-09-10,390,390,3,2,180,Hourly EMA20 direction only; ignore momentum
+2024-09-11,390,390,3,2,240,Hourly EMA20 direction only; ignore momentum
+2024-09-12,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2024-09-13,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2024-09-24,390,390,3,2,180,Hourly EMA20 direction only; ignore momentum
+2024-10-01,390,390,2,1,360,Hourly EMA20 direction only; ignore momentum
+2024-10-02,390,390,2,1,210,Hourly EMA20 direction only; ignore momentum
+2024-10-03,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2024-10-04,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2024-10-07,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2024-10-08,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2024-10-09,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2024-10-18,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2024-10-21,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2024-10-22,390,390,2,1,210,Hourly EMA20 direction only; ignore momentum
+2024-10-29,390,390,2,1,240,Hourly EMA20 direction only; ignore momentum
+2024-10-30,390,390,3,2,150,Hourly EMA20 direction only; ignore momentum
+2024-10-31,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2024-11-01,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2024-11-04,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2024-11-08,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2024-11-11,390,390,2,1,270,Hourly EMA20 direction only; ignore momentum
+2024-11-12,390,390,3,2,300,Hourly EMA20 direction only; ignore momentum
+2024-11-13,390,390,2,1,360,Hourly EMA20 direction only; ignore momentum
+2024-11-14,390,390,2,1,360,Hourly EMA20 direction only; ignore momentum
+2024-11-15,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2024-11-21,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2024-11-22,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2024-11-25,390,390,2,1,210,Hourly EMA20 direction only; ignore momentum
+2024-11-26,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2024-11-27,390,390,2,1,300,Hourly EMA20 direction only; ignore momentum
+2024-12-02,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2024-12-03,390,390,3,2,240,Hourly EMA20 direction only; ignore momentum
+2024-12-23,390,390,2,1,210,Hourly EMA20 direction only; ignore momentum
+2024-12-31,390,390,2,1,300,Hourly EMA20 direction only; ignore momentum
+2025-01-02,390,390,2,1,240,Hourly EMA20 direction only; ignore momentum
+2025-01-03,390,390,2,1,360,Hourly EMA20 direction only; ignore momentum
+2025-01-06,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-01-07,390,390,2,1,240,Hourly EMA20 direction only; ignore momentum
+2025-01-08,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-01-14,390,390,2,1,300,Hourly EMA20 direction only; ignore momentum
+2025-01-15,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-01-16,390,390,2,1,270,Hourly EMA20 direction only; ignore momentum
+2025-01-17,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-01-21,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-01-22,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-01-23,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-01-29,390,390,2,1,360,Hourly EMA20 direction only; ignore momentum
+2025-01-30,390,390,4,3,180,Hourly EMA20 direction only; ignore momentum
+2025-01-31,390,390,2,1,330,Hourly EMA20 direction only; ignore momentum
+2025-02-03,390,390,2,1,240,Hourly EMA20 direction only; ignore momentum
+2025-02-04,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-02-05,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-02-06,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-02-07,390,390,2,1,240,Hourly EMA20 direction only; ignore momentum
+2025-02-10,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-02-14,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-02-21,390,390,2,1,360,Hourly EMA20 direction only; ignore momentum
+2025-02-24,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-02-25,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-02-26,390,390,2,1,270,Hourly EMA20 direction only; ignore momentum
+2025-02-27,390,390,2,1,360,Hourly EMA20 direction only; ignore momentum
+2025-02-28,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-03-03,390,390,2,1,240,Hourly EMA20 direction only; ignore momentum
+2025-03-04,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-03-05,390,390,2,1,270,Hourly EMA20 direction only; ignore momentum
+2025-03-06,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-03-07,390,390,2,1,330,Hourly EMA20 direction only; ignore momentum
+2025-03-10,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-03-11,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-03-12,390,390,3,2,180,Hourly EMA20 direction only; ignore momentum
+2025-03-13,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-03-14,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-03-17,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-03-21,390,390,2,1,330,Hourly EMA20 direction only; ignore momentum
+2025-03-24,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-03-25,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-03-26,390,390,2,1,360,Hourly EMA20 direction only; ignore momentum
+2025-03-27,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-03-28,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-03-31,390,390,2,1,270,Hourly EMA20 direction only; ignore momentum
+2025-04-01,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-04-02,390,390,2,1,240,Hourly EMA20 direction only; ignore momentum
+2025-04-08,390,390,2,1,270,Hourly EMA20 direction only; ignore momentum
+2025-04-09,390,390,2,1,240,Hourly EMA20 direction only; ignore momentum
+2025-04-10,390,390,2,1,300,Hourly EMA20 direction only; ignore momentum
+2025-04-11,390,390,3,2,180,Hourly EMA20 direction only; ignore momentum
+2025-04-14,390,390,3,2,210,Hourly EMA20 direction only; ignore momentum
+2025-04-15,390,390,3,2,300,Hourly EMA20 direction only; ignore momentum
+2025-04-16,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-04-17,390,390,2,1,330,Hourly EMA20 direction only; ignore momentum
+2025-04-21,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-04-22,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-04-23,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-04-24,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-04-25,390,390,2,1,240,Hourly EMA20 direction only; ignore momentum
+2025-04-28,390,390,2,1,210,Hourly EMA20 direction only; ignore momentum
+2025-04-29,390,390,2,1,300,Hourly EMA20 direction only; ignore momentum
+2025-04-30,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-05-01,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-05-02,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-05-05,390,390,2,1,300,Hourly EMA20 direction only; ignore momentum
+2025-05-09,390,390,2,1,240,Hourly EMA20 direction only; ignore momentum
+2025-05-12,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-05-13,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-05-14,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-05-15,390,390,2,1,300,Hourly EMA20 direction only; ignore momentum
+2025-05-16,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-05-19,390,390,2,1,360,Hourly EMA20 direction only; ignore momentum
+2025-05-20,390,390,4,3,180,Hourly EMA20 direction only; ignore momentum
+2025-05-21,390,390,3,2,150,Hourly EMA20 direction only; ignore momentum
+2025-05-22,390,390,2,1,330,Hourly EMA20 direction only; ignore momentum
+2025-05-23,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-05-27,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-05-28,390,390,2,1,240,Hourly EMA20 direction only; ignore momentum
+2025-05-29,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-05-30,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-06-02,390,390,3,2,300,Hourly EMA20 direction only; ignore momentum
+2025-06-03,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-06-04,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-06-05,390,390,4,3,240,Hourly EMA20 direction only; ignore momentum
+2025-06-06,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-06-09,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-06-10,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-06-11,390,390,2,1,330,Hourly EMA20 direction only; ignore momentum
+2025-06-12,390,390,2,1,300,Hourly EMA20 direction only; ignore momentum
+2025-06-13,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-06-16,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-06-20,390,390,2,1,210,Hourly EMA20 direction only; ignore momentum
+2025-06-23,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-06-24,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-06-30,390,390,3,2,180,Hourly EMA20 direction only; ignore momentum
+2025-07-01,390,390,2,1,270,Hourly EMA20 direction only; ignore momentum
+2025-07-02,390,390,2,1,240,Hourly EMA20 direction only; ignore momentum
+2025-07-07,390,390,2,1,300,Hourly EMA20 direction only; ignore momentum
+2025-07-08,390,390,2,1,360,Hourly EMA20 direction only; ignore momentum
+2025-07-14,390,390,2,1,360,Hourly EMA20 direction only; ignore momentum
+2025-07-15,390,390,2,1,300,Hourly EMA20 direction only; ignore momentum
+2025-07-16,390,390,3,2,180,Hourly EMA20 direction only; ignore momentum
+2025-07-17,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-07-18,390,390,2,1,300,Hourly EMA20 direction only; ignore momentum
+2025-07-24,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-07-25,390,390,2,1,300,Hourly EMA20 direction only; ignore momentum
+2025-08-04,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-08-05,390,390,2,1,300,Hourly EMA20 direction only; ignore momentum
+2025-08-06,390,390,2,1,300,Hourly EMA20 direction only; ignore momentum
+2025-08-07,390,390,2,1,240,Hourly EMA20 direction only; ignore momentum
+2025-08-08,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-08-11,390,390,4,3,180,Hourly EMA20 direction only; ignore momentum
+2025-08-15,390,390,2,1,360,Hourly EMA20 direction only; ignore momentum
+2025-08-18,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-08-22,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-09-03,390,390,2,1,270,Hourly EMA20 direction only; ignore momentum
+2025-09-04,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-09-05,390,390,2,1,300,Hourly EMA20 direction only; ignore momentum
+2025-09-08,390,390,2,1,330,Hourly EMA20 direction only; ignore momentum
+2025-10-14,390,390,2,1,210,Hourly EMA20 direction only; ignore momentum
+2025-10-15,390,390,2,1,270,Hourly EMA20 direction only; ignore momentum
+2025-10-16,390,390,2,1,240,Hourly EMA20 direction only; ignore momentum
+2025-10-17,390,390,2,1,360,Hourly EMA20 direction only; ignore momentum
+2025-10-20,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-10-21,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-10-22,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-10-23,390,390,2,1,300,Hourly EMA20 direction only; ignore momentum
+2025-10-24,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-10-27,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-10-28,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-10-29,390,390,2,1,330,Hourly EMA20 direction only; ignore momentum
+2025-10-30,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-10-31,390,390,2,1,360,Hourly EMA20 direction only; ignore momentum
+2025-11-03,390,390,3,2,240,Hourly EMA20 direction only; ignore momentum
+2025-11-04,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-11-05,390,390,2,1,360,Hourly EMA20 direction only; ignore momentum
+2025-11-06,390,390,2,1,360,Hourly EMA20 direction only; ignore momentum
+2025-11-07,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-11-10,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-11-11,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-11-12,390,390,2,1,300,Hourly EMA20 direction only; ignore momentum
+2025-11-13,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-11-14,390,390,2,1,240,Hourly EMA20 direction only; ignore momentum
+2025-11-17,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-11-18,390,390,2,1,330,Hourly EMA20 direction only; ignore momentum
+2025-11-19,390,390,2,1,330,Hourly EMA20 direction only; ignore momentum
+2025-11-20,390,390,2,1,240,Hourly EMA20 direction only; ignore momentum
+2025-11-21,390,390,2,1,210,Hourly EMA20 direction only; ignore momentum
+2025-11-24,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-11-25,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-11-26,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-12-04,390,390,3,2,180,Hourly EMA20 direction only; ignore momentum
+2025-12-05,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-12-08,390,390,2,1,360,Hourly EMA20 direction only; ignore momentum
+2025-12-09,390,390,3,2,180,Hourly EMA20 direction only; ignore momentum
+2025-12-10,390,390,2,1,210,Hourly EMA20 direction only; ignore momentum
+2025-12-11,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-12-12,390,390,2,1,300,Hourly EMA20 direction only; ignore momentum
+2025-12-15,390,390,2,1,360,Hourly EMA20 direction only; ignore momentum
+2025-12-19,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-12-22,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2025-12-23,390,390,2,1,360,Hourly EMA20 direction only; ignore momentum
+2025-12-31,390,390,2,1,300,Hourly EMA20 direction only; ignore momentum
+2026-01-02,390,390,2,1,300,Hourly EMA20 direction only; ignore momentum
+2026-01-05,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-01-06,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-01-07,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-01-08,390,390,3,2,180,Hourly EMA20 direction only; ignore momentum
+2026-01-09,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-01-12,390,390,2,1,360,Hourly EMA20 direction only; ignore momentum
+2026-01-13,390,390,2,1,210,Hourly EMA20 direction only; ignore momentum
+2026-01-14,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-01-15,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-01-16,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-01-20,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-01-21,390,390,2,1,300,Hourly EMA20 direction only; ignore momentum
+2026-01-22,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-01-23,390,390,3,2,180,Hourly EMA20 direction only; ignore momentum
+2026-01-26,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-01-27,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-01-28,390,390,2,1,300,Hourly EMA20 direction only; ignore momentum
+2026-01-29,390,390,2,1,360,Hourly EMA20 direction only; ignore momentum
+2026-01-30,390,390,2,1,210,Hourly EMA20 direction only; ignore momentum
+2026-02-02,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-02-03,390,390,2,1,300,Hourly EMA20 direction only; ignore momentum
+2026-02-04,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-02-05,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-02-06,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-02-09,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-02-10,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-02-11,390,390,2,1,240,Hourly EMA20 direction only; ignore momentum
+2026-02-12,390,390,2,1,300,Hourly EMA20 direction only; ignore momentum
+2026-02-13,390,390,2,1,210,Hourly EMA20 direction only; ignore momentum
+2026-02-17,390,390,2,1,210,Hourly EMA20 direction only; ignore momentum
+2026-02-18,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-02-19,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-02-20,390,390,2,1,300,Hourly EMA20 direction only; ignore momentum
+2026-02-23,390,390,2,1,300,Hourly EMA20 direction only; ignore momentum
+2026-02-24,390,390,2,1,300,Hourly EMA20 direction only; ignore momentum
+2026-02-25,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-02-26,390,390,2,1,300,Hourly EMA20 direction only; ignore momentum
+2026-02-27,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-03-02,390,390,2,1,300,Hourly EMA20 direction only; ignore momentum
+2026-03-03,390,390,2,1,270,Hourly EMA20 direction only; ignore momentum
+2026-03-04,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-03-05,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-03-06,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-03-09,390,390,2,1,240,Hourly EMA20 direction only; ignore momentum
+2026-03-10,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-03-11,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-03-12,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-03-13,390,390,2,1,240,Hourly EMA20 direction only; ignore momentum
+2026-03-20,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-03-23,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-03-24,390,390,3,2,180,Hourly EMA20 direction only; ignore momentum
+2026-03-25,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-03-26,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-03-27,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-03-30,390,390,2,1,240,Hourly EMA20 direction only; ignore momentum
+2026-03-31,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-04-01,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-04-02,390,390,2,1,300,Hourly EMA20 direction only; ignore momentum
+2026-04-06,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-04-07,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-04-08,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-04-09,390,390,2,1,360,Hourly EMA20 direction only; ignore momentum
+2026-04-16,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-04-17,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-04-20,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-04-21,390,390,2,1,300,Hourly EMA20 direction only; ignore momentum
+2026-04-22,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-04-23,390,390,2,1,330,Hourly EMA20 direction only; ignore momentum
+2026-04-24,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-04-27,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-04-28,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-05-04,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-05-05,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-05-06,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-05-07,390,390,2,1,270,Hourly EMA20 direction only; ignore momentum
+2026-05-08,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-05-11,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-05-12,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-05-13,390,390,3,2,240,Hourly EMA20 direction only; ignore momentum
+2026-05-14,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-05-15,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-05-18,390,390,2,1,210,Hourly EMA20 direction only; ignore momentum
+2026-05-19,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-05-20,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-05-21,390,390,2,1,270,Hourly EMA20 direction only; ignore momentum
+2026-05-22,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-05-28,390,390,2,1,300,Hourly EMA20 direction only; ignore momentum
+2026-05-29,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-06-01,390,390,3,2,240,Hourly EMA20 direction only; ignore momentum
+2026-06-02,390,390,2,1,360,Hourly EMA20 direction only; ignore momentum
+2026-06-03,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-06-04,390,390,2,1,300,Hourly EMA20 direction only; ignore momentum
+2026-06-05,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-06-08,390,390,2,1,270,Hourly EMA20 direction only; ignore momentum
+2026-06-09,390,390,2,1,240,Hourly EMA20 direction only; ignore momentum
+2026-06-10,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-06-11,390,390,3,2,180,Hourly EMA20 direction only; ignore momentum
+2026-06-12,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-06-15,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-06-22,390,390,2,1,210,Hourly EMA20 direction only; ignore momentum
+2026-06-23,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-06-24,390,390,2,1,270,Hourly EMA20 direction only; ignore momentum
+2026-06-25,390,390,2,1,360,Hourly EMA20 direction only; ignore momentum
+2026-06-26,390,390,2,1,240,Hourly EMA20 direction only; ignore momentum
+2026-06-29,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-06-30,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-07-01,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-07-02,390,390,2,1,210,Hourly EMA20 direction only; ignore momentum
+2026-07-06,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-07-07,390,390,2,1,360,Hourly EMA20 direction only; ignore momentum
+2026-07-08,390,390,2,1,330,Hourly EMA20 direction only; ignore momentum
+2026-07-09,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-07-10,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-07-13,390,390,2,1,210,Hourly EMA20 direction only; ignore momentum
+2026-07-14,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-07-15,390,390,3,2,210,Hourly EMA20 direction only; ignore momentum
+2026-07-16,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-07-17,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-07-20,390,390,2,1,210,Hourly EMA20 direction only; ignore momentum
+2026-07-21,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-07-22,390,390,2,1,300,Hourly EMA20 direction only; ignore momentum
+2026-07-23,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-07-24,390,390,2,1,240,Hourly EMA20 direction only; ignore momentum
+2026-07-27,390,390,2,1,300,Hourly EMA20 direction only; ignore momentum
+2026-07-28,390,390,3,2,240,Hourly EMA20 direction only; ignore momentum
+2026-07-29,390,390,2,1,360,Hourly EMA20 direction only; ignore momentum
+2026-08-05,390,390,2,1,210,Hourly EMA20 direction only; ignore momentum
+2026-08-06,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-08-07,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-08-10,390,390,2,1,330,Hourly EMA20 direction only; ignore momentum
+2026-08-11,390,390,2,1,240,Hourly EMA20 direction only; ignore momentum
+2026-08-17,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-08-21,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-08-24,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-08-25,390,390,3,2,150,Hourly EMA20 direction only; ignore momentum
+2026-08-26,390,390,4,3,180,Hourly EMA20 direction only; ignore momentum
+2026-08-27,390,390,1,0,390,Hourly EMA20 direction only; ignore momentum
+2026-08-28,390,390,2,1,270,Hourly EMA20 direction only; ignore momentum
+2024-09-05,390,390,3,2,275,Minute EMA1200 direction only; ignore momentum
+2024-09-06,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2024-09-09,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2024-09-10,390,390,3,2,188,Minute EMA1200 direction only; ignore momentum
+2024-09-11,390,390,3,2,228,Minute EMA1200 direction only; ignore momentum
+2024-09-12,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2024-09-13,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2024-09-24,390,390,3,2,176,Minute EMA1200 direction only; ignore momentum
+2024-10-01,390,390,2,1,365,Minute EMA1200 direction only; ignore momentum
+2024-10-02,390,390,2,1,226,Minute EMA1200 direction only; ignore momentum
+2024-10-03,390,390,3,2,177,Minute EMA1200 direction only; ignore momentum
+2024-10-04,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2024-10-07,390,390,3,2,202,Minute EMA1200 direction only; ignore momentum
+2024-10-08,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2024-10-09,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2024-10-18,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2024-10-21,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2024-10-22,390,390,2,1,252,Minute EMA1200 direction only; ignore momentum
+2024-10-29,390,390,2,1,220,Minute EMA1200 direction only; ignore momentum
+2024-10-30,390,390,3,2,184,Minute EMA1200 direction only; ignore momentum
+2024-10-31,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2024-11-01,390,390,2,1,384,Minute EMA1200 direction only; ignore momentum
+2024-11-04,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2024-11-08,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2024-11-11,390,390,2,1,214,Minute EMA1200 direction only; ignore momentum
+2024-11-12,390,390,3,2,285,Minute EMA1200 direction only; ignore momentum
+2024-11-13,390,390,2,1,382,Minute EMA1200 direction only; ignore momentum
+2024-11-14,390,390,2,1,349,Minute EMA1200 direction only; ignore momentum
+2024-11-15,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2024-11-21,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2024-11-22,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2024-11-25,390,390,2,1,200,Minute EMA1200 direction only; ignore momentum
+2024-11-26,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2024-11-27,390,390,2,1,306,Minute EMA1200 direction only; ignore momentum
+2024-12-02,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2024-12-03,390,390,3,2,280,Minute EMA1200 direction only; ignore momentum
+2024-12-23,390,390,2,1,228,Minute EMA1200 direction only; ignore momentum
+2024-12-31,390,390,2,1,290,Minute EMA1200 direction only; ignore momentum
+2025-01-02,390,390,2,1,287,Minute EMA1200 direction only; ignore momentum
+2025-01-03,390,390,2,1,387,Minute EMA1200 direction only; ignore momentum
+2025-01-06,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-01-07,390,390,2,1,306,Minute EMA1200 direction only; ignore momentum
+2025-01-08,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-01-14,390,390,2,1,247,Minute EMA1200 direction only; ignore momentum
+2025-01-15,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-01-16,390,390,2,1,294,Minute EMA1200 direction only; ignore momentum
+2025-01-17,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-01-21,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-01-22,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-01-23,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-01-29,390,390,2,1,376,Minute EMA1200 direction only; ignore momentum
+2025-01-30,390,390,2,1,285,Minute EMA1200 direction only; ignore momentum
+2025-01-31,390,390,2,1,316,Minute EMA1200 direction only; ignore momentum
+2025-02-03,390,390,2,1,247,Minute EMA1200 direction only; ignore momentum
+2025-02-04,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-02-05,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-02-06,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-02-07,390,390,2,1,296,Minute EMA1200 direction only; ignore momentum
+2025-02-10,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-02-14,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-02-21,390,390,2,1,354,Minute EMA1200 direction only; ignore momentum
+2025-02-24,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-02-25,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-02-26,390,390,2,1,274,Minute EMA1200 direction only; ignore momentum
+2025-02-27,390,390,2,1,332,Minute EMA1200 direction only; ignore momentum
+2025-02-28,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-03-03,390,390,2,1,234,Minute EMA1200 direction only; ignore momentum
+2025-03-04,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-03-05,390,390,2,1,309,Minute EMA1200 direction only; ignore momentum
+2025-03-06,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-03-07,390,390,2,1,346,Minute EMA1200 direction only; ignore momentum
+2025-03-10,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-03-11,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-03-12,390,390,3,2,145,Minute EMA1200 direction only; ignore momentum
+2025-03-13,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-03-14,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-03-17,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-03-21,390,390,2,1,329,Minute EMA1200 direction only; ignore momentum
+2025-03-24,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-03-25,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-03-26,390,390,2,1,324,Minute EMA1200 direction only; ignore momentum
+2025-03-27,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-03-28,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-03-31,390,390,2,1,239,Minute EMA1200 direction only; ignore momentum
+2025-04-01,390,390,3,2,304,Minute EMA1200 direction only; ignore momentum
+2025-04-02,390,390,2,1,267,Minute EMA1200 direction only; ignore momentum
+2025-04-08,390,390,2,1,261,Minute EMA1200 direction only; ignore momentum
+2025-04-09,390,390,2,1,279,Minute EMA1200 direction only; ignore momentum
+2025-04-10,390,390,2,1,291,Minute EMA1200 direction only; ignore momentum
+2025-04-11,390,390,3,2,181,Minute EMA1200 direction only; ignore momentum
+2025-04-14,390,390,3,2,245,Minute EMA1200 direction only; ignore momentum
+2025-04-15,390,390,3,2,284,Minute EMA1200 direction only; ignore momentum
+2025-04-16,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-04-17,390,390,3,2,305,Minute EMA1200 direction only; ignore momentum
+2025-04-21,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-04-22,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-04-23,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-04-24,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-04-25,390,390,2,1,244,Minute EMA1200 direction only; ignore momentum
+2025-04-28,390,390,2,1,195,Minute EMA1200 direction only; ignore momentum
+2025-04-29,390,390,2,1,249,Minute EMA1200 direction only; ignore momentum
+2025-04-30,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-05-01,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-05-02,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-05-05,390,390,2,1,281,Minute EMA1200 direction only; ignore momentum
+2025-05-09,390,390,2,1,257,Minute EMA1200 direction only; ignore momentum
+2025-05-12,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-05-13,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-05-14,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-05-15,390,390,2,1,291,Minute EMA1200 direction only; ignore momentum
+2025-05-16,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-05-19,390,390,2,1,338,Minute EMA1200 direction only; ignore momentum
+2025-05-20,390,390,2,1,249,Minute EMA1200 direction only; ignore momentum
+2025-05-21,390,390,3,2,170,Minute EMA1200 direction only; ignore momentum
+2025-05-22,390,390,2,1,293,Minute EMA1200 direction only; ignore momentum
+2025-05-23,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-05-27,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-05-28,390,390,2,1,231,Minute EMA1200 direction only; ignore momentum
+2025-05-29,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-05-30,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-06-02,390,390,2,1,385,Minute EMA1200 direction only; ignore momentum
+2025-06-03,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-06-04,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-06-05,390,390,4,3,217,Minute EMA1200 direction only; ignore momentum
+2025-06-06,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-06-09,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-06-10,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-06-11,390,390,2,1,341,Minute EMA1200 direction only; ignore momentum
+2025-06-12,390,390,2,1,318,Minute EMA1200 direction only; ignore momentum
+2025-06-13,390,390,2,1,373,Minute EMA1200 direction only; ignore momentum
+2025-06-16,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-06-20,390,390,2,1,246,Minute EMA1200 direction only; ignore momentum
+2025-06-23,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-06-24,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-06-30,390,390,3,2,192,Minute EMA1200 direction only; ignore momentum
+2025-07-01,390,390,2,1,202,Minute EMA1200 direction only; ignore momentum
+2025-07-02,390,390,2,1,247,Minute EMA1200 direction only; ignore momentum
+2025-07-07,390,390,2,1,273,Minute EMA1200 direction only; ignore momentum
+2025-07-08,390,390,2,1,342,Minute EMA1200 direction only; ignore momentum
+2025-07-14,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-07-15,390,390,2,1,241,Minute EMA1200 direction only; ignore momentum
+2025-07-16,390,390,3,2,157,Minute EMA1200 direction only; ignore momentum
+2025-07-17,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-07-18,390,390,2,1,263,Minute EMA1200 direction only; ignore momentum
+2025-07-24,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-07-25,390,390,2,1,299,Minute EMA1200 direction only; ignore momentum
+2025-08-04,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-08-05,390,390,2,1,304,Minute EMA1200 direction only; ignore momentum
+2025-08-06,390,390,2,1,274,Minute EMA1200 direction only; ignore momentum
+2025-08-07,390,390,2,1,253,Minute EMA1200 direction only; ignore momentum
+2025-08-08,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-08-11,390,390,4,3,118,Minute EMA1200 direction only; ignore momentum
+2025-08-15,390,390,2,1,351,Minute EMA1200 direction only; ignore momentum
+2025-08-18,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-08-22,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-09-03,390,390,2,1,289,Minute EMA1200 direction only; ignore momentum
+2025-09-04,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-09-05,390,390,2,1,291,Minute EMA1200 direction only; ignore momentum
+2025-09-08,390,390,2,1,301,Minute EMA1200 direction only; ignore momentum
+2025-10-14,390,390,2,1,208,Minute EMA1200 direction only; ignore momentum
+2025-10-15,390,390,2,1,256,Minute EMA1200 direction only; ignore momentum
+2025-10-16,390,390,2,1,210,Minute EMA1200 direction only; ignore momentum
+2025-10-17,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-10-20,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-10-21,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-10-22,390,390,2,1,386,Minute EMA1200 direction only; ignore momentum
+2025-10-23,390,390,2,1,289,Minute EMA1200 direction only; ignore momentum
+2025-10-24,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-10-27,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-10-28,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-10-29,390,390,2,1,311,Minute EMA1200 direction only; ignore momentum
+2025-10-30,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-10-31,390,390,2,1,334,Minute EMA1200 direction only; ignore momentum
+2025-11-03,390,390,2,1,333,Minute EMA1200 direction only; ignore momentum
+2025-11-04,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-11-05,390,390,2,1,363,Minute EMA1200 direction only; ignore momentum
+2025-11-06,390,390,2,1,335,Minute EMA1200 direction only; ignore momentum
+2025-11-07,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-11-10,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-11-11,390,390,3,2,217,Minute EMA1200 direction only; ignore momentum
+2025-11-12,390,390,2,1,279,Minute EMA1200 direction only; ignore momentum
+2025-11-13,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-11-14,390,390,2,1,212,Minute EMA1200 direction only; ignore momentum
+2025-11-17,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-11-18,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-11-19,390,390,2,1,242,Minute EMA1200 direction only; ignore momentum
+2025-11-20,390,390,2,1,210,Minute EMA1200 direction only; ignore momentum
+2025-11-21,390,390,2,1,196,Minute EMA1200 direction only; ignore momentum
+2025-11-24,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-11-25,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-11-26,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-12-04,390,390,4,3,144,Minute EMA1200 direction only; ignore momentum
+2025-12-05,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-12-08,390,390,2,1,342,Minute EMA1200 direction only; ignore momentum
+2025-12-09,390,390,3,2,156,Minute EMA1200 direction only; ignore momentum
+2025-12-10,390,390,2,1,225,Minute EMA1200 direction only; ignore momentum
+2025-12-11,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-12-12,390,390,2,1,338,Minute EMA1200 direction only; ignore momentum
+2025-12-15,390,390,2,1,332,Minute EMA1200 direction only; ignore momentum
+2025-12-19,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-12-22,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2025-12-23,390,390,2,1,334,Minute EMA1200 direction only; ignore momentum
+2025-12-31,390,390,2,1,314,Minute EMA1200 direction only; ignore momentum
+2026-01-02,390,390,2,1,329,Minute EMA1200 direction only; ignore momentum
+2026-01-05,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-01-06,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-01-07,390,390,2,1,387,Minute EMA1200 direction only; ignore momentum
+2026-01-08,390,390,3,2,206,Minute EMA1200 direction only; ignore momentum
+2026-01-09,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-01-12,390,390,2,1,362,Minute EMA1200 direction only; ignore momentum
+2026-01-13,390,390,2,1,231,Minute EMA1200 direction only; ignore momentum
+2026-01-14,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-01-15,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-01-16,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-01-20,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-01-21,390,390,2,1,315,Minute EMA1200 direction only; ignore momentum
+2026-01-22,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-01-23,390,390,2,1,263,Minute EMA1200 direction only; ignore momentum
+2026-01-26,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-01-27,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-01-28,390,390,2,1,326,Minute EMA1200 direction only; ignore momentum
+2026-01-29,390,390,2,1,363,Minute EMA1200 direction only; ignore momentum
+2026-01-30,390,390,2,1,205,Minute EMA1200 direction only; ignore momentum
+2026-02-02,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-02-03,390,390,2,1,325,Minute EMA1200 direction only; ignore momentum
+2026-02-04,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-02-05,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-02-06,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-02-09,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-02-10,390,390,2,1,339,Minute EMA1200 direction only; ignore momentum
+2026-02-11,390,390,2,1,262,Minute EMA1200 direction only; ignore momentum
+2026-02-12,390,390,2,1,314,Minute EMA1200 direction only; ignore momentum
+2026-02-13,390,390,2,1,224,Minute EMA1200 direction only; ignore momentum
+2026-02-17,390,390,2,1,216,Minute EMA1200 direction only; ignore momentum
+2026-02-18,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-02-19,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-02-20,390,390,2,1,275,Minute EMA1200 direction only; ignore momentum
+2026-02-23,390,390,2,1,302,Minute EMA1200 direction only; ignore momentum
+2026-02-24,390,390,2,1,295,Minute EMA1200 direction only; ignore momentum
+2026-02-25,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-02-26,390,390,2,1,326,Minute EMA1200 direction only; ignore momentum
+2026-02-27,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-03-02,390,390,2,1,310,Minute EMA1200 direction only; ignore momentum
+2026-03-03,390,390,2,1,277,Minute EMA1200 direction only; ignore momentum
+2026-03-04,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-03-05,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-03-06,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-03-09,390,390,2,1,263,Minute EMA1200 direction only; ignore momentum
+2026-03-10,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-03-11,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-03-12,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-03-13,390,390,2,1,253,Minute EMA1200 direction only; ignore momentum
+2026-03-20,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-03-23,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-03-24,390,390,3,2,203,Minute EMA1200 direction only; ignore momentum
+2026-03-25,390,390,4,3,188,Minute EMA1200 direction only; ignore momentum
+2026-03-26,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-03-27,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-03-30,390,390,2,1,237,Minute EMA1200 direction only; ignore momentum
+2026-03-31,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-04-01,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-04-02,390,390,2,1,279,Minute EMA1200 direction only; ignore momentum
+2026-04-06,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-04-07,390,390,2,1,385,Minute EMA1200 direction only; ignore momentum
+2026-04-08,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-04-09,390,390,2,1,380,Minute EMA1200 direction only; ignore momentum
+2026-04-16,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-04-17,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-04-20,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-04-21,390,390,2,1,272,Minute EMA1200 direction only; ignore momentum
+2026-04-22,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-04-23,390,390,2,1,288,Minute EMA1200 direction only; ignore momentum
+2026-04-24,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-04-27,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-04-28,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-05-04,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-05-05,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-05-06,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-05-07,390,390,2,1,242,Minute EMA1200 direction only; ignore momentum
+2026-05-08,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-05-11,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-05-12,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-05-13,390,390,3,2,228,Minute EMA1200 direction only; ignore momentum
+2026-05-14,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-05-15,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-05-18,390,390,2,1,206,Minute EMA1200 direction only; ignore momentum
+2026-05-19,390,390,3,2,352,Minute EMA1200 direction only; ignore momentum
+2026-05-20,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-05-21,390,390,2,1,249,Minute EMA1200 direction only; ignore momentum
+2026-05-22,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-05-28,390,390,2,1,335,Minute EMA1200 direction only; ignore momentum
+2026-05-29,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-06-01,390,390,3,2,253,Minute EMA1200 direction only; ignore momentum
+2026-06-02,390,390,2,1,361,Minute EMA1200 direction only; ignore momentum
+2026-06-03,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-06-04,390,390,2,1,294,Minute EMA1200 direction only; ignore momentum
+2026-06-05,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-06-08,390,390,2,1,298,Minute EMA1200 direction only; ignore momentum
+2026-06-09,390,390,2,1,274,Minute EMA1200 direction only; ignore momentum
+2026-06-10,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-06-11,390,390,3,2,264,Minute EMA1200 direction only; ignore momentum
+2026-06-12,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-06-15,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-06-22,390,390,2,1,205,Minute EMA1200 direction only; ignore momentum
+2026-06-23,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-06-24,390,390,2,1,284,Minute EMA1200 direction only; ignore momentum
+2026-06-25,390,390,2,1,346,Minute EMA1200 direction only; ignore momentum
+2026-06-26,390,390,2,1,261,Minute EMA1200 direction only; ignore momentum
+2026-06-29,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-06-30,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-07-01,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-07-02,390,390,2,1,196,Minute EMA1200 direction only; ignore momentum
+2026-07-06,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-07-07,390,390,2,1,349,Minute EMA1200 direction only; ignore momentum
+2026-07-08,390,390,2,1,344,Minute EMA1200 direction only; ignore momentum
+2026-07-09,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-07-10,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-07-13,390,390,2,1,221,Minute EMA1200 direction only; ignore momentum
+2026-07-14,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-07-15,390,390,3,2,203,Minute EMA1200 direction only; ignore momentum
+2026-07-16,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-07-17,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-07-20,390,390,2,1,252,Minute EMA1200 direction only; ignore momentum
+2026-07-21,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-07-22,390,390,2,1,300,Minute EMA1200 direction only; ignore momentum
+2026-07-23,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-07-24,390,390,3,2,207,Minute EMA1200 direction only; ignore momentum
+2026-07-27,390,390,2,1,322,Minute EMA1200 direction only; ignore momentum
+2026-07-28,390,390,3,2,272,Minute EMA1200 direction only; ignore momentum
+2026-07-29,390,390,2,1,367,Minute EMA1200 direction only; ignore momentum
+2026-08-05,390,390,2,1,227,Minute EMA1200 direction only; ignore momentum
+2026-08-06,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-08-07,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-08-10,390,390,2,1,266,Minute EMA1200 direction only; ignore momentum
+2026-08-11,390,390,2,1,258,Minute EMA1200 direction only; ignore momentum
+2026-08-17,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-08-21,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-08-24,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-08-25,390,390,2,1,235,Minute EMA1200 direction only; ignore momentum
+2026-08-26,390,390,4,3,197,Minute EMA1200 direction only; ignore momentum
+2026-08-27,390,390,1,0,390,Minute EMA1200 direction only; ignore momentum
+2026-08-28,390,390,2,1,267,Minute EMA1200 direction only; ignore momentum

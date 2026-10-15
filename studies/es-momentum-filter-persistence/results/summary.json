@@ -1,0 +1,3032 @@
+{
+  "checks": {
+    "source": "ES_databento_1m_2_years.zip",
+    "source_sha256": "b9e1acf1ee029db919e6e5feba38bd985d06a84af8193c11ce93722606c6356c",
+    "source_rows": 707321,
+    "first_date": "2024-08-28",
+    "last_date": "2026-08-28",
+    "source_sessions": 518,
+    "degraded_rows": 8846,
+    "degraded_sessions": 13,
+    "roll_transitions": 8,
+    "internal_gaps": 96,
+    "clean_full_rth_sessions": 485,
+    "indicator_segments": 8953,
+    "common_valid_minutes": 469824,
+    "half_split_session": "2025-10-30",
+    "fully_warmed_rth_sessions": 342,
+    "hourly_vs_minute_trend_agreement_rth_pct": 95.89368720947668,
+    "signal_agreement_rth_pct": 81.679412205728,
+    "invariants_passed": true
+  },
+  "primary": {
+    "A": {
+      "sessions": 342,
+      "eligible_minutes": 133380,
+      "active_pct": 55.780476833108416,
+      "runs": 1245,
+      "runs_per_session": 3.6403508771929824,
+      "natural_entries_per_session": 3.108187134502924,
+      "observed_median_minutes": 45.0,
+      "observed_mean_minutes": 59.75903614457831,
+      "observed_p90_minutes": 120.0,
+      "observed_under_15_pct": 0.0,
+      "observed_at_most_30_pct": 44.97991967871486,
+      "observed_at_least_180_pct": 4.578313253012048,
+      "observed_at_least_240_pct": 1.3654618473895583,
+      "active_time_in_runs_at_least_180_pct": 16.653225806451612,
+      "sessions_with_180min_run_pct": 16.666666666666664,
+      "median_longest_run_per_session_minutes": 105.0,
+      "left_censored_runs": 182,
+      "right_censored_runs": 180,
+      "completed_natural_runs": 883,
+      "completed_natural_median_minutes": 45.0,
+      "km": {
+        "natural_starts": 1063,
+        "right_censored": 180,
+        "median_minutes": 60,
+        "survive_at_least_minutes_pct": {
+          "15": 100.0,
+          "30": 73.5653809971778,
+          "60": 54.582231021092156,
+          "180": 7.865519977318597,
+          "240": 3.1559185094179556
+        }
+      },
+      "entry_forward_diagnostics": {
+        "30": {
+          "n": 985,
+          "mean_signed_points": 0.2616751269035533,
+          "positive_pct": 51.675126903553306
+        },
+        "60": {
+          "n": 884,
+          "mean_signed_points": 0.47850678733031676,
+          "positive_pct": 53.50678733031674
+        },
+        "180": {
+          "n": 549,
+          "mean_signed_points": 0.25546448087431695,
+          "positive_pct": 53.916211293260474
+        }
+      },
+      "duration_bins": {
+        "1-5": 0,
+        "6-15": 380,
+        "16-30": 180,
+        "31-60": 275,
+        "61-120": 295,
+        "121-180": 76,
+        "181-240": 26,
+        "241-10000": 13
+      }
+    },
+    "B": {
+      "sessions": 342,
+      "eligible_minutes": 133380,
+      "active_pct": 55.01349527665317,
+      "runs": 4298,
+      "runs_per_session": 12.567251461988304,
+      "natural_entries_per_session": 12.032163742690058,
+      "observed_median_minutes": 4.0,
+      "observed_mean_minutes": 17.07235923685435,
+      "observed_p90_minutes": 60.0,
+      "observed_under_15_pct": 73.56910190786412,
+      "observed_at_most_30_pct": 83.06188925081433,
+      "observed_at_least_180_pct": 0.3489995346672871,
+      "observed_at_least_240_pct": 0.02326663564448581,
+      "active_time_in_runs_at_least_180_pct": 4.16206713275277,
+      "sessions_with_180min_run_pct": 4.385964912280701,
+      "median_longest_run_per_session_minutes": 90.5,
+      "left_censored_runs": 183,
+      "right_censored_runs": 181,
+      "completed_natural_runs": 3934,
+      "completed_natural_median_minutes": 3.0,
+      "km": {
+        "natural_starts": 4115,
+        "right_censored": 181,
+        "median_minutes": 4,
+        "survive_at_least_minutes_pct": {
+          "15": 26.99915150397568,
+          "30": 18.596989528252006,
+          "60": 11.644613393098298,
+          "180": 0.5129057318676057,
+          "240": 0.0
+        }
+      },
+      "entry_forward_diagnostics": {
+        "30": {
+          "n": 3726,
+          "mean_signed_points": 0.06434514224369296,
+          "positive_pct": 51.07353730542137
+        },
+        "60": {
+          "n": 3392,
+          "mean_signed_points": 0.6846255896226415,
+          "positive_pct": 53.97995283018868
+        },
+        "180": {
+          "n": 2169,
+          "mean_signed_points": 0.8229598893499308,
+          "positive_pct": 55.09451360073767
+        }
+      },
+      "duration_bins": {
+        "1-5": 2520,
+        "6-15": 682,
+        "16-30": 368,
+        "31-60": 308,
+        "61-120": 342,
+        "121-180": 63,
+        "181-240": 14,
+        "241-10000": 1
+      }
+    },
+    "C": {
+      "sessions": 342,
+      "eligible_minutes": 133380,
+      "active_pct": 55.76473234367971,
+      "runs": 1278,
+      "runs_per_session": 3.736842105263158,
+      "natural_entries_per_session": 3.2017543859649122,
+      "observed_median_minutes": 45.0,
+      "observed_mean_minutes": 58.19953051643193,
+      "observed_p90_minutes": 120.0,
+      "observed_under_15_pct": 3.6776212832550863,
+      "observed_at_most_30_pct": 44.99217527386541,
+      "observed_at_least_180_pct": 4.303599374021909,
+      "observed_at_least_240_pct": 1.0954616588419406,
+      "active_time_in_runs_at_least_180_pct": 16.055607093400017,
+      "sessions_with_180min_run_pct": 16.08187134502924,
+      "median_longest_run_per_session_minutes": 105.0,
+      "left_censored_runs": 183,
+      "right_censored_runs": 188,
+      "completed_natural_runs": 907,
+      "completed_natural_median_minutes": 45.0,
+      "km": {
+        "natural_starts": 1095,
+        "right_censored": 188,
+        "median_minutes": 60,
+        "survive_at_least_minutes_pct": {
+          "15": 96.33485930305076,
+          "30": 70.92997597497046,
+          "60": 52.20385734456778,
+          "180": 7.255036183465507,
+          "240": 2.4408765627601348
+        }
+      },
+      "entry_forward_diagnostics": {
+        "30": {
+          "n": 1009,
+          "mean_signed_points": -0.15411298315163527,
+          "positive_pct": 51.04063429137761
+        },
+        "60": {
+          "n": 912,
+          "mean_signed_points": 0.31167763157894735,
+          "positive_pct": 52.083333333333336
+        },
+        "180": {
+          "n": 568,
+          "mean_signed_points": 0.39348591549295775,
+          "positive_pct": 54.75352112676056
+        }
+      },
+      "duration_bins": {
+        "1-5": 16,
+        "6-15": 371,
+        "16-30": 188,
+        "31-60": 293,
+        "61-120": 291,
+        "121-180": 78,
+        "181-240": 29,
+        "241-10000": 12
+      }
+    },
+    "D": {
+      "sessions": 342,
+      "eligible_minutes": 133380,
+      "active_pct": 55.10271405008247,
+      "runs": 4279,
+      "runs_per_session": 12.511695906432749,
+      "natural_entries_per_session": 11.97953216374269,
+      "observed_median_minutes": 4.0,
+      "observed_mean_minutes": 17.1759756952559,
+      "observed_p90_minutes": 60.0,
+      "observed_under_15_pct": 73.45174106099556,
+      "observed_at_most_30_pct": 82.96330918438888,
+      "observed_at_least_180_pct": 0.35054919373685445,
+      "observed_at_least_240_pct": 0.023369946249123627,
+      "active_time_in_runs_at_least_180_pct": 4.163491890715141,
+      "sessions_with_180min_run_pct": 4.385964912280701,
+      "median_longest_run_per_session_minutes": 89.5,
+      "left_censored_runs": 182,
+      "right_censored_runs": 175,
+      "completed_natural_runs": 3922,
+      "completed_natural_median_minutes": 3.0,
+      "km": {
+        "natural_starts": 4097,
+        "right_censored": 175,
+        "median_minutes": 3,
+        "survive_at_least_minutes_pct": {
+          "15": 27.059161915210066,
+          "30": 18.614495976025225,
+          "60": 11.768648359621313,
+          "180": 0.5157448708203017,
+          "240": 0.0
+        }
+      },
+      "entry_forward_diagnostics": {
+        "30": {
+          "n": 3717,
+          "mean_signed_points": 0.1575195049771321,
+          "positive_pct": 50.95507129405434
+        },
+        "60": {
+          "n": 3378,
+          "mean_signed_points": 0.6201894612196566,
+          "positive_pct": 53.93724097098875
+        },
+        "180": {
+          "n": 2158,
+          "mean_signed_points": -0.05711306765523633,
+          "positive_pct": 55.097312326227986
+        }
+      },
+      "duration_bins": {
+        "1-5": 2512,
+        "6-15": 672,
+        "16-30": 366,
+        "31-60": 303,
+        "61-120": 346,
+        "121-180": 65,
+        "181-240": 14,
+        "241-10000": 1
+      }
+    },
+    "A_confirm": {
+      "sessions": 342,
+      "eligible_minutes": 133380,
+      "active_pct": 52.20422852001799,
+      "runs": 1225,
+      "runs_per_session": 3.58187134502924,
+      "natural_entries_per_session": 3.087719298245614,
+      "observed_median_minutes": 45.0,
+      "observed_mean_minutes": 56.840816326530614,
+      "observed_p90_minutes": 120.0,
+      "observed_under_15_pct": 0.0,
+      "observed_at_most_30_pct": 47.59183673469388,
+      "observed_at_least_180_pct": 4.163265306122449,
+      "observed_at_least_240_pct": 1.1428571428571428,
+      "active_time_in_runs_at_least_180_pct": 15.790607496768635,
+      "sessions_with_180min_run_pct": 14.912280701754385,
+      "median_longest_run_per_session_minutes": 105.0,
+      "left_censored_runs": 169,
+      "right_censored_runs": 178,
+      "completed_natural_runs": 878,
+      "completed_natural_median_minutes": 45.0,
+      "km": {
+        "natural_starts": 1056,
+        "right_censored": 178,
+        "median_minutes": 60,
+        "survive_at_least_minutes_pct": {
+          "15": 100.0,
+          "30": 71.40151515151516,
+          "60": 51.71865963453565,
+          "180": 7.131023918854658,
+          "240": 2.6942744343558913
+        }
+      },
+      "entry_forward_diagnostics": {
+        "30": {
+          "n": 978,
+          "mean_signed_points": 0.21088957055214724,
+          "positive_pct": 51.84049079754601
+        },
+        "60": {
+          "n": 876,
+          "mean_signed_points": -0.16980593607305935,
+          "positive_pct": 51.598173515981735
+        },
+        "180": {
+          "n": 530,
+          "mean_signed_points": -1.734433962264151,
+          "positive_pct": 51.698113207547166
+        }
+      },
+      "duration_bins": {
+        "1-5": 0,
+        "6-15": 400,
+        "16-30": 183,
+        "31-60": 271,
+        "61-120": 266,
+        "121-180": 71,
+        "181-240": 22,
+        "241-10000": 12
+      }
+    },
+    "B_confirm": {
+      "sessions": 342,
+      "eligible_minutes": 133380,
+      "active_pct": 51.21532463637727,
+      "runs": 4257,
+      "runs_per_session": 12.447368421052632,
+      "natural_entries_per_session": 11.950292397660819,
+      "observed_median_minutes": 3.0,
+      "observed_mean_minutes": 16.04674653511863,
+      "observed_p90_minutes": 55.0,
+      "observed_under_15_pct": 74.86492835330044,
+      "observed_at_most_30_pct": 84.21423537702607,
+      "observed_at_least_180_pct": 0.305379375146817,
+      "observed_at_least_240_pct": 0.02349072116513977,
+      "active_time_in_runs_at_least_180_pct": 3.8441832208575484,
+      "sessions_with_180min_run_pct": 3.8011695906432745,
+      "median_longest_run_per_session_minutes": 82.0,
+      "left_censored_runs": 170,
+      "right_censored_runs": 179,
+      "completed_natural_runs": 3908,
+      "completed_natural_median_minutes": 3.0,
+      "km": {
+        "natural_starts": 4087,
+        "right_censored": 179,
+        "median_minutes": 3,
+        "survive_at_least_minutes_pct": {
+          "15": 25.74725765865268,
+          "30": 17.415361033594902,
+          "60": 10.708248923351661,
+          "180": 0.4577816862895867,
+          "240": 0.0
+        }
+      },
+      "entry_forward_diagnostics": {
+        "30": {
+          "n": 3701,
+          "mean_signed_points": -0.046203728721967034,
+          "positive_pct": 50.74304242096731
+        },
+        "60": {
+          "n": 3366,
+          "mean_signed_points": 0.06253713606654783,
+          "positive_pct": 52.49554367201426
+        },
+        "180": {
+          "n": 2131,
+          "mean_signed_points": -2.006217738151103,
+          "positive_pct": 52.041295166588455
+        }
+      },
+      "duration_bins": {
+        "1-5": 2529,
+        "6-15": 698,
+        "16-30": 358,
+        "31-60": 296,
+        "61-120": 306,
+        "121-180": 57,
+        "181-240": 12,
+        "241-10000": 1
+      }
+    },
+    "trend_A": {
+      "sessions": 342,
+      "eligible_minutes": 133380,
+      "active_pct": 100.0,
+      "runs": 541,
+      "runs_per_session": 1.5818713450292399,
+      "natural_entries_per_session": 0.5818713450292398,
+      "observed_median_minutes": 270.0,
+      "observed_mean_minutes": 246.54343807763402,
+      "observed_p90_minutes": 390.0,
+      "observed_under_15_pct": 0.0,
+      "observed_at_most_30_pct": 7.208872458410351,
+      "observed_at_least_180_pct": 66.54343807763401,
+      "observed_at_least_240_pct": 55.822550831792974,
+      "active_time_in_runs_at_least_180_pct": 88.03418803418803,
+      "sessions_with_180min_run_pct": 99.12280701754386,
+      "median_longest_run_per_session_minutes": 390.0,
+      "left_censored_runs": 342,
+      "right_censored_runs": 342,
+      "completed_natural_runs": 36,
+      "completed_natural_median_minutes": 150.0,
+      "km": {
+        "natural_starts": 199,
+        "right_censored": 163,
+        "median_minutes": null,
+        "survive_at_least_minutes_pct": {
+          "15": 100.0,
+          "30": 100.0,
+          "60": 100.0,
+          "180": 90.1979778410123,
+          "240": 81.99816167364754
+        }
+      },
+      "entry_forward_diagnostics": {
+        "30": {
+          "n": 199,
+          "mean_signed_points": 1.2826633165829147,
+          "positive_pct": 49.74874371859296
+        },
+        "60": {
+          "n": 174,
+          "mean_signed_points": 3.706896551724138,
+          "positive_pct": 59.195402298850574
+        },
+        "180": {
+          "n": 121,
+          "mean_signed_points": 4.270661157024794,
+          "positive_pct": 52.892561983471076
+        }
+      },
+      "duration_bins": {
+        "1-5": 0,
+        "6-15": 0,
+        "16-30": 39,
+        "31-60": 33,
+        "61-120": 76,
+        "121-180": 70,
+        "181-240": 52,
+        "241-10000": 271
+      }
+    },
+    "trend_B": {
+      "sessions": 342,
+      "eligible_minutes": 133380,
+      "active_pct": 100.0,
+      "runs": 554,
+      "runs_per_session": 1.6198830409356726,
+      "natural_entries_per_session": 0.6198830409356725,
+      "observed_median_minutes": 253.0,
+      "observed_mean_minutes": 240.75812274368232,
+      "observed_p90_minutes": 390.0,
+      "observed_under_15_pct": 2.166064981949458,
+      "observed_at_most_30_pct": 5.054151624548736,
+      "observed_at_least_180_pct": 62.454873646209386,
+      "observed_at_least_240_pct": 52.707581227436826,
+      "active_time_in_runs_at_least_180_pct": 85.79622132253711,
+      "sessions_with_180min_run_pct": 97.6608187134503,
+      "median_longest_run_per_session_minutes": 386.5,
+      "left_censored_runs": 342,
+      "right_censored_runs": 342,
+      "completed_natural_runs": 39,
+      "completed_natural_median_minutes": 124.0,
+      "km": {
+        "natural_starts": 212,
+        "right_censored": 173,
+        "median_minutes": null,
+        "survive_at_least_minutes_pct": {
+          "15": 100.0,
+          "30": 99.51219512195122,
+          "60": 97.50671876975355,
+          "180": 84.72711903208318,
+          "240": 78.66109808080536
+        }
+      },
+      "entry_forward_diagnostics": {
+        "30": {
+          "n": 202,
+          "mean_signed_points": -0.5346534653465347,
+          "positive_pct": 47.524752475247524
+        },
+        "60": {
+          "n": 191,
+          "mean_signed_points": 2.006544502617801,
+          "positive_pct": 53.403141361256544
+        },
+        "180": {
+          "n": 141,
+          "mean_signed_points": 4.26241134751773,
+          "positive_pct": 56.02836879432624
+        }
+      },
+      "duration_bins": {
+        "1-5": 6,
+        "6-15": 6,
+        "16-30": 16,
+        "31-60": 37,
+        "61-120": 76,
+        "121-180": 70,
+        "181-240": 51,
+        "241-10000": 292
+      }
+    }
+  },
+  "extended": {
+    "A": {
+      "sessions": 382,
+      "eligible_minutes": 433156,
+      "active_pct": 51.82774797070802,
+      "runs": 3762,
+      "runs_per_session": 9.848167539267015,
+      "natural_entries_per_session": 9.350785340314136,
+      "observed_median_minutes": 45.0,
+      "observed_mean_minutes": 59.67437533227007,
+      "observed_p90_minutes": 120.0,
+      "observed_under_15_pct": 0.13290802764486975,
+      "observed_at_most_30_pct": 44.52418926103137,
+      "observed_at_least_180_pct": 3.8543328017012226,
+      "observed_at_least_240_pct": 1.2493354598617756,
+      "active_time_in_runs_at_least_180_pct": 14.679614245306134,
+      "sessions_with_180min_run_pct": 33.246073298429316,
+      "median_longest_run_per_session_minutes": 150.0,
+      "left_censored_runs": 190,
+      "right_censored_runs": 200,
+      "completed_natural_runs": 3376,
+      "completed_natural_median_minutes": 45.0,
+      "km": {
+        "natural_starts": 3572,
+        "right_censored": 196,
+        "median_minutes": 45,
+        "survive_at_least_minutes_pct": {
+          "15": 100.0,
+          "30": 71.40856902828338,
+          "60": 48.86825572448824,
+          "180": 4.7766346980621295,
+          "240": 1.6541238868977837
+        }
+      },
+      "entry_forward_diagnostics": {
+        "30": {
+          "n": 3482,
+          "mean_signed_points": -0.04918150488225158,
+          "positive_pct": 49.62665134979897
+        },
+        "60": {
+          "n": 3373,
+          "mean_signed_points": -0.08627334716869256,
+          "positive_pct": 49.4515268307145
+        },
+        "180": {
+          "n": 3005,
+          "mean_signed_points": -0.5514975041597338,
+          "positive_pct": 49.85024958402662
+        }
+      },
+      "duration_bins": {
+        "1-5": 2,
+        "6-15": 1116,
+        "16-30": 557,
+        "31-60": 861,
+        "61-120": 856,
+        "121-180": 260,
+        "181-240": 74,
+        "241-10000": 36
+      }
+    },
+    "B": {
+      "sessions": 382,
+      "eligible_minutes": 433156,
+      "active_pct": 51.54747943004367,
+      "runs": 13566,
+      "runs_per_session": 35.5130890052356,
+      "natural_entries_per_session": 35.03664921465968,
+      "observed_median_minutes": 3.0,
+      "observed_mean_minutes": 16.458867757629367,
+      "observed_p90_minutes": 58.0,
+      "observed_under_15_pct": 74.56140350877193,
+      "observed_at_most_30_pct": 83.58395989974937,
+      "observed_at_least_180_pct": 0.30222615361934246,
+      "observed_at_least_240_pct": 0.03685684800235884,
+      "active_time_in_runs_at_least_180_pct": 3.8220896538442592,
+      "sessions_with_180min_run_pct": 10.209424083769633,
+      "median_longest_run_per_session_minutes": 116.5,
+      "left_censored_runs": 182,
+      "right_censored_runs": 202,
+      "completed_natural_runs": 13185,
+      "completed_natural_median_minutes": 3.0,
+      "km": {
+        "natural_starts": 13384,
+        "right_censored": 199,
+        "median_minutes": 3,
+        "survive_at_least_minutes_pct": {
+          "15": 25.416416574478053,
+          "30": 16.918213934708728,
+          "60": 10.17180594207147,
+          "180": 0.34649994583655336,
+          "240": 0.04812499247729908
+        }
+      },
+      "entry_forward_diagnostics": {
+        "30": {
+          "n": 12954,
+          "mean_signed_points": -0.12349467345993516,
+          "positive_pct": 49.1894395553497
+        },
+        "60": {
+          "n": 12588,
+          "mean_signed_points": 0.04621464887194153,
+          "positive_pct": 50.45281220209723
+        },
+        "180": {
+          "n": 11244,
+          "mean_signed_points": -0.45533173247954467,
+          "positive_pct": 50.24012806830309
+        }
+      },
+      "duration_bins": {
+        "1-5": 8019,
+        "6-15": 2209,
+        "16-30": 1111,
+        "31-60": 978,
+        "61-120": 1016,
+        "121-180": 193,
+        "181-240": 35,
+        "241-10000": 5
+      }
+    },
+    "C": {
+      "sessions": 382,
+      "eligible_minutes": 433156,
+      "active_pct": 52.10824737507965,
+      "runs": 3826,
+      "runs_per_session": 10.015706806282722,
+      "natural_entries_per_session": 9.539267015706807,
+      "observed_median_minutes": 45.0,
+      "observed_mean_minutes": 58.99372713016205,
+      "observed_p90_minutes": 120.0,
+      "observed_under_15_pct": 3.2409827496079457,
+      "observed_at_most_30_pct": 43.7794040773654,
+      "observed_at_least_180_pct": 3.7114479874542603,
+      "observed_at_least_240_pct": 1.150026136957658,
+      "active_time_in_runs_at_least_180_pct": 14.344512870497542,
+      "sessions_with_180min_run_pct": 32.72251308900523,
+      "median_longest_run_per_session_minutes": 150.0,
+      "left_censored_runs": 182,
+      "right_censored_runs": 208,
+      "completed_natural_runs": 3440,
+      "completed_natural_median_minutes": 45.0,
+      "km": {
+        "natural_starts": 3644,
+        "right_censored": 204,
+        "median_minutes": 45,
+        "survive_at_least_minutes_pct": {
+          "15": 96.86847154547512,
+          "30": 69.75101291166764,
+          "60": 47.48148813397764,
+          "180": 4.561109660680415,
+          "240": 1.5015998882898485
+        }
+      },
+      "entry_forward_diagnostics": {
+        "30": {
+          "n": 3546,
+          "mean_signed_points": -0.14643260011280315,
+          "positive_pct": 49.717992103778904
+        },
+        "60": {
+          "n": 3441,
+          "mean_signed_points": -0.11580935774484162,
+          "positive_pct": 49.258936355710546
+        },
+        "180": {
+          "n": 3063,
+          "mean_signed_points": -0.5444825334639243,
+          "positive_pct": 50.04897159647405
+        }
+      },
+      "duration_bins": {
+        "1-5": 41,
+        "6-15": 1077,
+        "16-30": 557,
+        "31-60": 902,
+        "61-120": 867,
+        "121-180": 269,
+        "181-240": 78,
+        "241-10000": 35
+      }
+    },
+    "D": {
+      "sessions": 382,
+      "eligible_minutes": 433156,
+      "active_pct": 51.32030954205875,
+      "runs": 13533,
+      "runs_per_session": 35.42670157068063,
+      "natural_entries_per_session": 34.92931937172775,
+      "observed_median_minutes": 3.0,
+      "observed_mean_minutes": 16.42629128796276,
+      "observed_p90_minutes": 58.0,
+      "observed_under_15_pct": 74.56587600679819,
+      "observed_at_most_30_pct": 83.67693785561221,
+      "observed_at_least_180_pct": 0.30296312717061996,
+      "observed_at_least_240_pct": 0.03694672282568536,
+      "active_time_in_runs_at_least_180_pct": 3.8381084764976583,
+      "sessions_with_180min_run_pct": 10.209424083769633,
+      "median_longest_run_per_session_minutes": 116.5,
+      "left_censored_runs": 190,
+      "right_censored_runs": 196,
+      "completed_natural_runs": 13150,
+      "completed_natural_median_minutes": 3.0,
+      "km": {
+        "natural_starts": 13343,
+        "right_censored": 193,
+        "median_minutes": 3,
+        "survive_at_least_minutes_pct": {
+          "15": 25.36361441099882,
+          "30": 16.79226597313363,
+          "60": 10.15589822088695,
+          "180": 0.3482268194752244,
+          "240": 0.04836483603822561
+        }
+      },
+      "entry_forward_diagnostics": {
+        "30": {
+          "n": 12922,
+          "mean_signed_points": -0.11946680080482898,
+          "positive_pct": 49.04813496362792
+        },
+        "60": {
+          "n": 12551,
+          "mean_signed_points": 0.003625209146681539,
+          "positive_pct": 50.426260855708705
+        },
+        "180": {
+          "n": 11211,
+          "mean_signed_points": -0.6572785656944072,
+          "positive_pct": 50.37017215235037
+        }
+      },
+      "duration_bins": {
+        "1-5": 8008,
+        "6-15": 2201,
+        "16-30": 1115,
+        "31-60": 963,
+        "61-120": 1013,
+        "121-180": 193,
+        "181-240": 35,
+        "241-10000": 5
+      }
+    },
+    "A_confirm": {
+      "sessions": 382,
+      "eligible_minutes": 433156,
+      "active_pct": 49.25754231731755,
+      "runs": 3689,
+      "runs_per_session": 9.657068062827225,
+      "natural_entries_per_session": 9.209424083769633,
+      "observed_median_minutes": 45.0,
+      "observed_mean_minutes": 57.83735429655733,
+      "observed_p90_minutes": 120.0,
+      "observed_under_15_pct": 0.13553808620222282,
+      "observed_at_most_30_pct": 46.4082407156411,
+      "observed_at_least_180_pct": 3.5782054757386828,
+      "observed_at_least_240_pct": 1.1656275413391162,
+      "active_time_in_runs_at_least_180_pct": 14.144974269082592,
+      "sessions_with_180min_run_pct": 30.104712041884817,
+      "median_longest_run_per_session_minutes": 150.0,
+      "left_censored_runs": 171,
+      "right_censored_runs": 199,
+      "completed_natural_runs": 3323,
+      "completed_natural_median_minutes": 45.0,
+      "km": {
+        "natural_starts": 3518,
+        "right_censored": 195,
+        "median_minutes": 45,
+        "survive_at_least_minutes_pct": {
+          "15": 100.0,
+          "30": 69.8322433892522,
+          "60": 46.53201962681177,
+          "180": 4.416462762693187,
+          "240": 1.5337607094352976
+        }
+      },
+      "entry_forward_diagnostics": {
+        "30": {
+          "n": 3427,
+          "mean_signed_points": -0.09848263787569303,
+          "positive_pct": 49.46016924423694
+        },
+        "60": {
+          "n": 3316,
+          "mean_signed_points": -0.27457780458383596,
+          "positive_pct": 48.73341375150784
+        },
+        "180": {
+          "n": 2937,
+          "mean_signed_points": -0.6956077630234934,
+          "positive_pct": 49.812734082397
+        }
+      },
+      "duration_bins": {
+        "1-5": 1,
+        "6-15": 1153,
+        "16-30": 558,
+        "31-60": 849,
+        "61-120": 778,
+        "121-180": 249,
+        "181-240": 68,
+        "241-10000": 33
+      }
+    },
+    "B_confirm": {
+      "sessions": 382,
+      "eligible_minutes": 433156,
+      "active_pct": 48.690541052184436,
+      "runs": 13428,
+      "runs_per_session": 35.15183246073298,
+      "natural_entries_per_session": 34.70157068062827,
+      "observed_median_minutes": 3.0,
+      "observed_mean_minutes": 15.706434316353887,
+      "observed_p90_minutes": 53.0,
+      "observed_under_15_pct": 75.47661602621389,
+      "observed_at_most_30_pct": 84.42806076854335,
+      "observed_at_least_180_pct": 0.2755436401549002,
+      "observed_at_least_240_pct": 0.03723562704795949,
+      "active_time_in_runs_at_least_180_pct": 3.6518638635221383,
+      "sessions_with_180min_run_pct": 9.162303664921465,
+      "median_longest_run_per_session_minutes": 114.0,
+      "left_censored_runs": 172,
+      "right_censored_runs": 199,
+      "completed_natural_runs": 13059,
+      "completed_natural_median_minutes": 3.0,
+      "km": {
+        "natural_starts": 13256,
+        "right_censored": 197,
+        "median_minutes": 3,
+        "survive_at_least_minutes_pct": {
+          "15": 24.506017969274254,
+          "30": 16.07929928474191,
+          "60": 9.41231219158877,
+          "180": 0.3180646601365169,
+          "240": 0.04969760314633079
+        }
+      },
+      "entry_forward_diagnostics": {
+        "30": {
+          "n": 12830,
+          "mean_signed_points": -0.16872564302416213,
+          "positive_pct": 48.932190179267344
+        },
+        "60": {
+          "n": 12465,
+          "mean_signed_points": -0.19334135579622944,
+          "positive_pct": 49.811472121941435
+        },
+        "180": {
+          "n": 11123,
+          "mean_signed_points": -0.9623527825227007,
+          "positive_pct": 49.626899217836915
+        }
+      },
+      "duration_bins": {
+        "1-5": 8037,
+        "6-15": 2209,
+        "16-30": 1091,
+        "31-60": 950,
+        "61-120": 926,
+        "121-180": 179,
+        "181-240": 31,
+        "241-10000": 5
+      }
+    },
+    "trend_A": {
+      "sessions": 382,
+      "eligible_minutes": 433156,
+      "active_pct": 100.0,
+      "runs": 898,
+      "runs_per_session": 2.350785340314136,
+      "natural_entries_per_session": 1.350785340314136,
+      "observed_median_minutes": 360.0,
+      "observed_mean_minutes": 482.3563474387528,
+      "observed_p90_minutes": 1189.500000000001,
+      "observed_under_15_pct": 0.6681514476614699,
+      "observed_at_most_30_pct": 0.6681514476614699,
+      "observed_at_least_180_pct": 79.1759465478842,
+      "observed_at_least_240_pct": 68.70824053452115,
+      "active_time_in_runs_at_least_180_pct": 95.93033456768461,
+      "sessions_with_180min_run_pct": 97.64397905759162,
+      "median_longest_run_per_session_minutes": 825.0,
+      "left_censored_runs": 382,
+      "right_censored_runs": 382,
+      "completed_natural_runs": 257,
+      "completed_natural_median_minutes": 240.0,
+      "km": {
+        "natural_starts": 516,
+        "right_censored": 259,
+        "median_minutes": 480,
+        "survive_at_least_minutes_pct": {
+          "15": 100.0,
+          "30": 100.0,
+          "60": 100.0,
+          "180": 85.79376791681509,
+          "240": 77.93479680993126
+        }
+      },
+      "entry_forward_diagnostics": {
+        "30": {
+          "n": 516,
+          "mean_signed_points": 0.5436046511627907,
+          "positive_pct": 50.968992248062015
+        },
+        "60": {
+          "n": 490,
+          "mean_signed_points": 1.708673469387755,
+          "positive_pct": 54.89795918367347
+        },
+        "180": {
+          "n": 433,
+          "mean_signed_points": 0.49480369515011546,
+          "positive_pct": 49.42263279445728
+        }
+      },
+      "duration_bins": {
+        "1-5": 3,
+        "6-15": 3,
+        "16-30": 0,
+        "31-60": 76,
+        "61-120": 84,
+        "121-180": 95,
+        "181-240": 86,
+        "241-10000": 551
+      }
+    },
+    "trend_B": {
+      "sessions": 382,
+      "eligible_minutes": 433156,
+      "active_pct": 100.0,
+      "runs": 930,
+      "runs_per_session": 2.4345549738219896,
+      "natural_entries_per_session": 1.4345549738219896,
+      "observed_median_minutes": 329.5,
+      "observed_mean_minutes": 465.7591397849462,
+      "observed_p90_minutes": 1166.3000000000002,
+      "observed_under_15_pct": 2.3655913978494625,
+      "observed_at_most_30_pct": 4.408602150537634,
+      "observed_at_least_180_pct": 74.19354838709677,
+      "observed_at_least_240_pct": 63.87096774193548,
+      "active_time_in_runs_at_least_180_pct": 94.96463168004136,
+      "sessions_with_180min_run_pct": 96.8586387434555,
+      "median_longest_run_per_session_minutes": 830.0,
+      "left_censored_runs": 382,
+      "right_censored_runs": 382,
+      "completed_natural_runs": 279,
+      "completed_natural_median_minutes": 237.0,
+      "km": {
+        "natural_starts": 548,
+        "right_censored": 269,
+        "median_minutes": 409,
+        "survive_at_least_minutes_pct": {
+          "15": 98.9000441642739,
+          "30": 97.60323716441324,
+          "60": 95.35706162616798,
+          "180": 80.805474220909,
+          "240": 71.13128633910813
+        }
+      },
+      "entry_forward_diagnostics": {
+        "30": {
+          "n": 538,
+          "mean_signed_points": 0.09526022304832714,
+          "positive_pct": 50.371747211895915
+        },
+        "60": {
+          "n": 525,
+          "mean_signed_points": 1.2333333333333334,
+          "positive_pct": 53.52380952380953
+        },
+        "180": {
+          "n": 470,
+          "mean_signed_points": 1.403723404255319,
+          "positive_pct": 54.25531914893617
+        }
+      },
+      "duration_bins": {
+        "1-5": 12,
+        "6-15": 11,
+        "16-30": 18,
+        "31-60": 31,
+        "61-120": 89,
+        "121-180": 87,
+        "181-240": 91,
+        "241-10000": 591
+      }
+    }
+  },
+  "first_half": {
+    "A": {
+      "sessions": 171,
+      "eligible_minutes": 66690,
+      "active_pct": 55.55555555555556,
+      "runs": 624,
+      "runs_per_session": 3.6491228070175437,
+      "natural_entries_per_session": 3.0994152046783627,
+      "observed_median_minutes": 45.0,
+      "observed_mean_minutes": 59.375,
+      "observed_p90_minutes": 120.0,
+      "observed_under_15_pct": 0.0,
+      "observed_at_most_30_pct": 44.71153846153847,
+      "observed_at_least_180_pct": 3.8461538461538463,
+      "observed_at_least_240_pct": 1.4423076923076923,
+      "active_time_in_runs_at_least_180_pct": 14.37246963562753,
+      "sessions_with_180min_run_pct": 14.035087719298245,
+      "median_longest_run_per_session_minutes": 105.0,
+      "left_censored_runs": 94,
+      "right_censored_runs": 85,
+      "completed_natural_runs": 445,
+      "completed_natural_median_minutes": 45.0,
+      "km": {
+        "natural_starts": 530,
+        "right_censored": 85,
+        "median_minutes": 60,
+        "survive_at_least_minutes_pct": {
+          "15": 100.0,
+          "30": 73.58490566037736,
+          "60": 54.72257539541271,
+          "180": 7.093620602317068,
+          "240": 2.793113112162345
+        }
+      },
+      "entry_forward_diagnostics": {
+        "30": {
+          "n": 496,
+          "mean_signed_points": 0.3598790322580645,
+          "positive_pct": 53.0241935483871
+        },
+        "60": {
+          "n": 441,
+          "mean_signed_points": -0.10260770975056689,
+          "positive_pct": 51.92743764172335
+        },
+        "180": {
+          "n": 280,
+          "mean_signed_points": -1.35,
+          "positive_pct": 52.85714285714286
+        }
+      },
+      "duration_bins": {
+        "1-5": 0,
+        "6-15": 188,
+        "16-30": 91,
+        "31-60": 141,
+        "61-120": 150,
+        "121-180": 37,
+        "181-240": 10,
+        "241-10000": 7
+      }
+    },
+    "B": {
+      "sessions": 171,
+      "eligible_minutes": 66690,
+      "active_pct": 54.131054131054135,
+      "runs": 2192,
+      "runs_per_session": 12.818713450292398,
+      "natural_entries_per_session": 12.269005847953217,
+      "observed_median_minutes": 3.0,
+      "observed_mean_minutes": 16.46897810218978,
+      "observed_p90_minutes": 59.0,
+      "observed_under_15_pct": 74.90875912408758,
+      "observed_at_most_30_pct": 83.89598540145985,
+      "observed_at_least_180_pct": 0.3193430656934307,
+      "observed_at_least_240_pct": 0.04562043795620438,
+      "active_time_in_runs_at_least_180_pct": 3.930747922437673,
+      "sessions_with_180min_run_pct": 4.093567251461988,
+      "median_longest_run_per_session_minutes": 89.0,
+      "left_censored_runs": 94,
+      "right_censored_runs": 94,
+      "completed_natural_runs": 2004,
+      "completed_natural_median_minutes": 3.0,
+      "km": {
+        "natural_starts": 2098,
+        "right_censored": 94,
+        "median_minutes": 3,
+        "survive_at_least_minutes_pct": {
+          "15": 25.911817180490175,
+          "30": 17.80082349190487,
+          "60": 11.28956271668712,
+          "180": 0.47303696515280813,
+          "240": 0.0
+        }
+      },
+      "entry_forward_diagnostics": {
+        "30": {
+          "n": 1886,
+          "mean_signed_points": -0.17059915164369036,
+          "positive_pct": 50.74231177094379
+        },
+        "60": {
+          "n": 1710,
+          "mean_signed_points": 0.20687134502923976,
+          "positive_pct": 53.80116959064327
+        },
+        "180": {
+          "n": 1131,
+          "mean_signed_points": 0.5473032714412025,
+          "positive_pct": 55.34924845269673
+        }
+      },
+      "duration_bins": {
+        "1-5": 1310,
+        "6-15": 346,
+        "16-30": 183,
+        "31-60": 141,
+        "61-120": 173,
+        "121-180": 32,
+        "181-240": 6,
+        "241-10000": 1
+      }
+    },
+    "C": {
+      "sessions": 171,
+      "eligible_minutes": 66690,
+      "active_pct": 55.04873294346978,
+      "runs": 641,
+      "runs_per_session": 3.7485380116959064,
+      "natural_entries_per_session": 3.198830409356725,
+      "observed_median_minutes": 45.0,
+      "observed_mean_minutes": 57.27301092043682,
+      "observed_p90_minutes": 120.0,
+      "observed_under_15_pct": 4.6801872074882995,
+      "observed_at_most_30_pct": 44.92979719188768,
+      "observed_at_least_180_pct": 3.58814352574103,
+      "observed_at_least_240_pct": 1.0920436817472698,
+      "active_time_in_runs_at_least_180_pct": 13.856504685116583,
+      "sessions_with_180min_run_pct": 13.450292397660817,
+      "median_longest_run_per_session_minutes": 105.0,
+      "left_censored_runs": 94,
+      "right_censored_runs": 88,
+      "completed_natural_runs": 459,
+      "completed_natural_median_minutes": 45.0,
+      "km": {
+        "natural_starts": 547,
+        "right_censored": 88,
+        "median_minutes": 60,
+        "survive_at_least_minutes_pct": {
+          "15": 95.23424642345772,
+          "30": 70.48299054078852,
+          "60": 52.30171660384825,
+          "180": 6.497228393538112,
+          "240": 1.923521563876415
+        }
+      },
+      "entry_forward_diagnostics": {
+        "30": {
+          "n": 509,
+          "mean_signed_points": -0.6792730844793713,
+          "positive_pct": 50.884086444007856
+        },
+        "60": {
+          "n": 459,
+          "mean_signed_points": -0.6100217864923747,
+          "positive_pct": 49.89106753812636
+        },
+        "180": {
+          "n": 290,
+          "mean_signed_points": -1.2482758620689656,
+          "positive_pct": 54.137931034482754
+        }
+      },
+      "duration_bins": {
+        "1-5": 11,
+        "6-15": 184,
+        "16-30": 93,
+        "31-60": 147,
+        "61-120": 151,
+        "121-180": 38,
+        "181-240": 11,
+        "241-10000": 6
+      }
+    },
+    "D": {
+      "sessions": 171,
+      "eligible_minutes": 66690,
+      "active_pct": 54.68436047383416,
+      "runs": 2185,
+      "runs_per_session": 12.777777777777779,
+      "natural_entries_per_session": 12.228070175438596,
+      "observed_median_minutes": 3.0,
+      "observed_mean_minutes": 16.690617848970252,
+      "observed_p90_minutes": 60.0,
+      "observed_under_15_pct": 74.59954233409611,
+      "observed_at_most_30_pct": 83.7528604118993,
+      "observed_at_least_180_pct": 0.3203661327231121,
+      "observed_at_least_240_pct": 0.045766590389016024,
+      "active_time_in_runs_at_least_180_pct": 3.890975897337465,
+      "sessions_with_180min_run_pct": 4.093567251461988,
+      "median_longest_run_per_session_minutes": 91.0,
+      "left_censored_runs": 94,
+      "right_censored_runs": 91,
+      "completed_natural_runs": 2000,
+      "completed_natural_median_minutes": 3.0,
+      "km": {
+        "natural_starts": 2091,
+        "right_censored": 91,
+        "median_minutes": 3,
+        "survive_at_least_minutes_pct": {
+          "15": 26.111209290042403,
+          "30": 17.844107350112367,
+          "60": 11.626578431751877,
+          "180": 0.4723373000359641,
+          "240": 0.0
+        }
+      },
+      "entry_forward_diagnostics": {
+        "30": {
+          "n": 1883,
+          "mean_signed_points": 0.18706850770047795,
+          "positive_pct": 51.35422198619225
+        },
+        "60": {
+          "n": 1700,
+          "mean_signed_points": 0.23220588235294118,
+          "positive_pct": 53.8235294117647
+        },
+        "180": {
+          "n": 1126,
+          "mean_signed_points": -1.3812166962699823,
+          "positive_pct": 54.97335701598579
+        }
+      },
+      "duration_bins": {
+        "1-5": 1310,
+        "6-15": 338,
+        "16-30": 182,
+        "31-60": 138,
+        "61-120": 178,
+        "121-180": 32,
+        "181-240": 6,
+        "241-10000": 1
+      }
+    },
+    "A_confirm": {
+      "sessions": 171,
+      "eligible_minutes": 66690,
+      "active_pct": 51.821862348178136,
+      "runs": 611,
+      "runs_per_session": 3.573099415204678,
+      "natural_entries_per_session": 3.0526315789473686,
+      "observed_median_minutes": 45.0,
+      "observed_mean_minutes": 56.56301145662848,
+      "observed_p90_minutes": 120.0,
+      "observed_under_15_pct": 0.0,
+      "observed_at_most_30_pct": 46.808510638297875,
+      "observed_at_least_180_pct": 3.764320785597381,
+      "observed_at_least_240_pct": 1.1456628477905073,
+      "active_time_in_runs_at_least_180_pct": 14.62673611111111,
+      "sessions_with_180min_run_pct": 13.450292397660817,
+      "median_longest_run_per_session_minutes": 90.0,
+      "left_censored_runs": 89,
+      "right_censored_runs": 84,
+      "completed_natural_runs": 438,
+      "completed_natural_median_minutes": 45.0,
+      "km": {
+        "natural_starts": 522,
+        "right_censored": 84,
+        "median_minutes": 60,
+        "survive_at_least_minutes_pct": {
+          "15": 100.0,
+          "30": 72.60536398467433,
+          "60": 52.65214943022688,
+          "180": 6.924094458004236,
+          "240": 2.1258184739486685
+        }
+      },
+      "entry_forward_diagnostics": {
+        "30": {
+          "n": 485,
+          "mean_signed_points": 0.6757731958762887,
+          "positive_pct": 53.1958762886598
+        },
+        "60": {
+          "n": 431,
+          "mean_signed_points": -0.4814385150812065,
+          "positive_pct": 48.95591647331787
+        },
+        "180": {
+          "n": 268,
+          "mean_signed_points": -3.4486940298507465,
+          "positive_pct": 50.74626865671642
+        }
+      },
+      "duration_bins": {
+        "1-5": 0,
+        "6-15": 194,
+        "16-30": 92,
+        "31-60": 144,
+        "61-120": 132,
+        "121-180": 32,
+        "181-240": 11,
+        "241-10000": 6
+      }
+    },
+    "B_confirm": {
+      "sessions": 171,
+      "eligible_minutes": 66690,
+      "active_pct": 49.890538311590944,
+      "runs": 2165,
+      "runs_per_session": 12.660818713450292,
+      "natural_entries_per_session": 12.128654970760234,
+      "observed_median_minutes": 3.0,
+      "observed_mean_minutes": 15.36812933025404,
+      "observed_p90_minutes": 53.0,
+      "observed_under_15_pct": 76.6743648960739,
+      "observed_at_most_30_pct": 85.17321016166281,
+      "observed_at_least_180_pct": 0.27713625866050806,
+      "observed_at_least_240_pct": 0.046189376443418015,
+      "active_time_in_runs_at_least_180_pct": 3.675763404664583,
+      "sessions_with_180min_run_pct": 3.508771929824561,
+      "median_longest_run_per_session_minutes": 79.0,
+      "left_censored_runs": 91,
+      "right_censored_runs": 94,
+      "completed_natural_runs": 1980,
+      "completed_natural_median_minutes": 3.0,
+      "km": {
+        "natural_starts": 2074,
+        "right_censored": 94,
+        "median_minutes": 3,
+        "survive_at_least_minutes_pct": {
+          "15": 24.165444808511776,
+          "30": 16.446726916831626,
+          "60": 10.510693052124685,
+          "180": 0.4172421809236349,
+          "240": 0.0
+        }
+      },
+      "entry_forward_diagnostics": {
+        "30": {
+          "n": 1862,
+          "mean_signed_points": -0.25120837808807733,
+          "positive_pct": 49.5703544575725
+        },
+        "60": {
+          "n": 1687,
+          "mean_signed_points": -0.8365441612329579,
+          "positive_pct": 49.85180794309425
+        },
+        "180": {
+          "n": 1104,
+          "mean_signed_points": -4.191349637681159,
+          "positive_pct": 49.81884057971014
+        }
+      },
+      "duration_bins": {
+        "1-5": 1326,
+        "6-15": 346,
+        "16-30": 172,
+        "31-60": 133,
+        "61-120": 154,
+        "121-180": 28,
+        "181-240": 5,
+        "241-10000": 1
+      }
+    },
+    "trend_A": {
+      "sessions": 171,
+      "eligible_minutes": 66690,
+      "active_pct": 100.0,
+      "runs": 278,
+      "runs_per_session": 1.6257309941520468,
+      "natural_entries_per_session": 0.6257309941520468,
+      "observed_median_minutes": 240.0,
+      "observed_mean_minutes": 239.89208633093526,
+      "observed_p90_minutes": 390.0,
+      "observed_under_15_pct": 0.0,
+      "observed_at_most_30_pct": 7.194244604316546,
+      "observed_at_least_180_pct": 63.66906474820144,
+      "observed_at_least_240_pct": 54.67625899280576,
+      "active_time_in_runs_at_least_180_pct": 86.6846603688709,
+      "sessions_with_180min_run_pct": 98.83040935672514,
+      "median_longest_run_per_session_minutes": 390.0,
+      "left_censored_runs": 171,
+      "right_censored_runs": 171,
+      "completed_natural_runs": 22,
+      "completed_natural_median_minutes": 120.0,
+      "km": {
+        "natural_starts": 107,
+        "right_censored": 85,
+        "median_minutes": null,
+        "survive_at_least_minutes_pct": {
+          "15": 100.0,
+          "30": 100.0,
+          "60": 100.0,
+          "180": 88.06440716135569,
+          "240": 80.05855196486881
+        }
+      },
+      "entry_forward_diagnostics": {
+        "30": {
+          "n": 107,
+          "mean_signed_points": 2.789719626168224,
+          "positive_pct": 54.20560747663551
+        },
+        "60": {
+          "n": 91,
+          "mean_signed_points": 4.373626373626373,
+          "positive_pct": 59.34065934065934
+        },
+        "180": {
+          "n": 65,
+          "mean_signed_points": 7.626923076923077,
+          "positive_pct": 52.307692307692314
+        }
+      },
+      "duration_bins": {
+        "1-5": 0,
+        "6-15": 0,
+        "16-30": 20,
+        "31-60": 24,
+        "61-120": 37,
+        "121-180": 37,
+        "181-240": 25,
+        "241-10000": 135
+      }
+    },
+    "trend_B": {
+      "sessions": 171,
+      "eligible_minutes": 66690,
+      "active_pct": 100.0,
+      "runs": 283,
+      "runs_per_session": 1.654970760233918,
+      "natural_entries_per_session": 0.6549707602339181,
+      "observed_median_minutes": 247.0,
+      "observed_mean_minutes": 235.65371024734984,
+      "observed_p90_minutes": 390.0,
+      "observed_under_15_pct": 2.4734982332155475,
+      "observed_at_most_30_pct": 4.240282685512367,
+      "observed_at_least_180_pct": 60.07067137809188,
+      "observed_at_least_240_pct": 51.590106007067135,
+      "active_time_in_runs_at_least_180_pct": 84.07857249962512,
+      "sessions_with_180min_run_pct": 96.49122807017544,
+      "median_longest_run_per_session_minutes": 382.0,
+      "left_censored_runs": 171,
+      "right_censored_runs": 171,
+      "completed_natural_runs": 22,
+      "completed_natural_median_minutes": 94.5,
+      "km": {
+        "natural_starts": 112,
+        "right_censored": 90,
+        "median_minutes": null,
+        "survive_at_least_minutes_pct": {
+          "15": 100.0,
+          "30": 100.0,
+          "60": 96.26101646618224,
+          "180": 82.98989482537309,
+          "240": 76.94330133662216
+        }
+      },
+      "entry_forward_diagnostics": {
+        "30": {
+          "n": 108,
+          "mean_signed_points": -1.7962962962962963,
+          "positive_pct": 44.44444444444444
+        },
+        "60": {
+          "n": 103,
+          "mean_signed_points": 0.5218446601941747,
+          "positive_pct": 53.398058252427184
+        },
+        "180": {
+          "n": 73,
+          "mean_signed_points": 4.342465753424658,
+          "positive_pct": 54.794520547945204
+        }
+      },
+      "duration_bins": {
+        "1-5": 4,
+        "6-15": 3,
+        "16-30": 5,
+        "31-60": 19,
+        "61-120": 45,
+        "121-180": 38,
+        "181-240": 23,
+        "241-10000": 146
+      }
+    }
+  },
+  "second_half": {
+    "A": {
+      "sessions": 171,
+      "eligible_minutes": 66690,
+      "active_pct": 56.00539811066126,
+      "runs": 621,
+      "runs_per_session": 3.6315789473684212,
+      "natural_entries_per_session": 3.1169590643274856,
+      "observed_median_minutes": 45.0,
+      "observed_mean_minutes": 60.14492753623188,
+      "observed_p90_minutes": 120.0,
+      "observed_under_15_pct": 0.0,
+      "observed_at_most_30_pct": 45.249597423510465,
+      "observed_at_least_180_pct": 5.314009661835748,
+      "observed_at_least_240_pct": 1.288244766505636,
+      "active_time_in_runs_at_least_180_pct": 18.91566265060241,
+      "sessions_with_180min_run_pct": 19.298245614035086,
+      "median_longest_run_per_session_minutes": 105.0,
+      "left_censored_runs": 88,
+      "right_censored_runs": 95,
+      "completed_natural_runs": 438,
+      "completed_natural_median_minutes": 45.0,
+      "km": {
+        "natural_starts": 533,
+        "right_censored": 95,
+        "median_minutes": 60,
+        "survive_at_least_minutes_pct": {
+          "15": 100.0,
+          "30": 73.54596622889305,
+          "60": 54.428967599699305,
+          "180": 8.675264819103164,
+          "240": 3.5055151718008712
+        }
+      },
+      "entry_forward_diagnostics": {
+        "30": {
+          "n": 489,
+          "mean_signed_points": 0.16206543967280163,
+          "positive_pct": 50.306748466257666
+        },
+        "60": {
+          "n": 443,
+          "mean_signed_points": 1.056997742663657,
+          "positive_pct": 55.07900677200903
+        },
+        "180": {
+          "n": 269,
+          "mean_signed_points": 1.9265799256505576,
+          "positive_pct": 55.01858736059479
+        }
+      },
+      "duration_bins": {
+        "1-5": 0,
+        "6-15": 192,
+        "16-30": 89,
+        "31-60": 134,
+        "61-120": 145,
+        "121-180": 39,
+        "181-240": 16,
+        "241-10000": 6
+      }
+    },
+    "B": {
+      "sessions": 171,
+      "eligible_minutes": 66690,
+      "active_pct": 55.89593642225221,
+      "runs": 2106,
+      "runs_per_session": 12.31578947368421,
+      "natural_entries_per_session": 11.7953216374269,
+      "observed_median_minutes": 4.0,
+      "observed_mean_minutes": 17.700379867046532,
+      "observed_p90_minutes": 60.0,
+      "observed_under_15_pct": 72.1747388414055,
+      "observed_at_most_30_pct": 82.19373219373219,
+      "observed_at_least_180_pct": 0.3798670465337132,
+      "observed_at_least_240_pct": 0.0,
+      "active_time_in_runs_at_least_180_pct": 4.386082571022346,
+      "sessions_with_180min_run_pct": 4.678362573099415,
+      "median_longest_run_per_session_minutes": 91.0,
+      "left_censored_runs": 89,
+      "right_censored_runs": 87,
+      "completed_natural_runs": 1930,
+      "completed_natural_median_minutes": 3.0,
+      "km": {
+        "natural_starts": 2017,
+        "right_censored": 87,
+        "median_minutes": 4,
+        "survive_at_least_minutes_pct": {
+          "15": 28.12618819405712,
+          "30": 19.42250405701545,
+          "60": 12.010699126993307,
+          "180": 0.5518079398117868,
+          "240": 0.0
+        }
+      },
+      "entry_forward_diagnostics": {
+        "30": {
+          "n": 1840,
+          "mean_signed_points": 0.30516304347826084,
+          "positive_pct": 51.41304347826087
+        },
+        "60": {
+          "n": 1682,
+          "mean_signed_points": 1.170332936979786,
+          "positive_pct": 54.16171224732461
+        },
+        "180": {
+          "n": 1038,
+          "mean_signed_points": 1.1233140655105973,
+          "positive_pct": 54.81695568400771
+        }
+      },
+      "duration_bins": {
+        "1-5": 1210,
+        "6-15": 336,
+        "16-30": 185,
+        "31-60": 167,
+        "61-120": 169,
+        "121-180": 31,
+        "181-240": 8,
+        "241-10000": 0
+      }
+    },
+    "C": {
+      "sessions": 171,
+      "eligible_minutes": 66690,
+      "active_pct": 56.480731743889635,
+      "runs": 637,
+      "runs_per_session": 3.7251461988304095,
+      "natural_entries_per_session": 3.2046783625730995,
+      "observed_median_minutes": 45.0,
+      "observed_mean_minutes": 59.13186813186813,
+      "observed_p90_minutes": 124.39999999999975,
+      "observed_under_15_pct": 2.6687598116169546,
+      "observed_at_most_30_pct": 45.05494505494506,
+      "observed_at_least_180_pct": 5.023547880690738,
+      "observed_at_least_240_pct": 1.098901098901099,
+      "active_time_in_runs_at_least_180_pct": 18.198953991557598,
+      "sessions_with_180min_run_pct": 18.71345029239766,
+      "median_longest_run_per_session_minutes": 113.0,
+      "left_censored_runs": 89,
+      "right_censored_runs": 100,
+      "completed_natural_runs": 448,
+      "completed_natural_median_minutes": 45.0,
+      "km": {
+        "natural_starts": 548,
+        "right_censored": 100,
+        "median_minutes": 60,
+        "survive_at_least_minutes_pct": {
+          "15": 97.43414860331686,
+          "30": 71.37735257733414,
+          "60": 52.07417430668737,
+          "180": 8.06681760314104,
+          "240": 2.9578331211517153
+        }
+      },
+      "entry_forward_diagnostics": {
+        "30": {
+          "n": 500,
+          "mean_signed_points": 0.3805,
+          "positive_pct": 51.2
+        },
+        "60": {
+          "n": 453,
+          "mean_signed_points": 1.2455849889624724,
+          "positive_pct": 54.3046357615894
+        },
+        "180": {
+          "n": 278,
+          "mean_signed_points": 2.106115107913669,
+          "positive_pct": 55.39568345323741
+        }
+      },
+      "duration_bins": {
+        "1-5": 5,
+        "6-15": 187,
+        "16-30": 95,
+        "31-60": 146,
+        "61-120": 140,
+        "121-180": 40,
+        "181-240": 18,
+        "241-10000": 6
+      }
+    },
+    "D": {
+      "sessions": 171,
+      "eligible_minutes": 66690,
+      "active_pct": 55.52106762633079,
+      "runs": 2094,
+      "runs_per_session": 12.24561403508772,
+      "natural_entries_per_session": 11.730994152046783,
+      "observed_median_minutes": 4.0,
+      "observed_mean_minutes": 17.682425978987585,
+      "observed_p90_minutes": 60.0,
+      "observed_under_15_pct": 72.25405921680994,
+      "observed_at_most_30_pct": 82.13944603629417,
+      "observed_at_least_180_pct": 0.38204393505253104,
+      "observed_at_least_240_pct": 0.0,
+      "active_time_in_runs_at_least_180_pct": 4.431901045183245,
+      "sessions_with_180min_run_pct": 4.678362573099415,
+      "median_longest_run_per_session_minutes": 86.0,
+      "left_censored_runs": 88,
+      "right_censored_runs": 84,
+      "completed_natural_runs": 1922,
+      "completed_natural_median_minutes": 3.0,
+      "km": {
+        "natural_starts": 2006,
+        "right_censored": 84,
+        "median_minutes": 4,
+        "survive_at_least_minutes_pct": {
+          "15": 28.04775828006585,
+          "30": 19.41665212833017,
+          "60": 11.9153538594816,
+          "180": 0.5581129803923464,
+          "240": 0.0
+        }
+      },
+      "entry_forward_diagnostics": {
+        "30": {
+          "n": 1834,
+          "mean_signed_points": 0.12718102508178844,
+          "positive_pct": 50.54525627044711
+        },
+        "60": {
+          "n": 1678,
+          "mean_signed_points": 1.013259833134684,
+          "positive_pct": 54.05244338498212
+        },
+        "180": {
+          "n": 1032,
+          "mean_signed_points": 1.3875968992248062,
+          "positive_pct": 55.23255813953488
+        }
+      },
+      "duration_bins": {
+        "1-5": 1202,
+        "6-15": 334,
+        "16-30": 184,
+        "31-60": 165,
+        "61-120": 168,
+        "121-180": 33,
+        "181-240": 8,
+        "241-10000": 0
+      }
+    },
+    "A_confirm": {
+      "sessions": 171,
+      "eligible_minutes": 66690,
+      "active_pct": 52.58659469185785,
+      "runs": 614,
+      "runs_per_session": 3.590643274853801,
+      "natural_entries_per_session": 3.1228070175438596,
+      "observed_median_minutes": 45.0,
+      "observed_mean_minutes": 57.11726384364821,
+      "observed_p90_minutes": 120.0,
+      "observed_under_15_pct": 0.0,
+      "observed_at_most_30_pct": 48.37133550488599,
+      "observed_at_least_180_pct": 4.5602605863192185,
+      "observed_at_least_240_pct": 1.1400651465798046,
+      "active_time_in_runs_at_least_180_pct": 16.937553464499572,
+      "sessions_with_180min_run_pct": 16.374269005847953,
+      "median_longest_run_per_session_minutes": 105.0,
+      "left_censored_runs": 80,
+      "right_censored_runs": 94,
+      "completed_natural_runs": 440,
+      "completed_natural_median_minutes": 37.5,
+      "km": {
+        "natural_starts": 534,
+        "right_censored": 94,
+        "median_minutes": 60,
+        "survive_at_least_minutes_pct": {
+          "15": 100.0,
+          "30": 70.2247191011236,
+          "60": 50.80609859855403,
+          "180": 7.435738166949513,
+          "240": 3.3105199491114354
+        }
+      },
+      "entry_forward_diagnostics": {
+        "30": {
+          "n": 493,
+          "mean_signed_points": -0.24645030425963488,
+          "positive_pct": 50.50709939148072
+        },
+        "60": {
+          "n": 445,
+          "mean_signed_points": 0.13202247191011235,
+          "positive_pct": 54.157303370786515
+        },
+        "180": {
+          "n": 262,
+          "mean_signed_points": 0.019083969465648856,
+          "positive_pct": 52.67175572519084
+        }
+      },
+      "duration_bins": {
+        "1-5": 0,
+        "6-15": 206,
+        "16-30": 91,
+        "31-60": 127,
+        "61-120": 134,
+        "121-180": 39,
+        "181-240": 11,
+        "241-10000": 6
+      }
+    },
+    "B_confirm": {
+      "sessions": 171,
+      "eligible_minutes": 66690,
+      "active_pct": 52.54011096116359,
+      "runs": 2092,
+      "runs_per_session": 12.23391812865497,
+      "natural_entries_per_session": 11.771929824561404,
+      "observed_median_minutes": 4.0,
+      "observed_mean_minutes": 16.74904397705545,
+      "observed_p90_minutes": 57.0,
+      "observed_under_15_pct": 72.99235181644359,
+      "observed_at_most_30_pct": 83.22179732313576,
+      "observed_at_least_180_pct": 0.33460803059273425,
+      "observed_at_least_240_pct": 0.0,
+      "active_time_in_runs_at_least_180_pct": 4.004109706327235,
+      "sessions_with_180min_run_pct": 4.093567251461988,
+      "median_longest_run_per_session_minutes": 83.0,
+      "left_censored_runs": 79,
+      "right_censored_runs": 85,
+      "completed_natural_runs": 1928,
+      "completed_natural_median_minutes": 3.0,
+      "km": {
+        "natural_starts": 2013,
+        "right_censored": 85,
+        "median_minutes": 4,
+        "survive_at_least_minutes_pct": {
+          "15": 27.37015121491569,
+          "30": 18.41099392817275,
+          "60": 10.912109209468039,
+          "180": 0.5011421446249459,
+          "240": 0.0
+        }
+      },
+      "entry_forward_diagnostics": {
+        "30": {
+          "n": 1839,
+          "mean_signed_points": 0.16136487221315932,
+          "positive_pct": 51.93039695486677
+        },
+        "60": {
+          "n": 1679,
+          "mean_signed_points": 0.9659023228111971,
+          "positive_pct": 55.151876116736155
+        },
+        "180": {
+          "n": 1027,
+          "mean_signed_points": 0.3427458617332035,
+          "positive_pct": 54.43037974683544
+        }
+      },
+      "duration_bins": {
+        "1-5": 1203,
+        "6-15": 352,
+        "16-30": 186,
+        "31-60": 163,
+        "61-120": 152,
+        "121-180": 29,
+        "181-240": 7,
+        "241-10000": 0
+      }
+    },
+    "trend_A": {
+      "sessions": 171,
+      "eligible_minutes": 66690,
+      "active_pct": 100.0,
+      "runs": 263,
+      "runs_per_session": 1.5380116959064327,
+      "natural_entries_per_session": 0.5380116959064327,
+      "observed_median_minutes": 270.0,
+      "observed_mean_minutes": 253.574144486692,
+      "observed_p90_minutes": 390.0,
+      "observed_under_15_pct": 0.0,
+      "observed_at_most_30_pct": 7.224334600760455,
+      "observed_at_least_180_pct": 69.58174904942965,
+      "observed_at_least_240_pct": 57.03422053231939,
+      "active_time_in_runs_at_least_180_pct": 89.38371569950517,
+      "sessions_with_180min_run_pct": 99.41520467836257,
+      "median_longest_run_per_session_minutes": 390.0,
+      "left_censored_runs": 171,
+      "right_censored_runs": 171,
+      "completed_natural_runs": 14,
+      "completed_natural_median_minutes": 180.0,
+      "km": {
+        "natural_starts": 92,
+        "right_censored": 78,
+        "median_minutes": null,
+        "survive_at_least_minutes_pct": {
+          "15": 100.0,
+          "30": 100.0,
+          "60": 100.0,
+          "180": 92.7710843373494,
+          "240": 84.33734939759036
+        }
+      },
+      "entry_forward_diagnostics": {
+        "30": {
+          "n": 92,
+          "mean_signed_points": -0.4701086956521739,
+          "positive_pct": 44.565217391304344
+        },
+        "60": {
+          "n": 83,
+          "mean_signed_points": 2.9759036144578315,
+          "positive_pct": 59.036144578313255
+        },
+        "180": {
+          "n": 56,
+          "mean_signed_points": 0.375,
+          "positive_pct": 53.57142857142857
+        }
+      },
+      "duration_bins": {
+        "1-5": 0,
+        "6-15": 0,
+        "16-30": 19,
+        "31-60": 9,
+        "61-120": 39,
+        "121-180": 33,
+        "181-240": 27,
+        "241-10000": 136
+      }
+    },
+    "trend_B": {
+      "sessions": 171,
+      "eligible_minutes": 66690,
+      "active_pct": 100.0,
+      "runs": 271,
+      "runs_per_session": 1.5847953216374269,
+      "natural_entries_per_session": 0.5847953216374269,
+      "observed_median_minutes": 263.0,
+      "observed_mean_minutes": 246.08856088560884,
+      "observed_p90_minutes": 390.0,
+      "observed_under_15_pct": 1.8450184501845017,
+      "observed_at_most_30_pct": 5.904059040590406,
+      "observed_at_least_180_pct": 64.94464944649447,
+      "observed_at_least_240_pct": 53.874538745387454,
+      "active_time_in_runs_at_least_180_pct": 87.51387014544909,
+      "sessions_with_180min_run_pct": 98.83040935672514,
+      "median_longest_run_per_session_minutes": 390.0,
+      "left_censored_runs": 171,
+      "right_censored_runs": 171,
+      "completed_natural_runs": 17,
+      "completed_natural_median_minutes": 137.0,
+      "km": {
+        "natural_starts": 100,
+        "right_censored": 83,
+        "median_minutes": null,
+        "survive_at_least_minutes_pct": {
+          "15": 100.0,
+          "30": 98.95833333333334,
+          "60": 98.95833333333334,
+          "180": 86.73157510360214,
+          "240": 80.66698244449772
+        }
+      },
+      "entry_forward_diagnostics": {
+        "30": {
+          "n": 94,
+          "mean_signed_points": 0.9148936170212766,
+          "positive_pct": 51.06382978723404
+        },
+        "60": {
+          "n": 88,
+          "mean_signed_points": 3.7443181818181817,
+          "positive_pct": 53.40909090909091
+        },
+        "180": {
+          "n": 68,
+          "mean_signed_points": 4.176470588235294,
+          "positive_pct": 57.35294117647059
+        }
+      },
+      "duration_bins": {
+        "1-5": 2,
+        "6-15": 3,
+        "16-30": 11,
+        "31-60": 18,
+        "61-120": 31,
+        "121-180": 32,
+        "181-240": 28,
+        "241-10000": 146
+      }
+    }
+  },
+  "five_period_warmup": {
+    "A": {
+      "sessions": 303,
+      "eligible_minutes": 116640,
+      "active_pct": 55.928497942386834,
+      "runs": 1088,
+      "runs_per_session": 3.5907590759075907,
+      "natural_entries_per_session": 3.0792079207920793,
+      "observed_median_minutes": 45.0,
+      "observed_mean_minutes": 59.958639705882355,
+      "observed_p90_minutes": 120.0,
+      "observed_under_15_pct": 0.0,
+      "observed_at_most_30_pct": 45.036764705882355,
+      "observed_at_least_180_pct": 4.8713235294117645,
+      "observed_at_least_240_pct": 1.5625,
+      "active_time_in_runs_at_least_180_pct": 17.77420096573925,
+      "sessions_with_180min_run_pct": 17.491749174917494,
+      "median_longest_run_per_session_minutes": 105.0,
+      "left_censored_runs": 155,
+      "right_censored_runs": 158,
+      "completed_natural_runs": 775,
+      "completed_natural_median_minutes": 45.0,
+      "km": {
+        "natural_starts": 933,
+        "right_censored": 158,
+        "median_minutes": 60,
+        "survive_at_least_minutes_pct": {
+          "15": 100.0,
+          "30": 73.7406216505895,
+          "60": 54.308566056653426,
+          "180": 8.08122376331509,
+          "240": 3.3285677284043755
+        }
+      },
+      "entry_forward_diagnostics": {
+        "30": {
+          "n": 860,
+          "mean_signed_points": 0.24796511627906978,
+          "positive_pct": 51.627906976744185
+        },
+        "60": {
+          "n": 773,
+          "mean_signed_points": 0.5029107373868047,
+          "positive_pct": 53.6869340232859
+        },
+        "180": {
+          "n": 480,
+          "mean_signed_points": 0.6052083333333333,
+          "positive_pct": 55.00000000000001
+        }
+      },
+      "duration_bins": {
+        "1-5": 0,
+        "6-15": 331,
+        "16-30": 159,
+        "31-60": 242,
+        "61-120": 256,
+        "121-180": 65,
+        "181-240": 22,
+        "241-10000": 13
+      }
+    },
+    "B": {
+      "sessions": 303,
+      "eligible_minutes": 116640,
+      "active_pct": 55.132030178326474,
+      "runs": 3718,
+      "runs_per_session": 12.270627062706271,
+      "natural_entries_per_session": 11.75907590759076,
+      "observed_median_minutes": 4.0,
+      "observed_mean_minutes": 17.29585798816568,
+      "observed_p90_minutes": 60.0,
+      "observed_under_15_pct": 73.13071543840775,
+      "observed_at_most_30_pct": 82.86713286713287,
+      "observed_at_least_180_pct": 0.32275416890801506,
+      "observed_at_least_240_pct": 0.026896180742334585,
+      "active_time_in_runs_at_least_180_pct": 3.851895624047523,
+      "sessions_with_180min_run_pct": 3.9603960396039604,
+      "median_longest_run_per_session_minutes": 91.0,
+      "left_censored_runs": 155,
+      "right_censored_runs": 159,
+      "completed_natural_runs": 3404,
+      "completed_natural_median_minutes": 3.0,
+      "km": {
+        "natural_starts": 3563,
+        "right_censored": 159,
+        "median_minutes": 4,
+        "survive_at_least_minutes_pct": {
+          "15": 27.544272743155325,
+          "30": 18.779046286590194,
+          "60": 11.83574416169599,
+          "180": 0.4496718968905078,
+          "240": 0.0
+        }
+      },
+      "entry_forward_diagnostics": {
+        "30": {
+          "n": 3209,
+          "mean_signed_points": 0.16360236833904643,
+          "positive_pct": 51.35556248052353
+        },
+        "60": {
+          "n": 2909,
+          "mean_signed_points": 0.7110690959092472,
+          "positive_pct": 54.039188724647644
+        },
+        "180": {
+          "n": 1847,
+          "mean_signed_points": 0.8031943692474283,
+          "positive_pct": 55.27883053600433
+        }
+      },
+      "duration_bins": {
+        "1-5": 2158,
+        "6-15": 599,
+        "16-30": 324,
+        "31-60": 269,
+        "61-120": 299,
+        "121-180": 57,
+        "181-240": 11,
+        "241-10000": 1
+      }
+    },
+    "C": {
+      "sessions": 303,
+      "eligible_minutes": 116640,
+      "active_pct": 55.79389574759945,
+      "runs": 1112,
+      "runs_per_session": 3.66996699669967,
+      "natural_entries_per_session": 3.1584158415841586,
+      "observed_median_minutes": 45.0,
+      "observed_mean_minutes": 58.523381294964025,
+      "observed_p90_minutes": 120.0,
+      "observed_under_15_pct": 3.6870503597122304,
+      "observed_at_most_30_pct": 44.7841726618705,
+      "observed_at_least_180_pct": 4.496402877697841,
+      "observed_at_least_240_pct": 1.2589928057553956,
+      "active_time_in_runs_at_least_180_pct": 16.84440210209287,
+      "sessions_with_180min_run_pct": 16.5016501650165,
+      "median_longest_run_per_session_minutes": 105.0,
+      "left_censored_runs": 155,
+      "right_censored_runs": 165,
+      "completed_natural_runs": 792,
+      "completed_natural_median_minutes": 45.0,
+      "km": {
+        "natural_starts": 957,
+        "right_censored": 165,
+        "median_minutes": 60,
+        "survive_at_least_minutes_pct": {
+          "15": 96.32835213924989,
+          "30": 70.93407492244734,
+          "60": 52.04241934534566,
+          "180": 7.261633353752404,
+          "240": 2.5837324175020493
+        }
+      },
+      "entry_forward_diagnostics": {
+        "30": {
+          "n": 877,
+          "mean_signed_points": -0.015108323831242873,
+          "positive_pct": 51.08323831242873
+        },
+        "60": {
+          "n": 794,
+          "mean_signed_points": 0.40648614609571787,
+          "positive_pct": 52.39294710327456
+        },
+        "180": {
+          "n": 496,
+          "mean_signed_points": 0.6587701612903226,
+          "positive_pct": 55.64516129032258
+        }
+      },
+      "duration_bins": {
+        "1-5": 13,
+        "6-15": 323,
+        "16-30": 162,
+        "31-60": 260,
+        "61-120": 250,
+        "121-180": 68,
+        "181-240": 24,
+        "241-10000": 12
+      }
+    },
+    "D": {
+      "sessions": 303,
+      "eligible_minutes": 116640,
+      "active_pct": 55.22290809327847,
+      "runs": 3706,
+      "runs_per_session": 12.231023102310232,
+      "natural_entries_per_session": 11.71947194719472,
+      "observed_median_minutes": 4.0,
+      "observed_mean_minutes": 17.380464112250404,
+      "observed_p90_minutes": 61.0,
+      "observed_under_15_pct": 73.01672962763087,
+      "observed_at_most_30_pct": 82.73070696168375,
+      "observed_at_least_180_pct": 0.32379924446842956,
+      "observed_at_least_240_pct": 0.026983270372369132,
+      "active_time_in_runs_at_least_180_pct": 3.8548717630255234,
+      "sessions_with_180min_run_pct": 3.9603960396039604,
+      "median_longest_run_per_session_minutes": 90.0,
+      "left_censored_runs": 155,
+      "right_censored_runs": 152,
+      "completed_natural_runs": 3399,
+      "completed_natural_median_minutes": 3.0,
+      "km": {
+        "natural_starts": 3551,
+        "right_censored": 152,
+        "median_minutes": 4,
+        "survive_at_least_minutes_pct": {
+          "15": 27.57294481737628,
+          "30": 18.842077611622564,
+          "60": 11.93352714812924,
+          "180": 0.4510596082091188,
+          "240": 0.0
+        }
+      },
+      "entry_forward_diagnostics": {
+        "30": {
+          "n": 3205,
+          "mean_signed_points": 0.23837753510140405,
+          "positive_pct": 51.23244929797192
+        },
+        "60": {
+          "n": 2901,
+          "mean_signed_points": 0.7485349879351948,
+          "positive_pct": 54.222681833850395
+        },
+        "180": {
+          "n": 1840,
+          "mean_signed_points": -0.005978260869565218,
+          "positive_pct": 55.59782608695652
+        }
+      },
+      "duration_bins": {
+        "1-5": 2153,
+        "6-15": 593,
+        "16-30": 320,
+        "31-60": 267,
+        "61-120": 302,
+        "121-180": 59,
+        "181-240": 11,
+        "241-10000": 1
+      }
+    },
+    "A_confirm": {
+      "sessions": 303,
+      "eligible_minutes": 116640,
+      "active_pct": 52.559156378600825,
+      "runs": 1066,
+      "runs_per_session": 3.5181518151815183,
+      "natural_entries_per_session": 3.036303630363036,
+      "observed_median_minutes": 45.0,
+      "observed_mean_minutes": 57.5093808630394,
+      "observed_p90_minutes": 120.0,
+      "observed_under_15_pct": 0.0,
+      "observed_at_most_30_pct": 47.091932457786115,
+      "observed_at_least_180_pct": 4.409005628517824,
+      "observed_at_least_240_pct": 1.3133208255159476,
+      "active_time_in_runs_at_least_180_pct": 16.63812087105456,
+      "sessions_with_180min_run_pct": 15.51155115511551,
+      "median_longest_run_per_session_minutes": 105.0,
+      "left_censored_runs": 146,
+      "right_censored_runs": 156,
+      "completed_natural_runs": 764,
+      "completed_natural_median_minutes": 45.0,
+      "km": {
+        "natural_starts": 920,
+        "right_censored": 156,
+        "median_minutes": 60,
+        "survive_at_least_minutes_pct": {
+          "15": 100.0,
+          "30": 71.84782608695653,
+          "60": 52.294566161615016,
+          "180": 7.206916120842688,
+          "240": 2.7890454866402568
+        }
+      },
+      "entry_forward_diagnostics": {
+        "30": {
+          "n": 847,
+          "mean_signed_points": 0.42119244391971666,
+          "positive_pct": 52.18417945690673
+        },
+        "60": {
+          "n": 761,
+          "mean_signed_points": 0.20170827858081472,
+          "positive_pct": 52.693823915900126
+        },
+        "180": {
+          "n": 461,
+          "mean_signed_points": -1.4387201735357917,
+          "positive_pct": 52.92841648590022
+        }
+      },
+      "duration_bins": {
+        "1-5": 0,
+        "6-15": 345,
+        "16-30": 157,
+        "31-60": 237,
+        "61-120": 235,
+        "121-180": 62,
+        "181-240": 18,
+        "241-10000": 12
+      }
+    },
+    "B_confirm": {
+      "sessions": 303,
+      "eligible_minutes": 116640,
+      "active_pct": 51.362311385459535,
+      "runs": 3690,
+      "runs_per_session": 12.178217821782178,
+      "natural_entries_per_session": 11.689768976897689,
+      "observed_median_minutes": 4.0,
+      "observed_mean_minutes": 16.23550135501355,
+      "observed_p90_minutes": 55.09999999999991,
+      "observed_under_15_pct": 74.41734417344173,
+      "observed_at_most_30_pct": 83.95663956639567,
+      "observed_at_least_180_pct": 0.27100271002710025,
+      "observed_at_least_240_pct": 0.02710027100271003,
+      "active_time_in_runs_at_least_180_pct": 3.420187284047472,
+      "sessions_with_180min_run_pct": 3.3003300330033,
+      "median_longest_run_per_session_minutes": 82.0,
+      "left_censored_runs": 148,
+      "right_censored_runs": 158,
+      "completed_natural_runs": 3384,
+      "completed_natural_median_minutes": 3.0,
+      "km": {
+        "natural_starts": 3542,
+        "right_censored": 158,
+        "median_minutes": 3,
+        "survive_at_least_minutes_pct": {
+          "15": 26.273435859818388,
+          "30": 17.629941510580466,
+          "60": 10.818789298345921,
+          "180": 0.3828494446352743,
+          "240": 0.0
+        }
+      },
+      "entry_forward_diagnostics": {
+        "30": {
+          "n": 3190,
+          "mean_signed_points": 0.10893416927899686,
+          "positive_pct": 51.2539184952978
+        },
+        "60": {
+          "n": 2891,
+          "mean_signed_points": 0.4559840885506745,
+          "positive_pct": 53.58007609823591
+        },
+        "180": {
+          "n": 1814,
+          "mean_signed_points": -1.884922822491731,
+          "positive_pct": 52.425578831312016
+        }
+      },
+      "duration_bins": {
+        "1-5": 2166,
+        "6-15": 618,
+        "16-30": 314,
+        "31-60": 262,
+        "61-120": 270,
+        "121-180": 50,
+        "181-240": 9,
+        "241-10000": 1
+      }
+    },
+    "trend_A": {
+      "sessions": 303,
+      "eligible_minutes": 116640,
+      "active_pct": 100.0,
+      "runs": 472,
+      "runs_per_session": 1.5577557755775577,
+      "natural_entries_per_session": 0.5577557755775577,
+      "observed_median_minutes": 240.0,
+      "observed_mean_minutes": 247.11864406779662,
+      "observed_p90_minutes": 390.0,
+      "observed_under_15_pct": 0.0,
+      "observed_at_most_30_pct": 7.203389830508475,
+      "observed_at_least_180_pct": 66.52542372881356,
+      "observed_at_least_240_pct": 56.567796610169495,
+      "active_time_in_runs_at_least_180_pct": 88.09156378600824,
+      "sessions_with_180min_run_pct": 98.01980198019803,
+      "median_longest_run_per_session_minutes": 390.0,
+      "left_censored_runs": 303,
+      "right_censored_runs": 303,
+      "completed_natural_runs": 32,
+      "completed_natural_median_minutes": 180.0,
+      "km": {
+        "natural_starts": 169,
+        "right_censored": 137,
+        "median_minutes": null,
+        "survive_at_least_minutes_pct": {
+          "15": 100.0,
+          "30": 100.0,
+          "60": 100.0,
+          "180": 90.43392504930966,
+          "240": 81.39053254437869
+        }
+      },
+      "entry_forward_diagnostics": {
+        "30": {
+          "n": 169,
+          "mean_signed_points": 0.32988165680473375,
+          "positive_pct": 47.337278106508876
+        },
+        "60": {
+          "n": 146,
+          "mean_signed_points": 2.8664383561643834,
+          "positive_pct": 56.849315068493155
+        },
+        "180": {
+          "n": 102,
+          "mean_signed_points": 3.696078431372549,
+          "positive_pct": 51.9607843137255
+        }
+      },
+      "duration_bins": {
+        "1-5": 0,
+        "6-15": 0,
+        "16-30": 34,
+        "31-60": 31,
+        "61-120": 65,
+        "121-180": 58,
+        "181-240": 49,
+        "241-10000": 235
+      }
+    },
+    "trend_B": {
+      "sessions": 303,
+      "eligible_minutes": 116640,
+      "active_pct": 100.0,
+      "runs": 483,
+      "runs_per_session": 1.5940594059405941,
+      "natural_entries_per_session": 0.594059405940594,
+      "observed_median_minutes": 253.0,
+      "observed_mean_minutes": 241.49068322981367,
+      "observed_p90_minutes": 390.0,
+      "observed_under_15_pct": 2.2774327122153206,
+      "observed_at_most_30_pct": 5.175983436853002,
+      "observed_at_least_180_pct": 62.939958592132506,
+      "observed_at_least_240_pct": 53.62318840579711,
+      "active_time_in_runs_at_least_180_pct": 86.2002743484225,
+      "sessions_with_180min_run_pct": 97.02970297029702,
+      "median_longest_run_per_session_minutes": 386.0,
+      "left_censored_runs": 303,
+      "right_censored_runs": 303,
+      "completed_natural_runs": 33,
+      "completed_natural_median_minutes": 124.0,
+      "km": {
+        "natural_starts": 180,
+        "right_censored": 147,
+        "median_minutes": null,
+        "survive_at_least_minutes_pct": {
+          "15": 100.0,
+          "30": 99.42196531791907,
+          "60": 97.64644612462536,
+          "180": 85.2288381638799,
+          "240": 78.90974024009955
+        }
+      },
+      "entry_forward_diagnostics": {
+        "30": {
+          "n": 171,
+          "mean_signed_points": -0.27046783625730997,
+          "positive_pct": 46.783625730994146
+        },
+        "60": {
+          "n": 161,
+          "mean_signed_points": 2.5372670807453415,
+          "positive_pct": 54.037267080745345
+        },
+        "180": {
+          "n": 120,
+          "mean_signed_points": 4.977083333333334,
+          "positive_pct": 57.49999999999999
+        }
+      },
+      "duration_bins": {
+        "1-5": 6,
+        "6-15": 5,
+        "16-30": 14,
+        "31-60": 34,
+        "61-120": 66,
+        "121-180": 57,
+        "181-240": 46,
+        "241-10000": 255
+      }
+    }
+  },
+  "exclude_roll_sessions": {
+    "A": {
+      "sessions": 342,
+      "eligible_minutes": 133380,
+      "active_pct": 55.780476833108416,
+      "runs": 1245,
+      "runs_per_session": 3.6403508771929824,
+      "natural_entries_per_session": 3.108187134502924,
+      "observed_median_minutes": 45.0,
+      "observed_mean_minutes": 59.75903614457831,
+      "observed_p90_minutes": 120.0,
+      "observed_under_15_pct": 0.0,
+      "observed_at_most_30_pct": 44.97991967871486,
+      "observed_at_least_180_pct": 4.578313253012048,
+      "observed_at_least_240_pct": 1.3654618473895583,
+      "active_time_in_runs_at_least_180_pct": 16.653225806451612,
+      "sessions_with_180min_run_pct": 16.666666666666664,
+      "median_longest_run_per_session_minutes": 105.0,
+      "left_censored_runs": 182,
+      "right_censored_runs": 180,
+      "completed_natural_runs": 883,
+      "completed_natural_median_minutes": 45.0,
+      "km": {
+        "natural_starts": 1063,
+        "right_censored": 180,
+        "median_minutes": 60,
+        "survive_at_least_minutes_pct": {
+          "15": 100.0,
+          "30": 73.5653809971778,
+          "60": 54.582231021092156,
+          "180": 7.865519977318597,
+          "240": 3.1559185094179556
+        }
+      },
+      "entry_forward_diagnostics": {
+        "30": {
+          "n": 985,
+          "mean_signed_points": 0.2616751269035533,
+          "positive_pct": 51.675126903553306
+        },
+        "60": {
+          "n": 884,
+          "mean_signed_points": 0.47850678733031676,
+          "positive_pct": 53.50678733031674
+        },
+        "180": {
+          "n": 549,
+          "mean_signed_points": 0.25546448087431695,
+          "positive_pct": 53.916211293260474
+        }
+      },
+      "duration_bins": {
+        "1-5": 0,
+        "6-15": 380,
+        "16-30": 180,
+        "31-60": 275,
+        "61-120": 295,
+        "121-180": 76,
+        "181-240": 26,
+        "241-10000": 13
+      }
+    },
+    "B": {
+      "sessions": 342,
+      "eligible_minutes": 133380,
+      "active_pct": 55.01349527665317,
+      "runs": 4298,
+      "runs_per_session": 12.567251461988304,
+      "natural_entries_per_session": 12.032163742690058,
+      "observed_median_minutes": 4.0,
+      "observed_mean_minutes": 17.07235923685435,
+      "observed_p90_minutes": 60.0,
+      "observed_under_15_pct": 73.56910190786412,
+      "observed_at_most_30_pct": 83.06188925081433,
+      "observed_at_least_180_pct": 0.3489995346672871,
+      "observed_at_least_240_pct": 0.02326663564448581,
+      "active_time_in_runs_at_least_180_pct": 4.16206713275277,
+      "sessions_with_180min_run_pct": 4.385964912280701,
+      "median_longest_run_per_session_minutes": 90.5,
+      "left_censored_runs": 183,
+      "right_censored_runs": 181,
+      "completed_natural_runs": 3934,
+      "completed_natural_median_minutes": 3.0,
+      "km": {
+        "natural_starts": 4115,
+        "right_censored": 181,
+        "median_minutes": 4,
+        "survive_at_least_minutes_pct": {
+          "15": 26.99915150397568,
+          "30": 18.596989528252006,
+          "60": 11.644613393098298,
+          "180": 0.5129057318676057,
+          "240": 0.0
+        }
+      },
+      "entry_forward_diagnostics": {
+        "30": {
+          "n": 3726,
+          "mean_signed_points": 0.06434514224369296,
+          "positive_pct": 51.07353730542137
+        },
+        "60": {
+          "n": 3392,
+          "mean_signed_points": 0.6846255896226415,
+          "positive_pct": 53.97995283018868
+        },
+        "180": {
+          "n": 2169,
+          "mean_signed_points": 0.8229598893499308,
+          "positive_pct": 55.09451360073767
+        }
+      },
+      "duration_bins": {
+        "1-5": 2520,
+        "6-15": 682,
+        "16-30": 368,
+        "31-60": 308,
+        "61-120": 342,
+        "121-180": 63,
+        "181-240": 14,
+        "241-10000": 1
+      }
+    },
+    "C": {
+      "sessions": 342,
+      "eligible_minutes": 133380,
+      "active_pct": 55.76473234367971,
+      "runs": 1278,
+      "runs_per_session": 3.736842105263158,
+      "natural_entries_per_session": 3.2017543859649122,
+      "observed_median_minutes": 45.0,
+      "observed_mean_minutes": 58.19953051643193,
+      "observed_p90_minutes": 120.0,
+      "observed_under_15_pct": 3.6776212832550863,
+      "observed_at_most_30_pct": 44.99217527386541,
+      "observed_at_least_180_pct": 4.303599374021909,
+      "observed_at_least_240_pct": 1.0954616588419406,
+      "active_time_in_runs_at_least_180_pct": 16.055607093400017,
+      "sessions_with_180min_run_pct": 16.08187134502924,
+      "median_longest_run_per_session_minutes": 105.0,
+      "left_censored_runs": 183,
+      "right_censored_runs": 188,
+      "completed_natural_runs": 907,
+      "completed_natural_median_minutes": 45.0,
+      "km": {
+        "natural_starts": 1095,
+        "right_censored": 188,
+        "median_minutes": 60,
+        "survive_at_least_minutes_pct": {
+          "15": 96.33485930305076,
+          "30": 70.92997597497046,
+          "60": 52.20385734456778,
+          "180": 7.255036183465507,
+          "240": 2.4408765627601348
+        }
+      },
+      "entry_forward_diagnostics": {
+        "30": {
+          "n": 1009,
+          "mean_signed_points": -0.15411298315163527,
+          "positive_pct": 51.04063429137761
+        },
+        "60": {
+          "n": 912,
+          "mean_signed_points": 0.31167763157894735,
+          "positive_pct": 52.083333333333336
+        },
+        "180": {
+          "n": 568,
+          "mean_signed_points": 0.39348591549295775,
+          "positive_pct": 54.75352112676056
+        }
+      },
+      "duration_bins": {
+        "1-5": 16,
+        "6-15": 371,
+        "16-30": 188,
+        "31-60": 293,
+        "61-120": 291,
+        "121-180": 78,
+        "181-240": 29,
+        "241-10000": 12
+      }
+    },
+    "D": {
+      "sessions": 342,
+      "eligible_minutes": 133380,
+      "active_pct": 55.10271405008247,
+      "runs": 4279,
+      "runs_per_session": 12.511695906432749,
+      "natural_entries_per_session": 11.97953216374269,
+      "observed_median_minutes": 4.0,
+      "observed_mean_minutes": 17.1759756952559,
+      "observed_p90_minutes": 60.0,
+      "observed_under_15_pct": 73.45174106099556,
+      "observed_at_most_30_pct": 82.96330918438888,
+      "observed_at_least_180_pct": 0.35054919373685445,
+      "observed_at_least_240_pct": 0.023369946249123627,
+      "active_time_in_runs_at_least_180_pct": 4.163491890715141,
+      "sessions_with_180min_run_pct": 4.385964912280701,
+      "median_longest_run_per_session_minutes": 89.5,
+      "left_censored_runs": 182,
+      "right_censored_runs": 175,
+      "completed_natural_runs": 3922,
+      "completed_natural_median_minutes": 3.0,
+      "km": {
+        "natural_starts": 4097,
+        "right_censored": 175,
+        "median_minutes": 3,
+        "survive_at_least_minutes_pct": {
+          "15": 27.059161915210066,
+          "30": 18.614495976025225,
+          "60": 11.768648359621313,
+          "180": 0.5157448708203017,
+          "240": 0.0
+        }
+      },
+      "entry_forward_diagnostics": {
+        "30": {
+          "n": 3717,
+          "mean_signed_points": 0.1575195049771321,
+          "positive_pct": 50.95507129405434
+        },
+        "60": {
+          "n": 3378,
+          "mean_signed_points": 0.6201894612196566,
+          "positive_pct": 53.93724097098875
+        },
+        "180": {
+          "n": 2158,
+          "mean_signed_points": -0.05711306765523633,
+          "positive_pct": 55.097312326227986
+        }
+      },
+      "duration_bins": {
+        "1-5": 2512,
+        "6-15": 672,
+        "16-30": 366,
+        "31-60": 303,
+        "61-120": 346,
+        "121-180": 65,
+        "181-240": 14,
+        "241-10000": 1
+      }
+    },
+    "A_confirm": {
+      "sessions": 342,
+      "eligible_minutes": 133380,
+      "active_pct": 52.20422852001799,
+      "runs": 1225,
+      "runs_per_session": 3.58187134502924,
+      "natural_entries_per_session": 3.087719298245614,
+      "observed_median_minutes": 45.0,
+      "observed_mean_minutes": 56.840816326530614,
+      "observed_p90_minutes": 120.0,
+      "observed_under_15_pct": 0.0,
+      "observed_at_most_30_pct": 47.59183673469388,
+      "observed_at_least_180_pct": 4.163265306122449,
+      "observed_at_least_240_pct": 1.1428571428571428,
+      "active_time_in_runs_at_least_180_pct": 15.790607496768635,
+      "sessions_with_180min_run_pct": 14.912280701754385,
+      "median_longest_run_per_session_minutes": 105.0,
+      "left_censored_runs": 169,
+      "right_censored_runs": 178,
+      "completed_natural_runs": 878,
+      "completed_natural_median_minutes": 45.0,
+      "km": {
+        "natural_starts": 1056,
+        "right_censored": 178,
+        "median_minutes": 60,
+        "survive_at_least_minutes_pct": {
+          "15": 100.0,
+          "30": 71.40151515151516,
+          "60": 51.71865963453565,
+          "180": 7.131023918854658,
+          "240": 2.6942744343558913
+        }
+      },
+      "entry_forward_diagnostics": {
+        "30": {
+          "n": 978,
+          "mean_signed_points": 0.21088957055214724,
+          "positive_pct": 51.84049079754601
+        },
+        "60": {
+          "n": 876,
+          "mean_signed_points": -0.16980593607305935,
+          "positive_pct": 51.598173515981735
+        },
+        "180": {
+          "n": 530,
+          "mean_signed_points": -1.734433962264151,
+          "positive_pct": 51.698113207547166
+        }
+      },
+      "duration_bins": {
+        "1-5": 0,
+        "6-15": 400,
+        "16-30": 183,
+        "31-60": 271,
+        "61-120": 266,
+        "121-180": 71,
+        "181-240": 22,
+        "241-10000": 12
+      }
+    },
+    "B_confirm": {
+      "sessions": 342,
+      "eligible_minutes": 133380,
+      "active_pct": 51.21532463637727,
+      "runs": 4257,
+      "runs_per_session": 12.447368421052632,
+      "natural_entries_per_session": 11.950292397660819,
+      "observed_median_minutes": 3.0,
+      "observed_mean_minutes": 16.04674653511863,
+      "observed_p90_minutes": 55.0,
+      "observed_under_15_pct": 74.86492835330044,
+      "observed_at_most_30_pct": 84.21423537702607,
+      "observed_at_least_180_pct": 0.305379375146817,
+      "observed_at_least_240_pct": 0.02349072116513977,
+      "active_time_in_runs_at_least_180_pct": 3.8441832208575484,
+      "sessions_with_180min_run_pct": 3.8011695906432745,
+      "median_longest_run_per_session_minutes": 82.0,
+      "left_censored_runs": 170,
+      "right_censored_runs": 179,
+      "completed_natural_runs": 3908,
+      "completed_natural_median_minutes": 3.0,
+      "km": {
+        "natural_starts": 4087,
+        "right_censored": 179,
+        "median_minutes": 3,
+        "survive_at_least_minutes_pct": {
+          "15": 25.74725765865268,
+          "30": 17.415361033594902,
+          "60": 10.708248923351661,
+          "180": 0.4577816862895867,
+          "240": 0.0
+        }
+      },
+      "entry_forward_diagnostics": {
+        "30": {
+          "n": 3701,
+          "mean_signed_points": -0.046203728721967034,
+          "positive_pct": 50.74304242096731
+        },
+        "60": {
+          "n": 3366,
+          "mean_signed_points": 0.06253713606654783,
+          "positive_pct": 52.49554367201426
+        },
+        "180": {
+          "n": 2131,
+          "mean_signed_points": -2.006217738151103,
+          "positive_pct": 52.041295166588455
+        }
+      },
+      "duration_bins": {
+        "1-5": 2529,
+        "6-15": 698,
+        "16-30": 358,
+        "31-60": 296,
+        "61-120": 306,
+        "121-180": 57,
+        "181-240": 12,
+        "241-10000": 1
+      }
+    },
+    "trend_A": {
+      "sessions": 342,
+      "eligible_minutes": 133380,
+      "active_pct": 100.0,
+      "runs": 541,
+      "runs_per_session": 1.5818713450292399,
+      "natural_entries_per_session": 0.5818713450292398,
+      "observed_median_minutes": 270.0,
+      "observed_mean_minutes": 246.54343807763402,
+      "observed_p90_minutes": 390.0,
+      "observed_under_15_pct": 0.0,
+      "observed_at_most_30_pct": 7.208872458410351,
+      "observed_at_least_180_pct": 66.54343807763401,
+      "observed_at_least_240_pct": 55.822550831792974,
+      "active_time_in_runs_at_least_180_pct": 88.03418803418803,
+      "sessions_with_180min_run_pct": 99.12280701754386,
+      "median_longest_run_per_session_minutes": 390.0,
+      "left_censored_runs": 342,
+      "right_censored_runs": 342,
+      "completed_natural_runs": 36,
+      "completed_natural_median_minutes": 150.0,
+      "km": {
+        "natural_starts": 199,
+        "right_censored": 163,
+        "median_minutes": null,
+        "survive_at_least_minutes_pct": {
+          "15": 100.0,
+          "30": 100.0,
+          "60": 100.0,
+          "180": 90.1979778410123,
+          "240": 81.99816167364754
+        }
+      },
+      "entry_forward_diagnostics": {
+        "30": {
+          "n": 199,
+          "mean_signed_points": 1.2826633165829147,
+          "positive_pct": 49.74874371859296
+        },
+        "60": {
+          "n": 174,
+          "mean_signed_points": 3.706896551724138,
+          "positive_pct": 59.195402298850574
+        },
+        "180": {
+          "n": 121,
+          "mean_signed_points": 4.270661157024794,
+          "positive_pct": 52.892561983471076
+        }
+      },
+      "duration_bins": {
+        "1-5": 0,
+        "6-15": 0,
+        "16-30": 39,
+        "31-60": 33,
+        "61-120": 76,
+        "121-180": 70,
+        "181-240": 52,
+        "241-10000": 271
+      }
+    },
+    "trend_B": {
+      "sessions": 342,
+      "eligible_minutes": 133380,
+      "active_pct": 100.0,
+      "runs": 554,
+      "runs_per_session": 1.6198830409356726,
+      "natural_entries_per_session": 0.6198830409356725,
+      "observed_median_minutes": 253.0,
+      "observed_mean_minutes": 240.75812274368232,
+      "observed_p90_minutes": 390.0,
+      "observed_under_15_pct": 2.166064981949458,
+      "observed_at_most_30_pct": 5.054151624548736,
+      "observed_at_least_180_pct": 62.454873646209386,
+      "observed_at_least_240_pct": 52.707581227436826,
+      "active_time_in_runs_at_least_180_pct": 85.79622132253711,
+      "sessions_with_180min_run_pct": 97.6608187134503,
+      "median_longest_run_per_session_minutes": 386.5,
+      "left_censored_runs": 342,
+      "right_censored_runs": 342,
+      "completed_natural_runs": 39,
+      "completed_natural_median_minutes": 124.0,
+      "km": {
+        "natural_starts": 212,
+        "right_censored": 173,
+        "median_minutes": null,
+        "survive_at_least_minutes_pct": {
+          "15": 100.0,
+          "30": 99.51219512195122,
+          "60": 97.50671876975355,
+          "180": 84.72711903208318,
+          "240": 78.66109808080536
+        }
+      },
+      "entry_forward_diagnostics": {
+        "30": {
+          "n": 202,
+          "mean_signed_points": -0.5346534653465347,
+          "positive_pct": 47.524752475247524
+        },
+        "60": {
+          "n": 191,
+          "mean_signed_points": 2.006544502617801,
+          "positive_pct": 53.403141361256544
+        },
+        "180": {
+          "n": 141,
+          "mean_signed_points": 4.26241134751773,
+          "positive_pct": 56.02836879432624
+        }
+      },
+      "duration_bins": {
+        "1-5": 6,
+        "6-15": 6,
+        "16-30": 16,
+        "31-60": 37,
+        "61-120": 76,
+        "121-180": 70,
+        "181-240": 51,
+        "241-10000": 292
+      }
+    }
+  },
+  "B_quarter_hour_decisions": {
+    "sessions": 342,
+    "eligible_minutes": 133380,
+    "active_pct": 55.02699055330634,
+    "runs": 1252,
+    "runs_per_session": 3.6608187134502925,
+    "natural_entries_per_session": 3.125730994152047,
+    "observed_median_minutes": 45.0,
+    "observed_mean_minutes": 58.62220447284345,
+    "observed_p90_minutes": 120.0,
+    "observed_under_15_pct": 0.0,
+    "observed_at_most_30_pct": 46.08626198083067,
+    "observed_at_least_180_pct": 4.39297124600639,
+    "observed_at_least_240_pct": 1.1182108626198082,
+    "active_time_in_runs_at_least_180_pct": 16.206826078070712,
+    "sessions_with_180min_run_pct": 16.08187134502924,
+    "median_longest_run_per_session_minutes": 105.0,
+    "left_censored_runs": 183,
+    "right_censored_runs": 184,
+    "completed_natural_runs": 885,
+    "completed_natural_median_minutes": 45.0,
+    "km": {
+      "natural_starts": 1069,
+      "right_censored": 184,
+      "median_minutes": 60,
+      "survive_at_least_minutes_pct": {
+        "15": 100.0,
+        "30": 73.05893358278766,
+        "60": 53.892177396876264,
+        "180": 7.575223536091995,
+        "240": 2.600745320547541
+      }
+    },
+    "entry_forward_diagnostics": {
+      "30": {
+        "n": 987,
+        "mean_signed_points": -0.03318135764944276,
+        "positive_pct": 51.06382978723404
+      },
+      "60": {
+        "n": 892,
+        "mean_signed_points": 0.2797085201793722,
+        "positive_pct": 52.80269058295964
+      },
+      "180": {
+        "n": 554,
+        "mean_signed_points": 0.029783393501805054,
+        "positive_pct": 53.79061371841155
+      }
+    },
+    "duration_bins": {
+      "1-5": 0,
+      "6-15": 393,
+      "16-30": 184,
+      "31-60": 276,
+      "61-120": 283,
+      "121-180": 77,
+      "181-240": 27,
+      "241-10000": 12
+    }
+  },
+  "paired_weekly_bootstrap": {
+    "metric": "B minus A runs per RTH session",
+    "difference": 8.926900584795321,
+    "confidence_interval_95": [
+      8.49849641673463,
+      9.366796409753123
+    ],
+    "replicates": 10000
+  }
+}

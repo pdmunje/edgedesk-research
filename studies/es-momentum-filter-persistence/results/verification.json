@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "fully_eligible_rth_sessions": 342,
+  "scalar_prefix_only_signal_checks": 24,
+  "all_exported_active_minutes_equal_run_duration_sums": true,
+  "all_primary_sessions_have_exactly_390_eligible_intervals": true
+}
