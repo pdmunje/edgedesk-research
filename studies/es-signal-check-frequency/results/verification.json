@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "checked_at_utc": "2026-10-15T10:16:54.417260+00:00",
+  "input_sha256": "b9e1acf1ee029db919e6e5feba38bd985d06a84af8193c11ce93722606c6356c",
+  "input_sha256_matches_documented_source": true,
+  "source_rerun": true,
+  "independent_summary_matches": 18,
+  "made_up_mechanics_tests_passed": 5,
+  "checks": {
+    "independent_summary_values_matched": 18,
+    "complete_390_minute_days_checked": 342,
+    "quarter_hour_changes_only": true,
+    "disagreement_categories_reconcile": true,
+    "base_analysis_sha256": "f3cd6e0775e6d2f4dfc4975533a4d1a6621b8147351a90bfa2ef9b31294c3613"
+  },
+  "limitation": "Recount shares the base minute signals, so it does not independently verify every EMA value or vendor observation.",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "pandas": "3.0.1",
+  "approval": null
+}
