@@ -1,0 +1,16 @@
+{
+  "independent_numeric_checks": 27,
+  "source_session_dates": 518,
+  "eligible_sessions": 515,
+  "stricter_sessions": 444,
+  "positive_gross_sessions": 292,
+  "method": "Separate csv parser, boundary pairing and Python arithmetic; no raw bars exported.",
+  "passed": true,
+  "source_sha256": "b9e1acf1ee029db919e6e5feba38bd985d06a84af8193c11ce93722606c6356c",
+  "source_unchanged": true,
+  "bootstrap_repetitions": 20000,
+  "bootstrap_unit": "calendar week",
+  "bootstrap_seed": 20261010,
+  "human_publication_approval": null,
+  "source_rerun_all_sections_match": true
+}
