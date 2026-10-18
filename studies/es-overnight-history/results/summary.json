@@ -1,0 +1,1274 @@
+{
+  "question": "How did the supplied ES overnight candle return change across historical periods?",
+  "source": {
+    "sha256": "4b9faa5ea1ab8377f209d22630d959c75bb1ad2e265c61023aa08d3b89339b6d",
+    "description": "Owner-obtained continuous ES 930-minute chart CSV; upstream roll and adjustment rules unverified.",
+    "original_prices_not_redistributed": true
+  },
+  "checks": {
+    "raw_rows": 13809,
+    "eighteen_start_candidates": 6825,
+    "other_start_times": 6984,
+    "eligible_nights": 6815,
+    "excluded_candidates": [
+      {
+        "evening_date": "2004-06-10",
+        "reason": "following row does not start at 09:30"
+      },
+      {
+        "evening_date": "2010-04-29",
+        "reason": "following row does not start at 09:30"
+      },
+      {
+        "evening_date": "2012-04-05",
+        "reason": "following row does not start at 09:30"
+      },
+      {
+        "evening_date": "2015-04-02",
+        "reason": "following row does not start at 09:30"
+      },
+      {
+        "evening_date": "2018-12-04",
+        "reason": "following row does not start at 09:30"
+      },
+      {
+        "evening_date": "2021-04-01",
+        "reason": "following row does not start at 09:30"
+      },
+      {
+        "evening_date": "2023-04-06",
+        "reason": "following row does not start at 09:30"
+      },
+      {
+        "evening_date": "2025-01-08",
+        "reason": "following row does not start at 09:30"
+      },
+      {
+        "evening_date": "2026-04-02",
+        "reason": "following row does not start at 09:30"
+      },
+      {
+        "evening_date": "2026-10-05",
+        "reason": "no following row"
+      }
+    ],
+    "first_eligible_session": "2000-01-03",
+    "last_eligible_session": "2026-10-05",
+    "time_counts": {
+      "18:00": 6825,
+      "09:30": 6824,
+      "01:00": 80,
+      "16:30": 68,
+      "08:00": 4,
+      "23:30": 4,
+      "15:00": 4
+    }
+  },
+  "all_history": {
+    "first_session": "2000-01-03",
+    "last_session": "2026-10-05",
+    "points": {
+      "nights": 6815,
+      "mean": 0.6754952311078504,
+      "median": 0.75,
+      "positive_nights": 3636,
+      "flat_nights": 101,
+      "negative_nights": 3078,
+      "positive_pct": 53.35289801907557,
+      "minimum": -170.25,
+      "maximum": 165.5
+    },
+    "bps": {
+      "nights": 6815,
+      "mean": 2.3612134264258113,
+      "median": 3.674984381316379,
+      "positive_nights": 3636,
+      "flat_nights": 101,
+      "negative_nights": 3078,
+      "positive_pct": 53.35289801907557,
+      "minimum": -640.218878248974,
+      "maximum": 681.2101255402346
+    },
+    "mean_bps_weekly_interval_95": [
+      1.0221495300586114,
+      3.680944116824593
+    ]
+  },
+  "periods": {
+    "2000\u20132010": {
+      "first_session": "2000-01-03",
+      "last_session": "2010-12-31",
+      "points": {
+        "nights": 2823,
+        "mean": 0.07846262840949345,
+        "median": 0.25,
+        "positive_nights": 1446,
+        "flat_nights": 57,
+        "negative_nights": 1320,
+        "positive_pct": 51.2221041445271,
+        "minimum": -58.5,
+        "maximum": 62.0
+      },
+      "bps": {
+        "nights": 2823,
+        "mean": 0.6386203101524313,
+        "median": 2.0833333333333335,
+        "positive_nights": 1446,
+        "flat_nights": 57,
+        "negative_nights": 1320,
+        "positive_pct": 51.2221041445271,
+        "minimum": -640.218878248974,
+        "maximum": 514.0961857379768
+      },
+      "mean_bps_weekly_interval_95": [
+        -1.5396031340111278,
+        2.6674789439897832
+      ]
+    },
+    "2011\u20132020": {
+      "first_session": "2011-01-03",
+      "last_session": "2020-12-31",
+      "points": {
+        "nights": 2507,
+        "mean": 1.063821300358995,
+        "median": 1.25,
+        "positive_nights": 1392,
+        "flat_nights": 37,
+        "negative_nights": 1078,
+        "positive_pct": 55.524531312325486,
+        "minimum": -137.0,
+        "maximum": 165.5
+      },
+      "bps": {
+        "nights": 2507,
+        "mean": 4.663799480730976,
+        "median": 5.255255255255255,
+        "positive_nights": 1392,
+        "flat_nights": 37,
+        "negative_nights": 1078,
+        "positive_pct": 55.524531312325486,
+        "minimum": -500.36523009495977,
+        "maximum": 681.2101255402346
+      },
+      "mean_bps_weekly_interval_95": [
+        2.4178181433463917,
+        6.883065950945597
+      ]
+    },
+    "2021\u20132023": {
+      "first_session": "2021-01-04",
+      "last_session": "2023-12-29",
+      "points": {
+        "nights": 773,
+        "mean": -0.3855109961190168,
+        "median": 0.5,
+        "positive_nights": 390,
+        "flat_nights": 5,
+        "negative_nights": 378,
+        "positive_pct": 50.45278137128072,
+        "minimum": -102.75,
+        "maximum": 137.0
+      },
+      "bps": {
+        "nights": 773,
+        "mean": -0.8214916453494431,
+        "median": 1.1291779584462511,
+        "positive_nights": 390,
+        "flat_nights": 5,
+        "negative_nights": 378,
+        "positive_pct": 50.45278137128072,
+        "minimum": -243.74332819357133,
+        "maximum": 364.6526483896726
+      },
+      "mean_bps_weekly_interval_95": [
+        -4.690958108298226,
+        3.1587451860215574
+      ]
+    },
+    "2024\u2013Oct 5 2026": {
+      "first_session": "2024-01-02",
+      "last_session": "2026-10-05",
+      "points": {
+        "nights": 712,
+        "mean": 2.827247191011236,
+        "median": 3.5,
+        "positive_nights": 408,
+        "flat_nights": 2,
+        "negative_nights": 302,
+        "positive_pct": 57.30337078651685,
+        "minimum": -170.25,
+        "maximum": 148.25
+      },
+      "bps": {
+        "nights": 712,
+        "mean": 4.538921501677177,
+        "median": 5.916730001227787,
+        "positive_nights": 408,
+        "flat_nights": 2,
+        "negative_nights": 302,
+        "positive_pct": 57.30337078651685,
+        "minimum": -319.4183864915572,
+        "maximum": 284.3070320881693
+      },
+      "mean_bps_weekly_interval_95": [
+        0.8912932725780847,
+        8.1211445605048
+      ]
+    }
+  },
+  "by_year": {
+    "2000": {
+      "first_session": "2000-01-03",
+      "last_session": "2000-12-29",
+      "points": {
+        "nights": 258,
+        "mean": 0.11434108527131782,
+        "median": 0.375,
+        "positive_nights": 136,
+        "flat_nights": 1,
+        "negative_nights": 121,
+        "positive_pct": 52.71317829457365,
+        "minimum": -34.0,
+        "maximum": 35.0
+      },
+      "bps": {
+        "nights": 258,
+        "mean": 0.9431241089282122,
+        "median": 2.536328769465047,
+        "positive_nights": 136,
+        "flat_nights": 1,
+        "negative_nights": 121,
+        "positive_pct": 52.71317829457365,
+        "minimum": -230.58663953882672,
+        "maximum": 241.2129565816678
+      },
+      "mean_bps_weekly_interval_95": [
+        -3.9433733590013023,
+        6.229827002232156
+      ]
+    },
+    "2001": {
+      "first_session": "2001-01-02",
+      "last_session": "2001-12-31",
+      "points": {
+        "nights": 255,
+        "mean": -0.8352941176470589,
+        "median": -0.5,
+        "positive_nights": 115,
+        "flat_nights": 8,
+        "negative_nights": 132,
+        "positive_pct": 45.09803921568628,
+        "minimum": -45.5,
+        "maximum": 26.0
+      },
+      "bps": {
+        "nights": 255,
+        "mean": -7.076811239413436,
+        "median": -4.250797024442083,
+        "positive_nights": 115,
+        "flat_nights": 8,
+        "negative_nights": 132,
+        "positive_pct": 45.09803921568628,
+        "minimum": -461.34347275031683,
+        "maximum": 222.6503960608007
+      },
+      "mean_bps_weekly_interval_95": [
+        -15.60395100587059,
+        0.522438576163425
+      ]
+    },
+    "2002": {
+      "first_session": "2002-01-02",
+      "last_session": "2002-12-31",
+      "points": {
+        "nights": 258,
+        "mean": -0.4757751937984496,
+        "median": -0.75,
+        "positive_nights": 117,
+        "flat_nights": 3,
+        "negative_nights": 138,
+        "positive_pct": 45.348837209302324,
+        "minimum": -24.0,
+        "maximum": 23.25
+      },
+      "bps": {
+        "nights": 258,
+        "mean": -5.214695412766748,
+        "median": -8.17512943954946,
+        "positive_nights": 117,
+        "flat_nights": 3,
+        "negative_nights": 138,
+        "positive_pct": 45.348837209302324,
+        "minimum": -246.2169787124904,
+        "maximum": 275.80071174377224
+      },
+      "mean_bps_weekly_interval_95": [
+        -10.829146594018153,
+        0.4020777057750067
+      ]
+    },
+    "2003": {
+      "first_session": "2003-01-02",
+      "last_session": "2003-12-31",
+      "points": {
+        "nights": 257,
+        "mean": 0.3219844357976654,
+        "median": 0.5,
+        "positive_nights": 135,
+        "flat_nights": 12,
+        "negative_nights": 110,
+        "positive_pct": 52.52918287937744,
+        "minimum": -11.25,
+        "maximum": 16.5
+      },
+      "bps": {
+        "nights": 257,
+        "mean": 3.1912271840602564,
+        "median": 4.581901489117984,
+        "positive_nights": 135,
+        "flat_nights": 12,
+        "negative_nights": 110,
+        "positive_pct": 52.52918287937744,
+        "minimum": -130.8139534883721,
+        "maximum": 186.8629671574179
+      },
+      "mean_bps_weekly_interval_95": [
+        -2.3659307398446185,
+        8.921797830078853
+      ]
+    },
+    "2004": {
+      "first_session": "2004-01-02",
+      "last_session": "2004-12-31",
+      "points": {
+        "nights": 258,
+        "mean": 0.4021317829457364,
+        "median": 0.25,
+        "positive_nights": 133,
+        "flat_nights": 6,
+        "negative_nights": 119,
+        "positive_pct": 51.55038759689923,
+        "minimum": -10.5,
+        "maximum": 16.25
+      },
+      "bps": {
+        "nights": 258,
+        "mean": 3.6009428446268896,
+        "median": 2.20901152760491,
+        "positive_nights": 133,
+        "flat_nights": 6,
+        "negative_nights": 119,
+        "positive_pct": 51.55038759689923,
+        "minimum": -95.97806215722122,
+        "maximum": 143.90081912773965
+      },
+      "mean_bps_weekly_interval_95": [
+        0.7980525131175188,
+        6.670841964114773
+      ]
+    },
+    "2005": {
+      "first_session": "2005-01-03",
+      "last_session": "2005-12-30",
+      "points": {
+        "nights": 258,
+        "mean": 0.48546511627906974,
+        "median": 0.5,
+        "positive_nights": 136,
+        "flat_nights": 9,
+        "negative_nights": 113,
+        "positive_pct": 52.71317829457365,
+        "minimum": -11.75,
+        "maximum": 8.75
+      },
+      "bps": {
+        "nights": 258,
+        "mean": 4.045095082932614,
+        "median": 4.016949283131067,
+        "positive_nights": 136,
+        "flat_nights": 9,
+        "negative_nights": 113,
+        "positive_pct": 52.71317829457365,
+        "minimum": -98.05967035259754,
+        "maximum": 76.72073651907058
+      },
+      "mean_bps_weekly_interval_95": [
+        1.5386647675450986,
+        6.484753068570892
+      ]
+    },
+    "2006": {
+      "first_session": "2006-01-03",
+      "last_session": "2006-12-29",
+      "points": {
+        "nights": 257,
+        "mean": 0.2616731517509728,
+        "median": 0.25,
+        "positive_nights": 130,
+        "flat_nights": 6,
+        "negative_nights": 121,
+        "positive_pct": 50.583657587548636,
+        "minimum": -7.75,
+        "maximum": 10.75
+      },
+      "bps": {
+        "nights": 257,
+        "mean": 2.083625741018255,
+        "median": 1.7593244194229416,
+        "positive_nights": 130,
+        "flat_nights": 6,
+        "negative_nights": 121,
+        "positive_pct": 50.583657587548636,
+        "minimum": -60.98760574463899,
+        "maximum": 84.42960926762223
+      },
+      "mean_bps_weekly_interval_95": [
+        -0.7439772843296382,
+        5.151607066685097
+      ]
+    },
+    "2007": {
+      "first_session": "2007-01-02",
+      "last_session": "2007-12-31",
+      "points": {
+        "nights": 259,
+        "mean": 0.6573359073359073,
+        "median": 0.75,
+        "positive_nights": 141,
+        "flat_nights": 2,
+        "negative_nights": 116,
+        "positive_pct": 54.440154440154444,
+        "minimum": -24.25,
+        "maximum": 35.0
+      },
+      "bps": {
+        "nights": 259,
+        "mean": 4.572893561866115,
+        "median": 5.159071367153912,
+        "positive_nights": 141,
+        "flat_nights": 2,
+        "negative_nights": 116,
+        "positive_pct": 54.440154440154444,
+        "minimum": -161.37082016303447,
+        "maximum": 236.88663282571912
+      },
+      "mean_bps_weekly_interval_95": [
+        -0.9677774922488183,
+        10.013642273759928
+      ]
+    },
+    "2008": {
+      "first_session": "2008-01-02",
+      "last_session": "2008-12-31",
+      "points": {
+        "nights": 259,
+        "mean": -0.887065637065637,
+        "median": -0.25,
+        "positive_nights": 125,
+        "flat_nights": 2,
+        "negative_nights": 132,
+        "positive_pct": 48.26254826254826,
+        "minimum": -58.5,
+        "maximum": 62.0
+      },
+      "bps": {
+        "nights": 259,
+        "mean": -7.365651817994197,
+        "median": -1.8083182640144666,
+        "positive_nights": 125,
+        "flat_nights": 2,
+        "negative_nights": 132,
+        "positive_pct": 48.26254826254826,
+        "minimum": -640.218878248974,
+        "maximum": 514.0961857379768
+      },
+      "mean_bps_weekly_interval_95": [
+        -22.867234505582996,
+        6.223088840263149
+      ]
+    },
+    "2009": {
+      "first_session": "2009-01-02",
+      "last_session": "2009-12-31",
+      "points": {
+        "nights": 252,
+        "mean": 0.4662698412698413,
+        "median": 1.5,
+        "positive_nights": 148,
+        "flat_nights": 3,
+        "negative_nights": 101,
+        "positive_pct": 58.730158730158735,
+        "minimum": -20.25,
+        "maximum": 21.25
+      },
+      "bps": {
+        "nights": 252,
+        "mean": 5.011192372161088,
+        "median": 16.032882629998518,
+        "positive_nights": 148,
+        "flat_nights": 3,
+        "negative_nights": 101,
+        "positive_pct": 58.730158730158735,
+        "minimum": -242.42424242424244,
+        "maximum": 309.7667638483965
+      },
+      "mean_bps_weekly_interval_95": [
+        -3.0037348201124594,
+        12.584611140032187
+      ]
+    },
+    "2010": {
+      "first_session": "2010-01-04",
+      "last_session": "2010-12-31",
+      "points": {
+        "nights": 252,
+        "mean": 0.3601190476190476,
+        "median": 0.625,
+        "positive_nights": 130,
+        "flat_nights": 5,
+        "negative_nights": 117,
+        "positive_pct": 51.587301587301596,
+        "minimum": -26.25,
+        "maximum": 31.0
+      },
+      "bps": {
+        "nights": 252,
+        "mean": 3.339945720230679,
+        "median": 5.417180165418718,
+        "positive_nights": 130,
+        "flat_nights": 5,
+        "negative_nights": 117,
+        "positive_pct": 51.587301587301596,
+        "minimum": -235.42600896860986,
+        "maximum": 293.56060606060606
+      },
+      "mean_bps_weekly_interval_95": [
+        -2.560875526461913,
+        9.05506259175639
+      ]
+    },
+    "2011": {
+      "first_session": "2011-01-03",
+      "last_session": "2011-12-30",
+      "points": {
+        "nights": 251,
+        "mean": 0.6862549800796812,
+        "median": 0.75,
+        "positive_nights": 132,
+        "flat_nights": 3,
+        "negative_nights": 116,
+        "positive_pct": 52.589641434262944,
+        "minimum": -35.0,
+        "maximum": 37.25
+      },
+      "bps": {
+        "nights": 251,
+        "mean": 5.94303747136878,
+        "median": 5.7537399309551205,
+        "positive_nights": 132,
+        "flat_nights": 3,
+        "negative_nights": 116,
+        "positive_pct": 52.589641434262944,
+        "minimum": -271.055179090029,
+        "maximum": 312.5655548563037
+      },
+      "mean_bps_weekly_interval_95": [
+        -3.3913947248245364,
+        15.246463888662113
+      ]
+    },
+    "2012": {
+      "first_session": "2012-01-04",
+      "last_session": "2012-12-31",
+      "points": {
+        "nights": 250,
+        "mean": 0.261,
+        "median": 0.5,
+        "positive_nights": 136,
+        "flat_nights": 5,
+        "negative_nights": 109,
+        "positive_pct": 54.400000000000006,
+        "minimum": -22.25,
+        "maximum": 25.25
+      },
+      "bps": {
+        "nights": 250,
+        "mean": 1.9966479826059567,
+        "median": 3.6510211612266747,
+        "positive_nights": 136,
+        "flat_nights": 5,
+        "negative_nights": 109,
+        "positive_pct": 54.400000000000006,
+        "minimum": -154.40666204024984,
+        "maximum": 191.1430734292203
+      },
+      "mean_bps_weekly_interval_95": [
+        -3.1409115546794824,
+        7.221887934315611
+      ]
+    },
+    "2013": {
+      "first_session": "2013-01-03",
+      "last_session": "2013-12-31",
+      "points": {
+        "nights": 250,
+        "mean": 0.813,
+        "median": 0.875,
+        "positive_nights": 143,
+        "flat_nights": 7,
+        "negative_nights": 100,
+        "positive_pct": 57.199999999999996,
+        "minimum": -21.25,
+        "maximum": 19.25
+      },
+      "bps": {
+        "nights": 250,
+        "mean": 5.050160462135709,
+        "median": 5.5464347743759514,
+        "positive_nights": 143,
+        "flat_nights": 7,
+        "negative_nights": 100,
+        "positive_pct": 57.199999999999996,
+        "minimum": -128.2051282051282,
+        "maximum": 116.7728237791932
+      },
+      "mean_bps_weekly_interval_95": [
+        1.1689645215576963,
+        8.710290923243463
+      ]
+    },
+    "2014": {
+      "first_session": "2014-01-03",
+      "last_session": "2014-12-31",
+      "points": {
+        "nights": 250,
+        "mean": 0.693,
+        "median": 1.0,
+        "positive_nights": 139,
+        "flat_nights": 6,
+        "negative_nights": 105,
+        "positive_pct": 55.60000000000001,
+        "minimum": -32.5,
+        "maximum": 27.0
+      },
+      "bps": {
+        "nights": 250,
+        "mean": 3.671126978241431,
+        "median": 5.086181166869362,
+        "positive_nights": 139,
+        "flat_nights": 6,
+        "negative_nights": 105,
+        "positive_pct": 55.60000000000001,
+        "minimum": -173.03340875815255,
+        "maximum": 137.61467889908258
+      },
+      "mean_bps_weekly_interval_95": [
+        -0.6667412114537098,
+        8.13749111874507
+      ]
+    },
+    "2015": {
+      "first_session": "2015-01-05",
+      "last_session": "2015-12-31",
+      "points": {
+        "nights": 251,
+        "mean": 0.26095617529880477,
+        "median": 0.25,
+        "positive_nights": 128,
+        "flat_nights": 5,
+        "negative_nights": 118,
+        "positive_pct": 50.99601593625498,
+        "minimum": -94.5,
+        "maximum": 74.0
+      },
+      "bps": {
+        "nights": 251,
+        "mean": 1.5553960598649659,
+        "median": 1.21758188238159,
+        "positive_nights": 128,
+        "flat_nights": 5,
+        "negative_nights": 118,
+        "positive_pct": 50.99601593625498,
+        "minimum": -481.0384321710359,
+        "maximum": 395.14083566947
+      },
+      "mean_bps_weekly_interval_95": [
+        -5.000997060959075,
+        7.938637590746292
+      ]
+    },
+    "2016": {
+      "first_session": "2016-01-04",
+      "last_session": "2016-12-30",
+      "points": {
+        "nights": 251,
+        "mean": -0.398406374501992,
+        "median": 0.25,
+        "positive_nights": 126,
+        "flat_nights": 4,
+        "negative_nights": 121,
+        "positive_pct": 50.199203187250994,
+        "minimum": -84.25,
+        "maximum": 33.75
+      },
+      "bps": {
+        "nights": 251,
+        "mean": -1.8958867504625703,
+        "median": 1.1070519207350826,
+        "positive_nights": 126,
+        "flat_nights": 4,
+        "negative_nights": 121,
+        "positive_pct": 50.199203187250994,
+        "minimum": -398.20394659104335,
+        "maximum": 181.59806295399514
+      },
+      "mean_bps_weekly_interval_95": [
+        -8.702033614834466,
+        4.476385858088226
+      ]
+    },
+    "2017": {
+      "first_session": "2017-01-04",
+      "last_session": "2017-12-29",
+      "points": {
+        "nights": 249,
+        "mean": 1.176706827309237,
+        "median": 1.75,
+        "positive_nights": 150,
+        "flat_nights": 2,
+        "negative_nights": 97,
+        "positive_pct": 60.24096385542169,
+        "minimum": -18.0,
+        "maximum": 16.75
+      },
+      "bps": {
+        "nights": 249,
+        "mean": 4.723360716327971,
+        "median": 7.421150278293135,
+        "positive_nights": 150,
+        "flat_nights": 2,
+        "negative_nights": 97,
+        "positive_pct": 60.24096385542169,
+        "minimum": -75.10953473815982,
+        "maximum": 70.83950095157539
+      },
+      "mean_bps_weekly_interval_95": [
+        1.9752751376535842,
+        7.2884742053206395
+      ]
+    },
+    "2018": {
+      "first_session": "2018-01-03",
+      "last_session": "2018-12-31",
+      "points": {
+        "nights": 250,
+        "mean": 1.085,
+        "median": 1.875,
+        "positive_nights": 139,
+        "flat_nights": 1,
+        "negative_nights": 110,
+        "positive_pct": 55.60000000000001,
+        "minimum": -56.5,
+        "maximum": 39.25
+      },
+      "bps": {
+        "nights": 250,
+        "mean": 4.087830102178782,
+        "median": 6.711873640042823,
+        "positive_nights": 139,
+        "flat_nights": 1,
+        "negative_nights": 110,
+        "positive_pct": 55.60000000000001,
+        "minimum": -208.23735372708006,
+        "maximum": 149.09781576448245
+      },
+      "mean_bps_weekly_interval_95": [
+        -1.8248422840129703,
+        10.077850787246165
+      ]
+    },
+    "2019": {
+      "first_session": "2019-01-02",
+      "last_session": "2019-12-31",
+      "points": {
+        "nights": 252,
+        "mean": 2.2172619047619047,
+        "median": 2.5,
+        "positive_nights": 152,
+        "flat_nights": 4,
+        "negative_nights": 96,
+        "positive_pct": 60.317460317460316,
+        "minimum": -48.5,
+        "maximum": 46.25
+      },
+      "bps": {
+        "nights": 252,
+        "mean": 7.716408818843621,
+        "median": 8.867072174901907,
+        "positive_nights": 152,
+        "flat_nights": 4,
+        "negative_nights": 96,
+        "positive_pct": 60.317460317460316,
+        "minimum": -165.47253497099967,
+        "maximum": 164.22547714158898
+      },
+      "mean_bps_weekly_interval_95": [
+        1.9997267411292576,
+        13.574303351266801
+      ]
+    },
+    "2020": {
+      "first_session": "2020-01-02",
+      "last_session": "2020-12-31",
+      "points": {
+        "nights": 253,
+        "mean": 3.8122529644268774,
+        "median": 5.0,
+        "positive_nights": 147,
+        "flat_nights": 0,
+        "negative_nights": 106,
+        "positive_pct": 58.10276679841897,
+        "minimum": -137.0,
+        "maximum": 165.5
+      },
+      "bps": {
+        "nights": 253,
+        "mean": 13.690959819028713,
+        "median": 13.871549452073797,
+        "positive_nights": 147,
+        "flat_nights": 0,
+        "negative_nights": 106,
+        "positive_pct": 58.10276679841897,
+        "minimum": -500.36523009495977,
+        "maximum": 681.2101255402346
+      },
+      "mean_bps_weekly_interval_95": [
+        0.9828113241173079,
+        27.756200160566042
+      ]
+    },
+    "2021": {
+      "first_session": "2021-01-04",
+      "last_session": "2021-12-31",
+      "points": {
+        "nights": 258,
+        "mean": 1.445736434108527,
+        "median": 2.0,
+        "positive_nights": 146,
+        "flat_nights": 2,
+        "negative_nights": 110,
+        "positive_pct": 56.58914728682171,
+        "minimum": -79.75,
+        "maximum": 55.75
+      },
+      "bps": {
+        "nights": 258,
+        "mean": 3.5345924545884384,
+        "median": 4.6427979647344575,
+        "positive_nights": 146,
+        "flat_nights": 2,
+        "negative_nights": 110,
+        "positive_pct": 56.58914728682171,
+        "minimum": -169.4015187722373,
+        "maximum": 131.35621910759022
+      },
+      "mean_bps_weekly_interval_95": [
+        -1.438018991707117,
+        8.604660563946634
+      ]
+    },
+    "2022": {
+      "first_session": "2022-01-03",
+      "last_session": "2022-12-30",
+      "points": {
+        "nights": 258,
+        "mean": -2.181201550387597,
+        "median": -2.625,
+        "positive_nights": 118,
+        "flat_nights": 1,
+        "negative_nights": 139,
+        "positive_pct": 45.73643410852713,
+        "minimum": -102.75,
+        "maximum": 137.0
+      },
+      "bps": {
+        "nights": 258,
+        "mean": -4.896149763823465,
+        "median": -6.313161505979459,
+        "positive_nights": 118,
+        "flat_nights": 1,
+        "negative_nights": 139,
+        "positive_pct": 45.73643410852713,
+        "minimum": -243.74332819357133,
+        "maximum": 364.6526483896726
+      },
+      "mean_bps_weekly_interval_95": [
+        -13.125356314402946,
+        3.55666632205326
+      ]
+    },
+    "2023": {
+      "first_session": "2023-01-03",
+      "last_session": "2023-12-29",
+      "points": {
+        "nights": 257,
+        "mean": -0.42120622568093385,
+        "median": -0.25,
+        "positive_nights": 126,
+        "flat_nights": 2,
+        "negative_nights": 129,
+        "positive_pct": 49.0272373540856,
+        "minimum": -66.5,
+        "maximum": 59.25
+      },
+      "bps": {
+        "nights": 257,
+        "mean": -1.104012669542731,
+        "median": -0.5494203615185979,
+        "positive_nights": 126,
+        "flat_nights": 2,
+        "negative_nights": 129,
+        "positive_pct": 49.0272373540856,
+        "minimum": -171.05009324159218,
+        "maximum": 133.8302558021345
+      },
+      "mean_bps_weekly_interval_95": [
+        -7.102466534880953,
+        4.641494815139481
+      ]
+    },
+    "2024": {
+      "first_session": "2024-01-02",
+      "last_session": "2024-12-31",
+      "points": {
+        "nights": 259,
+        "mean": 3.003861003861004,
+        "median": 3.5,
+        "positive_nights": 157,
+        "flat_nights": 2,
+        "negative_nights": 100,
+        "positive_pct": 60.61776061776062,
+        "minimum": -170.25,
+        "maximum": 119.0
+      },
+      "bps": {
+        "nights": 259,
+        "mean": 5.552675054286348,
+        "median": 6.196810708088904,
+        "positive_nights": 157,
+        "flat_nights": 2,
+        "negative_nights": 100,
+        "positive_pct": 60.61776061776062,
+        "minimum": -319.4183864915572,
+        "maximum": 204.45857136720932
+      },
+      "mean_bps_weekly_interval_95": [
+        0.7484342131293169,
+        10.345417219758199
+      ]
+    },
+    "2025": {
+      "first_session": "2025-01-02",
+      "last_session": "2025-12-31",
+      "points": {
+        "nights": 257,
+        "mean": 1.206225680933852,
+        "median": 3.25,
+        "positive_nights": 142,
+        "flat_nights": 0,
+        "negative_nights": 115,
+        "positive_pct": 55.252918287937746,
+        "minimum": -130.75,
+        "maximum": 145.75
+      },
+      "bps": {
+        "nights": 257,
+        "mean": 1.876674661822219,
+        "median": 4.883729666779368,
+        "positive_nights": 142,
+        "flat_nights": 0,
+        "negative_nights": 115,
+        "positive_pct": 55.252918287937746,
+        "minimum": -241.1027106767472,
+        "maximum": 284.3070320881693
+      },
+      "mean_bps_weekly_interval_95": [
+        -5.395723160137674,
+        8.610359234351437
+      ]
+    },
+    "2026": {
+      "first_session": "2026-01-02",
+      "last_session": "2026-10-05",
+      "points": {
+        "nights": 196,
+        "mean": 4.719387755102041,
+        "median": 4.625,
+        "positive_nights": 109,
+        "flat_nights": 0,
+        "negative_nights": 87,
+        "positive_pct": 55.61224489795919,
+        "minimum": -111.75,
+        "maximum": 148.25
+      },
+      "bps": {
+        "nights": 196,
+        "mean": 6.690121847171815,
+        "median": 6.502871457087708,
+        "positive_nights": 109,
+        "flat_nights": 0,
+        "negative_nights": 87,
+        "positive_pct": 55.61224489795919,
+        "minimum": -161.2551754194814,
+        "maximum": 227.72657450076804
+      },
+      "mean_bps_weekly_interval_95": [
+        -0.2954626099720942,
+        13.336042201417738
+      ]
+    }
+  },
+  "close_vs_next_open": {
+    "nights": 6815,
+    "exact_equal_nights": 3709,
+    "difference_above_one_point_nights": 21,
+    "mean_close_minus_next_open_points": 0.012949376375641966,
+    "mean_close_minus_next_open_bps": 0.03936240209733694,
+    "all_history_next_open": {
+      "nights": 6815,
+      "mean": 2.3218510243284736,
+      "median": 3.665017408832692,
+      "positive_nights": 3642,
+      "flat_nights": 106,
+      "negative_nights": 3067,
+      "positive_pct": 53.44093910491563,
+      "minimum": -642.9548563611492,
+      "maximum": 794.4021403580983
+    },
+    "next_open_by_period": {
+      "2000\u20132010": {
+        "bps": {
+          "nights": 2823,
+          "mean": 0.6321407356913058,
+          "median": 2.1168501270110074,
+          "positive_nights": 1448,
+          "flat_nights": 63,
+          "negative_nights": 1312,
+          "positive_pct": 51.29295076160113,
+          "minimum": -642.9548563611492,
+          "maximum": 514.0961857379768
+        }
+      },
+      "2011\u20132020": {
+        "bps": {
+          "nights": 2507,
+          "mean": 4.5478222737270935,
+          "median": 5.462490895848506,
+          "positive_nights": 1394,
+          "flat_nights": 40,
+          "negative_nights": 1073,
+          "positive_pct": 55.60430793777423,
+          "minimum": -639.1526661796933,
+          "maximum": 794.4021403580983
+        }
+      },
+      "2021\u20132023": {
+        "bps": {
+          "nights": 773,
+          "mean": -0.7772294275444113,
+          "median": 1.1648902090977926,
+          "positive_nights": 392,
+          "flat_nights": 1,
+          "negative_nights": 380,
+          "positive_pct": 50.71151358344114,
+          "minimum": -244.33637765389634,
+          "maximum": 365.3180729305297
+        }
+      },
+      "2024\u2013Oct 5 2026": {
+        "bps": {
+          "nights": 712,
+          "mean": 4.54815918707865,
+          "median": 6.085809469151206,
+          "positive_nights": 408,
+          "flat_nights": 2,
+          "negative_nights": 302,
+          "positive_pct": 57.30337078651685,
+          "minimum": -319.88742964352724,
+          "maximum": 283.8193699405052
+        }
+      }
+    }
+  },
+  "cost_scenarios_all_history": {
+    "0.5": {
+      "net_points": {
+        "nights": 6815,
+        "mean": 0.17549523110785034,
+        "median": 0.25,
+        "positive_nights": 3421,
+        "flat_nights": 108,
+        "negative_nights": 3286,
+        "positive_pct": 50.198092443140126,
+        "minimum": -170.75,
+        "maximum": 165.0
+      },
+      "net_bps": {
+        "nights": 6815,
+        "mean": -0.5845296759781676,
+        "median": 0.8373105584861426,
+        "positive_nights": 3421,
+        "flat_nights": 108,
+        "negative_nights": 3286,
+        "positive_pct": 50.198092443140126,
+        "minimum": -645.6908344733242,
+        "maximum": 679.1520889071826
+      }
+    },
+    "1.0": {
+      "net_points": {
+        "nights": 6815,
+        "mean": -0.3245047688921497,
+        "median": -0.25,
+        "positive_nights": 3218,
+        "flat_nights": 90,
+        "negative_nights": 3507,
+        "positive_pct": 47.219369038884814,
+        "minimum": -171.25,
+        "maximum": 164.5
+      },
+      "net_bps": {
+        "nights": 6815,
+        "mean": -3.5302727783821464,
+        "median": -2.038320423970648,
+        "positive_nights": 3218,
+        "flat_nights": 90,
+        "negative_nights": 3507,
+        "positive_pct": 47.219369038884814,
+        "minimum": -651.1627906976744,
+        "maximum": 677.0940522741305
+      }
+    },
+    "2.0": {
+      "net_points": {
+        "nights": 6815,
+        "mean": -1.3245047688921496,
+        "median": -1.25,
+        "positive_nights": 2792,
+        "flat_nights": 108,
+        "negative_nights": 3915,
+        "positive_pct": 40.96845194424065,
+        "minimum": -172.25,
+        "maximum": 163.5
+      },
+      "net_bps": {
+        "nights": 6815,
+        "mean": -9.421758983190102,
+        "median": -7.624186264735206,
+        "positive_nights": 2792,
+        "flat_nights": 108,
+        "negative_nights": 3915,
+        "positive_pct": 40.96845194424065,
+        "minimum": -662.1067031463748,
+        "maximum": 672.9779790080263
+      }
+    }
+  },
+  "recent_cost_scenarios": {
+    "0.5": {
+      "net_points": {
+        "nights": 712,
+        "mean": 2.327247191011236,
+        "median": 3.0,
+        "positive_nights": 404,
+        "flat_nights": 4,
+        "negative_nights": 304,
+        "positive_pct": 56.74157303370787,
+        "minimum": -170.75,
+        "maximum": 147.75
+      },
+      "net_bps": {
+        "nights": 712,
+        "mean": 3.7237836968493103,
+        "median": 5.17561056011786,
+        "positive_nights": 404,
+        "flat_nights": 4,
+        "negative_nights": 304,
+        "positive_pct": 56.74157303370787,
+        "minimum": -320.35647279549715,
+        "maximum": 283.3317077928411
+      }
+    },
+    "1.0": {
+      "net_points": {
+        "nights": 712,
+        "mean": 1.827247191011236,
+        "median": 2.5,
+        "positive_nights": 393,
+        "flat_nights": 3,
+        "negative_nights": 316,
+        "positive_pct": 55.19662921348315,
+        "minimum": -171.25,
+        "maximum": 147.25
+      },
+      "net_bps": {
+        "nights": 712,
+        "mean": 2.9086458920214437,
+        "median": 4.41075723689003,
+        "positive_nights": 393,
+        "flat_nights": 3,
+        "negative_nights": 316,
+        "positive_pct": 55.19662921348315,
+        "minimum": -321.2945590994371,
+        "maximum": 282.3563834975129
+      }
+    },
+    "2.0": {
+      "net_points": {
+        "nights": 712,
+        "mean": 0.827247191011236,
+        "median": 1.5,
+        "positive_nights": 376,
+        "flat_nights": 1,
+        "negative_nights": 335,
+        "positive_pct": 52.80898876404494,
+        "minimum": -172.25,
+        "maximum": 146.25
+      },
+      "net_bps": {
+        "nights": 712,
+        "mean": 1.278370282365711,
+        "median": 2.8650217585900224,
+        "positive_nights": 376,
+        "flat_nights": 1,
+        "negative_nights": 335,
+        "positive_pct": 52.80898876404494,
+        "minimum": -323.1707317073171,
+        "maximum": 280.40573490685654
+      }
+    }
+  },
+  "overlap_with_minute_source": {
+    "nights": 515,
+    "first_session": "2024-08-29",
+    "last_session": "2026-08-28",
+    "mean_candle_points": 2.8597087378640778,
+    "mean_minute_points": 2.8611650485436892,
+    "mean_difference_points": -0.0014563106796116505,
+    "median_absolute_difference_points": 0.0,
+    "max_absolute_difference_points": 1.25,
+    "difference_above_quarter_point_nights": 7,
+    "difference_above_two_points_nights": 0,
+    "minute_boundary_contract_mismatch_nights": 0,
+    "minute_input_sha256": "b9e1acf1ee029db919e6e5feba38bd985d06a84af8193c11ce93722606c6356c",
+    "limitation": "Boundary comparison only; the all-date overlap is not the stricter quality-filtered minute sample."
+  },
+  "resampling": {
+    "unit": "ISO calendar weeks labelled by morning date",
+    "replicates": 5000,
+    "random_seed": 20261015,
+    "interval": "2.5th and 97.5th percentiles of resampled means",
+    "method": "Within each displayed group, sample its number of weeks with replacement; retain every night in a sampled week, then divide summed returns by sampled night count.",
+    "limitations": "Chosen period boundaries and changing market conditions are not accounted for by these descriptive intervals."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "checked_date": "2026-10-15",
+  "independent_csv_numeric_matches": 693,
+  "made_up_mechanics_tests_passed": 6,
+  "eligible_nights_recounted": 6815,
+  "source_sha256": "4b9faa5ea1ab8377f209d22630d959c75bb1ad2e265c61023aa08d3b89339b6d",
+  "scope": "Independent parsing, pairing and descriptive statistics; does not independently audit vendor prices, upstream roll rules or bootstrap uncertainty.",
+  "original_source_rerun_matches_saved_result": true,
+  "descriptive_values_matched_to_original": 222,
+  "mean_interval_note": "New intervals resample weeks within each displayed period, 5,000 times, seed 20261015. They are not copied from old intervals.",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "pandas": "3.0.1",
+  "tzdata": "2026.5"
+}
