@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "checked_date": "2026-10-15",
+  "independent_numeric_matches": 544,
+  "original_minute_rerun_values_matched": 24,
+  "made_up_tests_passed": 7,
+  "minute_nights": 515,
+  "historical_nights": 6815,
+  "source_sha256": {
+    "minute": "b9e1acf1ee029db919e6e5feba38bd985d06a84af8193c11ce93722606c6356c",
+    "history": "4b9faa5ea1ab8377f209d22630d959c75bb1ad2e265c61023aa08d3b89339b6d"
+  },
+  "scope": "Independent CSV parsing, time pairing and descriptive counts. Vendor prices and bootstrap ranges are not independently audited.",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "pandas": "3.0.1",
+  "tzdata": "2026.5"
+}
