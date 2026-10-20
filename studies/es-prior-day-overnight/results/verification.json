@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "checked_date": "2026-10-15",
+  "independent_numeric_matches": 378,
+  "made_up_tests_passed": 9,
+  "eligible_nights": 482,
+  "source_sha256": "b9e1acf1ee029db919e6e5feba38bd985d06a84af8193c11ce93722606c6356c",
+  "scope": "Separate standard-library CSV parser, timestamp pairing, daytime mapping and descriptive aggregates. Bootstrap ranges and vendor prices are not independently audited.",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "pandas": "3.0.1",
+  "tzdata": "2026.5"
+}
