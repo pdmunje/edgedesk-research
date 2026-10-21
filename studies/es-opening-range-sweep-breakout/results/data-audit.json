@@ -1,0 +1,22 @@
+{
+  "source_file": "1m_v1.parquet",
+  "sha256": "2a794cbeae8f8fc3022d4079e98c32e8d9dc030ba1d1bda2b457aa857f0fa6f9",
+  "complete_rows": 4931583,
+  "range_utc": [
+    "2010-06-06 22:00:00+00:00",
+    "2026-09-11 00:19:00+00:00"
+  ],
+  "maintenance_rows_removed": 347,
+  "roll_transitions": 65,
+  "duplicates": 0,
+  "quality_states": {
+    "certified": 4906620,
+    "vendor_degraded": 23563,
+    "live_primary": 1400
+  },
+  "price_sources": {
+    "databento": 4930183,
+    "tradingview": 1400
+  },
+  "eligible_session_rows": 4931236
+}

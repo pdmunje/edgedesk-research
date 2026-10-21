@@ -1,0 +1,24 @@
+{
+  "checked": "2026-10-20",
+  "later_period": "2023\u2013September 11, 2026 trading dates; already examined; final session/year partial",
+  "original_rule_combinations": 72,
+  "strict_pattern_combinations": 144,
+  "later_comparisons_with_eligible_windows": 72,
+  "later_sweep_larger_per_parent": 39,
+  "later_unadjusted_paired_intervals_above_zero": 19,
+  "later_unadjusted_paired_intervals_below_zero": 5,
+  "verification": {
+    "passed": true,
+    "mathematical_checks": 12,
+    "strict_matrix_fingerprints": 24,
+    "strict_summary_rows": 576,
+    "strict_annual_rows": 2448,
+    "paired_comparison_rows": 288,
+    "independent_numeric_comparisons": 10128,
+    "independently_recounted_interval_rows": 24,
+    "source_sha256_unchanged": true,
+    "note": "Independent grouping, complete-parent prior ATR history, all strict per-parent gross outcomes, stop flags and eligible masks verified by matrix fingerprints. All strict summary/annual centers/counts and every paired comparison checked; selected development/later intervals independently recounted. Original replay agreement with saved source checked separately. No multiplicity-adjusted significance or live execution claim."
+  },
+  "original_agreement_comparisons": 1440,
+  "note": "Counts of settings are descriptive, overlapping and unadjusted for multiple comparisons. Illustrative hourly five-minute/ATR14 example is not a selected winner. No live execution or fresh holdout claim."
+}

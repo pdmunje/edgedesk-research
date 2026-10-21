@@ -1,0 +1,6 @@
+{
+  "rows": 288,
+  "numeric_comparisons": 1440,
+  "passed": true,
+  "note": "Saved source counts, gross/net means and net win/stop fractions reproduced. Interval endpoints differ because this package uses its own deterministic resampling. Strict model has multiple disclosed assumption changes and is not expected to match the legacy replay."
+}

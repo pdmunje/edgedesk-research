@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "mathematical_checks": 12,
+  "strict_matrix_fingerprints": 24,
+  "strict_summary_rows": 576,
+  "strict_annual_rows": 2448,
+  "paired_comparison_rows": 288,
+  "independent_numeric_comparisons": 10128,
+  "independently_recounted_interval_rows": 24,
+  "source_sha256_unchanged": true,
+  "note": "Independent grouping, complete-parent prior ATR history, all strict per-parent gross outcomes, stop flags and eligible masks verified by matrix fingerprints. All strict summary/annual centers/counts and every paired comparison checked; selected development/later intervals independently recounted. Original replay agreement with saved source checked separately. No multiplicity-adjusted significance or live execution claim."
+}
