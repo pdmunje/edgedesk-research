@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "checked_date": "2026-10-15",
+  "independent_numeric_matches": 192,
+  "original_saved_aggregate_matches": 6,
+  "made_up_tests_passed": 12,
+  "eligible_hours": 516,
+  "source_sha256": "b9e1acf1ee029db919e6e5feba38bd985d06a84af8193c11ce93722606c6356c",
+  "scope": "Separate CSV parsing, UTC/New York conversion, boundary pairing and descriptive aggregates. Mean ranges are not independently implemented; constant cost shifts are checked. Vendor prices are not audited.",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "pandas": "3.0.1",
+  "tzdata": "2026.5"
+}
