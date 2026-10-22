@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "checked_date": "2026-10-15",
+  "independent_numeric_matches": 403,
+  "made_up_tests_passed": 11,
+  "eligible_main_events": 400,
+  "original_event_audit": {
+    "performed": true,
+    "old_events": 387,
+    "common_events": 384,
+    "excluded_older_target_dates": [
+      "2025-01-02",
+      "2025-04-21",
+      "2026-01-02"
+    ],
+    "common_touch_and_gross_matches": 768,
+    "old_mean_gross_points": -0.09366925064599484,
+    "current_full_day_mean_gross_points": 0.013020833333333334,
+    "note": "Exact expected calendar targets remove three older shifted-session events; remaining touch flags and gross results match. No original event file is distributed."
+  },
+  "source_sha256": "b9e1acf1ee029db919e6e5feba38bd985d06a84af8193c11ce93722606c6356c",
+  "scope": "Separate CSV/date/target-path recount and descriptive aggregates. Bootstrap ranges and vendor prices are not independently audited; constant cost shifts are checked.",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "pandas": "3.0.1",
+  "tzdata": "2026.5"
+}

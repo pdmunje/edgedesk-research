@@ -1,0 +1,1178 @@
+{
+  "question": "Do frequent ES reopen-gap touches imply profitable target/time-exit fades?",
+  "source_sha256": "b9e1acf1ee029db919e6e5feba38bd985d06a84af8193c11ce93722606c6356c",
+  "checks": {
+    "source_rows": 707321,
+    "source_session_dates": 518,
+    "evening_candidates": 517,
+    "sequential_exclusions": {
+      "missing_target": [
+        "2024-09-03",
+        "2024-11-29",
+        "2024-12-02",
+        "2024-12-26",
+        "2025-01-02",
+        "2025-01-10",
+        "2025-01-21",
+        "2025-02-18",
+        "2025-04-21",
+        "2025-05-27",
+        "2025-06-20",
+        "2025-07-04",
+        "2025-07-07",
+        "2025-09-02",
+        "2025-11-28",
+        "2025-12-01",
+        "2025-12-26",
+        "2026-01-02",
+        "2026-01-20",
+        "2026-02-17",
+        "2026-04-06",
+        "2026-05-26",
+        "2026-06-22",
+        "2026-07-06"
+      ],
+      "target_contract_change": [
+        "2024-09-17",
+        "2024-12-17",
+        "2025-03-18",
+        "2025-06-17",
+        "2025-09-16",
+        "2025-12-16",
+        "2026-03-17",
+        "2026-06-16"
+      ],
+      "missing_0930": [
+        "2025-01-09",
+        "2026-04-03"
+      ],
+      "wrong_time_or_exit_contract": []
+    },
+    "paired_with_target_and_exit": 483,
+    "window_quality_sessions_including_zero": 422,
+    "zero_gaps_in_window_quality": 22,
+    "window_quality_failures_including_zero": [
+      {
+        "date": "2024-09-02",
+        "overnight_minutes": 925,
+        "one_overnight_contract": true,
+        "overnight_flagged": false,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": false
+      },
+      {
+        "date": "2024-09-16",
+        "overnight_minutes": 924,
+        "one_overnight_contract": true,
+        "overnight_flagged": false,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": false
+      },
+      {
+        "date": "2024-09-18",
+        "overnight_minutes": 929,
+        "one_overnight_contract": true,
+        "overnight_flagged": true,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": true
+      },
+      {
+        "date": "2024-09-19",
+        "overnight_minutes": 930,
+        "one_overnight_contract": true,
+        "overnight_flagged": true,
+        "target_bar_flagged": true,
+        "exit_bar_flagged": false
+      },
+      {
+        "date": "2024-09-25",
+        "overnight_minutes": 929,
+        "one_overnight_contract": true,
+        "overnight_flagged": false,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": false
+      },
+      {
+        "date": "2024-09-26",
+        "overnight_minutes": 929,
+        "one_overnight_contract": true,
+        "overnight_flagged": false,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": false
+      },
+      {
+        "date": "2024-10-10",
+        "overnight_minutes": 929,
+        "one_overnight_contract": true,
+        "overnight_flagged": false,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": false
+      },
+      {
+        "date": "2024-10-11",
+        "overnight_minutes": 929,
+        "one_overnight_contract": true,
+        "overnight_flagged": false,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": false
+      },
+      {
+        "date": "2024-10-14",
+        "overnight_minutes": 929,
+        "one_overnight_contract": true,
+        "overnight_flagged": false,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": false
+      },
+      {
+        "date": "2024-10-15",
+        "overnight_minutes": 927,
+        "one_overnight_contract": true,
+        "overnight_flagged": false,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": false
+      },
+      {
+        "date": "2024-10-23",
+        "overnight_minutes": 928,
+        "one_overnight_contract": true,
+        "overnight_flagged": false,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": false
+      },
+      {
+        "date": "2024-10-24",
+        "overnight_minutes": 929,
+        "one_overnight_contract": true,
+        "overnight_flagged": false,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": false
+      },
+      {
+        "date": "2024-11-05",
+        "overnight_minutes": 929,
+        "one_overnight_contract": true,
+        "overnight_flagged": false,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": false
+      },
+      {
+        "date": "2024-11-18",
+        "overnight_minutes": 929,
+        "one_overnight_contract": true,
+        "overnight_flagged": false,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": false
+      },
+      {
+        "date": "2024-12-04",
+        "overnight_minutes": 929,
+        "one_overnight_contract": true,
+        "overnight_flagged": false,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": false
+      },
+      {
+        "date": "2024-12-09",
+        "overnight_minutes": 929,
+        "one_overnight_contract": true,
+        "overnight_flagged": false,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": false
+      },
+      {
+        "date": "2024-12-10",
+        "overnight_minutes": 927,
+        "one_overnight_contract": true,
+        "overnight_flagged": false,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": false
+      },
+      {
+        "date": "2024-12-11",
+        "overnight_minutes": 929,
+        "one_overnight_contract": true,
+        "overnight_flagged": false,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": false
+      },
+      {
+        "date": "2024-12-12",
+        "overnight_minutes": 926,
+        "one_overnight_contract": true,
+        "overnight_flagged": false,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": false
+      },
+      {
+        "date": "2024-12-16",
+        "overnight_minutes": 928,
+        "one_overnight_contract": true,
+        "overnight_flagged": false,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": false
+      },
+      {
+        "date": "2024-12-18",
+        "overnight_minutes": 929,
+        "one_overnight_contract": true,
+        "overnight_flagged": false,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": false
+      },
+      {
+        "date": "2024-12-24",
+        "overnight_minutes": 927,
+        "one_overnight_contract": true,
+        "overnight_flagged": false,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": false
+      },
+      {
+        "date": "2025-01-24",
+        "overnight_minutes": 929,
+        "one_overnight_contract": true,
+        "overnight_flagged": false,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": false
+      },
+      {
+        "date": "2025-02-11",
+        "overnight_minutes": 929,
+        "one_overnight_contract": true,
+        "overnight_flagged": false,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": false
+      },
+      {
+        "date": "2025-02-17",
+        "overnight_minutes": 929,
+        "one_overnight_contract": true,
+        "overnight_flagged": false,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": false
+      },
+      {
+        "date": "2025-05-06",
+        "overnight_minutes": 929,
+        "one_overnight_contract": true,
+        "overnight_flagged": false,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": false
+      },
+      {
+        "date": "2025-06-25",
+        "overnight_minutes": 928,
+        "one_overnight_contract": true,
+        "overnight_flagged": false,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": false
+      },
+      {
+        "date": "2025-07-09",
+        "overnight_minutes": 929,
+        "one_overnight_contract": true,
+        "overnight_flagged": false,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": false
+      },
+      {
+        "date": "2025-07-21",
+        "overnight_minutes": 929,
+        "one_overnight_contract": true,
+        "overnight_flagged": false,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": false
+      },
+      {
+        "date": "2025-07-28",
+        "overnight_minutes": 929,
+        "one_overnight_contract": true,
+        "overnight_flagged": false,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": false
+      },
+      {
+        "date": "2025-07-30",
+        "overnight_minutes": 929,
+        "one_overnight_contract": true,
+        "overnight_flagged": false,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": false
+      },
+      {
+        "date": "2025-08-12",
+        "overnight_minutes": 929,
+        "one_overnight_contract": true,
+        "overnight_flagged": false,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": false
+      },
+      {
+        "date": "2025-08-19",
+        "overnight_minutes": 929,
+        "one_overnight_contract": true,
+        "overnight_flagged": false,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": false
+      },
+      {
+        "date": "2025-08-25",
+        "overnight_minutes": 929,
+        "one_overnight_contract": true,
+        "overnight_flagged": false,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": false
+      },
+      {
+        "date": "2025-08-27",
+        "overnight_minutes": 929,
+        "one_overnight_contract": true,
+        "overnight_flagged": false,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": false
+      },
+      {
+        "date": "2025-08-29",
+        "overnight_minutes": 929,
+        "one_overnight_contract": true,
+        "overnight_flagged": false,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": false
+      },
+      {
+        "date": "2025-09-09",
+        "overnight_minutes": 929,
+        "one_overnight_contract": true,
+        "overnight_flagged": false,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": false
+      },
+      {
+        "date": "2025-09-10",
+        "overnight_minutes": 928,
+        "one_overnight_contract": true,
+        "overnight_flagged": false,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": false
+      },
+      {
+        "date": "2025-09-11",
+        "overnight_minutes": 929,
+        "one_overnight_contract": true,
+        "overnight_flagged": false,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": false
+      },
+      {
+        "date": "2025-09-15",
+        "overnight_minutes": 927,
+        "one_overnight_contract": true,
+        "overnight_flagged": false,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": false
+      },
+      {
+        "date": "2025-09-17",
+        "overnight_minutes": 926,
+        "one_overnight_contract": true,
+        "overnight_flagged": true,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": true
+      },
+      {
+        "date": "2025-09-18",
+        "overnight_minutes": 930,
+        "one_overnight_contract": true,
+        "overnight_flagged": true,
+        "target_bar_flagged": true,
+        "exit_bar_flagged": false
+      },
+      {
+        "date": "2025-09-22",
+        "overnight_minutes": 929,
+        "one_overnight_contract": true,
+        "overnight_flagged": false,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": false
+      },
+      {
+        "date": "2025-09-23",
+        "overnight_minutes": 929,
+        "one_overnight_contract": true,
+        "overnight_flagged": false,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": false
+      },
+      {
+        "date": "2025-09-24",
+        "overnight_minutes": 929,
+        "one_overnight_contract": true,
+        "overnight_flagged": true,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": true
+      },
+      {
+        "date": "2025-09-25",
+        "overnight_minutes": 930,
+        "one_overnight_contract": true,
+        "overnight_flagged": true,
+        "target_bar_flagged": true,
+        "exit_bar_flagged": false
+      },
+      {
+        "date": "2025-09-30",
+        "overnight_minutes": 929,
+        "one_overnight_contract": true,
+        "overnight_flagged": false,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": false
+      },
+      {
+        "date": "2025-10-02",
+        "overnight_minutes": 928,
+        "one_overnight_contract": true,
+        "overnight_flagged": false,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": false
+      },
+      {
+        "date": "2025-10-06",
+        "overnight_minutes": 928,
+        "one_overnight_contract": true,
+        "overnight_flagged": false,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": false
+      },
+      {
+        "date": "2025-10-07",
+        "overnight_minutes": 929,
+        "one_overnight_contract": true,
+        "overnight_flagged": false,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": false
+      },
+      {
+        "date": "2025-10-09",
+        "overnight_minutes": 929,
+        "one_overnight_contract": true,
+        "overnight_flagged": false,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": false
+      },
+      {
+        "date": "2025-12-24",
+        "overnight_minutes": 928,
+        "one_overnight_contract": true,
+        "overnight_flagged": false,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": false
+      },
+      {
+        "date": "2026-03-16",
+        "overnight_minutes": 930,
+        "one_overnight_contract": true,
+        "overnight_flagged": true,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": true
+      },
+      {
+        "date": "2026-04-10",
+        "overnight_minutes": 930,
+        "one_overnight_contract": true,
+        "overnight_flagged": true,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": true
+      },
+      {
+        "date": "2026-04-13",
+        "overnight_minutes": 930,
+        "one_overnight_contract": true,
+        "overnight_flagged": false,
+        "target_bar_flagged": true,
+        "exit_bar_flagged": false
+      },
+      {
+        "date": "2026-04-29",
+        "overnight_minutes": 929,
+        "one_overnight_contract": true,
+        "overnight_flagged": false,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": false
+      },
+      {
+        "date": "2026-05-25",
+        "overnight_minutes": 930,
+        "one_overnight_contract": true,
+        "overnight_flagged": true,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": false
+      },
+      {
+        "date": "2026-07-30",
+        "overnight_minutes": 930,
+        "one_overnight_contract": true,
+        "overnight_flagged": true,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": true
+      },
+      {
+        "date": "2026-07-31",
+        "overnight_minutes": 930,
+        "one_overnight_contract": true,
+        "overnight_flagged": true,
+        "target_bar_flagged": true,
+        "exit_bar_flagged": false
+      },
+      {
+        "date": "2026-08-12",
+        "overnight_minutes": 929,
+        "one_overnight_contract": true,
+        "overnight_flagged": false,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": false
+      },
+      {
+        "date": "2026-08-18",
+        "overnight_minutes": 929,
+        "one_overnight_contract": true,
+        "overnight_flagged": false,
+        "target_bar_flagged": false,
+        "exit_bar_flagged": false
+      }
+    ],
+    "nonzero_gaps_before_quality": 457,
+    "nonzero_excluded_by_window_quality": [
+      "2024-09-02",
+      "2024-09-16",
+      "2024-09-18",
+      "2024-09-19",
+      "2024-09-25",
+      "2024-09-26",
+      "2024-10-10",
+      "2024-10-14",
+      "2024-10-15",
+      "2024-10-23",
+      "2024-10-24",
+      "2024-11-05",
+      "2024-11-18",
+      "2024-12-04",
+      "2024-12-09",
+      "2024-12-10",
+      "2024-12-12",
+      "2024-12-16",
+      "2024-12-18",
+      "2024-12-24",
+      "2025-01-24",
+      "2025-02-11",
+      "2025-02-17",
+      "2025-05-06",
+      "2025-06-25",
+      "2025-07-09",
+      "2025-07-21",
+      "2025-07-28",
+      "2025-07-30",
+      "2025-08-12",
+      "2025-08-19",
+      "2025-08-25",
+      "2025-08-27",
+      "2025-08-29",
+      "2025-09-09",
+      "2025-09-10",
+      "2025-09-11",
+      "2025-09-15",
+      "2025-09-17",
+      "2025-09-18",
+      "2025-09-22",
+      "2025-09-23",
+      "2025-09-24",
+      "2025-09-25",
+      "2025-09-30",
+      "2025-10-06",
+      "2025-10-07",
+      "2025-10-09",
+      "2025-12-24",
+      "2026-03-16",
+      "2026-04-10",
+      "2026-04-13",
+      "2026-05-25",
+      "2026-07-30",
+      "2026-07-31",
+      "2026-08-12",
+      "2026-08-18"
+    ],
+    "exact_target_calendar_dates_used": true,
+    "first_event": "2024-08-29",
+    "last_event": "2026-08-28"
+  },
+  "main": {
+    "events": 400,
+    "touch_events": 350,
+    "touch_pct": 87.5,
+    "entry_minute_touches": 203,
+    "capped_time_exit_cases": 0,
+    "gross_points": {
+      "events": 400,
+      "mean": -0.043125,
+      "median": 1.25,
+      "sum": -17.25,
+      "positive_events": 352,
+      "flat_events": 0,
+      "positive_pct": 88.0,
+      "minimum": -104.25,
+      "maximum": 78.5
+    },
+    "gross_mean_points_95": [
+      -1.5870290203623536,
+      1.401128218323706
+    ],
+    "touch_group": {
+      "events": 350,
+      "mean": 3.7657142857142856,
+      "median": 1.5,
+      "sum": 1318.0,
+      "positive_events": 350,
+      "flat_events": 0,
+      "positive_pct": 100.0,
+      "minimum": 0.25,
+      "maximum": 78.5
+    },
+    "no_touch_group": {
+      "events": 50,
+      "mean": -26.705,
+      "median": -21.25,
+      "sum": -1335.25,
+      "positive_events": 2,
+      "flat_events": 0,
+      "positive_pct": 4.0,
+      "minimum": -104.25,
+      "maximum": 45.75
+    },
+    "delayed_one_minute": {
+      "gross_points": {
+        "events": 197,
+        "mean": 0.37817258883248733,
+        "median": 3.25,
+        "sum": 74.5,
+        "positive_events": 152,
+        "flat_events": 0,
+        "positive_pct": 77.15736040609137,
+        "minimum": -103.5,
+        "maximum": 67.25
+      },
+      "net_one_point": {
+        "events": 197,
+        "mean": -0.6218274111675127,
+        "median": 2.25,
+        "sum": -122.5,
+        "positive_events": 144,
+        "flat_events": 4,
+        "positive_pct": 73.09644670050761,
+        "minimum": -104.5,
+        "maximum": 66.25
+      },
+      "skipped_events": 203
+    }
+  },
+  "full_day_quality_check": {
+    "events": 384,
+    "touch_events": 337,
+    "touch_pct": 87.76041666666666,
+    "entry_minute_touches": 193,
+    "capped_time_exit_cases": 0,
+    "gross_points": {
+      "events": 384,
+      "mean": 0.013020833333333334,
+      "median": 1.25,
+      "sum": 5.0,
+      "positive_events": 338,
+      "flat_events": 0,
+      "positive_pct": 88.02083333333334,
+      "minimum": -104.25,
+      "maximum": 78.5
+    },
+    "gross_mean_points_95": [
+      -1.5848741162073967,
+      1.5288897378781598
+    ],
+    "touch_group": {
+      "events": 337,
+      "mean": 3.8316023738872405,
+      "median": 1.5,
+      "sum": 1291.25,
+      "positive_events": 337,
+      "flat_events": 0,
+      "positive_pct": 100.0,
+      "minimum": 0.25,
+      "maximum": 78.5
+    },
+    "no_touch_group": {
+      "events": 47,
+      "mean": -27.367021276595743,
+      "median": -20.75,
+      "sum": -1286.25,
+      "positive_events": 1,
+      "flat_events": 0,
+      "positive_pct": 2.127659574468085,
+      "minimum": -104.25,
+      "maximum": 45.75
+    },
+    "delayed_one_minute": {
+      "gross_points": {
+        "events": 191,
+        "mean": 0.5981675392670157,
+        "median": 3.5,
+        "sum": 114.25,
+        "positive_events": 148,
+        "flat_events": 0,
+        "positive_pct": 77.4869109947644,
+        "minimum": -103.5,
+        "maximum": 67.25
+      },
+      "net_one_point": {
+        "events": 191,
+        "mean": -0.4018324607329843,
+        "median": 2.5,
+        "sum": -76.75,
+        "positive_events": 140,
+        "flat_events": 4,
+        "positive_pct": 73.29842931937172,
+        "minimum": -104.5,
+        "maximum": 66.25
+      },
+      "skipped_events": 193
+    }
+  },
+  "costs_points": {
+    "0.5": {
+      "net": {
+        "events": 400,
+        "mean": -0.543125,
+        "median": 0.75,
+        "sum": -217.25,
+        "positive_events": 263,
+        "flat_events": 43,
+        "positive_pct": 65.75,
+        "minimum": -104.75,
+        "maximum": 78.0
+      },
+      "net_mean_points_95": [
+        -2.087029020362354,
+        0.9011282183237059
+      ]
+    },
+    "1.0": {
+      "net": {
+        "events": 400,
+        "mean": -1.043125,
+        "median": 0.25,
+        "sum": -417.25,
+        "positive_events": 209,
+        "flat_events": 23,
+        "positive_pct": 52.25,
+        "minimum": -105.25,
+        "maximum": 77.5
+      },
+      "net_mean_points_95": [
+        -2.587029020362354,
+        0.40112821832370593
+      ]
+    },
+    "2.0": {
+      "net": {
+        "events": 400,
+        "mean": -2.043125,
+        "median": -0.75,
+        "sum": -817.25,
+        "positive_events": 145,
+        "flat_events": 18,
+        "positive_pct": 36.25,
+        "minimum": -106.25,
+        "maximum": 76.5
+      },
+      "net_mean_points_95": [
+        -3.587029020362354,
+        -0.5988717816762941
+      ]
+    },
+    "4.0": {
+      "net": {
+        "events": 400,
+        "mean": -4.043125,
+        "median": -2.75,
+        "sum": -1617.25,
+        "positive_events": 87,
+        "flat_events": 4,
+        "positive_pct": 21.75,
+        "minimum": -108.25,
+        "maximum": 74.5
+      },
+      "net_mean_points_95": [
+        -5.587029020362354,
+        -2.5988717816762943
+      ]
+    }
+  },
+  "annual": {
+    "2024": {
+      "events": 58,
+      "touch_events": 51,
+      "touch_pct": 87.93103448275862,
+      "entry_minute_touches": 32,
+      "capped_time_exit_cases": 0,
+      "gross_points": {
+        "events": 58,
+        "mean": -0.8405172413793104,
+        "median": 0.75,
+        "sum": -48.75,
+        "positive_events": 51,
+        "flat_events": 0,
+        "positive_pct": 87.93103448275862,
+        "minimum": -52.0,
+        "maximum": 17.5
+      },
+      "gross_mean_points_95": [
+        -3.7298619727047146,
+        1.8541874999999999
+      ],
+      "touch_group": {
+        "events": 51,
+        "mean": 2.215686274509804,
+        "median": 1.0,
+        "sum": 113.0,
+        "positive_events": 51,
+        "flat_events": 0,
+        "positive_pct": 100.0,
+        "minimum": 0.25,
+        "maximum": 17.5
+      },
+      "no_touch_group": {
+        "events": 7,
+        "mean": -23.107142857142858,
+        "median": -20.75,
+        "sum": -161.75,
+        "positive_events": 0,
+        "flat_events": 0,
+        "positive_pct": 0.0,
+        "minimum": -52.0,
+        "maximum": -9.25
+      },
+      "delayed_one_minute": {
+        "gross_points": {
+          "events": 26,
+          "mean": -1.875,
+          "median": 2.25,
+          "sum": -48.75,
+          "positive_events": 19,
+          "flat_events": 0,
+          "positive_pct": 73.07692307692307,
+          "minimum": -51.5,
+          "maximum": 21.5
+        },
+        "net_one_point": {
+          "events": 26,
+          "mean": -2.875,
+          "median": 1.25,
+          "sum": -74.75,
+          "positive_events": 18,
+          "flat_events": 0,
+          "positive_pct": 69.23076923076923,
+          "minimum": -52.5,
+          "maximum": 20.5
+        },
+        "skipped_events": 32
+      }
+    },
+    "2025": {
+      "events": 195,
+      "touch_events": 167,
+      "touch_pct": 85.64102564102564,
+      "entry_minute_touches": 99,
+      "capped_time_exit_cases": 0,
+      "gross_points": {
+        "events": 195,
+        "mean": -1.608974358974359,
+        "median": 1.0,
+        "sum": -313.75,
+        "positive_events": 167,
+        "flat_events": 0,
+        "positive_pct": 85.64102564102564,
+        "minimum": -104.25,
+        "maximum": 61.0
+      },
+      "gross_mean_points_95": [
+        -3.9341768292682926,
+        0.6575060175761681
+      ],
+      "touch_group": {
+        "events": 167,
+        "mean": 3.5793413173652695,
+        "median": 1.5,
+        "sum": 597.75,
+        "positive_events": 167,
+        "flat_events": 0,
+        "positive_pct": 100.0,
+        "minimum": 0.25,
+        "maximum": 61.0
+      },
+      "no_touch_group": {
+        "events": 28,
+        "mean": -32.55357142857143,
+        "median": -27.125,
+        "sum": -911.5,
+        "positive_events": 0,
+        "flat_events": 0,
+        "positive_pct": 0.0,
+        "minimum": -104.25,
+        "maximum": -1.25
+      },
+      "delayed_one_minute": {
+        "gross_points": {
+          "events": 96,
+          "mean": -2.3463541666666665,
+          "median": 3.0,
+          "sum": -225.25,
+          "positive_events": 70,
+          "flat_events": 0,
+          "positive_pct": 72.91666666666666,
+          "minimum": -103.5,
+          "maximum": 48.75
+        },
+        "net_one_point": {
+          "events": 96,
+          "mean": -3.3463541666666665,
+          "median": 2.0,
+          "sum": -321.25,
+          "positive_events": 67,
+          "flat_events": 2,
+          "positive_pct": 69.79166666666666,
+          "minimum": -104.5,
+          "maximum": 47.75
+        },
+        "skipped_events": 99
+      }
+    },
+    "2026": {
+      "events": 147,
+      "touch_events": 132,
+      "touch_pct": 89.79591836734694,
+      "entry_minute_touches": 72,
+      "capped_time_exit_cases": 0,
+      "gross_points": {
+        "events": 147,
+        "mean": 2.348639455782313,
+        "median": 2.0,
+        "sum": 345.25,
+        "positive_events": 134,
+        "flat_events": 0,
+        "positive_pct": 91.15646258503402,
+        "minimum": -59.25,
+        "maximum": 78.5
+      },
+      "gross_mean_points_95": [
+        -0.037181383970177055,
+        4.507046053298207
+      ],
+      "touch_group": {
+        "events": 132,
+        "mean": 4.600378787878788,
+        "median": 2.0,
+        "sum": 607.25,
+        "positive_events": 132,
+        "flat_events": 0,
+        "positive_pct": 100.0,
+        "minimum": 0.25,
+        "maximum": 78.5
+      },
+      "no_touch_group": {
+        "events": 15,
+        "mean": -17.466666666666665,
+        "median": -17.75,
+        "sum": -262.0,
+        "positive_events": 2,
+        "flat_events": 0,
+        "positive_pct": 13.333333333333334,
+        "minimum": -59.25,
+        "maximum": 45.75
+      },
+      "delayed_one_minute": {
+        "gross_points": {
+          "events": 75,
+          "mean": 4.6466666666666665,
+          "median": 4.5,
+          "sum": 348.5,
+          "positive_events": 63,
+          "flat_events": 0,
+          "positive_pct": 84.0,
+          "minimum": -46.5,
+          "maximum": 67.25
+        },
+        "net_one_point": {
+          "events": 75,
+          "mean": 3.6466666666666665,
+          "median": 3.5,
+          "sum": 273.5,
+          "positive_events": 59,
+          "flat_events": 2,
+          "positive_pct": 78.66666666666666,
+          "minimum": -47.5,
+          "maximum": 66.25
+        },
+        "skipped_events": 72
+      }
+    }
+  },
+  "chronological_halves": {
+    "first_year": {
+      "events": 197,
+      "touch_events": 169,
+      "touch_pct": 85.78680203045685,
+      "entry_minute_touches": 106,
+      "capped_time_exit_cases": 0,
+      "gross_points": {
+        "events": 197,
+        "mean": -1.7576142131979695,
+        "median": 1.0,
+        "sum": -346.25,
+        "positive_events": 169,
+        "flat_events": 0,
+        "positive_pct": 85.78680203045685,
+        "minimum": -104.25,
+        "maximum": 61.0
+      },
+      "gross_mean_points_95": [
+        -4.140983504958047,
+        0.5562303073539021
+      ],
+      "touch_group": {
+        "events": 169,
+        "mean": 3.411242603550296,
+        "median": 1.25,
+        "sum": 576.5,
+        "positive_events": 169,
+        "flat_events": 0,
+        "positive_pct": 100.0,
+        "minimum": 0.25,
+        "maximum": 61.0
+      },
+      "no_touch_group": {
+        "events": 28,
+        "mean": -32.955357142857146,
+        "median": -25.75,
+        "sum": -922.75,
+        "positive_events": 0,
+        "flat_events": 0,
+        "positive_pct": 0.0,
+        "minimum": -104.25,
+        "maximum": -1.25
+      },
+      "delayed_one_minute": {
+        "gross_points": {
+          "events": 91,
+          "mean": -3.0576923076923075,
+          "median": 3.25,
+          "sum": -278.25,
+          "positive_events": 65,
+          "flat_events": 0,
+          "positive_pct": 71.42857142857143,
+          "minimum": -103.5,
+          "maximum": 48.75
+        },
+        "net_one_point": {
+          "events": 91,
+          "mean": -4.0576923076923075,
+          "median": 2.25,
+          "sum": -369.25,
+          "positive_events": 62,
+          "flat_events": 1,
+          "positive_pct": 68.13186813186813,
+          "minimum": -104.5,
+          "maximum": 47.75
+        },
+        "skipped_events": 106
+      }
+    },
+    "second_year": {
+      "events": 203,
+      "touch_events": 181,
+      "touch_pct": 89.16256157635468,
+      "entry_minute_touches": 97,
+      "capped_time_exit_cases": 0,
+      "gross_points": {
+        "events": 203,
+        "mean": 1.6206896551724137,
+        "median": 1.5,
+        "sum": 329.0,
+        "positive_events": 183,
+        "flat_events": 0,
+        "positive_pct": 90.14778325123153,
+        "minimum": -59.25,
+        "maximum": 78.5
+      },
+      "gross_mean_points_95": [
+        -0.2927134146341463,
+        3.370473986883933
+      ],
+      "touch_group": {
+        "events": 181,
+        "mean": 4.096685082872928,
+        "median": 2.0,
+        "sum": 741.5,
+        "positive_events": 181,
+        "flat_events": 0,
+        "positive_pct": 100.0,
+        "minimum": 0.25,
+        "maximum": 78.5
+      },
+      "no_touch_group": {
+        "events": 22,
+        "mean": -18.75,
+        "median": -18.375,
+        "sum": -412.5,
+        "positive_events": 2,
+        "flat_events": 0,
+        "positive_pct": 9.090909090909092,
+        "minimum": -59.25,
+        "maximum": 45.75
+      },
+      "delayed_one_minute": {
+        "gross_points": {
+          "events": 106,
+          "mean": 3.327830188679245,
+          "median": 3.375,
+          "sum": 352.75,
+          "positive_events": 87,
+          "flat_events": 0,
+          "positive_pct": 82.0754716981132,
+          "minimum": -46.5,
+          "maximum": 67.25
+        },
+        "net_one_point": {
+          "events": 106,
+          "mean": 2.327830188679245,
+          "median": 2.375,
+          "sum": 246.75,
+          "positive_events": 82,
+          "flat_events": 3,
+          "positive_pct": 77.35849056603774,
+          "minimum": -47.5,
+          "maximum": 66.25
+        },
+        "skipped_events": 97
+      }
+    }
+  },
+  "resampling": {
+    "unit": "Monday\u2013Sunday calendar week of actual morning date",
+    "draws": 10000,
+    "seed": 20261015,
+    "selection_adjustment": false
+  },
+  "limitations": [
+    "Idealized reopen-open execution, target-touch execution and minute sequencing are unverified.",
+    "Coverage/quality checks use later information and are retrospective sample diagnostics.",
+    "No stop, margin, actual fills, slippage, intranight risk or compounded account modeled.",
+    "Delayed entry changes the rule and event sample; it is not an independent confirmation.",
+    "Same previously explored minute archive as related overnight and gap studies."
+  ]
+}
