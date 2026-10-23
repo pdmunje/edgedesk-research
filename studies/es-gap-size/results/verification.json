@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "checked_date": "2026-10-15",
+  "independent_numeric_matches": 2864,
+  "made_up_tests_passed": 11,
+  "minute_eligible_sessions": 422,
+  "historical_eligible_sessions": 2248,
+  "shared_nonzero_events": 385,
+  "source_sha256": {
+    "minute": "b9e1acf1ee029db919e6e5feba38bd985d06a84af8193c11ce93722606c6356c",
+    "history": "4ba7344c2529beeda8978c6694120f694148387f2759be2efe5d70fabacb6385"
+  },
+  "scope": "Separate CSV/date/path parsing, Wilder volatility and threshold/count arithmetic. Mean intervals and vendor prices are not independently audited.",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "pandas": "3.0.1",
+  "tzdata": "2026.5"
+}

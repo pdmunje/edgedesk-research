@@ -1,0 +1,4909 @@
+{
+  "question": "Does increasing an ES reopen-gap size threshold improve target/time-exit results?",
+  "source_sha256": {
+    "minute": "b9e1acf1ee029db919e6e5feba38bd985d06a84af8193c11ce93722606c6356c",
+    "history": "4ba7344c2529beeda8978c6694120f694148387f2759be2efe5d70fabacb6385"
+  },
+  "minute_checks": {
+    "base": {
+      "source_rows": 707321,
+      "source_session_dates": 518,
+      "evening_candidates": 517,
+      "sequential_exclusions": {
+        "missing_target": [
+          "2024-09-03",
+          "2024-11-29",
+          "2024-12-02",
+          "2024-12-26",
+          "2025-01-02",
+          "2025-01-10",
+          "2025-01-21",
+          "2025-02-18",
+          "2025-04-21",
+          "2025-05-27",
+          "2025-06-20",
+          "2025-07-04",
+          "2025-07-07",
+          "2025-09-02",
+          "2025-11-28",
+          "2025-12-01",
+          "2025-12-26",
+          "2026-01-02",
+          "2026-01-20",
+          "2026-02-17",
+          "2026-04-06",
+          "2026-05-26",
+          "2026-06-22",
+          "2026-07-06"
+        ],
+        "target_contract_change": [
+          "2024-09-17",
+          "2024-12-17",
+          "2025-03-18",
+          "2025-06-17",
+          "2025-09-16",
+          "2025-12-16",
+          "2026-03-17",
+          "2026-06-16"
+        ],
+        "missing_0930": [
+          "2025-01-09",
+          "2026-04-03"
+        ],
+        "wrong_time_or_exit_contract": []
+      },
+      "paired_with_target_and_exit": 483,
+      "window_quality_sessions_including_zero": 422,
+      "zero_gaps_in_window_quality": 22,
+      "window_quality_failures_including_zero": [
+        {
+          "date": "2024-09-02",
+          "overnight_minutes": 925,
+          "one_overnight_contract": true,
+          "overnight_flagged": false,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": false
+        },
+        {
+          "date": "2024-09-16",
+          "overnight_minutes": 924,
+          "one_overnight_contract": true,
+          "overnight_flagged": false,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": false
+        },
+        {
+          "date": "2024-09-18",
+          "overnight_minutes": 929,
+          "one_overnight_contract": true,
+          "overnight_flagged": true,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": true
+        },
+        {
+          "date": "2024-09-19",
+          "overnight_minutes": 930,
+          "one_overnight_contract": true,
+          "overnight_flagged": true,
+          "target_bar_flagged": true,
+          "exit_bar_flagged": false
+        },
+        {
+          "date": "2024-09-25",
+          "overnight_minutes": 929,
+          "one_overnight_contract": true,
+          "overnight_flagged": false,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": false
+        },
+        {
+          "date": "2024-09-26",
+          "overnight_minutes": 929,
+          "one_overnight_contract": true,
+          "overnight_flagged": false,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": false
+        },
+        {
+          "date": "2024-10-10",
+          "overnight_minutes": 929,
+          "one_overnight_contract": true,
+          "overnight_flagged": false,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": false
+        },
+        {
+          "date": "2024-10-11",
+          "overnight_minutes": 929,
+          "one_overnight_contract": true,
+          "overnight_flagged": false,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": false
+        },
+        {
+          "date": "2024-10-14",
+          "overnight_minutes": 929,
+          "one_overnight_contract": true,
+          "overnight_flagged": false,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": false
+        },
+        {
+          "date": "2024-10-15",
+          "overnight_minutes": 927,
+          "one_overnight_contract": true,
+          "overnight_flagged": false,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": false
+        },
+        {
+          "date": "2024-10-23",
+          "overnight_minutes": 928,
+          "one_overnight_contract": true,
+          "overnight_flagged": false,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": false
+        },
+        {
+          "date": "2024-10-24",
+          "overnight_minutes": 929,
+          "one_overnight_contract": true,
+          "overnight_flagged": false,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": false
+        },
+        {
+          "date": "2024-11-05",
+          "overnight_minutes": 929,
+          "one_overnight_contract": true,
+          "overnight_flagged": false,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": false
+        },
+        {
+          "date": "2024-11-18",
+          "overnight_minutes": 929,
+          "one_overnight_contract": true,
+          "overnight_flagged": false,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": false
+        },
+        {
+          "date": "2024-12-04",
+          "overnight_minutes": 929,
+          "one_overnight_contract": true,
+          "overnight_flagged": false,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": false
+        },
+        {
+          "date": "2024-12-09",
+          "overnight_minutes": 929,
+          "one_overnight_contract": true,
+          "overnight_flagged": false,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": false
+        },
+        {
+          "date": "2024-12-10",
+          "overnight_minutes": 927,
+          "one_overnight_contract": true,
+          "overnight_flagged": false,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": false
+        },
+        {
+          "date": "2024-12-11",
+          "overnight_minutes": 929,
+          "one_overnight_contract": true,
+          "overnight_flagged": false,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": false
+        },
+        {
+          "date": "2024-12-12",
+          "overnight_minutes": 926,
+          "one_overnight_contract": true,
+          "overnight_flagged": false,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": false
+        },
+        {
+          "date": "2024-12-16",
+          "overnight_minutes": 928,
+          "one_overnight_contract": true,
+          "overnight_flagged": false,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": false
+        },
+        {
+          "date": "2024-12-18",
+          "overnight_minutes": 929,
+          "one_overnight_contract": true,
+          "overnight_flagged": false,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": false
+        },
+        {
+          "date": "2024-12-24",
+          "overnight_minutes": 927,
+          "one_overnight_contract": true,
+          "overnight_flagged": false,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": false
+        },
+        {
+          "date": "2025-01-24",
+          "overnight_minutes": 929,
+          "one_overnight_contract": true,
+          "overnight_flagged": false,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": false
+        },
+        {
+          "date": "2025-02-11",
+          "overnight_minutes": 929,
+          "one_overnight_contract": true,
+          "overnight_flagged": false,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": false
+        },
+        {
+          "date": "2025-02-17",
+          "overnight_minutes": 929,
+          "one_overnight_contract": true,
+          "overnight_flagged": false,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": false
+        },
+        {
+          "date": "2025-05-06",
+          "overnight_minutes": 929,
+          "one_overnight_contract": true,
+          "overnight_flagged": false,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": false
+        },
+        {
+          "date": "2025-06-25",
+          "overnight_minutes": 928,
+          "one_overnight_contract": true,
+          "overnight_flagged": false,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": false
+        },
+        {
+          "date": "2025-07-09",
+          "overnight_minutes": 929,
+          "one_overnight_contract": true,
+          "overnight_flagged": false,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": false
+        },
+        {
+          "date": "2025-07-21",
+          "overnight_minutes": 929,
+          "one_overnight_contract": true,
+          "overnight_flagged": false,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": false
+        },
+        {
+          "date": "2025-07-28",
+          "overnight_minutes": 929,
+          "one_overnight_contract": true,
+          "overnight_flagged": false,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": false
+        },
+        {
+          "date": "2025-07-30",
+          "overnight_minutes": 929,
+          "one_overnight_contract": true,
+          "overnight_flagged": false,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": false
+        },
+        {
+          "date": "2025-08-12",
+          "overnight_minutes": 929,
+          "one_overnight_contract": true,
+          "overnight_flagged": false,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": false
+        },
+        {
+          "date": "2025-08-19",
+          "overnight_minutes": 929,
+          "one_overnight_contract": true,
+          "overnight_flagged": false,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": false
+        },
+        {
+          "date": "2025-08-25",
+          "overnight_minutes": 929,
+          "one_overnight_contract": true,
+          "overnight_flagged": false,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": false
+        },
+        {
+          "date": "2025-08-27",
+          "overnight_minutes": 929,
+          "one_overnight_contract": true,
+          "overnight_flagged": false,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": false
+        },
+        {
+          "date": "2025-08-29",
+          "overnight_minutes": 929,
+          "one_overnight_contract": true,
+          "overnight_flagged": false,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": false
+        },
+        {
+          "date": "2025-09-09",
+          "overnight_minutes": 929,
+          "one_overnight_contract": true,
+          "overnight_flagged": false,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": false
+        },
+        {
+          "date": "2025-09-10",
+          "overnight_minutes": 928,
+          "one_overnight_contract": true,
+          "overnight_flagged": false,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": false
+        },
+        {
+          "date": "2025-09-11",
+          "overnight_minutes": 929,
+          "one_overnight_contract": true,
+          "overnight_flagged": false,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": false
+        },
+        {
+          "date": "2025-09-15",
+          "overnight_minutes": 927,
+          "one_overnight_contract": true,
+          "overnight_flagged": false,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": false
+        },
+        {
+          "date": "2025-09-17",
+          "overnight_minutes": 926,
+          "one_overnight_contract": true,
+          "overnight_flagged": true,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": true
+        },
+        {
+          "date": "2025-09-18",
+          "overnight_minutes": 930,
+          "one_overnight_contract": true,
+          "overnight_flagged": true,
+          "target_bar_flagged": true,
+          "exit_bar_flagged": false
+        },
+        {
+          "date": "2025-09-22",
+          "overnight_minutes": 929,
+          "one_overnight_contract": true,
+          "overnight_flagged": false,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": false
+        },
+        {
+          "date": "2025-09-23",
+          "overnight_minutes": 929,
+          "one_overnight_contract": true,
+          "overnight_flagged": false,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": false
+        },
+        {
+          "date": "2025-09-24",
+          "overnight_minutes": 929,
+          "one_overnight_contract": true,
+          "overnight_flagged": true,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": true
+        },
+        {
+          "date": "2025-09-25",
+          "overnight_minutes": 930,
+          "one_overnight_contract": true,
+          "overnight_flagged": true,
+          "target_bar_flagged": true,
+          "exit_bar_flagged": false
+        },
+        {
+          "date": "2025-09-30",
+          "overnight_minutes": 929,
+          "one_overnight_contract": true,
+          "overnight_flagged": false,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": false
+        },
+        {
+          "date": "2025-10-02",
+          "overnight_minutes": 928,
+          "one_overnight_contract": true,
+          "overnight_flagged": false,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": false
+        },
+        {
+          "date": "2025-10-06",
+          "overnight_minutes": 928,
+          "one_overnight_contract": true,
+          "overnight_flagged": false,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": false
+        },
+        {
+          "date": "2025-10-07",
+          "overnight_minutes": 929,
+          "one_overnight_contract": true,
+          "overnight_flagged": false,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": false
+        },
+        {
+          "date": "2025-10-09",
+          "overnight_minutes": 929,
+          "one_overnight_contract": true,
+          "overnight_flagged": false,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": false
+        },
+        {
+          "date": "2025-12-24",
+          "overnight_minutes": 928,
+          "one_overnight_contract": true,
+          "overnight_flagged": false,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": false
+        },
+        {
+          "date": "2026-03-16",
+          "overnight_minutes": 930,
+          "one_overnight_contract": true,
+          "overnight_flagged": true,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": true
+        },
+        {
+          "date": "2026-04-10",
+          "overnight_minutes": 930,
+          "one_overnight_contract": true,
+          "overnight_flagged": true,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": true
+        },
+        {
+          "date": "2026-04-13",
+          "overnight_minutes": 930,
+          "one_overnight_contract": true,
+          "overnight_flagged": false,
+          "target_bar_flagged": true,
+          "exit_bar_flagged": false
+        },
+        {
+          "date": "2026-04-29",
+          "overnight_minutes": 929,
+          "one_overnight_contract": true,
+          "overnight_flagged": false,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": false
+        },
+        {
+          "date": "2026-05-25",
+          "overnight_minutes": 930,
+          "one_overnight_contract": true,
+          "overnight_flagged": true,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": false
+        },
+        {
+          "date": "2026-07-30",
+          "overnight_minutes": 930,
+          "one_overnight_contract": true,
+          "overnight_flagged": true,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": true
+        },
+        {
+          "date": "2026-07-31",
+          "overnight_minutes": 930,
+          "one_overnight_contract": true,
+          "overnight_flagged": true,
+          "target_bar_flagged": true,
+          "exit_bar_flagged": false
+        },
+        {
+          "date": "2026-08-12",
+          "overnight_minutes": 929,
+          "one_overnight_contract": true,
+          "overnight_flagged": false,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": false
+        },
+        {
+          "date": "2026-08-18",
+          "overnight_minutes": 929,
+          "one_overnight_contract": true,
+          "overnight_flagged": false,
+          "target_bar_flagged": false,
+          "exit_bar_flagged": false
+        }
+      ],
+      "nonzero_gaps_before_quality": 457,
+      "nonzero_excluded_by_window_quality": [
+        "2024-09-02",
+        "2024-09-16",
+        "2024-09-18",
+        "2024-09-19",
+        "2024-09-25",
+        "2024-09-26",
+        "2024-10-10",
+        "2024-10-14",
+        "2024-10-15",
+        "2024-10-23",
+        "2024-10-24",
+        "2024-11-05",
+        "2024-11-18",
+        "2024-12-04",
+        "2024-12-09",
+        "2024-12-10",
+        "2024-12-12",
+        "2024-12-16",
+        "2024-12-18",
+        "2024-12-24",
+        "2025-01-24",
+        "2025-02-11",
+        "2025-02-17",
+        "2025-05-06",
+        "2025-06-25",
+        "2025-07-09",
+        "2025-07-21",
+        "2025-07-28",
+        "2025-07-30",
+        "2025-08-12",
+        "2025-08-19",
+        "2025-08-25",
+        "2025-08-27",
+        "2025-08-29",
+        "2025-09-09",
+        "2025-09-10",
+        "2025-09-11",
+        "2025-09-15",
+        "2025-09-17",
+        "2025-09-18",
+        "2025-09-22",
+        "2025-09-23",
+        "2025-09-24",
+        "2025-09-25",
+        "2025-09-30",
+        "2025-10-06",
+        "2025-10-07",
+        "2025-10-09",
+        "2025-12-24",
+        "2026-03-16",
+        "2026-04-10",
+        "2026-04-13",
+        "2026-05-25",
+        "2026-07-30",
+        "2026-07-31",
+        "2026-08-12",
+        "2026-08-18"
+      ],
+      "exact_target_calendar_dates_used": true,
+      "first_event": "2024-08-29",
+      "last_event": "2026-08-28"
+    },
+    "initial_fragment_excluded_from_volatility": true,
+    "range_available_sessions": 421,
+    "atr_available_sessions": 412,
+    "last14_complete_unflagged_sessions": 56
+  },
+  "history_checks": {
+    "source_rows": 32499,
+    "source_dates": 2522,
+    "sequential_exclusions": {
+      "slots_or_coverage": 130,
+      "missing_exact_target": 92,
+      "target_source_or_segment": 52,
+      "bad_boundaries": 0
+    },
+    "eligible_sessions_including_zero": 2248,
+    "first_morning": "2017-01-04",
+    "last_morning": "2026-10-06",
+    "coverage_rule": "At least 95% observed minutes separately in overnight and daytime; all 13 slots eligible."
+  },
+  "overlap": {
+    "shared_sessions_including_zero": 406,
+    "shared_nonzero_events": 385,
+    "gap_disagreement_events": 0,
+    "touch_disagreement_events": 0,
+    "max_gross_points_difference": 0.0,
+    "note": "Shared dates are source comparisons, not extra independent observations."
+  },
+  "minute": {
+    "points": [
+      {
+        "threshold": 0.25,
+        "eligible_sessions_including_zero": 422,
+        "selected_nonzero_events": 400,
+        "frequency_pct": 94.7867298578199,
+        "touch_events": 350,
+        "touch_pct": 87.5,
+        "gross_points": {
+          "events": 400,
+          "mean": -0.043125,
+          "median": 1.25,
+          "sum": -17.25,
+          "positive_events": 352,
+          "flat_events": 0,
+          "positive_pct": 88.0,
+          "minimum": -104.25,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 400,
+          "mean": -1.043125,
+          "median": 0.25,
+          "sum": -417.25,
+          "positive_events": 209,
+          "flat_events": 23,
+          "positive_pct": 52.25,
+          "minimum": -105.25,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -2.587029020362354,
+          0.40112821832370593
+        ]
+      },
+      {
+        "threshold": 0.5,
+        "eligible_sessions_including_zero": 422,
+        "selected_nonzero_events": 353,
+        "frequency_pct": 83.64928909952607,
+        "touch_events": 304,
+        "touch_pct": 86.11898016997168,
+        "gross_points": {
+          "events": 353,
+          "mean": -0.06303116147308782,
+          "median": 1.5,
+          "sum": -22.25,
+          "positive_events": 306,
+          "flat_events": 0,
+          "positive_pct": 86.68555240793201,
+          "minimum": -104.25,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 353,
+          "mean": -1.0630311614730878,
+          "median": 0.5,
+          "sum": -375.25,
+          "positive_events": 209,
+          "flat_events": 23,
+          "positive_pct": 59.20679886685553,
+          "minimum": -105.25,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -2.823295858460801,
+          0.5854638122854772
+        ]
+      },
+      {
+        "threshold": 1,
+        "eligible_sessions_including_zero": 422,
+        "selected_nonzero_events": 277,
+        "frequency_pct": 65.63981042654028,
+        "touch_events": 230,
+        "touch_pct": 83.03249097472924,
+        "gross_points": {
+          "events": 277,
+          "mean": 0.08393501805054152,
+          "median": 2.25,
+          "sum": 23.25,
+          "positive_events": 232,
+          "flat_events": 0,
+          "positive_pct": 83.75451263537906,
+          "minimum": -104.25,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 277,
+          "mean": -0.9160649819494585,
+          "median": 1.25,
+          "sum": -253.75,
+          "positive_events": 209,
+          "flat_events": 23,
+          "positive_pct": 75.45126353790613,
+          "minimum": -105.25,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -3.1012034899511134,
+          1.1870904450908286
+        ]
+      },
+      {
+        "threshold": 2,
+        "eligible_sessions_including_zero": 422,
+        "selected_nonzero_events": 207,
+        "frequency_pct": 49.052132701421804,
+        "touch_events": 161,
+        "touch_pct": 77.77777777777777,
+        "gross_points": {
+          "events": 207,
+          "mean": -0.178743961352657,
+          "median": 3.5,
+          "sum": -37.0,
+          "positive_events": 163,
+          "flat_events": 0,
+          "positive_pct": 78.74396135265701,
+          "minimum": -104.25,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 207,
+          "mean": -1.178743961352657,
+          "median": 2.5,
+          "sum": -244.0,
+          "positive_events": 163,
+          "flat_events": 0,
+          "positive_pct": 78.74396135265701,
+          "minimum": -105.25,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -4.033584556446399,
+          1.5749406980684504
+        ]
+      },
+      {
+        "threshold": 3,
+        "eligible_sessions_including_zero": 422,
+        "selected_nonzero_events": 160,
+        "frequency_pct": 37.91469194312796,
+        "touch_events": 118,
+        "touch_pct": 73.75,
+        "gross_points": {
+          "events": 160,
+          "mean": -0.3328125,
+          "median": 4.625,
+          "sum": -53.25,
+          "positive_events": 120,
+          "flat_events": 0,
+          "positive_pct": 75.0,
+          "minimum": -104.25,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 160,
+          "mean": -1.3328125,
+          "median": 3.625,
+          "sum": -213.25,
+          "positive_events": 120,
+          "flat_events": 0,
+          "positive_pct": 75.0,
+          "minimum": -105.25,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -4.887840464903526,
+          2.063626965489074
+        ]
+      },
+      {
+        "threshold": 5,
+        "eligible_sessions_including_zero": 422,
+        "selected_nonzero_events": 115,
+        "frequency_pct": 27.251184834123222,
+        "touch_events": 74,
+        "touch_pct": 64.34782608695652,
+        "gross_points": {
+          "events": 115,
+          "mean": -1.5434782608695652,
+          "median": 6.25,
+          "sum": -177.5,
+          "positive_events": 76,
+          "flat_events": 0,
+          "positive_pct": 66.08695652173913,
+          "minimum": -104.25,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 115,
+          "mean": -2.5434782608695654,
+          "median": 5.25,
+          "sum": -292.5,
+          "positive_events": 76,
+          "flat_events": 0,
+          "positive_pct": 66.08695652173913,
+          "minimum": -105.25,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -7.195352253871682,
+          2.165929680347879
+        ]
+      },
+      {
+        "threshold": 8,
+        "eligible_sessions_including_zero": 422,
+        "selected_nonzero_events": 78,
+        "frequency_pct": 18.48341232227488,
+        "touch_events": 45,
+        "touch_pct": 57.69230769230769,
+        "gross_points": {
+          "events": 78,
+          "mean": -1.8365384615384615,
+          "median": 8.5,
+          "sum": -143.25,
+          "positive_events": 47,
+          "flat_events": 0,
+          "positive_pct": 60.256410256410255,
+          "minimum": -104.25,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 78,
+          "mean": -2.8365384615384617,
+          "median": 7.5,
+          "sum": -221.25,
+          "positive_events": 47,
+          "flat_events": 0,
+          "positive_pct": 60.256410256410255,
+          "minimum": -105.25,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -9.177459749552773,
+          3.832304852320675
+        ]
+      },
+      {
+        "threshold": 10,
+        "eligible_sessions_including_zero": 422,
+        "selected_nonzero_events": 62,
+        "frequency_pct": 14.691943127962086,
+        "touch_events": 29,
+        "touch_pct": 46.774193548387096,
+        "gross_points": {
+          "events": 62,
+          "mean": -4.576612903225806,
+          "median": 1.25,
+          "sum": -283.75,
+          "positive_events": 31,
+          "flat_events": 0,
+          "positive_pct": 50.0,
+          "minimum": -104.25,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 62,
+          "mean": -5.576612903225806,
+          "median": 0.25,
+          "sum": -345.75,
+          "positive_events": 31,
+          "flat_events": 0,
+          "positive_pct": 50.0,
+          "minimum": -105.25,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -14.140005380683347,
+          2.7305259967672404
+        ]
+      },
+      {
+        "threshold": 15,
+        "eligible_sessions_including_zero": 422,
+        "selected_nonzero_events": 39,
+        "frequency_pct": 9.24170616113744,
+        "touch_events": 14,
+        "touch_pct": 35.8974358974359,
+        "gross_points": {
+          "events": 39,
+          "mean": -8.634615384615385,
+          "median": -9.0,
+          "sum": -336.75,
+          "positive_events": 16,
+          "flat_events": 0,
+          "positive_pct": 41.02564102564102,
+          "minimum": -104.25,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 39,
+          "mean": -9.634615384615385,
+          "median": -10.0,
+          "sum": -375.75,
+          "positive_events": 16,
+          "flat_events": 0,
+          "positive_pct": 41.02564102564102,
+          "minimum": -105.25,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -22.39883928571429,
+          2.817736486486484
+        ]
+      },
+      {
+        "threshold": 20,
+        "eligible_sessions_including_zero": 422,
+        "selected_nonzero_events": 29,
+        "frequency_pct": 6.872037914691943,
+        "touch_events": 10,
+        "touch_pct": 34.48275862068966,
+        "gross_points": {
+          "events": 29,
+          "mean": -9.336206896551724,
+          "median": -9.0,
+          "sum": -270.75,
+          "positive_events": 12,
+          "flat_events": 0,
+          "positive_pct": 41.37931034482759,
+          "minimum": -104.25,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 29,
+          "mean": -10.336206896551724,
+          "median": -10.0,
+          "sum": -299.75,
+          "positive_events": 12,
+          "flat_events": 0,
+          "positive_pct": 41.37931034482759,
+          "minimum": -105.25,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -26.808660714285715,
+          5.905387931034479
+        ]
+      },
+      {
+        "threshold": 30,
+        "eligible_sessions_including_zero": 422,
+        "selected_nonzero_events": 18,
+        "frequency_pct": 4.265402843601896,
+        "touch_events": 3,
+        "touch_pct": 16.666666666666668,
+        "gross_points": {
+          "events": 18,
+          "mean": -13.26388888888889,
+          "median": -13.875,
+          "sum": -238.75,
+          "positive_events": 5,
+          "flat_events": 0,
+          "positive_pct": 27.77777777777778,
+          "minimum": -89.25,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 18,
+          "mean": -14.26388888888889,
+          "median": -14.875,
+          "sum": -256.75,
+          "positive_events": 5,
+          "flat_events": 0,
+          "positive_pct": 27.77777777777778,
+          "minimum": -90.25,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -33.97326388888889,
+          7.2642361111111065
+        ]
+      },
+      {
+        "threshold": 50,
+        "eligible_sessions_including_zero": 422,
+        "selected_nonzero_events": 13,
+        "frequency_pct": 3.080568720379147,
+        "touch_events": 2,
+        "touch_pct": 15.384615384615385,
+        "gross_points": {
+          "events": 13,
+          "mean": -12.711538461538462,
+          "median": -10.0,
+          "sum": -165.25,
+          "positive_events": 3,
+          "flat_events": 0,
+          "positive_pct": 23.076923076923077,
+          "minimum": -89.25,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 13,
+          "mean": -13.711538461538462,
+          "median": -11.0,
+          "sum": -178.25,
+          "positive_events": 3,
+          "flat_events": 0,
+          "positive_pct": 23.076923076923077,
+          "minimum": -90.25,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -39.57740384615385,
+          12.923557692307686
+        ]
+      }
+    ],
+    "prior_range_fraction": [
+      {
+        "threshold": 0,
+        "eligible_sessions_including_zero": 421,
+        "selected_nonzero_events": 399,
+        "frequency_pct": 94.77434679334917,
+        "touch_events": 349,
+        "touch_pct": 87.468671679198,
+        "gross_points": {
+          "events": 399,
+          "mean": -0.07581453634085213,
+          "median": 1.25,
+          "sum": -30.25,
+          "positive_events": 351,
+          "flat_events": 0,
+          "positive_pct": 87.96992481203007,
+          "minimum": -104.25,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 399,
+          "mean": -1.0758145363408522,
+          "median": 0.25,
+          "sum": -429.25,
+          "positive_events": 208,
+          "flat_events": 23,
+          "positive_pct": 52.130325814536334,
+          "minimum": -105.25,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -2.6244316546291935,
+          0.3679522879538608
+        ]
+      },
+      {
+        "threshold": 0.01,
+        "eligible_sessions_including_zero": 421,
+        "selected_nonzero_events": 296,
+        "frequency_pct": 70.30878859857482,
+        "touch_events": 249,
+        "touch_pct": 84.12162162162163,
+        "gross_points": {
+          "events": 296,
+          "mean": 0.0633445945945946,
+          "median": 2.0,
+          "sum": 18.75,
+          "positive_events": 251,
+          "flat_events": 0,
+          "positive_pct": 84.7972972972973,
+          "minimum": -104.25,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 296,
+          "mean": -0.9366554054054054,
+          "median": 1.0,
+          "sum": -277.25,
+          "positive_events": 206,
+          "flat_events": 18,
+          "positive_pct": 69.5945945945946,
+          "minimum": -105.25,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -2.9607094641373584,
+          1.026954110549089
+        ]
+      },
+      {
+        "threshold": 0.02,
+        "eligible_sessions_including_zero": 421,
+        "selected_nonzero_events": 221,
+        "frequency_pct": 52.49406175771971,
+        "touch_events": 175,
+        "touch_pct": 79.18552036199095,
+        "gross_points": {
+          "events": 221,
+          "mean": -0.2918552036199095,
+          "median": 3.0,
+          "sum": -64.5,
+          "positive_events": 177,
+          "flat_events": 0,
+          "positive_pct": 80.09049773755656,
+          "minimum": -104.25,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 221,
+          "mean": -1.2918552036199096,
+          "median": 2.0,
+          "sum": -285.5,
+          "positive_events": 167,
+          "flat_events": 9,
+          "positive_pct": 75.56561085972851,
+          "minimum": -105.25,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -4.0729623187309745,
+          1.322478657931308
+        ]
+      },
+      {
+        "threshold": 0.03,
+        "eligible_sessions_including_zero": 421,
+        "selected_nonzero_events": 176,
+        "frequency_pct": 41.80522565320665,
+        "touch_events": 132,
+        "touch_pct": 75.0,
+        "gross_points": {
+          "events": 176,
+          "mean": -0.6846590909090909,
+          "median": 3.5,
+          "sum": -120.5,
+          "positive_events": 134,
+          "flat_events": 0,
+          "positive_pct": 76.13636363636364,
+          "minimum": -104.25,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 176,
+          "mean": -1.6846590909090908,
+          "median": 2.5,
+          "sum": -296.5,
+          "positive_events": 132,
+          "flat_events": 2,
+          "positive_pct": 75.0,
+          "minimum": -105.25,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -5.060369225764477,
+          1.420848773750167
+        ]
+      },
+      {
+        "threshold": 0.05,
+        "eligible_sessions_including_zero": 421,
+        "selected_nonzero_events": 116,
+        "frequency_pct": 27.553444180522565,
+        "touch_events": 75,
+        "touch_pct": 64.65517241379311,
+        "gross_points": {
+          "events": 116,
+          "mean": -1.7478448275862069,
+          "median": 4.75,
+          "sum": -202.75,
+          "positive_events": 77,
+          "flat_events": 0,
+          "positive_pct": 66.37931034482759,
+          "minimum": -104.25,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 116,
+          "mean": -2.747844827586207,
+          "median": 3.75,
+          "sum": -318.75,
+          "positive_events": 77,
+          "flat_events": 0,
+          "positive_pct": 66.37931034482759,
+          "minimum": -105.25,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -7.683160364886303,
+          1.960674737237237
+        ]
+      },
+      {
+        "threshold": 0.075,
+        "eligible_sessions_including_zero": 421,
+        "selected_nonzero_events": 91,
+        "frequency_pct": 21.61520190023753,
+        "touch_events": 52,
+        "touch_pct": 57.142857142857146,
+        "gross_points": {
+          "events": 91,
+          "mean": -3.1483516483516483,
+          "median": 4.25,
+          "sum": -286.5,
+          "positive_events": 54,
+          "flat_events": 0,
+          "positive_pct": 59.34065934065934,
+          "minimum": -104.25,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 91,
+          "mean": -4.148351648351649,
+          "median": 3.25,
+          "sum": -377.5,
+          "positive_events": 54,
+          "flat_events": 0,
+          "positive_pct": 59.34065934065934,
+          "minimum": -105.25,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -10.322894074993467,
+          1.6882487995198079
+        ]
+      },
+      {
+        "threshold": 0.1,
+        "eligible_sessions_including_zero": 421,
+        "selected_nonzero_events": 71,
+        "frequency_pct": 16.8646080760095,
+        "touch_events": 39,
+        "touch_pct": 54.929577464788736,
+        "gross_points": {
+          "events": 71,
+          "mean": -3.278169014084507,
+          "median": 4.0,
+          "sum": -232.75,
+          "positive_events": 41,
+          "flat_events": 0,
+          "positive_pct": 57.74647887323944,
+          "minimum": -104.25,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 71,
+          "mean": -4.278169014084507,
+          "median": 3.0,
+          "sum": -303.75,
+          "positive_events": 41,
+          "flat_events": 0,
+          "positive_pct": 57.74647887323944,
+          "minimum": -105.25,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -11.834561032863851,
+          2.7791004218040216
+        ]
+      },
+      {
+        "threshold": 0.15,
+        "eligible_sessions_including_zero": 421,
+        "selected_nonzero_events": 48,
+        "frequency_pct": 11.401425178147269,
+        "touch_events": 20,
+        "touch_pct": 41.666666666666664,
+        "gross_points": {
+          "events": 48,
+          "mean": -6.755208333333333,
+          "median": -3.0,
+          "sum": -324.25,
+          "positive_events": 22,
+          "flat_events": 0,
+          "positive_pct": 45.83333333333333,
+          "minimum": -104.25,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 48,
+          "mean": -7.755208333333333,
+          "median": -4.0,
+          "sum": -372.25,
+          "positive_events": 22,
+          "flat_events": 0,
+          "positive_pct": 45.83333333333333,
+          "minimum": -105.25,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -18.559883788159112,
+          2.9153908418131285
+        ]
+      },
+      {
+        "threshold": 0.2,
+        "eligible_sessions_including_zero": 421,
+        "selected_nonzero_events": 33,
+        "frequency_pct": 7.838479809976247,
+        "touch_events": 11,
+        "touch_pct": 33.333333333333336,
+        "gross_points": {
+          "events": 33,
+          "mean": -8.719696969696969,
+          "median": -10.0,
+          "sum": -287.75,
+          "positive_events": 13,
+          "flat_events": 0,
+          "positive_pct": 39.39393939393939,
+          "minimum": -104.25,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 33,
+          "mean": -9.719696969696969,
+          "median": -11.0,
+          "sum": -320.75,
+          "positive_events": 13,
+          "flat_events": 0,
+          "positive_pct": 39.39393939393939,
+          "minimum": -105.25,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -23.636742424242424,
+          4.79879032258064
+        ]
+      },
+      {
+        "threshold": 0.25,
+        "eligible_sessions_including_zero": 421,
+        "selected_nonzero_events": 28,
+        "frequency_pct": 6.65083135391924,
+        "touch_events": 9,
+        "touch_pct": 32.142857142857146,
+        "gross_points": {
+          "events": 28,
+          "mean": -8.214285714285714,
+          "median": -9.5,
+          "sum": -230.0,
+          "positive_events": 11,
+          "flat_events": 0,
+          "positive_pct": 39.285714285714285,
+          "minimum": -104.25,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 28,
+          "mean": -9.214285714285714,
+          "median": -10.5,
+          "sum": -258.0,
+          "positive_events": 11,
+          "flat_events": 0,
+          "positive_pct": 39.285714285714285,
+          "minimum": -105.25,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -24.845466155810982,
+          6.537268518518515
+        ]
+      },
+      {
+        "threshold": 0.3,
+        "eligible_sessions_including_zero": 421,
+        "selected_nonzero_events": 22,
+        "frequency_pct": 5.225653206650831,
+        "touch_events": 7,
+        "touch_pct": 31.818181818181817,
+        "gross_points": {
+          "events": 22,
+          "mean": -7.3977272727272725,
+          "median": -6.5,
+          "sum": -162.75,
+          "positive_events": 9,
+          "flat_events": 0,
+          "positive_pct": 40.909090909090914,
+          "minimum": -104.25,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 22,
+          "mean": -8.397727272727273,
+          "median": -7.5,
+          "sum": -184.75,
+          "positive_events": 9,
+          "flat_events": 0,
+          "positive_pct": 40.909090909090914,
+          "minimum": -105.25,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -27.10340909090909,
+          10.48892045454545
+        ]
+      },
+      {
+        "threshold": 0.4,
+        "eligible_sessions_including_zero": 421,
+        "selected_nonzero_events": 15,
+        "frequency_pct": 3.5629453681710213,
+        "touch_events": 5,
+        "touch_pct": 33.333333333333336,
+        "gross_points": {
+          "events": 15,
+          "mean": -1.85,
+          "median": -2.0,
+          "sum": -27.75,
+          "positive_events": 7,
+          "flat_events": 0,
+          "positive_pct": 46.666666666666664,
+          "minimum": -104.25,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 15,
+          "mean": -2.85,
+          "median": -3.0,
+          "sum": -42.75,
+          "positive_events": 7,
+          "flat_events": 0,
+          "positive_pct": 46.666666666666664,
+          "minimum": -105.25,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -28.800416666666667,
+          21.667083333333327
+        ]
+      },
+      {
+        "threshold": 0.5,
+        "eligible_sessions_including_zero": 421,
+        "selected_nonzero_events": 10,
+        "frequency_pct": 2.375296912114014,
+        "touch_events": 2,
+        "touch_pct": 20.0,
+        "gross_points": {
+          "events": 10,
+          "mean": -11.75,
+          "median": -9.5,
+          "sum": -117.5,
+          "positive_events": 3,
+          "flat_events": 0,
+          "positive_pct": 30.0,
+          "minimum": -104.25,
+          "maximum": 61.0
+        },
+        "net_one_point": {
+          "events": 10,
+          "mean": -12.75,
+          "median": -10.5,
+          "sum": -127.5,
+          "positive_events": 3,
+          "flat_events": 0,
+          "positive_pct": 30.0,
+          "minimum": -105.25,
+          "maximum": 60.0
+        },
+        "net_mean_points_95": [
+          -44.85125,
+          17.301249999999982
+        ]
+      },
+      {
+        "threshold": 1.0,
+        "eligible_sessions_including_zero": 421,
+        "selected_nonzero_events": 2,
+        "frequency_pct": 0.4750593824228028,
+        "touch_events": 0,
+        "touch_pct": 0.0,
+        "gross_points": {
+          "events": 2,
+          "mean": -55.5,
+          "median": -55.5,
+          "sum": -111.0,
+          "positive_events": 0,
+          "flat_events": 0,
+          "positive_pct": 0.0,
+          "minimum": -89.25,
+          "maximum": -21.75
+        },
+        "net_one_point": {
+          "events": 2,
+          "mean": -56.5,
+          "median": -56.5,
+          "sum": -113.0,
+          "positive_events": 0,
+          "flat_events": 0,
+          "positive_pct": 0.0,
+          "minimum": -90.25,
+          "maximum": -22.75
+        },
+        "net_mean_points_95": [
+          -90.25,
+          -22.75
+        ]
+      }
+    ],
+    "atr14_fraction": [
+      {
+        "threshold": 0,
+        "eligible_sessions_including_zero": 412,
+        "selected_nonzero_events": 391,
+        "frequency_pct": 94.90291262135922,
+        "touch_events": 343,
+        "touch_pct": 87.7237851662404,
+        "gross_points": {
+          "events": 391,
+          "mean": 0.07033248081841433,
+          "median": 1.25,
+          "sum": 27.5,
+          "positive_events": 345,
+          "flat_events": 0,
+          "positive_pct": 88.23529411764706,
+          "minimum": -104.25,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 391,
+          "mean": -0.9296675191815856,
+          "median": 0.25,
+          "sum": -363.5,
+          "positive_events": 207,
+          "flat_events": 23,
+          "positive_pct": 52.94117647058824,
+          "minimum": -105.25,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -2.5219524924089067,
+          0.5829280964256025
+        ]
+      },
+      {
+        "threshold": 0.01,
+        "eligible_sessions_including_zero": 412,
+        "selected_nonzero_events": 279,
+        "frequency_pct": 67.71844660194175,
+        "touch_events": 234,
+        "touch_pct": 83.87096774193549,
+        "gross_points": {
+          "events": 279,
+          "mean": 0.257168458781362,
+          "median": 2.25,
+          "sum": 71.75,
+          "positive_events": 236,
+          "flat_events": 0,
+          "positive_pct": 84.58781362007169,
+          "minimum": -104.25,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 279,
+          "mean": -0.742831541218638,
+          "median": 1.25,
+          "sum": -207.25,
+          "positive_events": 204,
+          "flat_events": 19,
+          "positive_pct": 73.11827956989248,
+          "minimum": -105.25,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -2.891433537263626,
+          1.2491904901708923
+        ]
+      },
+      {
+        "threshold": 0.02,
+        "eligible_sessions_including_zero": 412,
+        "selected_nonzero_events": 205,
+        "frequency_pct": 49.75728155339806,
+        "touch_events": 162,
+        "touch_pct": 79.02439024390245,
+        "gross_points": {
+          "events": 205,
+          "mean": 0.10365853658536585,
+          "median": 3.5,
+          "sum": 21.25,
+          "positive_events": 164,
+          "flat_events": 0,
+          "positive_pct": 80.0,
+          "minimum": -104.25,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 205,
+          "mean": -0.8963414634146342,
+          "median": 2.5,
+          "sum": -183.75,
+          "positive_events": 164,
+          "flat_events": 0,
+          "positive_pct": 80.0,
+          "minimum": -105.25,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -3.729411764705882,
+          1.7523761655011643
+        ]
+      },
+      {
+        "threshold": 0.03,
+        "eligible_sessions_including_zero": 412,
+        "selected_nonzero_events": 171,
+        "frequency_pct": 41.50485436893204,
+        "touch_events": 129,
+        "touch_pct": 75.43859649122807,
+        "gross_points": {
+          "events": 171,
+          "mean": -0.1111111111111111,
+          "median": 4.0,
+          "sum": -19.0,
+          "positive_events": 131,
+          "flat_events": 0,
+          "positive_pct": 76.60818713450293,
+          "minimum": -104.25,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 171,
+          "mean": -1.1111111111111112,
+          "median": 3.0,
+          "sum": -190.0,
+          "positive_events": 131,
+          "flat_events": 0,
+          "positive_pct": 76.60818713450293,
+          "minimum": -105.25,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -4.3985701956271575,
+          2.021392722150905
+        ]
+      },
+      {
+        "threshold": 0.05,
+        "eligible_sessions_including_zero": 412,
+        "selected_nonzero_events": 117,
+        "frequency_pct": 28.398058252427184,
+        "touch_events": 78,
+        "touch_pct": 66.66666666666667,
+        "gross_points": {
+          "events": 117,
+          "mean": -0.8547008547008547,
+          "median": 5.25,
+          "sum": -100.0,
+          "positive_events": 80,
+          "flat_events": 0,
+          "positive_pct": 68.37606837606837,
+          "minimum": -104.25,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 117,
+          "mean": -1.8547008547008548,
+          "median": 4.25,
+          "sum": -217.0,
+          "positive_events": 80,
+          "flat_events": 0,
+          "positive_pct": 68.37606837606837,
+          "minimum": -105.25,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -6.620718632280498,
+          2.698803632115545
+        ]
+      },
+      {
+        "threshold": 0.075,
+        "eligible_sessions_including_zero": 412,
+        "selected_nonzero_events": 87,
+        "frequency_pct": 21.116504854368934,
+        "touch_events": 49,
+        "touch_pct": 56.32183908045977,
+        "gross_points": {
+          "events": 87,
+          "mean": -2.6149425287356323,
+          "median": 6.75,
+          "sum": -227.5,
+          "positive_events": 51,
+          "flat_events": 0,
+          "positive_pct": 58.620689655172406,
+          "minimum": -104.25,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 87,
+          "mean": -3.6149425287356323,
+          "median": 5.75,
+          "sum": -314.5,
+          "positive_events": 51,
+          "flat_events": 0,
+          "positive_pct": 58.620689655172406,
+          "minimum": -105.25,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -9.840162222667736,
+          2.604185956790123
+        ]
+      },
+      {
+        "threshold": 0.1,
+        "eligible_sessions_including_zero": 412,
+        "selected_nonzero_events": 66,
+        "frequency_pct": 16.019417475728154,
+        "touch_events": 32,
+        "touch_pct": 48.484848484848484,
+        "gross_points": {
+          "events": 66,
+          "mean": -4.170454545454546,
+          "median": 5.75,
+          "sum": -275.25,
+          "positive_events": 34,
+          "flat_events": 0,
+          "positive_pct": 51.515151515151516,
+          "minimum": -104.25,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 66,
+          "mean": -5.170454545454546,
+          "median": 4.75,
+          "sum": -341.25,
+          "positive_events": 34,
+          "flat_events": 0,
+          "positive_pct": 51.515151515151516,
+          "minimum": -105.25,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -13.14466796875,
+          2.6315095338983028
+        ]
+      },
+      {
+        "threshold": 0.15,
+        "eligible_sessions_including_zero": 412,
+        "selected_nonzero_events": 46,
+        "frequency_pct": 11.16504854368932,
+        "touch_events": 19,
+        "touch_pct": 41.30434782608695,
+        "gross_points": {
+          "events": 46,
+          "mean": -6.538043478260869,
+          "median": -6.5,
+          "sum": -300.75,
+          "positive_events": 21,
+          "flat_events": 0,
+          "positive_pct": 45.65217391304348,
+          "minimum": -104.25,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 46,
+          "mean": -7.538043478260869,
+          "median": -7.5,
+          "sum": -346.75,
+          "positive_events": 21,
+          "flat_events": 0,
+          "positive_pct": 45.65217391304348,
+          "minimum": -105.25,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -18.447940340909092,
+          3.127556689342404
+        ]
+      },
+      {
+        "threshold": 0.2,
+        "eligible_sessions_including_zero": 412,
+        "selected_nonzero_events": 31,
+        "frequency_pct": 7.524271844660194,
+        "touch_events": 11,
+        "touch_pct": 35.483870967741936,
+        "gross_points": {
+          "events": 31,
+          "mean": -7.395161290322581,
+          "median": -9.0,
+          "sum": -229.25,
+          "positive_events": 13,
+          "flat_events": 0,
+          "positive_pct": 41.935483870967744,
+          "minimum": -104.25,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 31,
+          "mean": -8.39516129032258,
+          "median": -10.0,
+          "sum": -260.25,
+          "positive_events": 13,
+          "flat_events": 0,
+          "positive_pct": 41.935483870967744,
+          "minimum": -105.25,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -23.283870967741933,
+          6.347177419354833
+        ]
+      },
+      {
+        "threshold": 0.25,
+        "eligible_sessions_including_zero": 412,
+        "selected_nonzero_events": 27,
+        "frequency_pct": 6.553398058252427,
+        "touch_events": 9,
+        "touch_pct": 33.333333333333336,
+        "gross_points": {
+          "events": 27,
+          "mean": -9.101851851851851,
+          "median": -9.0,
+          "sum": -245.75,
+          "positive_events": 11,
+          "flat_events": 0,
+          "positive_pct": 40.74074074074074,
+          "minimum": -104.25,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 27,
+          "mean": -10.101851851851851,
+          "median": -10.0,
+          "sum": -272.75,
+          "positive_events": 11,
+          "flat_events": 0,
+          "positive_pct": 40.74074074074074,
+          "minimum": -105.25,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -26.84259259259259,
+          6.482638888888872
+        ]
+      },
+      {
+        "threshold": 0.3,
+        "eligible_sessions_including_zero": 412,
+        "selected_nonzero_events": 23,
+        "frequency_pct": 5.58252427184466,
+        "touch_events": 8,
+        "touch_pct": 34.78260869565217,
+        "gross_points": {
+          "events": 23,
+          "mean": -7.478260869565218,
+          "median": -4.0,
+          "sum": -172.0,
+          "positive_events": 10,
+          "flat_events": 0,
+          "positive_pct": 43.47826086956522,
+          "minimum": -104.25,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 23,
+          "mean": -8.478260869565217,
+          "median": -5.0,
+          "sum": -195.0,
+          "positive_events": 10,
+          "flat_events": 0,
+          "positive_pct": 43.47826086956522,
+          "minimum": -105.25,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -27.543478260869566,
+          10.55489130434782
+        ]
+      },
+      {
+        "threshold": 0.4,
+        "eligible_sessions_including_zero": 412,
+        "selected_nonzero_events": 16,
+        "frequency_pct": 3.883495145631068,
+        "touch_events": 4,
+        "touch_pct": 25.0,
+        "gross_points": {
+          "events": 16,
+          "mean": -6.796875,
+          "median": -6.5,
+          "sum": -108.75,
+          "positive_events": 6,
+          "flat_events": 0,
+          "positive_pct": 37.5,
+          "minimum": -104.25,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 16,
+          "mean": -7.796875,
+          "median": -7.5,
+          "sum": -124.75,
+          "positive_events": 6,
+          "flat_events": 0,
+          "positive_pct": 37.5,
+          "minimum": -105.25,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -31.9375,
+          16.063671874999983
+        ]
+      },
+      {
+        "threshold": 0.5,
+        "eligible_sessions_including_zero": 412,
+        "selected_nonzero_events": 12,
+        "frequency_pct": 2.912621359223301,
+        "touch_events": 2,
+        "touch_pct": 16.666666666666668,
+        "gross_points": {
+          "events": 12,
+          "mean": -6.0,
+          "median": -9.5,
+          "sum": -72.0,
+          "positive_events": 3,
+          "flat_events": 0,
+          "positive_pct": 25.0,
+          "minimum": -89.25,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 12,
+          "mean": -7.0,
+          "median": -10.5,
+          "sum": -84.0,
+          "positive_events": 3,
+          "flat_events": 0,
+          "positive_pct": 25.0,
+          "minimum": -90.25,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -32.251041666666666,
+          20.25
+        ]
+      },
+      {
+        "threshold": 1.0,
+        "eligible_sessions_including_zero": 412,
+        "selected_nonzero_events": 2,
+        "frequency_pct": 0.4854368932038835,
+        "touch_events": 0,
+        "touch_pct": 0.0,
+        "gross_points": {
+          "events": 2,
+          "mean": -24.125,
+          "median": -24.125,
+          "sum": -48.25,
+          "positive_events": 0,
+          "flat_events": 0,
+          "positive_pct": 0.0,
+          "minimum": -38.25,
+          "maximum": -10.0
+        },
+        "net_one_point": {
+          "events": 2,
+          "mean": -25.125,
+          "median": -25.125,
+          "sum": -50.25,
+          "positive_events": 0,
+          "flat_events": 0,
+          "positive_pct": 0.0,
+          "minimum": -39.25,
+          "maximum": -11.0
+        },
+        "net_mean_points_95": [
+          -39.25,
+          -11.0
+        ]
+      }
+    ]
+  },
+  "history": {
+    "points": [
+      {
+        "threshold": 0.25,
+        "eligible_sessions_including_zero": 2248,
+        "selected_nonzero_events": 2007,
+        "frequency_pct": 89.27935943060498,
+        "touch_events": 1798,
+        "touch_pct": 89.58644743398106,
+        "gross_points": {
+          "events": 2007,
+          "mean": -0.31215744892874936,
+          "median": 0.75,
+          "sum": -626.5,
+          "positive_events": 1817,
+          "flat_events": 1,
+          "positive_pct": 90.53313403089189,
+          "minimum": -170.5,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 2007,
+          "mean": -1.3121574489287493,
+          "median": -0.25,
+          "sum": -2633.5,
+          "positive_events": 772,
+          "flat_events": 142,
+          "positive_pct": 38.46537120079721,
+          "minimum": -171.5,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -1.8196712142850273,
+          -0.8428952873279028
+        ]
+      },
+      {
+        "threshold": 0.5,
+        "eligible_sessions_including_zero": 2248,
+        "selected_nonzero_events": 1617,
+        "frequency_pct": 71.9306049822064,
+        "touch_events": 1413,
+        "touch_pct": 87.38404452690168,
+        "gross_points": {
+          "events": 1617,
+          "mean": -0.4231601731601732,
+          "median": 1.0,
+          "sum": -684.25,
+          "positive_events": 1432,
+          "flat_events": 1,
+          "positive_pct": 88.55905998763141,
+          "minimum": -170.5,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 1617,
+          "mean": -1.423160173160173,
+          "median": 0.0,
+          "sum": -2301.25,
+          "positive_events": 772,
+          "flat_events": 142,
+          "positive_pct": 47.74273345701917,
+          "minimum": -171.5,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -2.0519992647327463,
+          -0.8241620440512847
+        ]
+      },
+      {
+        "threshold": 1,
+        "eligible_sessions_including_zero": 2248,
+        "selected_nonzero_events": 1089,
+        "frequency_pct": 48.44306049822064,
+        "touch_events": 897,
+        "touch_pct": 82.36914600550965,
+        "gross_points": {
+          "events": 1089,
+          "mean": -0.6939853076216712,
+          "median": 1.75,
+          "sum": -755.75,
+          "positive_events": 916,
+          "flat_events": 1,
+          "positive_pct": 84.11386593204774,
+          "minimum": -170.5,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 1089,
+          "mean": -1.6939853076216713,
+          "median": 0.75,
+          "sum": -1844.75,
+          "positive_events": 772,
+          "flat_events": 142,
+          "positive_pct": 70.89072543617998,
+          "minimum": -171.5,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -2.6065220412505603,
+          -0.8405725136319073
+        ]
+      },
+      {
+        "threshold": 2,
+        "eligible_sessions_including_zero": 2248,
+        "selected_nonzero_events": 660,
+        "frequency_pct": 29.359430604982208,
+        "touch_events": 492,
+        "touch_pct": 74.54545454545455,
+        "gross_points": {
+          "events": 660,
+          "mean": -1.315909090909091,
+          "median": 2.75,
+          "sum": -868.5,
+          "positive_events": 511,
+          "flat_events": 0,
+          "positive_pct": 77.42424242424242,
+          "minimum": -170.5,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 660,
+          "mean": -2.315909090909091,
+          "median": 1.75,
+          "sum": -1528.5,
+          "positive_events": 509,
+          "flat_events": 0,
+          "positive_pct": 77.12121212121212,
+          "minimum": -171.5,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -3.7867210815740022,
+          -0.9518625638997783
+        ]
+      },
+      {
+        "threshold": 3,
+        "eligible_sessions_including_zero": 2248,
+        "selected_nonzero_events": 454,
+        "frequency_pct": 20.19572953736655,
+        "touch_events": 309,
+        "touch_pct": 68.06167400881057,
+        "gross_points": {
+          "events": 454,
+          "mean": -1.9190528634361232,
+          "median": 4.0,
+          "sum": -871.25,
+          "positive_events": 327,
+          "flat_events": 0,
+          "positive_pct": 72.02643171806167,
+          "minimum": -170.5,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 454,
+          "mean": -2.9190528634361232,
+          "median": 3.0,
+          "sum": -1325.25,
+          "positive_events": 326,
+          "flat_events": 0,
+          "positive_pct": 71.80616740088107,
+          "minimum": -171.5,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -4.8580410401931795,
+          -1.009159427623149
+        ]
+      },
+      {
+        "threshold": 5,
+        "eligible_sessions_including_zero": 2248,
+        "selected_nonzero_events": 295,
+        "frequency_pct": 13.122775800711743,
+        "touch_events": 174,
+        "touch_pct": 58.983050847457626,
+        "gross_points": {
+          "events": 295,
+          "mean": -2.9957627118644066,
+          "median": 5.75,
+          "sum": -883.75,
+          "positive_events": 190,
+          "flat_events": 0,
+          "positive_pct": 64.40677966101694,
+          "minimum": -170.5,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 295,
+          "mean": -3.9957627118644066,
+          "median": 4.75,
+          "sum": -1178.75,
+          "positive_events": 189,
+          "flat_events": 0,
+          "positive_pct": 64.0677966101695,
+          "minimum": -171.5,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -6.9164402509974305,
+          -1.205442292142314
+        ]
+      },
+      {
+        "threshold": 8,
+        "eligible_sessions_including_zero": 2248,
+        "selected_nonzero_events": 174,
+        "frequency_pct": 7.740213523131673,
+        "touch_events": 88,
+        "touch_pct": 50.57471264367816,
+        "gross_points": {
+          "events": 174,
+          "mean": -3.454022988505747,
+          "median": 8.5,
+          "sum": -601.0,
+          "positive_events": 104,
+          "flat_events": 0,
+          "positive_pct": 59.77011494252874,
+          "minimum": -170.5,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 174,
+          "mean": -4.454022988505747,
+          "median": 7.5,
+          "sum": -775.0,
+          "positive_events": 103,
+          "flat_events": 0,
+          "positive_pct": 59.195402298850574,
+          "minimum": -171.5,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -8.871517857142857,
+          -0.09739691743483081
+        ]
+      },
+      {
+        "threshold": 10,
+        "eligible_sessions_including_zero": 2248,
+        "selected_nonzero_events": 135,
+        "frequency_pct": 6.005338078291815,
+        "touch_events": 58,
+        "touch_pct": 42.96296296296296,
+        "gross_points": {
+          "events": 135,
+          "mean": -5.388888888888889,
+          "median": 4.0,
+          "sum": -727.5,
+          "positive_events": 72,
+          "flat_events": 0,
+          "positive_pct": 53.333333333333336,
+          "minimum": -170.5,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 135,
+          "mean": -6.388888888888889,
+          "median": 3.0,
+          "sum": -862.5,
+          "positive_events": 71,
+          "flat_events": 0,
+          "positive_pct": 52.59259259259259,
+          "minimum": -171.5,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -12.154199865334979,
+          -0.8140555369875264
+        ]
+      },
+      {
+        "threshold": 15,
+        "eligible_sessions_including_zero": 2248,
+        "selected_nonzero_events": 80,
+        "frequency_pct": 3.5587188612099645,
+        "touch_events": 27,
+        "touch_pct": 33.75,
+        "gross_points": {
+          "events": 80,
+          "mean": -8.125,
+          "median": -1.625,
+          "sum": -650.0,
+          "positive_events": 38,
+          "flat_events": 0,
+          "positive_pct": 47.5,
+          "minimum": -170.5,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 80,
+          "mean": -9.125,
+          "median": -2.625,
+          "sum": -730.0,
+          "positive_events": 38,
+          "flat_events": 0,
+          "positive_pct": 47.5,
+          "minimum": -171.5,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -17.81412037037037,
+          -0.8266613924050671
+        ]
+      },
+      {
+        "threshold": 20,
+        "eligible_sessions_including_zero": 2248,
+        "selected_nonzero_events": 54,
+        "frequency_pct": 2.402135231316726,
+        "touch_events": 17,
+        "touch_pct": 31.48148148148148,
+        "gross_points": {
+          "events": 54,
+          "mean": -8.481481481481481,
+          "median": -3.0,
+          "sum": -458.0,
+          "positive_events": 26,
+          "flat_events": 0,
+          "positive_pct": 48.148148148148145,
+          "minimum": -170.5,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 54,
+          "mean": -9.481481481481481,
+          "median": -4.0,
+          "sum": -512.0,
+          "positive_events": 26,
+          "flat_events": 0,
+          "positive_pct": 48.148148148148145,
+          "minimum": -171.5,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -21.79245283018868,
+          2.2316035353535333
+        ]
+      },
+      {
+        "threshold": 30,
+        "eligible_sessions_including_zero": 2248,
+        "selected_nonzero_events": 25,
+        "frequency_pct": 1.112099644128114,
+        "touch_events": 5,
+        "touch_pct": 20.0,
+        "gross_points": {
+          "events": 25,
+          "mean": -6.59,
+          "median": -9.0,
+          "sum": -164.75,
+          "positive_events": 10,
+          "flat_events": 0,
+          "positive_pct": 40.0,
+          "minimum": -89.25,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 25,
+          "mean": -7.59,
+          "median": -10.0,
+          "sum": -189.75,
+          "positive_events": 10,
+          "flat_events": 0,
+          "positive_pct": 40.0,
+          "minimum": -90.25,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -24.89,
+          10.25
+        ]
+      },
+      {
+        "threshold": 50,
+        "eligible_sessions_including_zero": 2248,
+        "selected_nonzero_events": 15,
+        "frequency_pct": 0.6672597864768683,
+        "touch_events": 3,
+        "touch_pct": 20.0,
+        "gross_points": {
+          "events": 15,
+          "mean": -2.9166666666666665,
+          "median": -4.0,
+          "sum": -43.75,
+          "positive_events": 6,
+          "flat_events": 0,
+          "positive_pct": 40.0,
+          "minimum": -89.25,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 15,
+          "mean": -3.9166666666666665,
+          "median": -5.0,
+          "sum": -58.75,
+          "positive_events": 6,
+          "flat_events": 0,
+          "positive_pct": 40.0,
+          "minimum": -90.25,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -28.916666666666668,
+          20.8
+        ]
+      }
+    ],
+    "prior_range_fraction": [
+      {
+        "threshold": 0,
+        "eligible_sessions_including_zero": 2248,
+        "selected_nonzero_events": 2007,
+        "frequency_pct": 89.27935943060498,
+        "touch_events": 1798,
+        "touch_pct": 89.58644743398106,
+        "gross_points": {
+          "events": 2007,
+          "mean": -0.31215744892874936,
+          "median": 0.75,
+          "sum": -626.5,
+          "positive_events": 1817,
+          "flat_events": 1,
+          "positive_pct": 90.53313403089189,
+          "minimum": -170.5,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 2007,
+          "mean": -1.3121574489287493,
+          "median": -0.25,
+          "sum": -2633.5,
+          "positive_events": 772,
+          "flat_events": 142,
+          "positive_pct": 38.46537120079721,
+          "minimum": -171.5,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -1.8196712142850273,
+          -0.8428952873279028
+        ]
+      },
+      {
+        "threshold": 0.01,
+        "eligible_sessions_including_zero": 2248,
+        "selected_nonzero_events": 1575,
+        "frequency_pct": 70.06227758007117,
+        "touch_events": 1370,
+        "touch_pct": 86.98412698412699,
+        "gross_points": {
+          "events": 1575,
+          "mean": -0.4031746031746032,
+          "median": 1.0,
+          "sum": -635.0,
+          "positive_events": 1389,
+          "flat_events": 1,
+          "positive_pct": 88.19047619047619,
+          "minimum": -170.5,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 1575,
+          "mean": -1.403174603174603,
+          "median": 0.0,
+          "sum": -2210.0,
+          "positive_events": 764,
+          "flat_events": 125,
+          "positive_pct": 48.507936507936506,
+          "minimum": -171.5,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -2.0515802549685764,
+          -0.7892817450924361
+        ]
+      },
+      {
+        "threshold": 0.02,
+        "eligible_sessions_including_zero": 2248,
+        "selected_nonzero_events": 1106,
+        "frequency_pct": 49.19928825622776,
+        "touch_events": 912,
+        "touch_pct": 82.45931283905968,
+        "gross_points": {
+          "events": 1106,
+          "mean": -0.6525768535262206,
+          "median": 1.5,
+          "sum": -721.75,
+          "positive_events": 931,
+          "flat_events": 1,
+          "positive_pct": 84.17721518987342,
+          "minimum": -170.5,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 1106,
+          "mean": -1.6525768535262206,
+          "median": 0.5,
+          "sum": -1827.75,
+          "positive_events": 654,
+          "flat_events": 76,
+          "positive_pct": 59.13200723327306,
+          "minimum": -171.5,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -2.5131024975716727,
+          -0.83909688793465
+        ]
+      },
+      {
+        "threshold": 0.03,
+        "eligible_sessions_including_zero": 2248,
+        "selected_nonzero_events": 812,
+        "frequency_pct": 36.120996441281136,
+        "touch_events": 629,
+        "touch_pct": 77.46305418719211,
+        "gross_points": {
+          "events": 812,
+          "mean": -1.0809729064039408,
+          "median": 1.75,
+          "sum": -877.75,
+          "positive_events": 648,
+          "flat_events": 1,
+          "positive_pct": 79.80295566502463,
+          "minimum": -170.5,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 812,
+          "mean": -2.080972906403941,
+          "median": 0.75,
+          "sum": -1689.75,
+          "positive_events": 511,
+          "flat_events": 42,
+          "positive_pct": 62.93103448275862,
+          "minimum": -171.5,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -3.227578714005475,
+          -0.9883918617928744
+        ]
+      },
+      {
+        "threshold": 0.05,
+        "eligible_sessions_including_zero": 2248,
+        "selected_nonzero_events": 500,
+        "frequency_pct": 22.24199288256228,
+        "touch_events": 341,
+        "touch_pct": 68.2,
+        "gross_points": {
+          "events": 500,
+          "mean": -2.041,
+          "median": 2.5,
+          "sum": -1020.5,
+          "positive_events": 360,
+          "flat_events": 1,
+          "positive_pct": 72.0,
+          "minimum": -170.5,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 500,
+          "mean": -3.041,
+          "median": 1.5,
+          "sum": -1520.5,
+          "positive_events": 320,
+          "flat_events": 17,
+          "positive_pct": 64.0,
+          "minimum": -171.5,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -4.85884975749979,
+          -1.2939648524762015
+        ]
+      },
+      {
+        "threshold": 0.075,
+        "eligible_sessions_including_zero": 2248,
+        "selected_nonzero_events": 328,
+        "frequency_pct": 14.590747330960854,
+        "touch_events": 198,
+        "touch_pct": 60.36585365853659,
+        "gross_points": {
+          "events": 328,
+          "mean": -2.5083841463414633,
+          "median": 3.0,
+          "sum": -822.75,
+          "positive_events": 216,
+          "flat_events": 1,
+          "positive_pct": 65.85365853658537,
+          "minimum": -170.5,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 328,
+          "mean": -3.5083841463414633,
+          "median": 2.0,
+          "sum": -1150.75,
+          "positive_events": 203,
+          "flat_events": 6,
+          "positive_pct": 61.890243902439025,
+          "minimum": -171.5,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -6.092991931412148,
+          -1.112320188492064
+        ]
+      },
+      {
+        "threshold": 0.1,
+        "eligible_sessions_including_zero": 2248,
+        "selected_nonzero_events": 243,
+        "frequency_pct": 10.809608540925266,
+        "touch_events": 136,
+        "touch_pct": 55.96707818930041,
+        "gross_points": {
+          "events": 243,
+          "mean": -2.470164609053498,
+          "median": 3.25,
+          "sum": -600.25,
+          "positive_events": 154,
+          "flat_events": 0,
+          "positive_pct": 63.37448559670782,
+          "minimum": -170.5,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 243,
+          "mean": -3.470164609053498,
+          "median": 2.25,
+          "sum": -843.25,
+          "positive_events": 148,
+          "flat_events": 3,
+          "positive_pct": 60.90534979423868,
+          "minimum": -171.5,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -6.914580873799892,
+          -0.2890629039764221
+        ]
+      },
+      {
+        "threshold": 0.15,
+        "eligible_sessions_including_zero": 2248,
+        "selected_nonzero_events": 149,
+        "frequency_pct": 6.628113879003559,
+        "touch_events": 67,
+        "touch_pct": 44.966442953020135,
+        "gross_points": {
+          "events": 149,
+          "mean": -4.2114093959731544,
+          "median": 2.5,
+          "sum": -627.5,
+          "positive_events": 82,
+          "flat_events": 0,
+          "positive_pct": 55.033557046979865,
+          "minimum": -170.5,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 149,
+          "mean": -5.2114093959731544,
+          "median": 1.5,
+          "sum": -776.5,
+          "positive_events": 80,
+          "flat_events": 1,
+          "positive_pct": 53.691275167785236,
+          "minimum": -171.5,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -10.344237423240436,
+          -0.3099554794520555
+        ]
+      },
+      {
+        "threshold": 0.2,
+        "eligible_sessions_including_zero": 2248,
+        "selected_nonzero_events": 92,
+        "frequency_pct": 4.092526690391459,
+        "touch_events": 29,
+        "touch_pct": 31.52173913043478,
+        "gross_points": {
+          "events": 92,
+          "mean": -6.032608695652174,
+          "median": -1.75,
+          "sum": -555.0,
+          "positive_events": 42,
+          "flat_events": 0,
+          "positive_pct": 45.65217391304348,
+          "minimum": -118.0,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 92,
+          "mean": -7.032608695652174,
+          "median": -2.75,
+          "sum": -647.0,
+          "positive_events": 42,
+          "flat_events": 0,
+          "positive_pct": 45.65217391304348,
+          "minimum": -119.0,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -13.924902376910016,
+          -0.4297645945285785
+        ]
+      },
+      {
+        "threshold": 0.25,
+        "eligible_sessions_including_zero": 2248,
+        "selected_nonzero_events": 79,
+        "frequency_pct": 3.51423487544484,
+        "touch_events": 23,
+        "touch_pct": 29.11392405063291,
+        "gross_points": {
+          "events": 79,
+          "mean": -4.924050632911392,
+          "median": -1.5,
+          "sum": -389.0,
+          "positive_events": 36,
+          "flat_events": 0,
+          "positive_pct": 45.56962025316456,
+          "minimum": -104.25,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 79,
+          "mean": -5.924050632911392,
+          "median": -2.5,
+          "sum": -468.0,
+          "positive_events": 36,
+          "flat_events": 0,
+          "positive_pct": 45.56962025316456,
+          "minimum": -105.25,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -13.04120450949367,
+          0.8956641459806005
+        ]
+      },
+      {
+        "threshold": 0.3,
+        "eligible_sessions_including_zero": 2248,
+        "selected_nonzero_events": 52,
+        "frequency_pct": 2.3131672597864767,
+        "touch_events": 13,
+        "touch_pct": 25.0,
+        "gross_points": {
+          "events": 52,
+          "mean": -4.134615384615385,
+          "median": -1.5,
+          "sum": -215.0,
+          "positive_events": 23,
+          "flat_events": 0,
+          "positive_pct": 44.230769230769226,
+          "minimum": -104.25,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 52,
+          "mean": -5.134615384615385,
+          "median": -2.5,
+          "sum": -267.0,
+          "positive_events": 23,
+          "flat_events": 0,
+          "positive_pct": 44.230769230769226,
+          "minimum": -105.25,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -14.582091346153847,
+          4.101201923076919
+        ]
+      },
+      {
+        "threshold": 0.4,
+        "eligible_sessions_including_zero": 2248,
+        "selected_nonzero_events": 35,
+        "frequency_pct": 1.5569395017793595,
+        "touch_events": 9,
+        "touch_pct": 25.714285714285715,
+        "gross_points": {
+          "events": 35,
+          "mean": -2.0642857142857145,
+          "median": -1.0,
+          "sum": -72.25,
+          "positive_events": 15,
+          "flat_events": 0,
+          "positive_pct": 42.857142857142854,
+          "minimum": -104.25,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 35,
+          "mean": -3.0642857142857145,
+          "median": -2.0,
+          "sum": -107.25,
+          "positive_events": 15,
+          "flat_events": 0,
+          "positive_pct": 42.857142857142854,
+          "minimum": -105.25,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -16.243035714285714,
+          9.207499999999994
+        ]
+      },
+      {
+        "threshold": 0.5,
+        "eligible_sessions_including_zero": 2248,
+        "selected_nonzero_events": 23,
+        "frequency_pct": 1.0231316725978647,
+        "touch_events": 4,
+        "touch_pct": 17.391304347826086,
+        "gross_points": {
+          "events": 23,
+          "mean": -7.141304347826087,
+          "median": -5.75,
+          "sum": -164.25,
+          "positive_events": 8,
+          "flat_events": 0,
+          "positive_pct": 34.78260869565217,
+          "minimum": -104.25,
+          "maximum": 61.0
+        },
+        "net_one_point": {
+          "events": 23,
+          "mean": -8.141304347826088,
+          "median": -6.75,
+          "sum": -187.25,
+          "positive_events": 8,
+          "flat_events": 0,
+          "positive_pct": 34.78260869565217,
+          "minimum": -105.25,
+          "maximum": 60.0
+        },
+        "net_mean_points_95": [
+          -24.251358695652172,
+          6.315217391304348
+        ]
+      },
+      {
+        "threshold": 1.0,
+        "eligible_sessions_including_zero": 2248,
+        "selected_nonzero_events": 3,
+        "frequency_pct": 0.13345195729537365,
+        "touch_events": 0,
+        "touch_pct": 0.0,
+        "gross_points": {
+          "events": 3,
+          "mean": -26.75,
+          "median": -5.75,
+          "sum": -80.25,
+          "positive_events": 1,
+          "flat_events": 0,
+          "positive_pct": 33.33333333333333,
+          "minimum": -89.25,
+          "maximum": 14.75
+        },
+        "net_one_point": {
+          "events": 3,
+          "mean": -27.75,
+          "median": -6.75,
+          "sum": -83.25,
+          "positive_events": 1,
+          "flat_events": 0,
+          "positive_pct": 33.33333333333333,
+          "minimum": -90.25,
+          "maximum": 13.75
+        },
+        "net_mean_points_95": [
+          -90.25,
+          13.75
+        ]
+      }
+    ],
+    "atr14_fraction": [
+      {
+        "threshold": 0,
+        "eligible_sessions_including_zero": 2237,
+        "selected_nonzero_events": 1997,
+        "frequency_pct": 89.27134555207867,
+        "touch_events": 1789,
+        "touch_pct": 89.58437656484728,
+        "gross_points": {
+          "events": 1997,
+          "mean": -0.31221832749123685,
+          "median": 0.75,
+          "sum": -623.5,
+          "positive_events": 1808,
+          "flat_events": 1,
+          "positive_pct": 90.53580370555834,
+          "minimum": -170.5,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 1997,
+          "mean": -1.312218327491237,
+          "median": -0.25,
+          "sum": -2620.5,
+          "positive_events": 772,
+          "flat_events": 142,
+          "positive_pct": 38.6579869804707,
+          "minimum": -171.5,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -1.812810918432322,
+          -0.8337343593279842
+        ]
+      },
+      {
+        "threshold": 0.01,
+        "eligible_sessions_including_zero": 2237,
+        "selected_nonzero_events": 1522,
+        "frequency_pct": 68.03755029056772,
+        "touch_events": 1318,
+        "touch_pct": 86.59658344283837,
+        "gross_points": {
+          "events": 1522,
+          "mean": -0.41836399474375824,
+          "median": 1.25,
+          "sum": -636.75,
+          "positive_events": 1337,
+          "flat_events": 1,
+          "positive_pct": 87.8449408672799,
+          "minimum": -170.5,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 1522,
+          "mean": -1.4183639947437583,
+          "median": 0.25,
+          "sum": -2158.75,
+          "positive_events": 769,
+          "flat_events": 130,
+          "positive_pct": 50.52562417871223,
+          "minimum": -171.5,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -2.091930948127455,
+          -0.7939955477268553
+        ]
+      },
+      {
+        "threshold": 0.02,
+        "eligible_sessions_including_zero": 2237,
+        "selected_nonzero_events": 1025,
+        "frequency_pct": 45.82029503799732,
+        "touch_events": 834,
+        "touch_pct": 81.36585365853658,
+        "gross_points": {
+          "events": 1025,
+          "mean": -0.6997560975609756,
+          "median": 1.75,
+          "sum": -717.25,
+          "positive_events": 853,
+          "flat_events": 1,
+          "positive_pct": 83.21951219512195,
+          "minimum": -170.5,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 1025,
+          "mean": -1.6997560975609756,
+          "median": 0.75,
+          "sum": -1742.25,
+          "positive_events": 671,
+          "flat_events": 62,
+          "positive_pct": 65.46341463414635,
+          "minimum": -171.5,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -2.6358268629562556,
+          -0.7727592790579866
+        ]
+      },
+      {
+        "threshold": 0.03,
+        "eligible_sessions_including_zero": 2237,
+        "selected_nonzero_events": 774,
+        "frequency_pct": 34.599910594546266,
+        "touch_events": 596,
+        "touch_pct": 77.00258397932816,
+        "gross_points": {
+          "events": 774,
+          "mean": -0.9893410852713178,
+          "median": 2.25,
+          "sum": -765.75,
+          "positive_events": 615,
+          "flat_events": 1,
+          "positive_pct": 79.45736434108527,
+          "minimum": -170.5,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 774,
+          "mean": -1.9893410852713178,
+          "median": 1.25,
+          "sum": -1539.75,
+          "positive_events": 526,
+          "flat_events": 24,
+          "positive_pct": 67.95865633074936,
+          "minimum": -171.5,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -3.1878192291855654,
+          -0.8538037736325957
+        ]
+      },
+      {
+        "threshold": 0.05,
+        "eligible_sessions_including_zero": 2237,
+        "selected_nonzero_events": 462,
+        "frequency_pct": 20.652659812248547,
+        "touch_events": 305,
+        "touch_pct": 66.01731601731602,
+        "gross_points": {
+          "events": 462,
+          "mean": -2.115800865800866,
+          "median": 3.25,
+          "sum": -977.5,
+          "positive_events": 323,
+          "flat_events": 1,
+          "positive_pct": 69.91341991341992,
+          "minimum": -170.5,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 462,
+          "mean": -3.115800865800866,
+          "median": 2.25,
+          "sum": -1439.5,
+          "positive_events": 303,
+          "flat_events": 10,
+          "positive_pct": 65.5844155844156,
+          "minimum": -171.5,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -4.984964787084122,
+          -1.2849425659332785
+        ]
+      },
+      {
+        "threshold": 0.075,
+        "eligible_sessions_including_zero": 2237,
+        "selected_nonzero_events": 305,
+        "frequency_pct": 13.634331694233348,
+        "touch_events": 178,
+        "touch_pct": 58.36065573770492,
+        "gross_points": {
+          "events": 305,
+          "mean": -2.6868852459016392,
+          "median": 4.0,
+          "sum": -819.5,
+          "positive_events": 195,
+          "flat_events": 0,
+          "positive_pct": 63.934426229508205,
+          "minimum": -170.5,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 305,
+          "mean": -3.6868852459016392,
+          "median": 3.0,
+          "sum": -1124.5,
+          "positive_events": 194,
+          "flat_events": 0,
+          "positive_pct": 63.60655737704918,
+          "minimum": -171.5,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -6.475078883495145,
+          -0.9792001026651037
+        ]
+      },
+      {
+        "threshold": 0.1,
+        "eligible_sessions_including_zero": 2237,
+        "selected_nonzero_events": 227,
+        "frequency_pct": 10.147518998658919,
+        "touch_events": 122,
+        "touch_pct": 53.74449339207048,
+        "gross_points": {
+          "events": 227,
+          "mean": -2.5242290748898677,
+          "median": 4.75,
+          "sum": -573.0,
+          "positive_events": 139,
+          "flat_events": 0,
+          "positive_pct": 61.23348017621145,
+          "minimum": -170.5,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 227,
+          "mean": -3.5242290748898677,
+          "median": 3.75,
+          "sum": -800.0,
+          "positive_events": 138,
+          "flat_events": 0,
+          "positive_pct": 60.792951541850215,
+          "minimum": -171.5,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -7.11404886109508,
+          -0.13547831236409258
+        ]
+      },
+      {
+        "threshold": 0.15,
+        "eligible_sessions_including_zero": 2237,
+        "selected_nonzero_events": 138,
+        "frequency_pct": 6.168976307554761,
+        "touch_events": 59,
+        "touch_pct": 42.7536231884058,
+        "gross_points": {
+          "events": 138,
+          "mean": -4.701086956521739,
+          "median": 3.25,
+          "sum": -648.75,
+          "positive_events": 76,
+          "flat_events": 0,
+          "positive_pct": 55.072463768115945,
+          "minimum": -170.5,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 138,
+          "mean": -5.701086956521739,
+          "median": 2.25,
+          "sum": -786.75,
+          "positive_events": 75,
+          "flat_events": 0,
+          "positive_pct": 54.347826086956516,
+          "minimum": -171.5,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -11.363822363453309,
+          -0.2891187888198782
+        ]
+      },
+      {
+        "threshold": 0.2,
+        "eligible_sessions_including_zero": 2237,
+        "selected_nonzero_events": 92,
+        "frequency_pct": 4.112650871703174,
+        "touch_events": 34,
+        "touch_pct": 36.95652173913044,
+        "gross_points": {
+          "events": 92,
+          "mean": -3.796195652173913,
+          "median": 2.5,
+          "sum": -349.25,
+          "positive_events": 49,
+          "flat_events": 0,
+          "positive_pct": 53.2608695652174,
+          "minimum": -170.5,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 92,
+          "mean": -4.796195652173913,
+          "median": 1.5,
+          "sum": -441.25,
+          "positive_events": 48,
+          "flat_events": 0,
+          "positive_pct": 52.17391304347826,
+          "minimum": -171.5,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -12.54945054945055,
+          2.1129032258064515
+        ]
+      },
+      {
+        "threshold": 0.25,
+        "eligible_sessions_including_zero": 2237,
+        "selected_nonzero_events": 70,
+        "frequency_pct": 3.129190880643719,
+        "touch_events": 21,
+        "touch_pct": 30.0,
+        "gross_points": {
+          "events": 70,
+          "mean": -5.921428571428572,
+          "median": -0.375,
+          "sum": -414.5,
+          "positive_events": 34,
+          "flat_events": 0,
+          "positive_pct": 48.57142857142857,
+          "minimum": -170.5,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 70,
+          "mean": -6.921428571428572,
+          "median": -1.375,
+          "sum": -484.5,
+          "positive_events": 34,
+          "flat_events": 0,
+          "positive_pct": 48.57142857142857,
+          "minimum": -171.5,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -16.493035714285714,
+          1.6822321428571412
+        ]
+      },
+      {
+        "threshold": 0.3,
+        "eligible_sessions_including_zero": 2237,
+        "selected_nonzero_events": 56,
+        "frequency_pct": 2.5033527045149753,
+        "touch_events": 15,
+        "touch_pct": 26.785714285714285,
+        "gross_points": {
+          "events": 56,
+          "mean": -7.794642857142857,
+          "median": -1.5,
+          "sum": -436.5,
+          "positive_events": 26,
+          "flat_events": 0,
+          "positive_pct": 46.42857142857143,
+          "minimum": -170.5,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 56,
+          "mean": -8.794642857142858,
+          "median": -2.5,
+          "sum": -492.5,
+          "positive_events": 26,
+          "flat_events": 0,
+          "positive_pct": 46.42857142857143,
+          "minimum": -171.5,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -20.294977678571428,
+          1.8756696428571331
+        ]
+      },
+      {
+        "threshold": 0.4,
+        "eligible_sessions_including_zero": 2237,
+        "selected_nonzero_events": 38,
+        "frequency_pct": 1.6987036209208761,
+        "touch_events": 6,
+        "touch_pct": 15.789473684210526,
+        "gross_points": {
+          "events": 38,
+          "mean": -6.144736842105263,
+          "median": -4.875,
+          "sum": -233.5,
+          "positive_events": 15,
+          "flat_events": 0,
+          "positive_pct": 39.473684210526315,
+          "minimum": -104.25,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 38,
+          "mean": -7.144736842105263,
+          "median": -5.875,
+          "sum": -271.5,
+          "positive_events": 15,
+          "flat_events": 0,
+          "positive_pct": 39.473684210526315,
+          "minimum": -105.25,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -18.717763157894737,
+          3.94753289473684
+        ]
+      },
+      {
+        "threshold": 0.5,
+        "eligible_sessions_including_zero": 2237,
+        "selected_nonzero_events": 28,
+        "frequency_pct": 1.2516763522574876,
+        "touch_events": 3,
+        "touch_pct": 10.714285714285714,
+        "gross_points": {
+          "events": 28,
+          "mean": -7.723214285714286,
+          "median": -5.75,
+          "sum": -216.25,
+          "positive_events": 7,
+          "flat_events": 0,
+          "positive_pct": 25.0,
+          "minimum": -89.25,
+          "maximum": 78.5
+        },
+        "net_one_point": {
+          "events": 28,
+          "mean": -8.723214285714286,
+          "median": -6.75,
+          "sum": -244.25,
+          "positive_events": 7,
+          "flat_events": 0,
+          "positive_pct": 25.0,
+          "minimum": -90.25,
+          "maximum": 77.5
+        },
+        "net_mean_points_95": [
+          -21.660714285714285,
+          4.3397321428571365
+        ]
+      },
+      {
+        "threshold": 1.0,
+        "eligible_sessions_including_zero": 2237,
+        "selected_nonzero_events": 4,
+        "frequency_pct": 0.17881090746535538,
+        "touch_events": 0,
+        "touch_pct": 0.0,
+        "gross_points": {
+          "events": 4,
+          "mean": -18.5625,
+          "median": -15.125,
+          "sum": -74.25,
+          "positive_events": 0,
+          "flat_events": 0,
+          "positive_pct": 0.0,
+          "minimum": -38.25,
+          "maximum": -5.75
+        },
+        "net_one_point": {
+          "events": 4,
+          "mean": -19.5625,
+          "median": -16.125,
+          "sum": -78.25,
+          "positive_events": 0,
+          "flat_events": 0,
+          "positive_pct": 0.0,
+          "minimum": -39.25,
+          "maximum": -6.75
+        },
+        "net_mean_points_95": [
+          -32.1875,
+          -8.875
+        ]
+      }
+    ]
+  },
+  "minute_last14_complete_unflagged": {
+    "points": [
+      {
+        "threshold": 0.25,
+        "eligible_sessions_including_zero": 56,
+        "selected_nonzero_events": 51,
+        "frequency_pct": 91.07142857142857,
+        "touch_events": 41,
+        "touch_pct": 80.3921568627451,
+        "gross_points": {
+          "events": 51,
+          "mean": -2.7892156862745097,
+          "median": 1.5,
+          "sum": -142.25,
+          "positive_events": 41,
+          "flat_events": 0,
+          "positive_pct": 80.3921568627451,
+          "minimum": -61.75,
+          "maximum": 29.25
+        },
+        "net_one_point": {
+          "events": 51,
+          "mean": -3.7892156862745097,
+          "median": 0.5,
+          "sum": -193.25,
+          "positive_events": 28,
+          "flat_events": 4,
+          "positive_pct": 54.90196078431373,
+          "minimum": -62.75,
+          "maximum": 28.25
+        },
+        "net_mean_points_95": [
+          -9.110314542483659,
+          0.9167187499999994
+        ]
+      },
+      {
+        "threshold": 0.5,
+        "eligible_sessions_including_zero": 56,
+        "selected_nonzero_events": 49,
+        "frequency_pct": 87.5,
+        "touch_events": 39,
+        "touch_pct": 79.59183673469387,
+        "gross_points": {
+          "events": 49,
+          "mean": -2.913265306122449,
+          "median": 1.75,
+          "sum": -142.75,
+          "positive_events": 39,
+          "flat_events": 0,
+          "positive_pct": 79.59183673469387,
+          "minimum": -61.75,
+          "maximum": 29.25
+        },
+        "net_one_point": {
+          "events": 49,
+          "mean": -3.913265306122449,
+          "median": 0.75,
+          "sum": -191.75,
+          "positive_events": 28,
+          "flat_events": 4,
+          "positive_pct": 57.14285714285714,
+          "minimum": -62.75,
+          "maximum": 28.25
+        },
+        "net_mean_points_95": [
+          -9.455596021303258,
+          1.0139204545454539
+        ]
+      },
+      {
+        "threshold": 1,
+        "eligible_sessions_including_zero": 56,
+        "selected_nonzero_events": 42,
+        "frequency_pct": 75.0,
+        "touch_events": 32,
+        "touch_pct": 76.19047619047619,
+        "gross_points": {
+          "events": 42,
+          "mean": -3.494047619047619,
+          "median": 2.75,
+          "sum": -146.75,
+          "positive_events": 32,
+          "flat_events": 0,
+          "positive_pct": 76.19047619047619,
+          "minimum": -61.75,
+          "maximum": 29.25
+        },
+        "net_one_point": {
+          "events": 42,
+          "mean": -4.494047619047619,
+          "median": 1.75,
+          "sum": -188.75,
+          "positive_events": 28,
+          "flat_events": 4,
+          "positive_pct": 66.66666666666666,
+          "minimum": -62.75,
+          "maximum": 28.25
+        },
+        "net_mean_points_95": [
+          -11.207407583841464,
+          1.2170923180592976
+        ]
+      },
+      {
+        "threshold": 2,
+        "eligible_sessions_including_zero": 56,
+        "selected_nonzero_events": 33,
+        "frequency_pct": 58.92857142857143,
+        "touch_events": 23,
+        "touch_pct": 69.6969696969697,
+        "gross_points": {
+          "events": 33,
+          "mean": -4.803030303030303,
+          "median": 3.25,
+          "sum": -158.5,
+          "positive_events": 23,
+          "flat_events": 0,
+          "positive_pct": 69.6969696969697,
+          "minimum": -61.75,
+          "maximum": 29.25
+        },
+        "net_one_point": {
+          "events": 33,
+          "mean": -5.803030303030303,
+          "median": 2.25,
+          "sum": -191.5,
+          "positive_events": 23,
+          "flat_events": 0,
+          "positive_pct": 69.6969696969697,
+          "minimum": -62.75,
+          "maximum": 28.25
+        },
+        "net_mean_points_95": [
+          -13.275950811359026,
+          1.4914054336468126
+        ]
+      },
+      {
+        "threshold": 3,
+        "eligible_sessions_including_zero": 56,
+        "selected_nonzero_events": 30,
+        "frequency_pct": 53.57142857142857,
+        "touch_events": 21,
+        "touch_pct": 70.0,
+        "gross_points": {
+          "events": 30,
+          "mean": -4.366666666666666,
+          "median": 3.625,
+          "sum": -131.0,
+          "positive_events": 21,
+          "flat_events": 0,
+          "positive_pct": 70.0,
+          "minimum": -61.75,
+          "maximum": 29.25
+        },
+        "net_one_point": {
+          "events": 30,
+          "mean": -5.366666666666666,
+          "median": 2.625,
+          "sum": -161.0,
+          "positive_events": 21,
+          "flat_events": 0,
+          "positive_pct": 70.0,
+          "minimum": -62.75,
+          "maximum": 28.25
+        },
+        "net_mean_points_95": [
+          -12.955526244588745,
+          1.75
+        ]
+      },
+      {
+        "threshold": 5,
+        "eligible_sessions_including_zero": 56,
+        "selected_nonzero_events": 20,
+        "frequency_pct": 35.714285714285715,
+        "touch_events": 12,
+        "touch_pct": 60.0,
+        "gross_points": {
+          "events": 20,
+          "mean": -6.1625,
+          "median": 6.0,
+          "sum": -123.25,
+          "positive_events": 12,
+          "flat_events": 0,
+          "positive_pct": 60.0,
+          "minimum": -61.75,
+          "maximum": 29.25
+        },
+        "net_one_point": {
+          "events": 20,
+          "mean": -7.1625,
+          "median": 5.0,
+          "sum": -143.25,
+          "positive_events": 12,
+          "flat_events": 0,
+          "positive_pct": 60.0,
+          "minimum": -62.75,
+          "maximum": 28.25
+        },
+        "net_mean_points_95": [
+          -17.28575892857143,
+          2.7253273809523764
+        ]
+      },
+      {
+        "threshold": 8,
+        "eligible_sessions_including_zero": 56,
+        "selected_nonzero_events": 13,
+        "frequency_pct": 23.214285714285715,
+        "touch_events": 7,
+        "touch_pct": 53.84615384615385,
+        "gross_points": {
+          "events": 13,
+          "mean": -6.4423076923076925,
+          "median": 8.0,
+          "sum": -83.75,
+          "positive_events": 7,
+          "flat_events": 0,
+          "positive_pct": 53.84615384615385,
+          "minimum": -61.75,
+          "maximum": 29.25
+        },
+        "net_one_point": {
+          "events": 13,
+          "mean": -7.4423076923076925,
+          "median": 7.0,
+          "sum": -96.75,
+          "positive_events": 7,
+          "flat_events": 0,
+          "positive_pct": 53.84615384615385,
+          "minimum": -62.75,
+          "maximum": 28.25
+        },
+        "net_mean_points_95": [
+          -23.25,
+          6.481730769230755
+        ]
+      },
+      {
+        "threshold": 10,
+        "eligible_sessions_including_zero": 56,
+        "selected_nonzero_events": 10,
+        "frequency_pct": 17.857142857142858,
+        "touch_events": 4,
+        "touch_pct": 40.0,
+        "gross_points": {
+          "events": 10,
+          "mean": -10.95,
+          "median": -10.875,
+          "sum": -109.5,
+          "positive_events": 4,
+          "flat_events": 0,
+          "positive_pct": 40.0,
+          "minimum": -61.75,
+          "maximum": 29.25
+        },
+        "net_one_point": {
+          "events": 10,
+          "mean": -11.95,
+          "median": -11.875,
+          "sum": -119.5,
+          "positive_events": 4,
+          "flat_events": 0,
+          "positive_pct": 40.0,
+          "minimum": -62.75,
+          "maximum": 28.25
+        },
+        "net_mean_points_95": [
+          -30.825,
+          6.351874999999972
+        ]
+      },
+      {
+        "threshold": 15,
+        "eligible_sessions_including_zero": 56,
+        "selected_nonzero_events": 8,
+        "frequency_pct": 14.285714285714286,
+        "touch_events": 2,
+        "touch_pct": 25.0,
+        "gross_points": {
+          "events": 8,
+          "mean": -16.9375,
+          "median": -19.75,
+          "sum": -135.5,
+          "positive_events": 2,
+          "flat_events": 0,
+          "positive_pct": 25.0,
+          "minimum": -61.75,
+          "maximum": 29.25
+        },
+        "net_one_point": {
+          "events": 8,
+          "mean": -17.9375,
+          "median": -20.75,
+          "sum": -143.5,
+          "positive_events": 2,
+          "flat_events": 0,
+          "positive_pct": 25.0,
+          "minimum": -62.75,
+          "maximum": 28.25
+        },
+        "net_mean_points_95": [
+          -39.0625,
+          3.34375
+        ]
+      },
+      {
+        "threshold": 20,
+        "eligible_sessions_including_zero": 56,
+        "selected_nonzero_events": 7,
+        "frequency_pct": 12.5,
+        "touch_events": 2,
+        "touch_pct": 28.571428571428573,
+        "gross_points": {
+          "events": 7,
+          "mean": -10.535714285714286,
+          "median": -17.75,
+          "sum": -73.75,
+          "positive_events": 2,
+          "flat_events": 0,
+          "positive_pct": 28.57142857142857,
+          "minimum": -55.0,
+          "maximum": 29.25
+        },
+        "net_one_point": {
+          "events": 7,
+          "mean": -11.535714285714286,
+          "median": -18.75,
+          "sum": -80.75,
+          "positive_events": 2,
+          "flat_events": 0,
+          "positive_pct": 28.57142857142857,
+          "minimum": -56.0,
+          "maximum": 28.25
+        },
+        "net_mean_points_95": [
+          -31.714285714285715,
+          8.642857142857142
+        ]
+      },
+      {
+        "threshold": 30,
+        "eligible_sessions_including_zero": 56,
+        "selected_nonzero_events": 4,
+        "frequency_pct": 7.142857142857143,
+        "touch_events": 0,
+        "touch_pct": 0.0,
+        "gross_points": {
+          "events": 4,
+          "mean": -24.625,
+          "median": -19.75,
+          "sum": -98.5,
+          "positive_events": 0,
+          "flat_events": 0,
+          "positive_pct": 0.0,
+          "minimum": -55.0,
+          "maximum": -4.0
+        },
+        "net_one_point": {
+          "events": 4,
+          "mean": -25.625,
+          "median": -20.75,
+          "sum": -102.5,
+          "positive_events": 0,
+          "flat_events": 0,
+          "positive_pct": 0.0,
+          "minimum": -56.0,
+          "maximum": -5.0
+        },
+        "net_mean_points_95": [
+          -46.6875,
+          -9.4375
+        ]
+      },
+      {
+        "threshold": 50,
+        "eligible_sessions_including_zero": 56,
+        "selected_nonzero_events": 2,
+        "frequency_pct": 3.5714285714285716,
+        "touch_events": 0,
+        "touch_pct": 0.0,
+        "gross_points": {
+          "events": 2,
+          "mean": -12.875,
+          "median": -12.875,
+          "sum": -25.75,
+          "positive_events": 0,
+          "flat_events": 0,
+          "positive_pct": 0.0,
+          "minimum": -21.75,
+          "maximum": -4.0
+        },
+        "net_one_point": {
+          "events": 2,
+          "mean": -13.875,
+          "median": -13.875,
+          "sum": -27.75,
+          "positive_events": 0,
+          "flat_events": 0,
+          "positive_pct": 0.0,
+          "minimum": -22.75,
+          "maximum": -5.0
+        },
+        "net_mean_points_95": [
+          -22.75,
+          -5.0
+        ]
+      }
+    ],
+    "prior_range_fraction": [
+      {
+        "threshold": 0,
+        "eligible_sessions_including_zero": 56,
+        "selected_nonzero_events": 51,
+        "frequency_pct": 91.07142857142857,
+        "touch_events": 41,
+        "touch_pct": 80.3921568627451,
+        "gross_points": {
+          "events": 51,
+          "mean": -2.7892156862745097,
+          "median": 1.5,
+          "sum": -142.25,
+          "positive_events": 41,
+          "flat_events": 0,
+          "positive_pct": 80.3921568627451,
+          "minimum": -61.75,
+          "maximum": 29.25
+        },
+        "net_one_point": {
+          "events": 51,
+          "mean": -3.7892156862745097,
+          "median": 0.5,
+          "sum": -193.25,
+          "positive_events": 28,
+          "flat_events": 4,
+          "positive_pct": 54.90196078431373,
+          "minimum": -62.75,
+          "maximum": 28.25
+        },
+        "net_mean_points_95": [
+          -9.110314542483659,
+          0.9167187499999994
+        ]
+      },
+      {
+        "threshold": 0.01,
+        "eligible_sessions_including_zero": 56,
+        "selected_nonzero_events": 41,
+        "frequency_pct": 73.21428571428571,
+        "touch_events": 31,
+        "touch_pct": 75.60975609756098,
+        "gross_points": {
+          "events": 41,
+          "mean": -3.6036585365853657,
+          "median": 3.0,
+          "sum": -147.75,
+          "positive_events": 31,
+          "flat_events": 0,
+          "positive_pct": 75.60975609756098,
+          "minimum": -61.75,
+          "maximum": 29.25
+        },
+        "net_one_point": {
+          "events": 41,
+          "mean": -4.603658536585366,
+          "median": 2.0,
+          "sum": -188.75,
+          "positive_events": 28,
+          "flat_events": 3,
+          "positive_pct": 68.29268292682927,
+          "minimum": -62.75,
+          "maximum": 28.25
+        },
+        "net_mean_points_95": [
+          -11.5,
+          1.2387418831168815
+        ]
+      },
+      {
+        "threshold": 0.02,
+        "eligible_sessions_including_zero": 56,
+        "selected_nonzero_events": 33,
+        "frequency_pct": 58.92857142857143,
+        "touch_events": 23,
+        "touch_pct": 69.6969696969697,
+        "gross_points": {
+          "events": 33,
+          "mean": -4.833333333333333,
+          "median": 3.25,
+          "sum": -159.5,
+          "positive_events": 23,
+          "flat_events": 0,
+          "positive_pct": 69.6969696969697,
+          "minimum": -61.75,
+          "maximum": 29.25
+        },
+        "net_one_point": {
+          "events": 33,
+          "mean": -5.833333333333333,
+          "median": 2.25,
+          "sum": -192.5,
+          "positive_events": 22,
+          "flat_events": 1,
+          "positive_pct": 66.66666666666666,
+          "minimum": -62.75,
+          "maximum": 28.25
+        },
+        "net_mean_points_95": [
+          -13.521587301587303,
+          1.4259920634920626
+        ]
+      },
+      {
+        "threshold": 0.03,
+        "eligible_sessions_including_zero": 56,
+        "selected_nonzero_events": 25,
+        "frequency_pct": 44.642857142857146,
+        "touch_events": 16,
+        "touch_pct": 64.0,
+        "gross_points": {
+          "events": 25,
+          "mean": -6.04,
+          "median": 4.0,
+          "sum": -151.0,
+          "positive_events": 16,
+          "flat_events": 0,
+          "positive_pct": 64.0,
+          "minimum": -61.75,
+          "maximum": 29.25
+        },
+        "net_one_point": {
+          "events": 25,
+          "mean": -7.04,
+          "median": 3.0,
+          "sum": -176.0,
+          "positive_events": 16,
+          "flat_events": 0,
+          "positive_pct": 64.0,
+          "minimum": -62.75,
+          "maximum": 28.25
+        },
+        "net_mean_points_95": [
+          -16.125,
+          1.5875852272727258
+        ]
+      },
+      {
+        "threshold": 0.05,
+        "eligible_sessions_including_zero": 56,
+        "selected_nonzero_events": 17,
+        "frequency_pct": 30.357142857142858,
+        "touch_events": 9,
+        "touch_pct": 52.94117647058823,
+        "gross_points": {
+          "events": 17,
+          "mean": -8.823529411764707,
+          "median": 3.5,
+          "sum": -150.0,
+          "positive_events": 9,
+          "flat_events": 0,
+          "positive_pct": 52.94117647058824,
+          "minimum": -61.75,
+          "maximum": 29.25
+        },
+        "net_one_point": {
+          "events": 17,
+          "mean": -9.823529411764707,
+          "median": 2.5,
+          "sum": -167.0,
+          "positive_events": 9,
+          "flat_events": 0,
+          "positive_pct": 52.94117647058824,
+          "minimum": -62.75,
+          "maximum": 28.25
+        },
+        "net_mean_points_95": [
+          -22.100416666666668,
+          2.116874999999997
+        ]
+      },
+      {
+        "threshold": 0.075,
+        "eligible_sessions_including_zero": 56,
+        "selected_nonzero_events": 12,
+        "frequency_pct": 21.428571428571427,
+        "touch_events": 5,
+        "touch_pct": 41.666666666666664,
+        "gross_points": {
+          "events": 12,
+          "mean": -11.541666666666666,
+          "median": -10.875,
+          "sum": -138.5,
+          "positive_events": 5,
+          "flat_events": 0,
+          "positive_pct": 41.66666666666667,
+          "minimum": -61.75,
+          "maximum": 29.25
+        },
+        "net_one_point": {
+          "events": 12,
+          "mean": -12.541666666666666,
+          "median": -11.875,
+          "sum": -150.5,
+          "positive_events": 5,
+          "flat_events": 0,
+          "positive_pct": 41.66666666666667,
+          "minimum": -62.75,
+          "maximum": 28.25
+        },
+        "net_mean_points_95": [
+          -28.7921875,
+          2.6875
+        ]
+      },
+      {
+        "threshold": 0.1,
+        "eligible_sessions_including_zero": 56,
+        "selected_nonzero_events": 10,
+        "frequency_pct": 17.857142857142858,
+        "touch_events": 4,
+        "touch_pct": 40.0,
+        "gross_points": {
+          "events": 10,
+          "mean": -11.55,
+          "median": -10.875,
+          "sum": -115.5,
+          "positive_events": 4,
+          "flat_events": 0,
+          "positive_pct": 40.0,
+          "minimum": -61.75,
+          "maximum": 29.25
+        },
+        "net_one_point": {
+          "events": 10,
+          "mean": -12.55,
+          "median": -11.875,
+          "sum": -125.5,
+          "positive_events": 4,
+          "flat_events": 0,
+          "positive_pct": 40.0,
+          "minimum": -62.75,
+          "maximum": 28.25
+        },
+        "net_mean_points_95": [
+          -31.0,
+          4.875
+        ]
+      },
+      {
+        "threshold": 0.15,
+        "eligible_sessions_including_zero": 56,
+        "selected_nonzero_events": 9,
+        "frequency_pct": 16.071428571428573,
+        "touch_events": 3,
+        "touch_pct": 33.333333333333336,
+        "gross_points": {
+          "events": 9,
+          "mean": -13.777777777777779,
+          "median": -17.75,
+          "sum": -124.0,
+          "positive_events": 3,
+          "flat_events": 0,
+          "positive_pct": 33.33333333333333,
+          "minimum": -61.75,
+          "maximum": 29.25
+        },
+        "net_one_point": {
+          "events": 9,
+          "mean": -14.777777777777779,
+          "median": -18.75,
+          "sum": -133.0,
+          "positive_events": 3,
+          "flat_events": 0,
+          "positive_pct": 33.33333333333333,
+          "minimum": -62.75,
+          "maximum": 28.25
+        },
+        "net_mean_points_95": [
+          -34.44444444444444,
+          4.694444444444445
+        ]
+      },
+      {
+        "threshold": 0.2,
+        "eligible_sessions_including_zero": 56,
+        "selected_nonzero_events": 5,
+        "frequency_pct": 8.928571428571429,
+        "touch_events": 1,
+        "touch_pct": 20.0,
+        "gross_points": {
+          "events": 5,
+          "mean": -13.85,
+          "median": -17.75,
+          "sum": -69.25,
+          "positive_events": 1,
+          "flat_events": 0,
+          "positive_pct": 20.0,
+          "minimum": -55.0,
+          "maximum": 29.25
+        },
+        "net_one_point": {
+          "events": 5,
+          "mean": -14.85,
+          "median": -18.75,
+          "sum": -74.25,
+          "positive_events": 1,
+          "flat_events": 0,
+          "positive_pct": 20.0,
+          "minimum": -56.0,
+          "maximum": 28.25
+        },
+        "net_mean_points_95": [
+          -39.15,
+          9.45
+        ]
+      },
+      {
+        "threshold": 0.25,
+        "eligible_sessions_including_zero": 56,
+        "selected_nonzero_events": 4,
+        "frequency_pct": 7.142857142857143,
+        "touch_events": 0,
+        "touch_pct": 0.0,
+        "gross_points": {
+          "events": 4,
+          "mean": -24.625,
+          "median": -19.75,
+          "sum": -98.5,
+          "positive_events": 0,
+          "flat_events": 0,
+          "positive_pct": 0.0,
+          "minimum": -55.0,
+          "maximum": -4.0
+        },
+        "net_one_point": {
+          "events": 4,
+          "mean": -25.625,
+          "median": -20.75,
+          "sum": -102.5,
+          "positive_events": 0,
+          "flat_events": 0,
+          "positive_pct": 0.0,
+          "minimum": -56.0,
+          "maximum": -5.0
+        },
+        "net_mean_points_95": [
+          -46.6875,
+          -9.4375
+        ]
+      },
+      {
+        "threshold": 0.3,
+        "eligible_sessions_including_zero": 56,
+        "selected_nonzero_events": 4,
+        "frequency_pct": 7.142857142857143,
+        "touch_events": 0,
+        "touch_pct": 0.0,
+        "gross_points": {
+          "events": 4,
+          "mean": -24.625,
+          "median": -19.75,
+          "sum": -98.5,
+          "positive_events": 0,
+          "flat_events": 0,
+          "positive_pct": 0.0,
+          "minimum": -55.0,
+          "maximum": -4.0
+        },
+        "net_one_point": {
+          "events": 4,
+          "mean": -25.625,
+          "median": -20.75,
+          "sum": -102.5,
+          "positive_events": 0,
+          "flat_events": 0,
+          "positive_pct": 0.0,
+          "minimum": -56.0,
+          "maximum": -5.0
+        },
+        "net_mean_points_95": [
+          -46.6875,
+          -9.4375
+        ]
+      },
+      {
+        "threshold": 0.4,
+        "eligible_sessions_including_zero": 56,
+        "selected_nonzero_events": 3,
+        "frequency_pct": 5.357142857142857,
+        "touch_events": 0,
+        "touch_pct": 0.0,
+        "gross_points": {
+          "events": 3,
+          "mean": -31.5,
+          "median": -21.75,
+          "sum": -94.5,
+          "positive_events": 0,
+          "flat_events": 0,
+          "positive_pct": 0.0,
+          "minimum": -55.0,
+          "maximum": -17.75
+        },
+        "net_one_point": {
+          "events": 3,
+          "mean": -32.5,
+          "median": -22.75,
+          "sum": -97.5,
+          "positive_events": 0,
+          "flat_events": 0,
+          "positive_pct": 0.0,
+          "minimum": -56.0,
+          "maximum": -18.75
+        },
+        "net_mean_points_95": [
+          -56.0,
+          -18.75
+        ]
+      },
+      {
+        "threshold": 0.5,
+        "eligible_sessions_including_zero": 56,
+        "selected_nonzero_events": 2,
+        "frequency_pct": 3.5714285714285716,
+        "touch_events": 0,
+        "touch_pct": 0.0,
+        "gross_points": {
+          "events": 2,
+          "mean": -19.75,
+          "median": -19.75,
+          "sum": -39.5,
+          "positive_events": 0,
+          "flat_events": 0,
+          "positive_pct": 0.0,
+          "minimum": -21.75,
+          "maximum": -17.75
+        },
+        "net_one_point": {
+          "events": 2,
+          "mean": -20.75,
+          "median": -20.75,
+          "sum": -41.5,
+          "positive_events": 0,
+          "flat_events": 0,
+          "positive_pct": 0.0,
+          "minimum": -22.75,
+          "maximum": -18.75
+        },
+        "net_mean_points_95": [
+          -22.75,
+          -18.75
+        ]
+      },
+      {
+        "threshold": 1.0,
+        "eligible_sessions_including_zero": 56,
+        "selected_nonzero_events": 1,
+        "frequency_pct": 1.7857142857142858,
+        "touch_events": 0,
+        "touch_pct": 0.0,
+        "gross_points": {
+          "events": 1,
+          "mean": -21.75,
+          "median": -21.75,
+          "sum": -21.75,
+          "positive_events": 0,
+          "flat_events": 0,
+          "positive_pct": 0.0,
+          "minimum": -21.75,
+          "maximum": -21.75
+        },
+        "net_one_point": {
+          "events": 1,
+          "mean": -22.75,
+          "median": -22.75,
+          "sum": -22.75,
+          "positive_events": 0,
+          "flat_events": 0,
+          "positive_pct": 0.0,
+          "minimum": -22.75,
+          "maximum": -22.75
+        },
+        "net_mean_points_95": [
+          -22.75,
+          -22.75
+        ]
+      }
+    ],
+    "atr14_fraction": [
+      {
+        "threshold": 0,
+        "eligible_sessions_including_zero": 56,
+        "selected_nonzero_events": 51,
+        "frequency_pct": 91.07142857142857,
+        "touch_events": 41,
+        "touch_pct": 80.3921568627451,
+        "gross_points": {
+          "events": 51,
+          "mean": -2.7892156862745097,
+          "median": 1.5,
+          "sum": -142.25,
+          "positive_events": 41,
+          "flat_events": 0,
+          "positive_pct": 80.3921568627451,
+          "minimum": -61.75,
+          "maximum": 29.25
+        },
+        "net_one_point": {
+          "events": 51,
+          "mean": -3.7892156862745097,
+          "median": 0.5,
+          "sum": -193.25,
+          "positive_events": 28,
+          "flat_events": 4,
+          "positive_pct": 54.90196078431373,
+          "minimum": -62.75,
+          "maximum": 28.25
+        },
+        "net_mean_points_95": [
+          -9.110314542483659,
+          0.9167187499999994
+        ]
+      },
+      {
+        "threshold": 0.01,
+        "eligible_sessions_including_zero": 56,
+        "selected_nonzero_events": 41,
+        "frequency_pct": 73.21428571428571,
+        "touch_events": 31,
+        "touch_pct": 75.60975609756098,
+        "gross_points": {
+          "events": 41,
+          "mean": -3.6036585365853657,
+          "median": 3.0,
+          "sum": -147.75,
+          "positive_events": 31,
+          "flat_events": 0,
+          "positive_pct": 75.60975609756098,
+          "minimum": -61.75,
+          "maximum": 29.25
+        },
+        "net_one_point": {
+          "events": 41,
+          "mean": -4.603658536585366,
+          "median": 2.0,
+          "sum": -188.75,
+          "positive_events": 28,
+          "flat_events": 3,
+          "positive_pct": 68.29268292682927,
+          "minimum": -62.75,
+          "maximum": 28.25
+        },
+        "net_mean_points_95": [
+          -11.56564484126984,
+          1.2432732732732732
+        ]
+      },
+      {
+        "threshold": 0.02,
+        "eligible_sessions_including_zero": 56,
+        "selected_nonzero_events": 31,
+        "frequency_pct": 55.357142857142854,
+        "touch_events": 21,
+        "touch_pct": 67.74193548387096,
+        "gross_points": {
+          "events": 31,
+          "mean": -5.306451612903226,
+          "median": 3.5,
+          "sum": -164.5,
+          "positive_events": 21,
+          "flat_events": 0,
+          "positive_pct": 67.74193548387096,
+          "minimum": -61.75,
+          "maximum": 29.25
+        },
+        "net_one_point": {
+          "events": 31,
+          "mean": -6.306451612903226,
+          "median": 2.5,
+          "sum": -195.5,
+          "positive_events": 21,
+          "flat_events": 0,
+          "positive_pct": 67.74193548387096,
+          "minimum": -62.75,
+          "maximum": 28.25
+        },
+        "net_mean_points_95": [
+          -13.757724201474202,
+          1.4711805555555553
+        ]
+      },
+      {
+        "threshold": 0.03,
+        "eligible_sessions_including_zero": 56,
+        "selected_nonzero_events": 27,
+        "frequency_pct": 48.214285714285715,
+        "touch_events": 18,
+        "touch_pct": 66.66666666666667,
+        "gross_points": {
+          "events": 27,
+          "mean": -5.2407407407407405,
+          "median": 3.75,
+          "sum": -141.5,
+          "positive_events": 18,
+          "flat_events": 0,
+          "positive_pct": 66.66666666666666,
+          "minimum": -61.75,
+          "maximum": 29.25
+        },
+        "net_one_point": {
+          "events": 27,
+          "mean": -6.2407407407407405,
+          "median": 2.75,
+          "sum": -168.5,
+          "positive_events": 18,
+          "flat_events": 0,
+          "positive_pct": 66.66666666666666,
+          "minimum": -62.75,
+          "maximum": 28.25
+        },
+        "net_mean_points_95": [
+          -14.0,
+          1.6501562499999975
+        ]
+      },
+      {
+        "threshold": 0.05,
+        "eligible_sessions_including_zero": 56,
+        "selected_nonzero_events": 18,
+        "frequency_pct": 32.142857142857146,
+        "touch_events": 11,
+        "touch_pct": 61.111111111111114,
+        "gross_points": {
+          "events": 18,
+          "mean": -5.319444444444445,
+          "median": 5.25,
+          "sum": -95.75,
+          "positive_events": 11,
+          "flat_events": 0,
+          "positive_pct": 61.111111111111114,
+          "minimum": -61.75,
+          "maximum": 29.25
+        },
+        "net_one_point": {
+          "events": 18,
+          "mean": -6.319444444444445,
+          "median": 4.25,
+          "sum": -113.75,
+          "positive_events": 11,
+          "flat_events": 0,
+          "positive_pct": 61.111111111111114,
+          "minimum": -62.75,
+          "maximum": 28.25
+        },
+        "net_mean_points_95": [
+          -16.86921052631579,
+          4.140625
+        ]
+      },
+      {
+        "threshold": 0.075,
+        "eligible_sessions_including_zero": 56,
+        "selected_nonzero_events": 11,
+        "frequency_pct": 19.642857142857142,
+        "touch_events": 5,
+        "touch_pct": 45.45454545454545,
+        "gross_points": {
+          "events": 11,
+          "mean": -9.227272727272727,
+          "median": -4.0,
+          "sum": -101.5,
+          "positive_events": 5,
+          "flat_events": 0,
+          "positive_pct": 45.45454545454545,
+          "minimum": -61.75,
+          "maximum": 29.25
+        },
+        "net_one_point": {
+          "events": 11,
+          "mean": -10.227272727272727,
+          "median": -5.0,
+          "sum": -112.5,
+          "positive_events": 5,
+          "flat_events": 0,
+          "positive_pct": 45.45454545454545,
+          "minimum": -62.75,
+          "maximum": 28.25
+        },
+        "net_mean_points_95": [
+          -28.364204545454545,
+          5.9551136363636274
+        ]
+      },
+      {
+        "threshold": 0.1,
+        "eligible_sessions_including_zero": 56,
+        "selected_nonzero_events": 10,
+        "frequency_pct": 17.857142857142858,
+        "touch_events": 4,
+        "touch_pct": 40.0,
+        "gross_points": {
+          "events": 10,
+          "mean": -10.95,
+          "median": -10.875,
+          "sum": -109.5,
+          "positive_events": 4,
+          "flat_events": 0,
+          "positive_pct": 40.0,
+          "minimum": -61.75,
+          "maximum": 29.25
+        },
+        "net_one_point": {
+          "events": 10,
+          "mean": -11.95,
+          "median": -11.875,
+          "sum": -119.5,
+          "positive_events": 4,
+          "flat_events": 0,
+          "positive_pct": 40.0,
+          "minimum": -62.75,
+          "maximum": 28.25
+        },
+        "net_mean_points_95": [
+          -30.825,
+          6.351874999999972
+        ]
+      },
+      {
+        "threshold": 0.15,
+        "eligible_sessions_including_zero": 56,
+        "selected_nonzero_events": 8,
+        "frequency_pct": 14.285714285714286,
+        "touch_events": 2,
+        "touch_pct": 25.0,
+        "gross_points": {
+          "events": 8,
+          "mean": -16.9375,
+          "median": -19.75,
+          "sum": -135.5,
+          "positive_events": 2,
+          "flat_events": 0,
+          "positive_pct": 25.0,
+          "minimum": -61.75,
+          "maximum": 29.25
+        },
+        "net_one_point": {
+          "events": 8,
+          "mean": -17.9375,
+          "median": -20.75,
+          "sum": -143.5,
+          "positive_events": 2,
+          "flat_events": 0,
+          "positive_pct": 25.0,
+          "minimum": -62.75,
+          "maximum": 28.25
+        },
+        "net_mean_points_95": [
+          -39.0625,
+          3.34375
+        ]
+      },
+      {
+        "threshold": 0.2,
+        "eligible_sessions_including_zero": 56,
+        "selected_nonzero_events": 7,
+        "frequency_pct": 12.5,
+        "touch_events": 2,
+        "touch_pct": 28.571428571428573,
+        "gross_points": {
+          "events": 7,
+          "mean": -10.535714285714286,
+          "median": -17.75,
+          "sum": -73.75,
+          "positive_events": 2,
+          "flat_events": 0,
+          "positive_pct": 28.57142857142857,
+          "minimum": -55.0,
+          "maximum": 29.25
+        },
+        "net_one_point": {
+          "events": 7,
+          "mean": -11.535714285714286,
+          "median": -18.75,
+          "sum": -80.75,
+          "positive_events": 2,
+          "flat_events": 0,
+          "positive_pct": 28.57142857142857,
+          "minimum": -56.0,
+          "maximum": 28.25
+        },
+        "net_mean_points_95": [
+          -31.714285714285715,
+          8.642857142857142
+        ]
+      },
+      {
+        "threshold": 0.25,
+        "eligible_sessions_including_zero": 56,
+        "selected_nonzero_events": 6,
+        "frequency_pct": 10.714285714285714,
+        "touch_events": 1,
+        "touch_pct": 16.666666666666668,
+        "gross_points": {
+          "events": 6,
+          "mean": -16.166666666666668,
+          "median": -19.75,
+          "sum": -97.0,
+          "positive_events": 1,
+          "flat_events": 0,
+          "positive_pct": 16.666666666666664,
+          "minimum": -55.0,
+          "maximum": 29.25
+        },
+        "net_one_point": {
+          "events": 6,
+          "mean": -17.166666666666668,
+          "median": -20.75,
+          "sum": -103.0,
+          "positive_events": 1,
+          "flat_events": 0,
+          "positive_pct": 16.666666666666664,
+          "minimum": -56.0,
+          "maximum": 28.25
+        },
+        "net_mean_points_95": [
+          -36.75,
+          4.708333333333333
+        ]
+      },
+      {
+        "threshold": 0.3,
+        "eligible_sessions_including_zero": 56,
+        "selected_nonzero_events": 5,
+        "frequency_pct": 8.928571428571429,
+        "touch_events": 1,
+        "touch_pct": 20.0,
+        "gross_points": {
+          "events": 5,
+          "mean": -13.85,
+          "median": -17.75,
+          "sum": -69.25,
+          "positive_events": 1,
+          "flat_events": 0,
+          "positive_pct": 20.0,
+          "minimum": -55.0,
+          "maximum": 29.25
+        },
+        "net_one_point": {
+          "events": 5,
+          "mean": -14.85,
+          "median": -18.75,
+          "sum": -74.25,
+          "positive_events": 1,
+          "flat_events": 0,
+          "positive_pct": 20.0,
+          "minimum": -56.0,
+          "maximum": 28.25
+        },
+        "net_mean_points_95": [
+          -39.15,
+          9.45
+        ]
+      },
+      {
+        "threshold": 0.4,
+        "eligible_sessions_including_zero": 56,
+        "selected_nonzero_events": 3,
+        "frequency_pct": 5.357142857142857,
+        "touch_events": 0,
+        "touch_pct": 0.0,
+        "gross_points": {
+          "events": 3,
+          "mean": -14.5,
+          "median": -17.75,
+          "sum": -43.5,
+          "positive_events": 0,
+          "flat_events": 0,
+          "positive_pct": 0.0,
+          "minimum": -21.75,
+          "maximum": -4.0
+        },
+        "net_one_point": {
+          "events": 3,
+          "mean": -15.5,
+          "median": -18.75,
+          "sum": -46.5,
+          "positive_events": 0,
+          "flat_events": 0,
+          "positive_pct": 0.0,
+          "minimum": -22.75,
+          "maximum": -5.0
+        },
+        "net_mean_points_95": [
+          -22.75,
+          -5.0
+        ]
+      },
+      {
+        "threshold": 0.5,
+        "eligible_sessions_including_zero": 56,
+        "selected_nonzero_events": 3,
+        "frequency_pct": 5.357142857142857,
+        "touch_events": 0,
+        "touch_pct": 0.0,
+        "gross_points": {
+          "events": 3,
+          "mean": -14.5,
+          "median": -17.75,
+          "sum": -43.5,
+          "positive_events": 0,
+          "flat_events": 0,
+          "positive_pct": 0.0,
+          "minimum": -21.75,
+          "maximum": -4.0
+        },
+        "net_one_point": {
+          "events": 3,
+          "mean": -15.5,
+          "median": -18.75,
+          "sum": -46.5,
+          "positive_events": 0,
+          "flat_events": 0,
+          "positive_pct": 0.0,
+          "minimum": -22.75,
+          "maximum": -5.0
+        },
+        "net_mean_points_95": [
+          -22.75,
+          -5.0
+        ]
+      },
+      {
+        "threshold": 1.0,
+        "eligible_sessions_including_zero": 56,
+        "selected_nonzero_events": 0,
+        "frequency_pct": 0.0,
+        "touch_events": 0,
+        "touch_pct": null,
+        "gross_points": {
+          "events": 0
+        },
+        "net_one_point": {
+          "events": 0
+        },
+        "net_mean_points_95": null
+      }
+    ]
+  },
+  "period_checks_two_point_threshold": {
+    "minute_earlier_year": {
+      "threshold": 2.0,
+      "eligible_sessions_including_zero": 205,
+      "selected_nonzero_events": 97,
+      "frequency_pct": 47.31707317073171,
+      "touch_events": 70,
+      "touch_pct": 72.16494845360825,
+      "gross_points": {
+        "events": 97,
+        "mean": -4.234536082474227,
+        "median": 2.75,
+        "sum": -410.75,
+        "positive_events": 70,
+        "flat_events": 0,
+        "positive_pct": 72.16494845360825,
+        "minimum": -104.25,
+        "maximum": 61.0
+      },
+      "net_one_point": {
+        "events": 97,
+        "mean": -5.234536082474227,
+        "median": 1.75,
+        "sum": -507.75,
+        "positive_events": 70,
+        "flat_events": 0,
+        "positive_pct": 72.16494845360825,
+        "minimum": -105.25,
+        "maximum": 60.0
+      },
+      "net_mean_points_95": [
+        -9.795554445554444,
+        -0.5388831615120275
+      ]
+    },
+    "minute_later_year": {
+      "threshold": 2.0,
+      "eligible_sessions_including_zero": 217,
+      "selected_nonzero_events": 110,
+      "frequency_pct": 50.69124423963134,
+      "touch_events": 91,
+      "touch_pct": 82.72727272727273,
+      "gross_points": {
+        "events": 110,
+        "mean": 3.397727272727273,
+        "median": 3.5,
+        "sum": 373.75,
+        "positive_events": 93,
+        "flat_events": 0,
+        "positive_pct": 84.54545454545455,
+        "minimum": -55.0,
+        "maximum": 78.5
+      },
+      "net_one_point": {
+        "events": 110,
+        "mean": 2.397727272727273,
+        "median": 2.5,
+        "sum": 263.75,
+        "positive_events": 93,
+        "flat_events": 0,
+        "positive_pct": 84.54545454545455,
+        "minimum": -56.0,
+        "maximum": 77.5
+      },
+      "net_mean_points_95": [
+        -0.549506065471412,
+        5.182053798811545
+      ]
+    },
+    "history_2017_2020": {
+      "threshold": 2.0,
+      "eligible_sessions_including_zero": 912,
+      "selected_nonzero_events": 200,
+      "frequency_pct": 21.92982456140351,
+      "touch_events": 137,
+      "touch_pct": 68.5,
+      "gross_points": {
+        "events": 200,
+        "mean": -1.475,
+        "median": 2.5,
+        "sum": -295.0,
+        "positive_events": 148,
+        "flat_events": 0,
+        "positive_pct": 74.0,
+        "minimum": -118.0,
+        "maximum": 61.0
+      },
+      "net_one_point": {
+        "events": 200,
+        "mean": -2.475,
+        "median": 1.5,
+        "sum": -495.0,
+        "positive_events": 147,
+        "flat_events": 0,
+        "positive_pct": 73.5,
+        "minimum": -119.0,
+        "maximum": 60.0
+      },
+      "net_mean_points_95": [
+        -4.848498572683356,
+        -0.21027549342105345
+      ]
+    },
+    "history_2021_2023": {
+      "threshold": 2.0,
+      "eligible_sessions_including_zero": 705,
+      "selected_nonzero_events": 188,
+      "frequency_pct": 26.666666666666668,
+      "touch_events": 142,
+      "touch_pct": 75.53191489361703,
+      "gross_points": {
+        "events": 188,
+        "mean": -1.9867021276595744,
+        "median": 2.75,
+        "sum": -373.5,
+        "positive_events": 147,
+        "flat_events": 0,
+        "positive_pct": 78.19148936170212,
+        "minimum": -104.25,
+        "maximum": 24.0
+      },
+      "net_one_point": {
+        "events": 188,
+        "mean": -2.9867021276595747,
+        "median": 1.75,
+        "sum": -561.5,
+        "positive_events": 146,
+        "flat_events": 0,
+        "positive_pct": 77.6595744680851,
+        "minimum": -105.25,
+        "maximum": 23.0
+      },
+      "net_mean_points_95": [
+        -5.541720360824742,
+        -0.6398110771236589
+      ]
+    },
+    "history_2024_oct2026": {
+      "threshold": 2.0,
+      "eligible_sessions_including_zero": 631,
+      "selected_nonzero_events": 272,
+      "frequency_pct": 43.10618066561014,
+      "touch_events": 213,
+      "touch_pct": 78.30882352941177,
+      "gross_points": {
+        "events": 272,
+        "mean": -0.7352941176470589,
+        "median": 3.25,
+        "sum": -200.0,
+        "positive_events": 216,
+        "flat_events": 0,
+        "positive_pct": 79.41176470588235,
+        "minimum": -170.5,
+        "maximum": 78.5
+      },
+      "net_one_point": {
+        "events": 272,
+        "mean": -1.7352941176470589,
+        "median": 2.25,
+        "sum": -472.0,
+        "positive_events": 216,
+        "flat_events": 0,
+        "positive_pct": 79.41176470588235,
+        "minimum": -171.5,
+        "maximum": 77.5
+      },
+      "net_mean_points_95": [
+        -4.278224587268884,
+        0.6505947405431938
+      ]
+    }
+  },
+  "resampling": {
+    "draws": 10000,
+    "seed": 20261015,
+    "unit": "Monday\u2013Sunday calendar week of actual morning date",
+    "selection_adjustment": false
+  },
+  "limitations": [
+    "Threshold grid previously explored; no threshold selected on an untouched holdout.",
+    "Observed session ranges can be understated by missing minutes or short source sessions.",
+    "Wilder ATR uses earlier observed source sessions, not future/current-session ranges.",
+    "Historical slot input permits missing minutes and has source/roll segments, not independently verified dated-contract history.",
+    "All fills, same-minute timing and one-point cost remain assumptions."
+  ]
+}
