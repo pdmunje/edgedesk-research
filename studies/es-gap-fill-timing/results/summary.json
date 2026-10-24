@@ -1,0 +1,1923 @@
+{
+  "question": "When do ES reopen gaps first touch the required prior close?",
+  "source_sha256": "b9e1acf1ee029db919e6e5feba38bd985d06a84af8193c11ce93722606c6356c",
+  "checks": {
+    "source_rows": 707321,
+    "source_session_dates": 518,
+    "evening_candidates": 517,
+    "sequential_exclusions": {
+      "missing_required_close": 24,
+      "target_contract_change": 8,
+      "missing_or_misaligned_full_day": 67,
+      "flagged_or_mixed_contract_full_day": 8,
+      "zero_gap": 21
+    },
+    "first_morning_date": "2024-08-29",
+    "last_morning_date": "2026-08-28",
+    "old_events_absent_from_main": [
+      "2025-01-02",
+      "2025-04-21",
+      "2026-01-02"
+    ],
+    "main_only_events_with_prior_session_degraded": 5,
+    "old_inclusive_cutoff_counts": {
+      "5": 231,
+      "60": 281
+    }
+  },
+  "main": {
+    "events": 389,
+    "overnight_touches": 341,
+    "cumulative": [
+      {
+        "before_minute": 1,
+        "touches": 197,
+        "pct_all_gaps": 50.6426735218509,
+        "pct_overnight_touches": 57.77126099706745
+      },
+      {
+        "before_minute": 2,
+        "touches": 209,
+        "pct_all_gaps": 53.72750642673522,
+        "pct_overnight_touches": 61.29032258064516
+      },
+      {
+        "before_minute": 5,
+        "touches": 229,
+        "pct_all_gaps": 58.868894601542415,
+        "pct_overnight_touches": 67.15542521994135
+      },
+      {
+        "before_minute": 10,
+        "touches": 247,
+        "pct_all_gaps": 63.49614395886889,
+        "pct_overnight_touches": 72.43401759530792
+      },
+      {
+        "before_minute": 15,
+        "touches": 252,
+        "pct_all_gaps": 64.78149100257069,
+        "pct_overnight_touches": 73.90029325513197
+      },
+      {
+        "before_minute": 30,
+        "touches": 269,
+        "pct_all_gaps": 69.15167095115682,
+        "pct_overnight_touches": 78.88563049853373
+      },
+      {
+        "before_minute": 60,
+        "touches": 283,
+        "pct_all_gaps": 72.75064267352185,
+        "pct_overnight_touches": 82.99120234604105
+      },
+      {
+        "before_minute": 120,
+        "touches": 296,
+        "pct_all_gaps": 76.09254498714652,
+        "pct_overnight_touches": 86.80351906158357
+      },
+      {
+        "before_minute": 240,
+        "touches": 314,
+        "pct_all_gaps": 80.719794344473,
+        "pct_overnight_touches": 92.08211143695014
+      },
+      {
+        "before_minute": 360,
+        "touches": 319,
+        "pct_all_gaps": 82.0051413881748,
+        "pct_overnight_touches": 93.54838709677419
+      },
+      {
+        "before_minute": 600,
+        "touches": 329,
+        "pct_all_gaps": 84.5758354755784,
+        "pct_overnight_touches": 96.48093841642229
+      },
+      {
+        "before_minute": 930,
+        "touches": 341,
+        "pct_all_gaps": 87.66066838046272,
+        "pct_overnight_touches": 100.0
+      },
+      {
+        "before_minute": 1380,
+        "touches": 360,
+        "pct_all_gaps": 92.54498714652956,
+        "pct_overnight_touches": null
+      }
+    ],
+    "exclusive_buckets": [
+      {
+        "from_minute": 0,
+        "before_minute": 1,
+        "events": 197
+      },
+      {
+        "from_minute": 1,
+        "before_minute": 5,
+        "events": 32
+      },
+      {
+        "from_minute": 5,
+        "before_minute": 15,
+        "events": 23
+      },
+      {
+        "from_minute": 15,
+        "before_minute": 30,
+        "events": 17
+      },
+      {
+        "from_minute": 30,
+        "before_minute": 60,
+        "events": 14
+      },
+      {
+        "from_minute": 60,
+        "before_minute": 120,
+        "events": 13
+      },
+      {
+        "from_minute": 120,
+        "before_minute": 360,
+        "events": 23
+      },
+      {
+        "from_minute": 360,
+        "before_minute": 930,
+        "events": 22
+      },
+      {
+        "from_minute": 930,
+        "before_minute": 1380,
+        "events": 19
+      }
+    ],
+    "no_touch_before_1700": 29,
+    "conditional": [
+      {
+        "still_open_at_minute": 1,
+        "still_open": 192,
+        "later_overnight_touches": 144,
+        "pct_remaining": 75.0
+      },
+      {
+        "still_open_at_minute": 5,
+        "still_open": 160,
+        "later_overnight_touches": 112,
+        "pct_remaining": 70.0
+      },
+      {
+        "still_open_at_minute": 15,
+        "still_open": 137,
+        "later_overnight_touches": 89,
+        "pct_remaining": 64.96350364963503
+      },
+      {
+        "still_open_at_minute": 30,
+        "still_open": 120,
+        "later_overnight_touches": 72,
+        "pct_remaining": 60.0
+      },
+      {
+        "still_open_at_minute": 60,
+        "still_open": 106,
+        "later_overnight_touches": 58,
+        "pct_remaining": 54.716981132075475
+      },
+      {
+        "still_open_at_minute": 120,
+        "still_open": 93,
+        "later_overnight_touches": 45,
+        "pct_remaining": 48.38709677419355
+      },
+      {
+        "still_open_at_minute": 360,
+        "still_open": 70,
+        "later_overnight_touches": 22,
+        "pct_remaining": 31.428571428571427
+      }
+    ]
+  },
+  "original_observed_target_sample": {
+    "events": 387,
+    "overnight_touches": 338,
+    "cumulative": [
+      {
+        "before_minute": 1,
+        "touches": 193,
+        "pct_all_gaps": 49.87080103359173,
+        "pct_overnight_touches": 57.10059171597633
+      },
+      {
+        "before_minute": 2,
+        "touches": 205,
+        "pct_all_gaps": 52.97157622739018,
+        "pct_overnight_touches": 60.650887573964496
+      },
+      {
+        "before_minute": 5,
+        "touches": 225,
+        "pct_all_gaps": 58.13953488372093,
+        "pct_overnight_touches": 66.5680473372781
+      },
+      {
+        "before_minute": 10,
+        "touches": 243,
+        "pct_all_gaps": 62.7906976744186,
+        "pct_overnight_touches": 71.89349112426035
+      },
+      {
+        "before_minute": 15,
+        "touches": 248,
+        "pct_all_gaps": 64.08268733850129,
+        "pct_overnight_touches": 73.37278106508876
+      },
+      {
+        "before_minute": 30,
+        "touches": 265,
+        "pct_all_gaps": 68.47545219638243,
+        "pct_overnight_touches": 78.40236686390533
+      },
+      {
+        "before_minute": 60,
+        "touches": 280,
+        "pct_all_gaps": 72.3514211886305,
+        "pct_overnight_touches": 82.84023668639053
+      },
+      {
+        "before_minute": 120,
+        "touches": 293,
+        "pct_all_gaps": 75.71059431524547,
+        "pct_overnight_touches": 86.68639053254438
+      },
+      {
+        "before_minute": 240,
+        "touches": 311,
+        "pct_all_gaps": 80.36175710594316,
+        "pct_overnight_touches": 92.01183431952663
+      },
+      {
+        "before_minute": 360,
+        "touches": 316,
+        "pct_all_gaps": 81.65374677002583,
+        "pct_overnight_touches": 93.49112426035504
+      },
+      {
+        "before_minute": 600,
+        "touches": 326,
+        "pct_all_gaps": 84.23772609819122,
+        "pct_overnight_touches": 96.44970414201184
+      },
+      {
+        "before_minute": 930,
+        "touches": 338,
+        "pct_all_gaps": 87.33850129198966,
+        "pct_overnight_touches": 100.0
+      },
+      {
+        "before_minute": 1380,
+        "touches": 358,
+        "pct_all_gaps": 92.50645994832041,
+        "pct_overnight_touches": null
+      }
+    ],
+    "exclusive_buckets": [
+      {
+        "from_minute": 0,
+        "before_minute": 1,
+        "events": 193
+      },
+      {
+        "from_minute": 1,
+        "before_minute": 5,
+        "events": 32
+      },
+      {
+        "from_minute": 5,
+        "before_minute": 15,
+        "events": 23
+      },
+      {
+        "from_minute": 15,
+        "before_minute": 30,
+        "events": 17
+      },
+      {
+        "from_minute": 30,
+        "before_minute": 60,
+        "events": 15
+      },
+      {
+        "from_minute": 60,
+        "before_minute": 120,
+        "events": 13
+      },
+      {
+        "from_minute": 120,
+        "before_minute": 360,
+        "events": 23
+      },
+      {
+        "from_minute": 360,
+        "before_minute": 930,
+        "events": 22
+      },
+      {
+        "from_minute": 930,
+        "before_minute": 1380,
+        "events": 20
+      }
+    ],
+    "no_touch_before_1700": 29,
+    "conditional": [
+      {
+        "still_open_at_minute": 1,
+        "still_open": 194,
+        "later_overnight_touches": 145,
+        "pct_remaining": 74.74226804123711
+      },
+      {
+        "still_open_at_minute": 5,
+        "still_open": 162,
+        "later_overnight_touches": 113,
+        "pct_remaining": 69.75308641975309
+      },
+      {
+        "still_open_at_minute": 15,
+        "still_open": 139,
+        "later_overnight_touches": 90,
+        "pct_remaining": 64.74820143884892
+      },
+      {
+        "still_open_at_minute": 30,
+        "still_open": 122,
+        "later_overnight_touches": 73,
+        "pct_remaining": 59.83606557377049
+      },
+      {
+        "still_open_at_minute": 60,
+        "still_open": 107,
+        "later_overnight_touches": 58,
+        "pct_remaining": 54.205607476635514
+      },
+      {
+        "still_open_at_minute": 120,
+        "still_open": 94,
+        "later_overnight_touches": 45,
+        "pct_remaining": 47.87234042553192
+      },
+      {
+        "still_open_at_minute": 360,
+        "still_open": 71,
+        "later_overnight_touches": 22,
+        "pct_remaining": 30.985915492957748
+      }
+    ]
+  },
+  "overnight_only_comparator": {
+    "events": 400,
+    "overnight_touches": 350,
+    "cumulative": [
+      {
+        "before_minute": 1,
+        "touches": 203,
+        "pct_all_gaps": 50.75,
+        "pct_overnight_touches": 58.0
+      },
+      {
+        "before_minute": 2,
+        "touches": 215,
+        "pct_all_gaps": 53.75,
+        "pct_overnight_touches": 61.42857142857143
+      },
+      {
+        "before_minute": 5,
+        "touches": 236,
+        "pct_all_gaps": 59.0,
+        "pct_overnight_touches": 67.42857142857143
+      },
+      {
+        "before_minute": 10,
+        "touches": 255,
+        "pct_all_gaps": 63.75,
+        "pct_overnight_touches": 72.85714285714286
+      },
+      {
+        "before_minute": 15,
+        "touches": 260,
+        "pct_all_gaps": 65.0,
+        "pct_overnight_touches": 74.28571428571429
+      },
+      {
+        "before_minute": 30,
+        "touches": 277,
+        "pct_all_gaps": 69.25,
+        "pct_overnight_touches": 79.14285714285714
+      },
+      {
+        "before_minute": 60,
+        "touches": 291,
+        "pct_all_gaps": 72.75,
+        "pct_overnight_touches": 83.14285714285714
+      },
+      {
+        "before_minute": 120,
+        "touches": 304,
+        "pct_all_gaps": 76.0,
+        "pct_overnight_touches": 86.85714285714286
+      },
+      {
+        "before_minute": 240,
+        "touches": 322,
+        "pct_all_gaps": 80.5,
+        "pct_overnight_touches": 92.0
+      },
+      {
+        "before_minute": 360,
+        "touches": 328,
+        "pct_all_gaps": 82.0,
+        "pct_overnight_touches": 93.71428571428571
+      },
+      {
+        "before_minute": 600,
+        "touches": 338,
+        "pct_all_gaps": 84.5,
+        "pct_overnight_touches": 96.57142857142857
+      },
+      {
+        "before_minute": 930,
+        "touches": 350,
+        "pct_all_gaps": 87.5,
+        "pct_overnight_touches": 100.0
+      }
+    ],
+    "conditional": [
+      {
+        "still_open_at_minute": 1,
+        "still_open": 197,
+        "later_overnight_touches": 147,
+        "pct_remaining": 74.61928934010152
+      },
+      {
+        "still_open_at_minute": 5,
+        "still_open": 164,
+        "later_overnight_touches": 114,
+        "pct_remaining": 69.51219512195122
+      },
+      {
+        "still_open_at_minute": 15,
+        "still_open": 140,
+        "later_overnight_touches": 90,
+        "pct_remaining": 64.28571428571429
+      },
+      {
+        "still_open_at_minute": 30,
+        "still_open": 123,
+        "later_overnight_touches": 73,
+        "pct_remaining": 59.34959349593496
+      },
+      {
+        "still_open_at_minute": 60,
+        "still_open": 109,
+        "later_overnight_touches": 59,
+        "pct_remaining": 54.12844036697248
+      },
+      {
+        "still_open_at_minute": 120,
+        "still_open": 96,
+        "later_overnight_touches": 46,
+        "pct_remaining": 47.916666666666664
+      },
+      {
+        "still_open_at_minute": 360,
+        "still_open": 72,
+        "later_overnight_touches": 22,
+        "pct_remaining": 30.555555555555557
+      }
+    ]
+  },
+  "groups": {
+    "sunday_reopen": {
+      "events": 74,
+      "overnight_touches": 43,
+      "cumulative": [
+        {
+          "before_minute": 1,
+          "touches": 14,
+          "pct_all_gaps": 18.91891891891892,
+          "pct_overnight_touches": 32.55813953488372
+        },
+        {
+          "before_minute": 2,
+          "touches": 17,
+          "pct_all_gaps": 22.972972972972972,
+          "pct_overnight_touches": 39.53488372093023
+        },
+        {
+          "before_minute": 5,
+          "touches": 19,
+          "pct_all_gaps": 25.675675675675677,
+          "pct_overnight_touches": 44.18604651162791
+        },
+        {
+          "before_minute": 10,
+          "touches": 20,
+          "pct_all_gaps": 27.027027027027028,
+          "pct_overnight_touches": 46.51162790697674
+        },
+        {
+          "before_minute": 15,
+          "touches": 20,
+          "pct_all_gaps": 27.027027027027028,
+          "pct_overnight_touches": 46.51162790697674
+        },
+        {
+          "before_minute": 30,
+          "touches": 21,
+          "pct_all_gaps": 28.37837837837838,
+          "pct_overnight_touches": 48.83720930232558
+        },
+        {
+          "before_minute": 60,
+          "touches": 23,
+          "pct_all_gaps": 31.08108108108108,
+          "pct_overnight_touches": 53.48837209302326
+        },
+        {
+          "before_minute": 120,
+          "touches": 27,
+          "pct_all_gaps": 36.486486486486484,
+          "pct_overnight_touches": 62.7906976744186
+        },
+        {
+          "before_minute": 240,
+          "touches": 30,
+          "pct_all_gaps": 40.54054054054054,
+          "pct_overnight_touches": 69.76744186046511
+        },
+        {
+          "before_minute": 360,
+          "touches": 32,
+          "pct_all_gaps": 43.24324324324324,
+          "pct_overnight_touches": 74.4186046511628
+        },
+        {
+          "before_minute": 600,
+          "touches": 34,
+          "pct_all_gaps": 45.945945945945944,
+          "pct_overnight_touches": 79.06976744186046
+        },
+        {
+          "before_minute": 930,
+          "touches": 43,
+          "pct_all_gaps": 58.108108108108105,
+          "pct_overnight_touches": 100.0
+        },
+        {
+          "before_minute": 1380,
+          "touches": 56,
+          "pct_all_gaps": 75.67567567567568,
+          "pct_overnight_touches": null
+        }
+      ],
+      "exclusive_buckets": [
+        {
+          "from_minute": 0,
+          "before_minute": 1,
+          "events": 14
+        },
+        {
+          "from_minute": 1,
+          "before_minute": 5,
+          "events": 5
+        },
+        {
+          "from_minute": 5,
+          "before_minute": 15,
+          "events": 1
+        },
+        {
+          "from_minute": 15,
+          "before_minute": 30,
+          "events": 1
+        },
+        {
+          "from_minute": 30,
+          "before_minute": 60,
+          "events": 2
+        },
+        {
+          "from_minute": 60,
+          "before_minute": 120,
+          "events": 4
+        },
+        {
+          "from_minute": 120,
+          "before_minute": 360,
+          "events": 5
+        },
+        {
+          "from_minute": 360,
+          "before_minute": 930,
+          "events": 11
+        },
+        {
+          "from_minute": 930,
+          "before_minute": 1380,
+          "events": 13
+        }
+      ],
+      "no_touch_before_1700": 18,
+      "conditional": [
+        {
+          "still_open_at_minute": 1,
+          "still_open": 60,
+          "later_overnight_touches": 29,
+          "pct_remaining": 48.333333333333336
+        },
+        {
+          "still_open_at_minute": 5,
+          "still_open": 55,
+          "later_overnight_touches": 24,
+          "pct_remaining": 43.63636363636363
+        },
+        {
+          "still_open_at_minute": 15,
+          "still_open": 54,
+          "later_overnight_touches": 23,
+          "pct_remaining": 42.592592592592595
+        },
+        {
+          "still_open_at_minute": 30,
+          "still_open": 53,
+          "later_overnight_touches": 22,
+          "pct_remaining": 41.509433962264154
+        },
+        {
+          "still_open_at_minute": 60,
+          "still_open": 51,
+          "later_overnight_touches": 20,
+          "pct_remaining": 39.21568627450981
+        },
+        {
+          "still_open_at_minute": 120,
+          "still_open": 47,
+          "later_overnight_touches": 16,
+          "pct_remaining": 34.04255319148936
+        },
+        {
+          "still_open_at_minute": 360,
+          "still_open": 42,
+          "later_overnight_touches": 11,
+          "pct_remaining": 26.19047619047619
+        }
+      ]
+    },
+    "other_weekday_reopens": {
+      "events": 315,
+      "overnight_touches": 298,
+      "cumulative": [
+        {
+          "before_minute": 1,
+          "touches": 183,
+          "pct_all_gaps": 58.095238095238095,
+          "pct_overnight_touches": 61.40939597315436
+        },
+        {
+          "before_minute": 2,
+          "touches": 192,
+          "pct_all_gaps": 60.95238095238095,
+          "pct_overnight_touches": 64.42953020134229
+        },
+        {
+          "before_minute": 5,
+          "touches": 210,
+          "pct_all_gaps": 66.66666666666667,
+          "pct_overnight_touches": 70.46979865771812
+        },
+        {
+          "before_minute": 10,
+          "touches": 227,
+          "pct_all_gaps": 72.06349206349206,
+          "pct_overnight_touches": 76.1744966442953
+        },
+        {
+          "before_minute": 15,
+          "touches": 232,
+          "pct_all_gaps": 73.65079365079364,
+          "pct_overnight_touches": 77.85234899328859
+        },
+        {
+          "before_minute": 30,
+          "touches": 248,
+          "pct_all_gaps": 78.73015873015873,
+          "pct_overnight_touches": 83.22147651006712
+        },
+        {
+          "before_minute": 60,
+          "touches": 260,
+          "pct_all_gaps": 82.53968253968254,
+          "pct_overnight_touches": 87.24832214765101
+        },
+        {
+          "before_minute": 120,
+          "touches": 269,
+          "pct_all_gaps": 85.39682539682539,
+          "pct_overnight_touches": 90.26845637583892
+        },
+        {
+          "before_minute": 240,
+          "touches": 284,
+          "pct_all_gaps": 90.15873015873017,
+          "pct_overnight_touches": 95.30201342281879
+        },
+        {
+          "before_minute": 360,
+          "touches": 287,
+          "pct_all_gaps": 91.11111111111111,
+          "pct_overnight_touches": 96.30872483221476
+        },
+        {
+          "before_minute": 600,
+          "touches": 295,
+          "pct_all_gaps": 93.65079365079364,
+          "pct_overnight_touches": 98.99328859060402
+        },
+        {
+          "before_minute": 930,
+          "touches": 298,
+          "pct_all_gaps": 94.60317460317461,
+          "pct_overnight_touches": 100.0
+        },
+        {
+          "before_minute": 1380,
+          "touches": 304,
+          "pct_all_gaps": 96.5079365079365,
+          "pct_overnight_touches": null
+        }
+      ],
+      "exclusive_buckets": [
+        {
+          "from_minute": 0,
+          "before_minute": 1,
+          "events": 183
+        },
+        {
+          "from_minute": 1,
+          "before_minute": 5,
+          "events": 27
+        },
+        {
+          "from_minute": 5,
+          "before_minute": 15,
+          "events": 22
+        },
+        {
+          "from_minute": 15,
+          "before_minute": 30,
+          "events": 16
+        },
+        {
+          "from_minute": 30,
+          "before_minute": 60,
+          "events": 12
+        },
+        {
+          "from_minute": 60,
+          "before_minute": 120,
+          "events": 9
+        },
+        {
+          "from_minute": 120,
+          "before_minute": 360,
+          "events": 18
+        },
+        {
+          "from_minute": 360,
+          "before_minute": 930,
+          "events": 11
+        },
+        {
+          "from_minute": 930,
+          "before_minute": 1380,
+          "events": 6
+        }
+      ],
+      "no_touch_before_1700": 11,
+      "conditional": [
+        {
+          "still_open_at_minute": 1,
+          "still_open": 132,
+          "later_overnight_touches": 115,
+          "pct_remaining": 87.12121212121212
+        },
+        {
+          "still_open_at_minute": 5,
+          "still_open": 105,
+          "later_overnight_touches": 88,
+          "pct_remaining": 83.80952380952381
+        },
+        {
+          "still_open_at_minute": 15,
+          "still_open": 83,
+          "later_overnight_touches": 66,
+          "pct_remaining": 79.51807228915662
+        },
+        {
+          "still_open_at_minute": 30,
+          "still_open": 67,
+          "later_overnight_touches": 50,
+          "pct_remaining": 74.6268656716418
+        },
+        {
+          "still_open_at_minute": 60,
+          "still_open": 55,
+          "later_overnight_touches": 38,
+          "pct_remaining": 69.0909090909091
+        },
+        {
+          "still_open_at_minute": 120,
+          "still_open": 46,
+          "later_overnight_touches": 29,
+          "pct_remaining": 63.04347826086956
+        },
+        {
+          "still_open_at_minute": 360,
+          "still_open": 28,
+          "later_overnight_touches": 11,
+          "pct_remaining": 39.285714285714285
+        }
+      ]
+    },
+    "gap_under_one_point": {
+      "events": 118,
+      "overnight_touches": 116,
+      "cumulative": [
+        {
+          "before_minute": 1,
+          "touches": 97,
+          "pct_all_gaps": 82.20338983050847,
+          "pct_overnight_touches": 83.62068965517241
+        },
+        {
+          "before_minute": 2,
+          "touches": 101,
+          "pct_all_gaps": 85.59322033898304,
+          "pct_overnight_touches": 87.06896551724138
+        },
+        {
+          "before_minute": 5,
+          "touches": 103,
+          "pct_all_gaps": 87.28813559322033,
+          "pct_overnight_touches": 88.79310344827586
+        },
+        {
+          "before_minute": 10,
+          "touches": 108,
+          "pct_all_gaps": 91.52542372881356,
+          "pct_overnight_touches": 93.10344827586206
+        },
+        {
+          "before_minute": 15,
+          "touches": 109,
+          "pct_all_gaps": 92.37288135593221,
+          "pct_overnight_touches": 93.96551724137932
+        },
+        {
+          "before_minute": 30,
+          "touches": 112,
+          "pct_all_gaps": 94.91525423728814,
+          "pct_overnight_touches": 96.55172413793103
+        },
+        {
+          "before_minute": 60,
+          "touches": 112,
+          "pct_all_gaps": 94.91525423728814,
+          "pct_overnight_touches": 96.55172413793103
+        },
+        {
+          "before_minute": 120,
+          "touches": 113,
+          "pct_all_gaps": 95.76271186440678,
+          "pct_overnight_touches": 97.41379310344827
+        },
+        {
+          "before_minute": 240,
+          "touches": 115,
+          "pct_all_gaps": 97.45762711864407,
+          "pct_overnight_touches": 99.13793103448276
+        },
+        {
+          "before_minute": 360,
+          "touches": 116,
+          "pct_all_gaps": 98.30508474576271,
+          "pct_overnight_touches": 100.0
+        },
+        {
+          "before_minute": 600,
+          "touches": 116,
+          "pct_all_gaps": 98.30508474576271,
+          "pct_overnight_touches": 100.0
+        },
+        {
+          "before_minute": 930,
+          "touches": 116,
+          "pct_all_gaps": 98.30508474576271,
+          "pct_overnight_touches": 100.0
+        },
+        {
+          "before_minute": 1380,
+          "touches": 117,
+          "pct_all_gaps": 99.15254237288136,
+          "pct_overnight_touches": null
+        }
+      ],
+      "exclusive_buckets": [
+        {
+          "from_minute": 0,
+          "before_minute": 1,
+          "events": 97
+        },
+        {
+          "from_minute": 1,
+          "before_minute": 5,
+          "events": 6
+        },
+        {
+          "from_minute": 5,
+          "before_minute": 15,
+          "events": 6
+        },
+        {
+          "from_minute": 15,
+          "before_minute": 30,
+          "events": 3
+        },
+        {
+          "from_minute": 30,
+          "before_minute": 60,
+          "events": 0
+        },
+        {
+          "from_minute": 60,
+          "before_minute": 120,
+          "events": 1
+        },
+        {
+          "from_minute": 120,
+          "before_minute": 360,
+          "events": 3
+        },
+        {
+          "from_minute": 360,
+          "before_minute": 930,
+          "events": 0
+        },
+        {
+          "from_minute": 930,
+          "before_minute": 1380,
+          "events": 1
+        }
+      ],
+      "no_touch_before_1700": 1,
+      "conditional": [
+        {
+          "still_open_at_minute": 1,
+          "still_open": 21,
+          "later_overnight_touches": 19,
+          "pct_remaining": 90.47619047619048
+        },
+        {
+          "still_open_at_minute": 5,
+          "still_open": 15,
+          "later_overnight_touches": 13,
+          "pct_remaining": 86.66666666666667
+        },
+        {
+          "still_open_at_minute": 15,
+          "still_open": 9,
+          "later_overnight_touches": 7,
+          "pct_remaining": 77.77777777777777
+        },
+        {
+          "still_open_at_minute": 30,
+          "still_open": 6,
+          "later_overnight_touches": 4,
+          "pct_remaining": 66.66666666666667
+        },
+        {
+          "still_open_at_minute": 60,
+          "still_open": 6,
+          "later_overnight_touches": 4,
+          "pct_remaining": 66.66666666666667
+        },
+        {
+          "still_open_at_minute": 120,
+          "still_open": 5,
+          "later_overnight_touches": 3,
+          "pct_remaining": 60.0
+        },
+        {
+          "still_open_at_minute": 360,
+          "still_open": 2,
+          "later_overnight_touches": 0,
+          "pct_remaining": 0.0
+        }
+      ]
+    },
+    "gap_one_to_under_three": {
+      "events": 115,
+      "overnight_touches": 110,
+      "cumulative": [
+        {
+          "before_minute": 1,
+          "touches": 74,
+          "pct_all_gaps": 64.34782608695652,
+          "pct_overnight_touches": 67.27272727272727
+        },
+        {
+          "before_minute": 2,
+          "touches": 76,
+          "pct_all_gaps": 66.08695652173913,
+          "pct_overnight_touches": 69.0909090909091
+        },
+        {
+          "before_minute": 5,
+          "touches": 83,
+          "pct_all_gaps": 72.17391304347827,
+          "pct_overnight_touches": 75.45454545454545
+        },
+        {
+          "before_minute": 10,
+          "touches": 90,
+          "pct_all_gaps": 78.26086956521739,
+          "pct_overnight_touches": 81.81818181818181
+        },
+        {
+          "before_minute": 15,
+          "touches": 91,
+          "pct_all_gaps": 79.1304347826087,
+          "pct_overnight_touches": 82.72727272727273
+        },
+        {
+          "before_minute": 30,
+          "touches": 94,
+          "pct_all_gaps": 81.73913043478261,
+          "pct_overnight_touches": 85.45454545454545
+        },
+        {
+          "before_minute": 60,
+          "touches": 101,
+          "pct_all_gaps": 87.82608695652173,
+          "pct_overnight_touches": 91.81818181818181
+        },
+        {
+          "before_minute": 120,
+          "touches": 104,
+          "pct_all_gaps": 90.43478260869566,
+          "pct_overnight_touches": 94.54545454545455
+        },
+        {
+          "before_minute": 240,
+          "touches": 107,
+          "pct_all_gaps": 93.04347826086956,
+          "pct_overnight_touches": 97.27272727272727
+        },
+        {
+          "before_minute": 360,
+          "touches": 108,
+          "pct_all_gaps": 93.91304347826087,
+          "pct_overnight_touches": 98.18181818181819
+        },
+        {
+          "before_minute": 600,
+          "touches": 109,
+          "pct_all_gaps": 94.78260869565217,
+          "pct_overnight_touches": 99.0909090909091
+        },
+        {
+          "before_minute": 930,
+          "touches": 110,
+          "pct_all_gaps": 95.65217391304348,
+          "pct_overnight_touches": 100.0
+        },
+        {
+          "before_minute": 1380,
+          "touches": 111,
+          "pct_all_gaps": 96.52173913043478,
+          "pct_overnight_touches": null
+        }
+      ],
+      "exclusive_buckets": [
+        {
+          "from_minute": 0,
+          "before_minute": 1,
+          "events": 74
+        },
+        {
+          "from_minute": 1,
+          "before_minute": 5,
+          "events": 9
+        },
+        {
+          "from_minute": 5,
+          "before_minute": 15,
+          "events": 8
+        },
+        {
+          "from_minute": 15,
+          "before_minute": 30,
+          "events": 3
+        },
+        {
+          "from_minute": 30,
+          "before_minute": 60,
+          "events": 7
+        },
+        {
+          "from_minute": 60,
+          "before_minute": 120,
+          "events": 3
+        },
+        {
+          "from_minute": 120,
+          "before_minute": 360,
+          "events": 4
+        },
+        {
+          "from_minute": 360,
+          "before_minute": 930,
+          "events": 2
+        },
+        {
+          "from_minute": 930,
+          "before_minute": 1380,
+          "events": 1
+        }
+      ],
+      "no_touch_before_1700": 4,
+      "conditional": [
+        {
+          "still_open_at_minute": 1,
+          "still_open": 41,
+          "later_overnight_touches": 36,
+          "pct_remaining": 87.8048780487805
+        },
+        {
+          "still_open_at_minute": 5,
+          "still_open": 32,
+          "later_overnight_touches": 27,
+          "pct_remaining": 84.375
+        },
+        {
+          "still_open_at_minute": 15,
+          "still_open": 24,
+          "later_overnight_touches": 19,
+          "pct_remaining": 79.16666666666667
+        },
+        {
+          "still_open_at_minute": 30,
+          "still_open": 21,
+          "later_overnight_touches": 16,
+          "pct_remaining": 76.19047619047619
+        },
+        {
+          "still_open_at_minute": 60,
+          "still_open": 14,
+          "later_overnight_touches": 9,
+          "pct_remaining": 64.28571428571429
+        },
+        {
+          "still_open_at_minute": 120,
+          "still_open": 11,
+          "later_overnight_touches": 6,
+          "pct_remaining": 54.54545454545455
+        },
+        {
+          "still_open_at_minute": 360,
+          "still_open": 7,
+          "later_overnight_touches": 2,
+          "pct_remaining": 28.571428571428573
+        }
+      ]
+    },
+    "gap_three_to_under_ten": {
+      "events": 95,
+      "overnight_touches": 86,
+      "cumulative": [
+        {
+          "before_minute": 1,
+          "touches": 26,
+          "pct_all_gaps": 27.36842105263158,
+          "pct_overnight_touches": 30.232558139534884
+        },
+        {
+          "before_minute": 2,
+          "touches": 31,
+          "pct_all_gaps": 32.63157894736842,
+          "pct_overnight_touches": 36.04651162790697
+        },
+        {
+          "before_minute": 5,
+          "touches": 42,
+          "pct_all_gaps": 44.21052631578947,
+          "pct_overnight_touches": 48.83720930232558
+        },
+        {
+          "before_minute": 10,
+          "touches": 47,
+          "pct_all_gaps": 49.473684210526315,
+          "pct_overnight_touches": 54.651162790697676
+        },
+        {
+          "before_minute": 15,
+          "touches": 48,
+          "pct_all_gaps": 50.526315789473685,
+          "pct_overnight_touches": 55.81395348837209
+        },
+        {
+          "before_minute": 30,
+          "touches": 58,
+          "pct_all_gaps": 61.05263157894737,
+          "pct_overnight_touches": 67.44186046511628
+        },
+        {
+          "before_minute": 60,
+          "touches": 60,
+          "pct_all_gaps": 63.1578947368421,
+          "pct_overnight_touches": 69.76744186046511
+        },
+        {
+          "before_minute": 120,
+          "touches": 67,
+          "pct_all_gaps": 70.52631578947368,
+          "pct_overnight_touches": 77.90697674418605
+        },
+        {
+          "before_minute": 240,
+          "touches": 75,
+          "pct_all_gaps": 78.94736842105263,
+          "pct_overnight_touches": 87.20930232558139
+        },
+        {
+          "before_minute": 360,
+          "touches": 77,
+          "pct_all_gaps": 81.05263157894737,
+          "pct_overnight_touches": 89.53488372093024
+        },
+        {
+          "before_minute": 600,
+          "touches": 81,
+          "pct_all_gaps": 85.26315789473684,
+          "pct_overnight_touches": 94.18604651162791
+        },
+        {
+          "before_minute": 930,
+          "touches": 86,
+          "pct_all_gaps": 90.52631578947368,
+          "pct_overnight_touches": 100.0
+        },
+        {
+          "before_minute": 1380,
+          "touches": 91,
+          "pct_all_gaps": 95.78947368421052,
+          "pct_overnight_touches": null
+        }
+      ],
+      "exclusive_buckets": [
+        {
+          "from_minute": 0,
+          "before_minute": 1,
+          "events": 26
+        },
+        {
+          "from_minute": 1,
+          "before_minute": 5,
+          "events": 16
+        },
+        {
+          "from_minute": 5,
+          "before_minute": 15,
+          "events": 6
+        },
+        {
+          "from_minute": 15,
+          "before_minute": 30,
+          "events": 10
+        },
+        {
+          "from_minute": 30,
+          "before_minute": 60,
+          "events": 2
+        },
+        {
+          "from_minute": 60,
+          "before_minute": 120,
+          "events": 7
+        },
+        {
+          "from_minute": 120,
+          "before_minute": 360,
+          "events": 10
+        },
+        {
+          "from_minute": 360,
+          "before_minute": 930,
+          "events": 9
+        },
+        {
+          "from_minute": 930,
+          "before_minute": 1380,
+          "events": 5
+        }
+      ],
+      "no_touch_before_1700": 4,
+      "conditional": [
+        {
+          "still_open_at_minute": 1,
+          "still_open": 69,
+          "later_overnight_touches": 60,
+          "pct_remaining": 86.95652173913044
+        },
+        {
+          "still_open_at_minute": 5,
+          "still_open": 53,
+          "later_overnight_touches": 44,
+          "pct_remaining": 83.01886792452831
+        },
+        {
+          "still_open_at_minute": 15,
+          "still_open": 47,
+          "later_overnight_touches": 38,
+          "pct_remaining": 80.85106382978724
+        },
+        {
+          "still_open_at_minute": 30,
+          "still_open": 37,
+          "later_overnight_touches": 28,
+          "pct_remaining": 75.67567567567568
+        },
+        {
+          "still_open_at_minute": 60,
+          "still_open": 35,
+          "later_overnight_touches": 26,
+          "pct_remaining": 74.28571428571429
+        },
+        {
+          "still_open_at_minute": 120,
+          "still_open": 28,
+          "later_overnight_touches": 19,
+          "pct_remaining": 67.85714285714286
+        },
+        {
+          "still_open_at_minute": 360,
+          "still_open": 18,
+          "later_overnight_touches": 9,
+          "pct_remaining": 50.0
+        }
+      ]
+    },
+    "gap_ten_or_more": {
+      "events": 61,
+      "overnight_touches": 29,
+      "cumulative": [
+        {
+          "before_minute": 1,
+          "touches": 0,
+          "pct_all_gaps": 0.0,
+          "pct_overnight_touches": 0.0
+        },
+        {
+          "before_minute": 2,
+          "touches": 1,
+          "pct_all_gaps": 1.639344262295082,
+          "pct_overnight_touches": 3.4482758620689653
+        },
+        {
+          "before_minute": 5,
+          "touches": 1,
+          "pct_all_gaps": 1.639344262295082,
+          "pct_overnight_touches": 3.4482758620689653
+        },
+        {
+          "before_minute": 10,
+          "touches": 2,
+          "pct_all_gaps": 3.278688524590164,
+          "pct_overnight_touches": 6.896551724137931
+        },
+        {
+          "before_minute": 15,
+          "touches": 4,
+          "pct_all_gaps": 6.557377049180328,
+          "pct_overnight_touches": 13.793103448275861
+        },
+        {
+          "before_minute": 30,
+          "touches": 5,
+          "pct_all_gaps": 8.19672131147541,
+          "pct_overnight_touches": 17.24137931034483
+        },
+        {
+          "before_minute": 60,
+          "touches": 10,
+          "pct_all_gaps": 16.39344262295082,
+          "pct_overnight_touches": 34.48275862068966
+        },
+        {
+          "before_minute": 120,
+          "touches": 12,
+          "pct_all_gaps": 19.672131147540984,
+          "pct_overnight_touches": 41.37931034482759
+        },
+        {
+          "before_minute": 240,
+          "touches": 17,
+          "pct_all_gaps": 27.868852459016395,
+          "pct_overnight_touches": 58.62068965517241
+        },
+        {
+          "before_minute": 360,
+          "touches": 18,
+          "pct_all_gaps": 29.508196721311474,
+          "pct_overnight_touches": 62.06896551724138
+        },
+        {
+          "before_minute": 600,
+          "touches": 23,
+          "pct_all_gaps": 37.704918032786885,
+          "pct_overnight_touches": 79.3103448275862
+        },
+        {
+          "before_minute": 930,
+          "touches": 29,
+          "pct_all_gaps": 47.540983606557376,
+          "pct_overnight_touches": 100.0
+        },
+        {
+          "before_minute": 1380,
+          "touches": 41,
+          "pct_all_gaps": 67.21311475409836,
+          "pct_overnight_touches": null
+        }
+      ],
+      "exclusive_buckets": [
+        {
+          "from_minute": 0,
+          "before_minute": 1,
+          "events": 0
+        },
+        {
+          "from_minute": 1,
+          "before_minute": 5,
+          "events": 1
+        },
+        {
+          "from_minute": 5,
+          "before_minute": 15,
+          "events": 3
+        },
+        {
+          "from_minute": 15,
+          "before_minute": 30,
+          "events": 1
+        },
+        {
+          "from_minute": 30,
+          "before_minute": 60,
+          "events": 5
+        },
+        {
+          "from_minute": 60,
+          "before_minute": 120,
+          "events": 2
+        },
+        {
+          "from_minute": 120,
+          "before_minute": 360,
+          "events": 6
+        },
+        {
+          "from_minute": 360,
+          "before_minute": 930,
+          "events": 11
+        },
+        {
+          "from_minute": 930,
+          "before_minute": 1380,
+          "events": 12
+        }
+      ],
+      "no_touch_before_1700": 20,
+      "conditional": [
+        {
+          "still_open_at_minute": 1,
+          "still_open": 61,
+          "later_overnight_touches": 29,
+          "pct_remaining": 47.540983606557376
+        },
+        {
+          "still_open_at_minute": 5,
+          "still_open": 60,
+          "later_overnight_touches": 28,
+          "pct_remaining": 46.666666666666664
+        },
+        {
+          "still_open_at_minute": 15,
+          "still_open": 57,
+          "later_overnight_touches": 25,
+          "pct_remaining": 43.85964912280702
+        },
+        {
+          "still_open_at_minute": 30,
+          "still_open": 56,
+          "later_overnight_touches": 24,
+          "pct_remaining": 42.857142857142854
+        },
+        {
+          "still_open_at_minute": 60,
+          "still_open": 51,
+          "later_overnight_touches": 19,
+          "pct_remaining": 37.254901960784316
+        },
+        {
+          "still_open_at_minute": 120,
+          "still_open": 49,
+          "later_overnight_touches": 17,
+          "pct_remaining": 34.69387755102041
+        },
+        {
+          "still_open_at_minute": 360,
+          "still_open": 43,
+          "later_overnight_touches": 11,
+          "pct_remaining": 25.58139534883721
+        }
+      ]
+    },
+    "first_year": {
+      "events": 191,
+      "overnight_touches": 163,
+      "cumulative": [
+        {
+          "before_minute": 1,
+          "touches": 100,
+          "pct_all_gaps": 52.35602094240838,
+          "pct_overnight_touches": 61.34969325153374
+        },
+        {
+          "before_minute": 2,
+          "touches": 102,
+          "pct_all_gaps": 53.403141361256544,
+          "pct_overnight_touches": 62.576687116564415
+        },
+        {
+          "before_minute": 5,
+          "touches": 113,
+          "pct_all_gaps": 59.16230366492147,
+          "pct_overnight_touches": 69.32515337423312
+        },
+        {
+          "before_minute": 10,
+          "touches": 122,
+          "pct_all_gaps": 63.87434554973822,
+          "pct_overnight_touches": 74.84662576687117
+        },
+        {
+          "before_minute": 15,
+          "touches": 123,
+          "pct_all_gaps": 64.3979057591623,
+          "pct_overnight_touches": 75.4601226993865
+        },
+        {
+          "before_minute": 30,
+          "touches": 133,
+          "pct_all_gaps": 69.63350785340315,
+          "pct_overnight_touches": 81.59509202453988
+        },
+        {
+          "before_minute": 60,
+          "touches": 138,
+          "pct_all_gaps": 72.25130890052355,
+          "pct_overnight_touches": 84.66257668711657
+        },
+        {
+          "before_minute": 120,
+          "touches": 144,
+          "pct_all_gaps": 75.39267015706807,
+          "pct_overnight_touches": 88.34355828220859
+        },
+        {
+          "before_minute": 240,
+          "touches": 152,
+          "pct_all_gaps": 79.58115183246073,
+          "pct_overnight_touches": 93.25153374233129
+        },
+        {
+          "before_minute": 360,
+          "touches": 155,
+          "pct_all_gaps": 81.15183246073299,
+          "pct_overnight_touches": 95.0920245398773
+        },
+        {
+          "before_minute": 600,
+          "touches": 159,
+          "pct_all_gaps": 83.24607329842932,
+          "pct_overnight_touches": 97.54601226993866
+        },
+        {
+          "before_minute": 930,
+          "touches": 163,
+          "pct_all_gaps": 85.34031413612566,
+          "pct_overnight_touches": 100.0
+        },
+        {
+          "before_minute": 1380,
+          "touches": 176,
+          "pct_all_gaps": 92.14659685863874,
+          "pct_overnight_touches": null
+        }
+      ],
+      "exclusive_buckets": [
+        {
+          "from_minute": 0,
+          "before_minute": 1,
+          "events": 100
+        },
+        {
+          "from_minute": 1,
+          "before_minute": 5,
+          "events": 13
+        },
+        {
+          "from_minute": 5,
+          "before_minute": 15,
+          "events": 10
+        },
+        {
+          "from_minute": 15,
+          "before_minute": 30,
+          "events": 10
+        },
+        {
+          "from_minute": 30,
+          "before_minute": 60,
+          "events": 5
+        },
+        {
+          "from_minute": 60,
+          "before_minute": 120,
+          "events": 6
+        },
+        {
+          "from_minute": 120,
+          "before_minute": 360,
+          "events": 11
+        },
+        {
+          "from_minute": 360,
+          "before_minute": 930,
+          "events": 8
+        },
+        {
+          "from_minute": 930,
+          "before_minute": 1380,
+          "events": 13
+        }
+      ],
+      "no_touch_before_1700": 15,
+      "conditional": [
+        {
+          "still_open_at_minute": 1,
+          "still_open": 91,
+          "later_overnight_touches": 63,
+          "pct_remaining": 69.23076923076923
+        },
+        {
+          "still_open_at_minute": 5,
+          "still_open": 78,
+          "later_overnight_touches": 50,
+          "pct_remaining": 64.1025641025641
+        },
+        {
+          "still_open_at_minute": 15,
+          "still_open": 68,
+          "later_overnight_touches": 40,
+          "pct_remaining": 58.8235294117647
+        },
+        {
+          "still_open_at_minute": 30,
+          "still_open": 58,
+          "later_overnight_touches": 30,
+          "pct_remaining": 51.724137931034484
+        },
+        {
+          "still_open_at_minute": 60,
+          "still_open": 53,
+          "later_overnight_touches": 25,
+          "pct_remaining": 47.16981132075472
+        },
+        {
+          "still_open_at_minute": 120,
+          "still_open": 47,
+          "later_overnight_touches": 19,
+          "pct_remaining": 40.42553191489362
+        },
+        {
+          "still_open_at_minute": 360,
+          "still_open": 36,
+          "later_overnight_touches": 8,
+          "pct_remaining": 22.22222222222222
+        }
+      ]
+    },
+    "second_year": {
+      "events": 198,
+      "overnight_touches": 178,
+      "cumulative": [
+        {
+          "before_minute": 1,
+          "touches": 97,
+          "pct_all_gaps": 48.98989898989899,
+          "pct_overnight_touches": 54.49438202247191
+        },
+        {
+          "before_minute": 2,
+          "touches": 107,
+          "pct_all_gaps": 54.04040404040404,
+          "pct_overnight_touches": 60.1123595505618
+        },
+        {
+          "before_minute": 5,
+          "touches": 116,
+          "pct_all_gaps": 58.58585858585859,
+          "pct_overnight_touches": 65.1685393258427
+        },
+        {
+          "before_minute": 10,
+          "touches": 125,
+          "pct_all_gaps": 63.13131313131313,
+          "pct_overnight_touches": 70.2247191011236
+        },
+        {
+          "before_minute": 15,
+          "touches": 129,
+          "pct_all_gaps": 65.15151515151516,
+          "pct_overnight_touches": 72.47191011235955
+        },
+        {
+          "before_minute": 30,
+          "touches": 136,
+          "pct_all_gaps": 68.68686868686869,
+          "pct_overnight_touches": 76.40449438202248
+        },
+        {
+          "before_minute": 60,
+          "touches": 145,
+          "pct_all_gaps": 73.23232323232324,
+          "pct_overnight_touches": 81.46067415730337
+        },
+        {
+          "before_minute": 120,
+          "touches": 152,
+          "pct_all_gaps": 76.76767676767676,
+          "pct_overnight_touches": 85.3932584269663
+        },
+        {
+          "before_minute": 240,
+          "touches": 162,
+          "pct_all_gaps": 81.81818181818181,
+          "pct_overnight_touches": 91.01123595505618
+        },
+        {
+          "before_minute": 360,
+          "touches": 164,
+          "pct_all_gaps": 82.82828282828282,
+          "pct_overnight_touches": 92.13483146067416
+        },
+        {
+          "before_minute": 600,
+          "touches": 170,
+          "pct_all_gaps": 85.85858585858585,
+          "pct_overnight_touches": 95.50561797752809
+        },
+        {
+          "before_minute": 930,
+          "touches": 178,
+          "pct_all_gaps": 89.8989898989899,
+          "pct_overnight_touches": 100.0
+        },
+        {
+          "before_minute": 1380,
+          "touches": 184,
+          "pct_all_gaps": 92.92929292929293,
+          "pct_overnight_touches": null
+        }
+      ],
+      "exclusive_buckets": [
+        {
+          "from_minute": 0,
+          "before_minute": 1,
+          "events": 97
+        },
+        {
+          "from_minute": 1,
+          "before_minute": 5,
+          "events": 19
+        },
+        {
+          "from_minute": 5,
+          "before_minute": 15,
+          "events": 13
+        },
+        {
+          "from_minute": 15,
+          "before_minute": 30,
+          "events": 7
+        },
+        {
+          "from_minute": 30,
+          "before_minute": 60,
+          "events": 9
+        },
+        {
+          "from_minute": 60,
+          "before_minute": 120,
+          "events": 7
+        },
+        {
+          "from_minute": 120,
+          "before_minute": 360,
+          "events": 12
+        },
+        {
+          "from_minute": 360,
+          "before_minute": 930,
+          "events": 14
+        },
+        {
+          "from_minute": 930,
+          "before_minute": 1380,
+          "events": 6
+        }
+      ],
+      "no_touch_before_1700": 14,
+      "conditional": [
+        {
+          "still_open_at_minute": 1,
+          "still_open": 101,
+          "later_overnight_touches": 81,
+          "pct_remaining": 80.1980198019802
+        },
+        {
+          "still_open_at_minute": 5,
+          "still_open": 82,
+          "later_overnight_touches": 62,
+          "pct_remaining": 75.60975609756098
+        },
+        {
+          "still_open_at_minute": 15,
+          "still_open": 69,
+          "later_overnight_touches": 49,
+          "pct_remaining": 71.01449275362319
+        },
+        {
+          "still_open_at_minute": 30,
+          "still_open": 62,
+          "later_overnight_touches": 42,
+          "pct_remaining": 67.74193548387096
+        },
+        {
+          "still_open_at_minute": 60,
+          "still_open": 53,
+          "later_overnight_touches": 33,
+          "pct_remaining": 62.264150943396224
+        },
+        {
+          "still_open_at_minute": 120,
+          "still_open": 46,
+          "later_overnight_touches": 26,
+          "pct_remaining": 56.52173913043478
+        },
+        {
+          "still_open_at_minute": 360,
+          "still_open": 34,
+          "later_overnight_touches": 14,
+          "pct_remaining": 41.1764705882353
+        }
+      ]
+    }
+  },
+  "overlap": {
+    "main_shared_with_400_overnight": 389,
+    "main_shared_with_original": 384
+  },
+  "timing": "Minute start offset; t < cutoff. First-minute touch lies in [18:00,18:01); no exact seconds or execution inferred.",
+  "limitations": [
+    "Retrospective complete full-day selection uses later coverage and quality, not a live eligibility signal.",
+    "No trading P&L, fees, spread, slippage, queue or stop-order execution modeled.",
+    "Same previously explored minute archive; groups and periods are descriptive, not independent validation.",
+    "Coarser historical candles cannot establish minute-level first-touch timing."
+  ]
+}

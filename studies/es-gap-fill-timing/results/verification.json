@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "checked_date": "2026-10-15",
+  "independent_numeric_matches": 789,
+  "made_up_tests_passed": 11,
+  "source_sha256": "b9e1acf1ee029db919e6e5feba38bd985d06a84af8193c11ce93722606c6356c",
+  "main_events": 389,
+  "original_event_audit": {
+    "performed": true,
+    "saved_events": 387,
+    "fresh_gap_and_first_touch_matches": 774,
+    "note": "All original saved event dates, gap sizes and first-touch minute offsets reproduced. Private event file is not distributed."
+  },
+  "scope": "Separate standard-library CSV/time/price-path parser; every event date, gap and first-touch offset matched the pandas calculation; aggregate counts and percentages checked. No vendor or order-execution audit."
+}
