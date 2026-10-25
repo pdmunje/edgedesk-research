@@ -1,0 +1,1431 @@
+{
+  "question": "Does fading an ES gap still open at 18:30 improve the trade?",
+  "source_sha256": "b9e1acf1ee029db919e6e5feba38bd985d06a84af8193c11ce93722606c6356c",
+  "checks": {
+    "source_rows": 707321,
+    "source_session_dates": 518,
+    "evening_candidates": 517,
+    "sequential_signal_exclusions": {
+      "missing_required_close": 24,
+      "target_contract_change": 8,
+      "opening_or_1830_boundary_unusable": 9,
+      "zero_initial_gap": 26,
+      "touched_before_1830": 319,
+      "crossed_at_1830_open": 0
+    },
+    "signals_at_1830": 131,
+    "later_unusable_overnight": 8,
+    "later_unusable_full_day": 11
+  },
+  "first_morning_date": "2024-08-29",
+  "last_morning_date": "2026-08-27",
+  "main": {
+    "events": 123,
+    "touches": 73,
+    "touch_pct": 59.34959349593496,
+    "first_minute_touches": 2,
+    "initial_gap_median": 8.5,
+    "residual_gap_median": 11.75,
+    "rules": {
+      "no_stop": {
+        "gross": {
+          "events": 123,
+          "mean": -0.4878048780487805,
+          "median": 4.25,
+          "sum": -60.0,
+          "positive_events": 79,
+          "flat_events": 0,
+          "positive_pct": 64.22764227642277,
+          "minimum": -109.0,
+          "maximum": 50.0
+        },
+        "net_one_point": {
+          "events": 123,
+          "mean": -1.4878048780487805,
+          "median": 3.25,
+          "sum": -183.0,
+          "positive_events": 76,
+          "flat_events": 1,
+          "positive_pct": 61.78861788617886,
+          "minimum": -110.0,
+          "maximum": 49.0
+        },
+        "outcomes": {
+          "target": 73,
+          "stop": 0,
+          "stop_gap": 0,
+          "time": 50
+        },
+        "ambiguous_minutes_stop_first": 0
+      },
+      "stop_1_distance": {
+        "gross": {
+          "events": 123,
+          "mean": -1.3048780487804879,
+          "median": -3.75,
+          "sum": -160.5,
+          "positive_events": 54,
+          "flat_events": 0,
+          "positive_pct": 43.90243902439025,
+          "minimum": -57.25,
+          "maximum": 50.0
+        },
+        "net_one_point": {
+          "events": 123,
+          "mean": -2.3048780487804876,
+          "median": -4.75,
+          "sum": -283.5,
+          "positive_events": 53,
+          "flat_events": 0,
+          "positive_pct": 43.08943089430895,
+          "minimum": -58.25,
+          "maximum": 49.0
+        },
+        "outcomes": {
+          "target": 49,
+          "stop": 60,
+          "stop_gap": 0,
+          "time": 14
+        },
+        "ambiguous_minutes_stop_first": 0
+      },
+      "stop_2_distance": {
+        "gross": {
+          "events": 123,
+          "mean": -2.203252032520325,
+          "median": 2.0,
+          "sum": -271.0,
+          "positive_events": 65,
+          "flat_events": 0,
+          "positive_pct": 52.84552845528455,
+          "minimum": -114.5,
+          "maximum": 50.0
+        },
+        "net_one_point": {
+          "events": 123,
+          "mean": -3.203252032520325,
+          "median": 1.0,
+          "sum": -394.0,
+          "positive_events": 64,
+          "flat_events": 0,
+          "positive_pct": 52.03252032520326,
+          "minimum": -115.5,
+          "maximum": 49.0
+        },
+        "outcomes": {
+          "target": 60,
+          "stop": 35,
+          "stop_gap": 0,
+          "time": 28
+        },
+        "ambiguous_minutes_stop_first": 0
+      }
+    },
+    "no_stop_touch_group": {
+      "events": 73,
+      "mean": 11.736301369863014,
+      "median": 9.25,
+      "sum": 856.75,
+      "positive_events": 73,
+      "flat_events": 0,
+      "positive_pct": 100.0,
+      "minimum": 0.75,
+      "maximum": 48.5
+    },
+    "no_stop_no_touch_group": {
+      "events": 50,
+      "mean": -18.335,
+      "median": -15.875,
+      "sum": -916.75,
+      "positive_events": 6,
+      "flat_events": 0,
+      "positive_pct": 12.0,
+      "minimum": -109.0,
+      "maximum": 50.0
+    }
+  },
+  "groups": {
+    "toward": {
+      "events": 30,
+      "touches": 17,
+      "touch_pct": 56.666666666666664,
+      "first_minute_touches": 1,
+      "initial_gap_median": 17.75,
+      "residual_gap_median": 11.125,
+      "rules": {
+        "no_stop": {
+          "gross": {
+            "events": 30,
+            "mean": -10.583333333333334,
+            "median": 0.875,
+            "sum": -317.5,
+            "positive_events": 17,
+            "flat_events": 0,
+            "positive_pct": 56.666666666666664,
+            "minimum": -109.0,
+            "maximum": 33.5
+          },
+          "net_one_point": {
+            "events": 30,
+            "mean": -11.583333333333334,
+            "median": -0.125,
+            "sum": -347.5,
+            "positive_events": 14,
+            "flat_events": 1,
+            "positive_pct": 46.666666666666664,
+            "minimum": -110.0,
+            "maximum": 32.5
+          },
+          "outcomes": {
+            "target": 17,
+            "stop": 0,
+            "stop_gap": 0,
+            "time": 13
+          },
+          "ambiguous_minutes_stop_first": 0
+        },
+        "stop_1_distance": {
+          "gross": {
+            "events": 30,
+            "mean": -7.566666666666666,
+            "median": -5.375,
+            "sum": -227.0,
+            "positive_events": 11,
+            "flat_events": 0,
+            "positive_pct": 36.666666666666664,
+            "minimum": -57.25,
+            "maximum": 29.75
+          },
+          "net_one_point": {
+            "events": 30,
+            "mean": -8.566666666666666,
+            "median": -6.375,
+            "sum": -257.0,
+            "positive_events": 10,
+            "flat_events": 0,
+            "positive_pct": 33.33333333333333,
+            "minimum": -58.25,
+            "maximum": 28.75
+          },
+          "outcomes": {
+            "target": 11,
+            "stop": 17,
+            "stop_gap": 0,
+            "time": 2
+          },
+          "ambiguous_minutes_stop_first": 0
+        },
+        "stop_2_distance": {
+          "gross": {
+            "events": 30,
+            "mean": -12.15,
+            "median": -3.25,
+            "sum": -364.5,
+            "positive_events": 13,
+            "flat_events": 0,
+            "positive_pct": 43.333333333333336,
+            "minimum": -114.5,
+            "maximum": 29.75
+          },
+          "net_one_point": {
+            "events": 30,
+            "mean": -13.15,
+            "median": -4.25,
+            "sum": -394.5,
+            "positive_events": 12,
+            "flat_events": 0,
+            "positive_pct": 40.0,
+            "minimum": -115.5,
+            "maximum": 28.75
+          },
+          "outcomes": {
+            "target": 13,
+            "stop": 14,
+            "stop_gap": 0,
+            "time": 3
+          },
+          "ambiguous_minutes_stop_first": 0
+        }
+      },
+      "no_stop_touch_group": {
+        "events": 17,
+        "mean": 9.705882352941176,
+        "median": 4.25,
+        "sum": 165.0,
+        "positive_events": 17,
+        "flat_events": 0,
+        "positive_pct": 100.0,
+        "minimum": 0.75,
+        "maximum": 33.5
+      },
+      "no_stop_no_touch_group": {
+        "events": 13,
+        "mean": -37.11538461538461,
+        "median": -19.25,
+        "sum": -482.5,
+        "positive_events": 0,
+        "flat_events": 0,
+        "positive_pct": 0.0,
+        "minimum": -109.0,
+        "maximum": -5.0
+      }
+    },
+    "away": {
+      "events": 91,
+      "touches": 55,
+      "touch_pct": 60.43956043956044,
+      "first_minute_touches": 1,
+      "initial_gap_median": 6.5,
+      "residual_gap_median": 11.75,
+      "rules": {
+        "no_stop": {
+          "gross": {
+            "events": 91,
+            "mean": 2.271978021978022,
+            "median": 5.25,
+            "sum": 206.75,
+            "positive_events": 60,
+            "flat_events": 0,
+            "positive_pct": 65.93406593406593,
+            "minimum": -50.5,
+            "maximum": 50.0
+          },
+          "net_one_point": {
+            "events": 91,
+            "mean": 1.271978021978022,
+            "median": 4.25,
+            "sum": 115.75,
+            "positive_events": 60,
+            "flat_events": 0,
+            "positive_pct": 65.93406593406593,
+            "minimum": -51.5,
+            "maximum": 49.0
+          },
+          "outcomes": {
+            "target": 55,
+            "stop": 0,
+            "stop_gap": 0,
+            "time": 36
+          },
+          "ambiguous_minutes_stop_first": 0
+        },
+        "stop_1_distance": {
+          "gross": {
+            "events": 91,
+            "mean": 0.28296703296703296,
+            "median": -3.75,
+            "sum": 25.75,
+            "positive_events": 42,
+            "flat_events": 0,
+            "positive_pct": 46.15384615384615,
+            "minimum": -46.5,
+            "maximum": 50.0
+          },
+          "net_one_point": {
+            "events": 91,
+            "mean": -0.717032967032967,
+            "median": -4.75,
+            "sum": -65.25,
+            "positive_events": 42,
+            "flat_events": 0,
+            "positive_pct": 46.15384615384615,
+            "minimum": -47.5,
+            "maximum": 49.0
+          },
+          "outcomes": {
+            "target": 38,
+            "stop": 42,
+            "stop_gap": 0,
+            "time": 11
+          },
+          "ambiguous_minutes_stop_first": 0
+        },
+        "stop_2_distance": {
+          "gross": {
+            "events": 91,
+            "mean": 0.6346153846153846,
+            "median": 4.0,
+            "sum": 57.75,
+            "positive_events": 51,
+            "flat_events": 0,
+            "positive_pct": 56.043956043956044,
+            "minimum": -46.5,
+            "maximum": 50.0
+          },
+          "net_one_point": {
+            "events": 91,
+            "mean": -0.36538461538461536,
+            "median": 3.0,
+            "sum": -33.25,
+            "positive_events": 51,
+            "flat_events": 0,
+            "positive_pct": 56.043956043956044,
+            "minimum": -47.5,
+            "maximum": 49.0
+          },
+          "outcomes": {
+            "target": 47,
+            "stop": 20,
+            "stop_gap": 0,
+            "time": 24
+          },
+          "ambiguous_minutes_stop_first": 0
+        }
+      },
+      "no_stop_touch_group": {
+        "events": 55,
+        "mean": 12.486363636363636,
+        "median": 9.75,
+        "sum": 686.75,
+        "positive_events": 55,
+        "flat_events": 0,
+        "positive_pct": 100.0,
+        "minimum": 1.5,
+        "maximum": 48.5
+      },
+      "no_stop_no_touch_group": {
+        "events": 36,
+        "mean": -13.333333333333334,
+        "median": -13.375,
+        "sum": -480.0,
+        "positive_events": 5,
+        "flat_events": 0,
+        "positive_pct": 13.88888888888889,
+        "minimum": -50.5,
+        "maximum": 50.0
+      }
+    },
+    "unchanged": {
+      "events": 2,
+      "touches": 1,
+      "touch_pct": 50.0,
+      "first_minute_touches": 0,
+      "initial_gap_median": 33.375,
+      "residual_gap_median": 33.375,
+      "rules": {
+        "no_stop": {
+          "gross": {
+            "events": 2,
+            "mean": 25.375,
+            "median": 25.375,
+            "sum": 50.75,
+            "positive_events": 2,
+            "flat_events": 0,
+            "positive_pct": 100.0,
+            "minimum": 5.0,
+            "maximum": 45.75
+          },
+          "net_one_point": {
+            "events": 2,
+            "mean": 24.375,
+            "median": 24.375,
+            "sum": 48.75,
+            "positive_events": 2,
+            "flat_events": 0,
+            "positive_pct": 100.0,
+            "minimum": 4.0,
+            "maximum": 44.75
+          },
+          "outcomes": {
+            "target": 1,
+            "stop": 0,
+            "stop_gap": 0,
+            "time": 1
+          },
+          "ambiguous_minutes_stop_first": 0
+        },
+        "stop_1_distance": {
+          "gross": {
+            "events": 2,
+            "mean": 20.375,
+            "median": 20.375,
+            "sum": 40.75,
+            "positive_events": 1,
+            "flat_events": 0,
+            "positive_pct": 50.0,
+            "minimum": -5.0,
+            "maximum": 45.75
+          },
+          "net_one_point": {
+            "events": 2,
+            "mean": 19.375,
+            "median": 19.375,
+            "sum": 38.75,
+            "positive_events": 1,
+            "flat_events": 0,
+            "positive_pct": 50.0,
+            "minimum": -6.0,
+            "maximum": 44.75
+          },
+          "outcomes": {
+            "target": 0,
+            "stop": 1,
+            "stop_gap": 0,
+            "time": 1
+          },
+          "ambiguous_minutes_stop_first": 0
+        },
+        "stop_2_distance": {
+          "gross": {
+            "events": 2,
+            "mean": 17.875,
+            "median": 17.875,
+            "sum": 35.75,
+            "positive_events": 1,
+            "flat_events": 0,
+            "positive_pct": 50.0,
+            "minimum": -10.0,
+            "maximum": 45.75
+          },
+          "net_one_point": {
+            "events": 2,
+            "mean": 16.875,
+            "median": 16.875,
+            "sum": 33.75,
+            "positive_events": 1,
+            "flat_events": 0,
+            "positive_pct": 50.0,
+            "minimum": -11.0,
+            "maximum": 44.75
+          },
+          "outcomes": {
+            "target": 0,
+            "stop": 1,
+            "stop_gap": 0,
+            "time": 1
+          },
+          "ambiguous_minutes_stop_first": 0
+        }
+      },
+      "no_stop_touch_group": {
+        "events": 1,
+        "mean": 5.0,
+        "median": 5.0,
+        "sum": 5.0,
+        "positive_events": 1,
+        "flat_events": 0,
+        "positive_pct": 100.0,
+        "minimum": 5.0,
+        "maximum": 5.0
+      },
+      "no_stop_no_touch_group": {
+        "events": 1,
+        "mean": 45.75,
+        "median": 45.75,
+        "sum": 45.75,
+        "positive_events": 1,
+        "flat_events": 0,
+        "positive_pct": 100.0,
+        "minimum": 45.75,
+        "maximum": 45.75
+      }
+    },
+    "sunday": {
+      "events": 55,
+      "touches": 23,
+      "touch_pct": 41.81818181818182,
+      "first_minute_touches": 0,
+      "initial_gap_median": 18.25,
+      "residual_gap_median": 20.25,
+      "rules": {
+        "no_stop": {
+          "gross": {
+            "events": 55,
+            "mean": -4.336363636363636,
+            "median": 4.0,
+            "sum": -238.5,
+            "positive_events": 29,
+            "flat_events": 0,
+            "positive_pct": 52.72727272727272,
+            "minimum": -109.0,
+            "maximum": 50.0
+          },
+          "net_one_point": {
+            "events": 55,
+            "mean": -5.336363636363636,
+            "median": 3.0,
+            "sum": -293.5,
+            "positive_events": 29,
+            "flat_events": 0,
+            "positive_pct": 52.72727272727272,
+            "minimum": -110.0,
+            "maximum": 49.0
+          },
+          "outcomes": {
+            "target": 23,
+            "stop": 0,
+            "stop_gap": 0,
+            "time": 32
+          },
+          "ambiguous_minutes_stop_first": 0
+        },
+        "stop_1_distance": {
+          "gross": {
+            "events": 55,
+            "mean": -4.15,
+            "median": -7.75,
+            "sum": -228.25,
+            "positive_events": 22,
+            "flat_events": 0,
+            "positive_pct": 40.0,
+            "minimum": -57.25,
+            "maximum": 50.0
+          },
+          "net_one_point": {
+            "events": 55,
+            "mean": -5.15,
+            "median": -8.75,
+            "sum": -283.25,
+            "positive_events": 22,
+            "flat_events": 0,
+            "positive_pct": 40.0,
+            "minimum": -58.25,
+            "maximum": 49.0
+          },
+          "outcomes": {
+            "target": 17,
+            "stop": 27,
+            "stop_gap": 0,
+            "time": 11
+          },
+          "ambiguous_minutes_stop_first": 0
+        },
+        "stop_2_distance": {
+          "gross": {
+            "events": 55,
+            "mean": -5.5,
+            "median": -1.5,
+            "sum": -302.5,
+            "positive_events": 26,
+            "flat_events": 0,
+            "positive_pct": 47.27272727272727,
+            "minimum": -114.5,
+            "maximum": 50.0
+          },
+          "net_one_point": {
+            "events": 55,
+            "mean": -6.5,
+            "median": -2.5,
+            "sum": -357.5,
+            "positive_events": 26,
+            "flat_events": 0,
+            "positive_pct": 47.27272727272727,
+            "minimum": -115.5,
+            "maximum": 49.0
+          },
+          "outcomes": {
+            "target": 21,
+            "stop": 12,
+            "stop_gap": 0,
+            "time": 22
+          },
+          "ambiguous_minutes_stop_first": 0
+        }
+      },
+      "no_stop_touch_group": {
+        "events": 23,
+        "mean": 16.119565217391305,
+        "median": 17.0,
+        "sum": 370.75,
+        "positive_events": 23,
+        "flat_events": 0,
+        "positive_pct": 100.0,
+        "minimum": 4.0,
+        "maximum": 33.5
+      },
+      "no_stop_no_touch_group": {
+        "events": 32,
+        "mean": -19.0390625,
+        "median": -15.875,
+        "sum": -609.25,
+        "positive_events": 6,
+        "flat_events": 0,
+        "positive_pct": 18.75,
+        "minimum": -109.0,
+        "maximum": 50.0
+      }
+    },
+    "other_weekdays": {
+      "events": 68,
+      "touches": 50,
+      "touch_pct": 73.52941176470588,
+      "first_minute_touches": 2,
+      "initial_gap_median": 4.5,
+      "residual_gap_median": 8.5,
+      "rules": {
+        "no_stop": {
+          "gross": {
+            "events": 68,
+            "mean": 2.625,
+            "median": 4.5,
+            "sum": 178.5,
+            "positive_events": 50,
+            "flat_events": 0,
+            "positive_pct": 73.52941176470588,
+            "minimum": -46.5,
+            "maximum": 48.5
+          },
+          "net_one_point": {
+            "events": 68,
+            "mean": 1.625,
+            "median": 3.5,
+            "sum": 110.5,
+            "positive_events": 47,
+            "flat_events": 1,
+            "positive_pct": 69.11764705882352,
+            "minimum": -47.5,
+            "maximum": 47.5
+          },
+          "outcomes": {
+            "target": 50,
+            "stop": 0,
+            "stop_gap": 0,
+            "time": 18
+          },
+          "ambiguous_minutes_stop_first": 0
+        },
+        "stop_1_distance": {
+          "gross": {
+            "events": 68,
+            "mean": 0.9963235294117647,
+            "median": -1.5,
+            "sum": 67.75,
+            "positive_events": 32,
+            "flat_events": 0,
+            "positive_pct": 47.05882352941176,
+            "minimum": -46.5,
+            "maximum": 48.5
+          },
+          "net_one_point": {
+            "events": 68,
+            "mean": -0.003676470588235294,
+            "median": -2.5,
+            "sum": -0.25,
+            "positive_events": 31,
+            "flat_events": 0,
+            "positive_pct": 45.588235294117645,
+            "minimum": -47.5,
+            "maximum": 47.5
+          },
+          "outcomes": {
+            "target": 32,
+            "stop": 33,
+            "stop_gap": 0,
+            "time": 3
+          },
+          "ambiguous_minutes_stop_first": 0
+        },
+        "stop_2_distance": {
+          "gross": {
+            "events": 68,
+            "mean": 0.4632352941176471,
+            "median": 2.125,
+            "sum": 31.5,
+            "positive_events": 39,
+            "flat_events": 0,
+            "positive_pct": 57.35294117647059,
+            "minimum": -46.5,
+            "maximum": 48.5
+          },
+          "net_one_point": {
+            "events": 68,
+            "mean": -0.5367647058823529,
+            "median": 1.125,
+            "sum": -36.5,
+            "positive_events": 38,
+            "flat_events": 0,
+            "positive_pct": 55.88235294117647,
+            "minimum": -47.5,
+            "maximum": 47.5
+          },
+          "outcomes": {
+            "target": 39,
+            "stop": 23,
+            "stop_gap": 0,
+            "time": 6
+          },
+          "ambiguous_minutes_stop_first": 0
+        }
+      },
+      "no_stop_touch_group": {
+        "events": 50,
+        "mean": 9.72,
+        "median": 8.125,
+        "sum": 486.0,
+        "positive_events": 50,
+        "flat_events": 0,
+        "positive_pct": 100.0,
+        "minimum": 0.75,
+        "maximum": 48.5
+      },
+      "no_stop_no_touch_group": {
+        "events": 18,
+        "mean": -17.083333333333332,
+        "median": -15.875,
+        "sum": -307.5,
+        "positive_events": 0,
+        "flat_events": 0,
+        "positive_pct": 0.0,
+        "minimum": -46.5,
+        "maximum": -0.25
+      }
+    },
+    "first_year": {
+      "events": 58,
+      "touches": 30,
+      "touch_pct": 51.724137931034484,
+      "first_minute_touches": 1,
+      "initial_gap_median": 8.875,
+      "residual_gap_median": 11.25,
+      "rules": {
+        "no_stop": {
+          "gross": {
+            "events": 58,
+            "mean": -6.961206896551724,
+            "median": 2.125,
+            "sum": -403.75,
+            "positive_events": 32,
+            "flat_events": 0,
+            "positive_pct": 55.172413793103445,
+            "minimum": -109.0,
+            "maximum": 31.75
+          },
+          "net_one_point": {
+            "events": 58,
+            "mean": -7.961206896551724,
+            "median": 1.125,
+            "sum": -461.75,
+            "positive_events": 30,
+            "flat_events": 0,
+            "positive_pct": 51.724137931034484,
+            "minimum": -110.0,
+            "maximum": 30.75
+          },
+          "outcomes": {
+            "target": 30,
+            "stop": 0,
+            "stop_gap": 0,
+            "time": 28
+          },
+          "ambiguous_minutes_stop_first": 0
+        },
+        "stop_1_distance": {
+          "gross": {
+            "events": 58,
+            "mean": -4.525862068965517,
+            "median": -5.0,
+            "sum": -262.5,
+            "positive_events": 20,
+            "flat_events": 0,
+            "positive_pct": 34.48275862068966,
+            "minimum": -57.25,
+            "maximum": 31.75
+          },
+          "net_one_point": {
+            "events": 58,
+            "mean": -5.525862068965517,
+            "median": -6.0,
+            "sum": -320.5,
+            "positive_events": 19,
+            "flat_events": 0,
+            "positive_pct": 32.758620689655174,
+            "minimum": -58.25,
+            "maximum": 30.75
+          },
+          "outcomes": {
+            "target": 18,
+            "stop": 35,
+            "stop_gap": 0,
+            "time": 5
+          },
+          "ambiguous_minutes_stop_first": 0
+        },
+        "stop_2_distance": {
+          "gross": {
+            "events": 58,
+            "mean": -7.228448275862069,
+            "median": -4.75,
+            "sum": -419.25,
+            "positive_events": 26,
+            "flat_events": 0,
+            "positive_pct": 44.827586206896555,
+            "minimum": -114.5,
+            "maximum": 31.75
+          },
+          "net_one_point": {
+            "events": 58,
+            "mean": -8.22844827586207,
+            "median": -5.75,
+            "sum": -477.25,
+            "positive_events": 25,
+            "flat_events": 0,
+            "positive_pct": 43.103448275862064,
+            "minimum": -115.5,
+            "maximum": 30.75
+          },
+          "outcomes": {
+            "target": 24,
+            "stop": 21,
+            "stop_gap": 0,
+            "time": 13
+          },
+          "ambiguous_minutes_stop_first": 0
+        }
+      },
+      "no_stop_touch_group": {
+        "events": 30,
+        "mean": 9.55,
+        "median": 8.0,
+        "sum": 286.5,
+        "positive_events": 30,
+        "flat_events": 0,
+        "positive_pct": 100.0,
+        "minimum": 0.75,
+        "maximum": 29.75
+      },
+      "no_stop_no_touch_group": {
+        "events": 28,
+        "mean": -24.651785714285715,
+        "median": -17.75,
+        "sum": -690.25,
+        "positive_events": 2,
+        "flat_events": 0,
+        "positive_pct": 7.142857142857142,
+        "minimum": -109.0,
+        "maximum": 31.75
+      }
+    },
+    "second_year": {
+      "events": 65,
+      "touches": 43,
+      "touch_pct": 66.15384615384616,
+      "first_minute_touches": 1,
+      "initial_gap_median": 7.75,
+      "residual_gap_median": 14.25,
+      "rules": {
+        "no_stop": {
+          "gross": {
+            "events": 65,
+            "mean": 5.288461538461538,
+            "median": 5.5,
+            "sum": 343.75,
+            "positive_events": 47,
+            "flat_events": 0,
+            "positive_pct": 72.3076923076923,
+            "minimum": -39.5,
+            "maximum": 50.0
+          },
+          "net_one_point": {
+            "events": 65,
+            "mean": 4.288461538461538,
+            "median": 4.5,
+            "sum": 278.75,
+            "positive_events": 46,
+            "flat_events": 1,
+            "positive_pct": 70.76923076923077,
+            "minimum": -40.5,
+            "maximum": 49.0
+          },
+          "outcomes": {
+            "target": 43,
+            "stop": 0,
+            "stop_gap": 0,
+            "time": 22
+          },
+          "ambiguous_minutes_stop_first": 0
+        },
+        "stop_1_distance": {
+          "gross": {
+            "events": 65,
+            "mean": 1.5692307692307692,
+            "median": 1.75,
+            "sum": 102.0,
+            "positive_events": 34,
+            "flat_events": 0,
+            "positive_pct": 52.307692307692314,
+            "minimum": -52.0,
+            "maximum": 50.0
+          },
+          "net_one_point": {
+            "events": 65,
+            "mean": 0.5692307692307692,
+            "median": 0.75,
+            "sum": 37.0,
+            "positive_events": 34,
+            "flat_events": 0,
+            "positive_pct": 52.307692307692314,
+            "minimum": -53.0,
+            "maximum": 49.0
+          },
+          "outcomes": {
+            "target": 31,
+            "stop": 25,
+            "stop_gap": 0,
+            "time": 9
+          },
+          "ambiguous_minutes_stop_first": 0
+        },
+        "stop_2_distance": {
+          "gross": {
+            "events": 65,
+            "mean": 2.2807692307692307,
+            "median": 4.5,
+            "sum": 148.25,
+            "positive_events": 39,
+            "flat_events": 0,
+            "positive_pct": 60.0,
+            "minimum": -67.0,
+            "maximum": 50.0
+          },
+          "net_one_point": {
+            "events": 65,
+            "mean": 1.2807692307692307,
+            "median": 3.5,
+            "sum": 83.25,
+            "positive_events": 39,
+            "flat_events": 0,
+            "positive_pct": 60.0,
+            "minimum": -68.0,
+            "maximum": 49.0
+          },
+          "outcomes": {
+            "target": 36,
+            "stop": 14,
+            "stop_gap": 0,
+            "time": 15
+          },
+          "ambiguous_minutes_stop_first": 0
+        }
+      },
+      "no_stop_touch_group": {
+        "events": 43,
+        "mean": 13.261627906976743,
+        "median": 9.25,
+        "sum": 570.25,
+        "positive_events": 43,
+        "flat_events": 0,
+        "positive_pct": 100.0,
+        "minimum": 1.0,
+        "maximum": 48.5
+      },
+      "no_stop_no_touch_group": {
+        "events": 22,
+        "mean": -10.295454545454545,
+        "median": -14.0,
+        "sum": -226.5,
+        "positive_events": 4,
+        "flat_events": 0,
+        "positive_pct": 18.181818181818183,
+        "minimum": -39.5,
+        "maximum": 50.0
+      }
+    },
+    "away_first_year": {
+      "events": 42,
+      "touches": 22,
+      "touch_pct": 52.38095238095238,
+      "first_minute_touches": 0,
+      "initial_gap_median": 6.5,
+      "residual_gap_median": 11.625,
+      "rules": {
+        "no_stop": {
+          "gross": {
+            "events": 42,
+            "mean": -2.0654761904761907,
+            "median": 3.375,
+            "sum": -86.75,
+            "positive_events": 24,
+            "flat_events": 0,
+            "positive_pct": 57.14285714285714,
+            "minimum": -50.5,
+            "maximum": 31.75
+          },
+          "net_one_point": {
+            "events": 42,
+            "mean": -3.0654761904761907,
+            "median": 2.375,
+            "sum": -128.75,
+            "positive_events": 24,
+            "flat_events": 0,
+            "positive_pct": 57.14285714285714,
+            "minimum": -51.5,
+            "maximum": 30.75
+          },
+          "outcomes": {
+            "target": 22,
+            "stop": 0,
+            "stop_gap": 0,
+            "time": 20
+          },
+          "ambiguous_minutes_stop_first": 0
+        },
+        "stop_1_distance": {
+          "gross": {
+            "events": 42,
+            "mean": -3.3154761904761907,
+            "median": -4.625,
+            "sum": -139.25,
+            "positive_events": 15,
+            "flat_events": 0,
+            "positive_pct": 35.714285714285715,
+            "minimum": -46.5,
+            "maximum": 31.75
+          },
+          "net_one_point": {
+            "events": 42,
+            "mean": -4.315476190476191,
+            "median": -5.625,
+            "sum": -181.25,
+            "positive_events": 15,
+            "flat_events": 0,
+            "positive_pct": 35.714285714285715,
+            "minimum": -47.5,
+            "maximum": 30.75
+          },
+          "outcomes": {
+            "target": 13,
+            "stop": 24,
+            "stop_gap": 0,
+            "time": 5
+          },
+          "ambiguous_minutes_stop_first": 0
+        },
+        "stop_2_distance": {
+          "gross": {
+            "events": 42,
+            "mean": -3.380952380952381,
+            "median": -3.0,
+            "sum": -142.0,
+            "positive_events": 20,
+            "flat_events": 0,
+            "positive_pct": 47.61904761904761,
+            "minimum": -46.5,
+            "maximum": 31.75
+          },
+          "net_one_point": {
+            "events": 42,
+            "mean": -4.380952380952381,
+            "median": -4.0,
+            "sum": -184.0,
+            "positive_events": 20,
+            "flat_events": 0,
+            "positive_pct": 47.61904761904761,
+            "minimum": -47.5,
+            "maximum": 30.75
+          },
+          "outcomes": {
+            "target": 18,
+            "stop": 11,
+            "stop_gap": 0,
+            "time": 13
+          },
+          "ambiguous_minutes_stop_first": 0
+        }
+      },
+      "no_stop_touch_group": {
+        "events": 22,
+        "mean": 10.295454545454545,
+        "median": 9.75,
+        "sum": 226.5,
+        "positive_events": 22,
+        "flat_events": 0,
+        "positive_pct": 100.0,
+        "minimum": 2.0,
+        "maximum": 21.75
+      },
+      "no_stop_no_touch_group": {
+        "events": 20,
+        "mean": -15.6625,
+        "median": -12.75,
+        "sum": -313.25,
+        "positive_events": 2,
+        "flat_events": 0,
+        "positive_pct": 10.0,
+        "minimum": -50.5,
+        "maximum": 31.75
+      }
+    },
+    "away_second_year": {
+      "events": 49,
+      "touches": 33,
+      "touch_pct": 67.34693877551021,
+      "first_minute_touches": 1,
+      "initial_gap_median": 6.25,
+      "residual_gap_median": 11.75,
+      "rules": {
+        "no_stop": {
+          "gross": {
+            "events": 49,
+            "mean": 5.989795918367347,
+            "median": 7.5,
+            "sum": 293.5,
+            "positive_events": 36,
+            "flat_events": 0,
+            "positive_pct": 73.46938775510205,
+            "minimum": -39.5,
+            "maximum": 50.0
+          },
+          "net_one_point": {
+            "events": 49,
+            "mean": 4.989795918367347,
+            "median": 6.5,
+            "sum": 244.5,
+            "positive_events": 36,
+            "flat_events": 0,
+            "positive_pct": 73.46938775510205,
+            "minimum": -40.5,
+            "maximum": 49.0
+          },
+          "outcomes": {
+            "target": 33,
+            "stop": 0,
+            "stop_gap": 0,
+            "time": 16
+          },
+          "ambiguous_minutes_stop_first": 0
+        },
+        "stop_1_distance": {
+          "gross": {
+            "events": 49,
+            "mean": 3.36734693877551,
+            "median": 4.5,
+            "sum": 165.0,
+            "positive_events": 27,
+            "flat_events": 0,
+            "positive_pct": 55.10204081632652,
+            "minimum": -39.5,
+            "maximum": 50.0
+          },
+          "net_one_point": {
+            "events": 49,
+            "mean": 2.36734693877551,
+            "median": 3.5,
+            "sum": 116.0,
+            "positive_events": 27,
+            "flat_events": 0,
+            "positive_pct": 55.10204081632652,
+            "minimum": -40.5,
+            "maximum": 49.0
+          },
+          "outcomes": {
+            "target": 25,
+            "stop": 18,
+            "stop_gap": 0,
+            "time": 6
+          },
+          "ambiguous_minutes_stop_first": 0
+        },
+        "stop_2_distance": {
+          "gross": {
+            "events": 49,
+            "mean": 4.076530612244898,
+            "median": 6.5,
+            "sum": 199.75,
+            "positive_events": 31,
+            "flat_events": 0,
+            "positive_pct": 63.26530612244898,
+            "minimum": -39.5,
+            "maximum": 50.0
+          },
+          "net_one_point": {
+            "events": 49,
+            "mean": 3.076530612244898,
+            "median": 5.5,
+            "sum": 150.75,
+            "positive_events": 31,
+            "flat_events": 0,
+            "positive_pct": 63.26530612244898,
+            "minimum": -40.5,
+            "maximum": 49.0
+          },
+          "outcomes": {
+            "target": 29,
+            "stop": 9,
+            "stop_gap": 0,
+            "time": 11
+          },
+          "ambiguous_minutes_stop_first": 0
+        }
+      },
+      "no_stop_touch_group": {
+        "events": 33,
+        "mean": 13.946969696969697,
+        "median": 9.75,
+        "sum": 460.25,
+        "positive_events": 33,
+        "flat_events": 0,
+        "positive_pct": 100.0,
+        "minimum": 1.5,
+        "maximum": 48.5
+      },
+      "no_stop_no_touch_group": {
+        "events": 16,
+        "mean": -10.421875,
+        "median": -14.0,
+        "sum": -166.75,
+        "positive_events": 3,
+        "flat_events": 0,
+        "positive_pct": 18.75,
+        "minimum": -39.5,
+        "maximum": 50.0
+      }
+    }
+  },
+  "signal_groups_before_outcome_quality": {
+    "toward": 31,
+    "away": 98,
+    "unchanged": 2,
+    "sunday": 58,
+    "other_weekdays": 73,
+    "first_year": 64,
+    "second_year": 67,
+    "away_first_year": 47,
+    "away_second_year": 51
+  },
+  "cost_scenarios": {
+    "0.5": {
+      "events": 123,
+      "mean": -0.9878048780487805,
+      "median": 3.75,
+      "sum": -121.5,
+      "positive_events": 79,
+      "flat_events": 0,
+      "positive_pct": 64.22764227642277,
+      "minimum": -109.5,
+      "maximum": 49.5
+    },
+    "1.0": {
+      "events": 123,
+      "mean": -1.4878048780487805,
+      "median": 3.25,
+      "sum": -183.0,
+      "positive_events": 76,
+      "flat_events": 1,
+      "positive_pct": 61.78861788617886,
+      "minimum": -110.0,
+      "maximum": 49.0
+    },
+    "2.0": {
+      "events": 123,
+      "mean": -2.4878048780487805,
+      "median": 2.25,
+      "sum": -306.0,
+      "positive_events": 71,
+      "flat_events": 2,
+      "positive_pct": 57.72357723577236,
+      "minimum": -111.0,
+      "maximum": 48.0
+    },
+    "4.0": {
+      "events": 123,
+      "mean": -4.487804878048781,
+      "median": 0.25,
+      "sum": -552.0,
+      "positive_events": 64,
+      "flat_events": 3,
+      "positive_pct": 52.03252032520326,
+      "minimum": -113.0,
+      "maximum": 46.0
+    }
+  },
+  "no_stop_net_mean_95_weekly_resampling": [
+    -6.080461331079993,
+    2.989847202423377
+  ],
+  "resampling": {
+    "unit": "Monday\u2013Sunday week of morning date",
+    "draws": 10000,
+    "seed": 20261016,
+    "selection_adjusted": false
+  },
+  "full_day": {
+    "events": 120,
+    "touches_before_0930": 72,
+    "touches_before_1700": 91,
+    "net_one_point": {
+      "events": 120,
+      "mean": -0.9395833333333333,
+      "median": 7.125,
+      "sum": -112.75,
+      "positive_events": 91,
+      "flat_events": 1,
+      "positive_pct": 75.83333333333333,
+      "minimum": -128.0,
+      "maximum": 185.75
+    },
+    "same_events_0930_net": {
+      "events": 120,
+      "mean": -1.0708333333333333,
+      "median": 3.25,
+      "sum": -128.5,
+      "positive_events": 75,
+      "flat_events": 1,
+      "positive_pct": 62.5,
+      "minimum": -110.0,
+      "maximum": 49.0
+    }
+  },
+  "delayed_to_1831": {
+    "net_one_point": {
+      "events": 121,
+      "mean": -1.6239669421487604,
+      "median": 3.25,
+      "sum": -196.5,
+      "positive_events": 75,
+      "flat_events": 1,
+      "positive_pct": 61.98347107438017,
+      "minimum": -108.0,
+      "maximum": 51.5
+    },
+    "excluded": 2
+  },
+  "legacy": {
+    "events": 122,
+    "touches": 73,
+    "shared_with_current": 119,
+    "old_events_not_in_current": [
+      "2025-01-02",
+      "2025-04-21",
+      "2026-01-02"
+    ],
+    "no_stop_net": {
+      "events": 122,
+      "mean": -1.5,
+      "median": 3.25,
+      "sum": -183.0,
+      "positive_events": 75,
+      "flat_events": 1,
+      "positive_pct": 61.47540983606557,
+      "minimum": -110.0,
+      "maximum": 49.0
+    },
+    "stop_1_net": {
+      "events": 122,
+      "mean": -2.2868852459016393,
+      "median": -4.75,
+      "sum": -279.0,
+      "positive_events": 53,
+      "flat_events": 0,
+      "positive_pct": 43.44262295081967,
+      "minimum": -58.25,
+      "maximum": 49.0
+    },
+    "stop_2_net": {
+      "events": 122,
+      "mean": -3.2540983606557377,
+      "median": 0.875,
+      "sum": -397.0,
+      "positive_events": 63,
+      "flat_events": 0,
+      "positive_pct": 51.63934426229508,
+      "minimum": -115.5,
+      "maximum": 49.0
+    }
+  },
+  "limitations": [
+    "Signal selection uses target and opening-window information only; later quality exclusions are outcome availability, not a real-time filter.",
+    "Entry at observed 18:30 open and target-touch fills are idealized; no order or quote validation.",
+    "Stops use adverse gap opens and pessimistic stop-first unresolved same-minute ties; no actual slippage model.",
+    "Same previously explored archive; movement groups, two stops, delays and periods are exploratory."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "checked_date": "2026-10-16",
+  "source_sha256": "b9e1acf1ee029db919e6e5feba38bd985d06a84af8193c11ce93722606c6356c",
+  "independent_numeric_matches": 1004,
+  "made_up_tests_passed": 11,
+  "signals_selected": 131,
+  "measurable_overnight_events": 123,
+  "original_event_audit": {
+    "performed": true,
+    "saved_events": 122,
+    "event_value_matches": 976,
+    "shared_with_current_measurable_events": 119,
+    "note": "Original saved 122-event gaps, residual distances, first touches, touch flags and all four gross trade outcomes freshly reproduced. Original future-data selection is not used for current signals."
+  },
+  "scope": "Separate standard-library CSV/time parser and stop/target arithmetic matched every current signal and available outcome. Aggregate statistics checked; weekly resampling range is not independently recomputed; no vendor/order audit."
+}
