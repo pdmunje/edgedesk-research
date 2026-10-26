@@ -1,0 +1,1152 @@
+{
+  "question": "Can waiting for a reversal improve ES gap entries?",
+  "source_sha256": "b9e1acf1ee029db919e6e5feba38bd985d06a84af8193c11ce93722606c6356c",
+  "checks": {
+    "source_rows": 707321,
+    "source_session_dates": 518,
+    "evening_candidates": 517,
+    "sequential_signal_exclusions": {
+      "missing_required_close": 24,
+      "target_contract_change": 8,
+      "opening_or_1830_boundary_unusable": 9,
+      "zero_initial_gap": 26,
+      "touched_before_1830": 319,
+      "crossed_at_1830_open": 0
+    },
+    "signals_at_1830": 131,
+    "later_unusable_overnight": 8,
+    "later_unusable_full_day": 11
+  },
+  "measurable_full_day_gaps": 120,
+  "first_morning_date": "2024-08-29",
+  "last_morning_date": "2026-08-27",
+  "results": {
+    "all_session_vwap": {
+      "trades": 104,
+      "eligible_measurable_gaps": 120,
+      "signal_pct": 86.66666666666667,
+      "overnight_entries": 98,
+      "daytime_entries": 6,
+      "target_exits": 76,
+      "net_no_stop": {
+        "events": 104,
+        "mean": 0.5769230769230769,
+        "median": 6.375,
+        "sum": 60.0,
+        "positive_events": 79,
+        "flat_events": 0,
+        "positive_pct": 75.96153846153845,
+        "minimum": -112.25,
+        "maximum": 185.75
+      },
+      "net_with_stop": {
+        "events": 104,
+        "mean": 0.7836538461538461,
+        "median": -5.125,
+        "sum": 81.5,
+        "positive_events": 44,
+        "flat_events": 0,
+        "positive_pct": 42.30769230769231,
+        "minimum": -43.5,
+        "maximum": 185.75
+      },
+      "cost_scenarios_no_stop": {
+        "0.5": {
+          "events": 104,
+          "mean": 1.0769230769230769,
+          "median": 6.875,
+          "sum": 112.0,
+          "positive_events": 79,
+          "flat_events": 0,
+          "positive_pct": 75.96153846153845,
+          "minimum": -111.75,
+          "maximum": 186.25
+        },
+        "1.0": {
+          "events": 104,
+          "mean": 0.5769230769230769,
+          "median": 6.375,
+          "sum": 60.0,
+          "positive_events": 79,
+          "flat_events": 0,
+          "positive_pct": 75.96153846153845,
+          "minimum": -112.25,
+          "maximum": 185.75
+        },
+        "2.0": {
+          "events": 104,
+          "mean": -0.4230769230769231,
+          "median": 5.375,
+          "sum": -44.0,
+          "positive_events": 76,
+          "flat_events": 2,
+          "positive_pct": 73.07692307692307,
+          "minimum": -113.25,
+          "maximum": 184.75
+        },
+        "4.0": {
+          "events": 104,
+          "mean": -2.423076923076923,
+          "median": 3.375,
+          "sum": -252.0,
+          "positive_events": 68,
+          "flat_events": 1,
+          "positive_pct": 65.38461538461539,
+          "minimum": -115.25,
+          "maximum": 182.75
+        }
+      },
+      "without_largest_no_stop_winner_mean": -1.220873786407767,
+      "without_largest_stop_winner_mean": -1.0121359223300972,
+      "stop_outcomes": {
+        "target": 43,
+        "stop": 60,
+        "time": 1
+      },
+      "unresolved_same_minute_stop_target": 1,
+      "mean_per_eligible_gap_no_trade_zero": 0.5,
+      "fixed_1830_mean_per_same_eligible_gap": -0.9395833333333333,
+      "paired_mean_difference": 1.4395833333333334,
+      "periods": {
+        "first_year": {
+          "trades": 49,
+          "net_no_stop": {
+            "events": 49,
+            "mean": -0.2653061224489796,
+            "median": 5.75,
+            "sum": -13.0,
+            "positive_events": 37,
+            "flat_events": 0,
+            "positive_pct": 75.51020408163265,
+            "minimum": -112.25,
+            "maximum": 185.75
+          },
+          "net_with_stop": {
+            "events": 49,
+            "mean": 0.25510204081632654,
+            "median": -6.0,
+            "sum": 12.5,
+            "positive_events": 16,
+            "flat_events": 0,
+            "positive_pct": 32.6530612244898,
+            "minimum": -43.5,
+            "maximum": 185.75
+          }
+        },
+        "second_year": {
+          "trades": 55,
+          "net_no_stop": {
+            "events": 55,
+            "mean": 1.3272727272727274,
+            "median": 6.5,
+            "sum": 73.0,
+            "positive_events": 42,
+            "flat_events": 0,
+            "positive_pct": 76.36363636363637,
+            "minimum": -81.0,
+            "maximum": 98.0
+          },
+          "net_with_stop": {
+            "events": 55,
+            "mean": 1.2545454545454546,
+            "median": 0.25,
+            "sum": 69.0,
+            "positive_events": 28,
+            "flat_events": 0,
+            "positive_pct": 50.90909090909091,
+            "minimum": -30.25,
+            "maximum": 57.25
+          }
+        }
+      }
+    },
+    "all_session_vwap5": {
+      "trades": 103,
+      "eligible_measurable_gaps": 120,
+      "signal_pct": 85.83333333333333,
+      "overnight_entries": 97,
+      "daytime_entries": 6,
+      "target_exits": 75,
+      "net_no_stop": {
+        "events": 103,
+        "mean": 0.21844660194174756,
+        "median": 6.0,
+        "sum": 22.5,
+        "positive_events": 78,
+        "flat_events": 0,
+        "positive_pct": 75.72815533980582,
+        "minimum": -112.25,
+        "maximum": 185.75
+      },
+      "net_with_stop": {
+        "events": 103,
+        "mean": 0.33980582524271846,
+        "median": -5.0,
+        "sum": 35.0,
+        "positive_events": 43,
+        "flat_events": 0,
+        "positive_pct": 41.74757281553398,
+        "minimum": -43.5,
+        "maximum": 185.75
+      },
+      "cost_scenarios_no_stop": {
+        "0.5": {
+          "events": 103,
+          "mean": 0.7184466019417476,
+          "median": 6.5,
+          "sum": 74.0,
+          "positive_events": 78,
+          "flat_events": 0,
+          "positive_pct": 75.72815533980582,
+          "minimum": -111.75,
+          "maximum": 186.25
+        },
+        "1.0": {
+          "events": 103,
+          "mean": 0.21844660194174756,
+          "median": 6.0,
+          "sum": 22.5,
+          "positive_events": 78,
+          "flat_events": 0,
+          "positive_pct": 75.72815533980582,
+          "minimum": -112.25,
+          "maximum": 185.75
+        },
+        "2.0": {
+          "events": 103,
+          "mean": -0.7815533980582524,
+          "median": 5.0,
+          "sum": -80.5,
+          "positive_events": 75,
+          "flat_events": 2,
+          "positive_pct": 72.81553398058253,
+          "minimum": -113.25,
+          "maximum": 184.75
+        },
+        "4.0": {
+          "events": 103,
+          "mean": -2.7815533980582523,
+          "median": 3.0,
+          "sum": -286.5,
+          "positive_events": 67,
+          "flat_events": 1,
+          "positive_pct": 65.0485436893204,
+          "minimum": -115.25,
+          "maximum": 182.75
+        }
+      },
+      "without_largest_no_stop_winner_mean": -1.6004901960784315,
+      "without_largest_stop_winner_mean": -1.4779411764705883,
+      "stop_outcomes": {
+        "target": 42,
+        "stop": 60,
+        "time": 1
+      },
+      "unresolved_same_minute_stop_target": 1,
+      "mean_per_eligible_gap_no_trade_zero": 0.1875,
+      "fixed_1830_mean_per_same_eligible_gap": -0.9395833333333333,
+      "paired_mean_difference": 1.1270833333333334,
+      "periods": {
+        "first_year": {
+          "trades": 49,
+          "net_no_stop": {
+            "events": 49,
+            "mean": -0.30612244897959184,
+            "median": 5.5,
+            "sum": -15.0,
+            "positive_events": 37,
+            "flat_events": 0,
+            "positive_pct": 75.51020408163265,
+            "minimum": -112.25,
+            "maximum": 185.75
+          },
+          "net_with_stop": {
+            "events": 49,
+            "mean": 0.8775510204081632,
+            "median": -5.75,
+            "sum": 43.0,
+            "positive_events": 17,
+            "flat_events": 0,
+            "positive_pct": 34.69387755102041,
+            "minimum": -43.5,
+            "maximum": 185.75
+          }
+        },
+        "second_year": {
+          "trades": 54,
+          "net_no_stop": {
+            "events": 54,
+            "mean": 0.6944444444444444,
+            "median": 6.375,
+            "sum": 37.5,
+            "positive_events": 41,
+            "flat_events": 0,
+            "positive_pct": 75.92592592592592,
+            "minimum": -81.0,
+            "maximum": 99.75
+          },
+          "net_with_stop": {
+            "events": 54,
+            "mean": -0.14814814814814814,
+            "median": -4.625,
+            "sum": -8.0,
+            "positive_events": 26,
+            "flat_events": 0,
+            "positive_pct": 48.148148148148145,
+            "minimum": -28.5,
+            "maximum": 57.25
+          }
+        }
+      }
+    },
+    "all_session_cisd": {
+      "trades": 96,
+      "eligible_measurable_gaps": 120,
+      "signal_pct": 80.0,
+      "overnight_entries": 96,
+      "daytime_entries": 0,
+      "target_exits": 68,
+      "net_no_stop": {
+        "events": 96,
+        "mean": -0.6171875,
+        "median": 6.375,
+        "sum": -59.25,
+        "positive_events": 70,
+        "flat_events": 0,
+        "positive_pct": 72.91666666666666,
+        "minimum": -108.0,
+        "maximum": 207.75
+      },
+      "net_with_stop": {
+        "events": 96,
+        "mean": -0.1796875,
+        "median": -5.125,
+        "sum": -17.25,
+        "positive_events": 31,
+        "flat_events": 0,
+        "positive_pct": 32.29166666666667,
+        "minimum": -45.0,
+        "maximum": 207.75
+      },
+      "cost_scenarios_no_stop": {
+        "0.5": {
+          "events": 96,
+          "mean": -0.1171875,
+          "median": 6.875,
+          "sum": -11.25,
+          "positive_events": 70,
+          "flat_events": 0,
+          "positive_pct": 72.91666666666666,
+          "minimum": -107.5,
+          "maximum": 208.25
+        },
+        "1.0": {
+          "events": 96,
+          "mean": -0.6171875,
+          "median": 6.375,
+          "sum": -59.25,
+          "positive_events": 70,
+          "flat_events": 0,
+          "positive_pct": 72.91666666666666,
+          "minimum": -108.0,
+          "maximum": 207.75
+        },
+        "2.0": {
+          "events": 96,
+          "mean": -1.6171875,
+          "median": 5.375,
+          "sum": -155.25,
+          "positive_events": 70,
+          "flat_events": 0,
+          "positive_pct": 72.91666666666666,
+          "minimum": -109.0,
+          "maximum": 206.75
+        },
+        "4.0": {
+          "events": 96,
+          "mean": -3.6171875,
+          "median": 3.375,
+          "sum": -347.25,
+          "positive_events": 63,
+          "flat_events": 1,
+          "positive_pct": 65.625,
+          "minimum": -111.0,
+          "maximum": 204.75
+        }
+      },
+      "without_largest_no_stop_winner_mean": -2.8105263157894735,
+      "without_largest_stop_winner_mean": -2.3684210526315788,
+      "stop_outcomes": {
+        "target": 31,
+        "stop": 65,
+        "time": 0
+      },
+      "unresolved_same_minute_stop_target": 0,
+      "mean_per_eligible_gap_no_trade_zero": -0.49375,
+      "fixed_1830_mean_per_same_eligible_gap": -0.9395833333333333,
+      "paired_mean_difference": 0.44583333333333336,
+      "periods": {
+        "first_year": {
+          "trades": 47,
+          "net_no_stop": {
+            "events": 47,
+            "mean": -1.7553191489361701,
+            "median": 5.75,
+            "sum": -82.5,
+            "positive_events": 34,
+            "flat_events": 0,
+            "positive_pct": 72.3404255319149,
+            "minimum": -108.0,
+            "maximum": 207.75
+          },
+          "net_with_stop": {
+            "events": 47,
+            "mean": -2.047872340425532,
+            "median": -5.75,
+            "sum": -96.25,
+            "positive_events": 11,
+            "flat_events": 0,
+            "positive_pct": 23.404255319148938,
+            "minimum": -45.0,
+            "maximum": 207.75
+          }
+        },
+        "second_year": {
+          "trades": 49,
+          "net_no_stop": {
+            "events": 49,
+            "mean": 0.4744897959183674,
+            "median": 7.25,
+            "sum": 23.25,
+            "positive_events": 36,
+            "flat_events": 0,
+            "positive_pct": 73.46938775510205,
+            "minimum": -81.5,
+            "maximum": 101.75
+          },
+          "net_with_stop": {
+            "events": 49,
+            "mean": 1.6122448979591837,
+            "median": -3.75,
+            "sum": 79.0,
+            "positive_events": 20,
+            "flat_events": 0,
+            "positive_pct": 40.816326530612244,
+            "minimum": -26.5,
+            "maximum": 81.75
+          }
+        }
+      }
+    },
+    "all_session_both": {
+      "trades": 89,
+      "eligible_measurable_gaps": 120,
+      "signal_pct": 74.16666666666667,
+      "overnight_entries": 82,
+      "daytime_entries": 7,
+      "target_exits": 61,
+      "net_no_stop": {
+        "events": 89,
+        "mean": -2.216292134831461,
+        "median": 6.0,
+        "sum": -197.25,
+        "positive_events": 65,
+        "flat_events": 0,
+        "positive_pct": 73.03370786516854,
+        "minimum": -110.25,
+        "maximum": 182.75
+      },
+      "net_with_stop": {
+        "events": 89,
+        "mean": 0.21910112359550563,
+        "median": -5.5,
+        "sum": 19.5,
+        "positive_events": 38,
+        "flat_events": 0,
+        "positive_pct": 42.69662921348314,
+        "minimum": -45.0,
+        "maximum": 182.75
+      },
+      "cost_scenarios_no_stop": {
+        "0.5": {
+          "events": 89,
+          "mean": -1.7162921348314606,
+          "median": 6.5,
+          "sum": -152.75,
+          "positive_events": 65,
+          "flat_events": 0,
+          "positive_pct": 73.03370786516854,
+          "minimum": -109.75,
+          "maximum": 183.25
+        },
+        "1.0": {
+          "events": 89,
+          "mean": -2.216292134831461,
+          "median": 6.0,
+          "sum": -197.25,
+          "positive_events": 65,
+          "flat_events": 0,
+          "positive_pct": 73.03370786516854,
+          "minimum": -110.25,
+          "maximum": 182.75
+        },
+        "2.0": {
+          "events": 89,
+          "mean": -3.216292134831461,
+          "median": 5.0,
+          "sum": -286.25,
+          "positive_events": 64,
+          "flat_events": 1,
+          "positive_pct": 71.91011235955057,
+          "minimum": -111.25,
+          "maximum": 181.75
+        },
+        "4.0": {
+          "events": 89,
+          "mean": -5.216292134831461,
+          "median": 3.0,
+          "sum": -464.25,
+          "positive_events": 58,
+          "flat_events": 1,
+          "positive_pct": 65.1685393258427,
+          "minimum": -113.25,
+          "maximum": 179.75
+        }
+      },
+      "without_largest_no_stop_winner_mean": -4.318181818181818,
+      "without_largest_stop_winner_mean": -1.8551136363636365,
+      "stop_outcomes": {
+        "target": 36,
+        "stop": 51,
+        "time": 2
+      },
+      "unresolved_same_minute_stop_target": 0,
+      "mean_per_eligible_gap_no_trade_zero": -1.64375,
+      "fixed_1830_mean_per_same_eligible_gap": -0.9395833333333333,
+      "paired_mean_difference": -0.7041666666666667,
+      "periods": {
+        "first_year": {
+          "trades": 46,
+          "net_no_stop": {
+            "events": 46,
+            "mean": -1.6195652173913044,
+            "median": 5.625,
+            "sum": -74.5,
+            "positive_events": 35,
+            "flat_events": 0,
+            "positive_pct": 76.08695652173914,
+            "minimum": -110.25,
+            "maximum": 182.75
+          },
+          "net_with_stop": {
+            "events": 46,
+            "mean": -0.11956521739130435,
+            "median": -5.875,
+            "sum": -5.5,
+            "positive_events": 17,
+            "flat_events": 0,
+            "positive_pct": 36.95652173913043,
+            "minimum": -45.0,
+            "maximum": 182.75
+          }
+        },
+        "second_year": {
+          "trades": 43,
+          "net_no_stop": {
+            "events": 43,
+            "mean": -2.854651162790698,
+            "median": 6.5,
+            "sum": -122.75,
+            "positive_events": 30,
+            "flat_events": 0,
+            "positive_pct": 69.76744186046511,
+            "minimum": -81.5,
+            "maximum": 98.0
+          },
+          "net_with_stop": {
+            "events": 43,
+            "mean": 0.5813953488372093,
+            "median": -4.75,
+            "sum": 25.0,
+            "positive_events": 21,
+            "flat_events": 0,
+            "positive_pct": 48.837209302325576,
+            "minimum": -36.25,
+            "maximum": 56.0
+          }
+        }
+      }
+    },
+    "overnight_vwap": {
+      "trades": 98,
+      "eligible_measurable_gaps": 120,
+      "signal_pct": 81.66666666666667,
+      "overnight_entries": 98,
+      "daytime_entries": 0,
+      "target_exits": 75,
+      "net_no_stop": {
+        "events": 98,
+        "mean": 1.221938775510204,
+        "median": 6.5,
+        "sum": 119.75,
+        "positive_events": 77,
+        "flat_events": 0,
+        "positive_pct": 78.57142857142857,
+        "minimum": -112.25,
+        "maximum": 185.75
+      },
+      "net_with_stop": {
+        "events": 98,
+        "mean": 0.951530612244898,
+        "median": -4.875,
+        "sum": 93.25,
+        "positive_events": 42,
+        "flat_events": 0,
+        "positive_pct": 42.857142857142854,
+        "minimum": -37.25,
+        "maximum": 185.75
+      },
+      "cost_scenarios_no_stop": {
+        "0.5": {
+          "events": 98,
+          "mean": 1.721938775510204,
+          "median": 7.0,
+          "sum": 168.75,
+          "positive_events": 77,
+          "flat_events": 0,
+          "positive_pct": 78.57142857142857,
+          "minimum": -111.75,
+          "maximum": 186.25
+        },
+        "1.0": {
+          "events": 98,
+          "mean": 1.221938775510204,
+          "median": 6.5,
+          "sum": 119.75,
+          "positive_events": 77,
+          "flat_events": 0,
+          "positive_pct": 78.57142857142857,
+          "minimum": -112.25,
+          "maximum": 185.75
+        },
+        "2.0": {
+          "events": 98,
+          "mean": 0.22193877551020408,
+          "median": 5.5,
+          "sum": 21.75,
+          "positive_events": 74,
+          "flat_events": 2,
+          "positive_pct": 75.51020408163265,
+          "minimum": -113.25,
+          "maximum": 184.75
+        },
+        "4.0": {
+          "events": 98,
+          "mean": -1.778061224489796,
+          "median": 3.5,
+          "sum": -174.25,
+          "positive_events": 66,
+          "flat_events": 1,
+          "positive_pct": 67.3469387755102,
+          "minimum": -115.25,
+          "maximum": 182.75
+        }
+      },
+      "without_largest_no_stop_winner_mean": -0.6804123711340206,
+      "without_largest_stop_winner_mean": -0.9536082474226805,
+      "stop_outcomes": {
+        "target": 42,
+        "stop": 56,
+        "time": 0
+      },
+      "unresolved_same_minute_stop_target": 1,
+      "mean_per_eligible_gap_no_trade_zero": 0.9979166666666667,
+      "fixed_1830_mean_per_same_eligible_gap": -0.9395833333333333,
+      "paired_mean_difference": 1.9375,
+      "periods": {
+        "first_year": {
+          "trades": 46,
+          "net_no_stop": {
+            "events": 46,
+            "mean": -1.1521739130434783,
+            "median": 5.625,
+            "sum": -53.0,
+            "positive_events": 35,
+            "flat_events": 0,
+            "positive_pct": 76.08695652173914,
+            "minimum": -112.25,
+            "maximum": 185.75
+          },
+          "net_with_stop": {
+            "events": 46,
+            "mean": -0.6467391304347826,
+            "median": -6.125,
+            "sum": -29.75,
+            "positive_events": 14,
+            "flat_events": 0,
+            "positive_pct": 30.434782608695656,
+            "minimum": -37.25,
+            "maximum": 185.75
+          }
+        },
+        "second_year": {
+          "trades": 52,
+          "net_no_stop": {
+            "events": 52,
+            "mean": 3.3221153846153846,
+            "median": 6.875,
+            "sum": 172.75,
+            "positive_events": 42,
+            "flat_events": 0,
+            "positive_pct": 80.76923076923077,
+            "minimum": -81.0,
+            "maximum": 98.0
+          },
+          "net_with_stop": {
+            "events": 52,
+            "mean": 2.3653846153846154,
+            "median": 1.125,
+            "sum": 123.0,
+            "positive_events": 28,
+            "flat_events": 0,
+            "positive_pct": 53.84615384615385,
+            "minimum": -30.25,
+            "maximum": 57.25
+          }
+        }
+      }
+    },
+    "overnight_vwap5": {
+      "trades": 97,
+      "eligible_measurable_gaps": 120,
+      "signal_pct": 80.83333333333333,
+      "overnight_entries": 97,
+      "daytime_entries": 0,
+      "target_exits": 74,
+      "net_no_stop": {
+        "events": 97,
+        "mean": 0.8479381443298969,
+        "median": 6.25,
+        "sum": 82.25,
+        "positive_events": 76,
+        "flat_events": 0,
+        "positive_pct": 78.35051546391753,
+        "minimum": -112.25,
+        "maximum": 185.75
+      },
+      "net_with_stop": {
+        "events": 97,
+        "mean": 0.48195876288659795,
+        "median": -4.75,
+        "sum": 46.75,
+        "positive_events": 41,
+        "flat_events": 0,
+        "positive_pct": 42.2680412371134,
+        "minimum": -37.25,
+        "maximum": 185.75
+      },
+      "cost_scenarios_no_stop": {
+        "0.5": {
+          "events": 97,
+          "mean": 1.347938144329897,
+          "median": 6.75,
+          "sum": 130.75,
+          "positive_events": 76,
+          "flat_events": 0,
+          "positive_pct": 78.35051546391753,
+          "minimum": -111.75,
+          "maximum": 186.25
+        },
+        "1.0": {
+          "events": 97,
+          "mean": 0.8479381443298969,
+          "median": 6.25,
+          "sum": 82.25,
+          "positive_events": 76,
+          "flat_events": 0,
+          "positive_pct": 78.35051546391753,
+          "minimum": -112.25,
+          "maximum": 185.75
+        },
+        "2.0": {
+          "events": 97,
+          "mean": -0.15206185567010308,
+          "median": 5.25,
+          "sum": -14.75,
+          "positive_events": 73,
+          "flat_events": 2,
+          "positive_pct": 75.25773195876289,
+          "minimum": -113.25,
+          "maximum": 184.75
+        },
+        "4.0": {
+          "events": 97,
+          "mean": -2.152061855670103,
+          "median": 3.25,
+          "sum": -208.75,
+          "positive_events": 65,
+          "flat_events": 1,
+          "positive_pct": 67.0103092783505,
+          "minimum": -115.25,
+          "maximum": 182.75
+        }
+      },
+      "without_largest_no_stop_winner_mean": -1.078125,
+      "without_largest_stop_winner_mean": -1.4479166666666667,
+      "stop_outcomes": {
+        "target": 41,
+        "stop": 56,
+        "time": 0
+      },
+      "unresolved_same_minute_stop_target": 1,
+      "mean_per_eligible_gap_no_trade_zero": 0.6854166666666667,
+      "fixed_1830_mean_per_same_eligible_gap": -0.9395833333333333,
+      "paired_mean_difference": 1.625,
+      "periods": {
+        "first_year": {
+          "trades": 46,
+          "net_no_stop": {
+            "events": 46,
+            "mean": -1.1956521739130435,
+            "median": 5.5,
+            "sum": -55.0,
+            "positive_events": 35,
+            "flat_events": 0,
+            "positive_pct": 76.08695652173914,
+            "minimum": -112.25,
+            "maximum": 185.75
+          },
+          "net_with_stop": {
+            "events": 46,
+            "mean": 0.016304347826086956,
+            "median": -5.875,
+            "sum": 0.75,
+            "positive_events": 15,
+            "flat_events": 0,
+            "positive_pct": 32.608695652173914,
+            "minimum": -37.25,
+            "maximum": 185.75
+          }
+        },
+        "second_year": {
+          "trades": 51,
+          "net_no_stop": {
+            "events": 51,
+            "mean": 2.6911764705882355,
+            "median": 6.75,
+            "sum": 137.25,
+            "positive_events": 41,
+            "flat_events": 0,
+            "positive_pct": 80.3921568627451,
+            "minimum": -81.0,
+            "maximum": 99.75
+          },
+          "net_with_stop": {
+            "events": 51,
+            "mean": 0.9019607843137255,
+            "median": 0.25,
+            "sum": 46.0,
+            "positive_events": 26,
+            "flat_events": 0,
+            "positive_pct": 50.98039215686274,
+            "minimum": -28.5,
+            "maximum": 57.25
+          }
+        }
+      }
+    },
+    "overnight_cisd": {
+      "trades": 96,
+      "eligible_measurable_gaps": 120,
+      "signal_pct": 80.0,
+      "overnight_entries": 96,
+      "daytime_entries": 0,
+      "target_exits": 68,
+      "net_no_stop": {
+        "events": 96,
+        "mean": -0.6171875,
+        "median": 6.375,
+        "sum": -59.25,
+        "positive_events": 70,
+        "flat_events": 0,
+        "positive_pct": 72.91666666666666,
+        "minimum": -108.0,
+        "maximum": 207.75
+      },
+      "net_with_stop": {
+        "events": 96,
+        "mean": -0.1796875,
+        "median": -5.125,
+        "sum": -17.25,
+        "positive_events": 31,
+        "flat_events": 0,
+        "positive_pct": 32.29166666666667,
+        "minimum": -45.0,
+        "maximum": 207.75
+      },
+      "cost_scenarios_no_stop": {
+        "0.5": {
+          "events": 96,
+          "mean": -0.1171875,
+          "median": 6.875,
+          "sum": -11.25,
+          "positive_events": 70,
+          "flat_events": 0,
+          "positive_pct": 72.91666666666666,
+          "minimum": -107.5,
+          "maximum": 208.25
+        },
+        "1.0": {
+          "events": 96,
+          "mean": -0.6171875,
+          "median": 6.375,
+          "sum": -59.25,
+          "positive_events": 70,
+          "flat_events": 0,
+          "positive_pct": 72.91666666666666,
+          "minimum": -108.0,
+          "maximum": 207.75
+        },
+        "2.0": {
+          "events": 96,
+          "mean": -1.6171875,
+          "median": 5.375,
+          "sum": -155.25,
+          "positive_events": 70,
+          "flat_events": 0,
+          "positive_pct": 72.91666666666666,
+          "minimum": -109.0,
+          "maximum": 206.75
+        },
+        "4.0": {
+          "events": 96,
+          "mean": -3.6171875,
+          "median": 3.375,
+          "sum": -347.25,
+          "positive_events": 63,
+          "flat_events": 1,
+          "positive_pct": 65.625,
+          "minimum": -111.0,
+          "maximum": 204.75
+        }
+      },
+      "without_largest_no_stop_winner_mean": -2.8105263157894735,
+      "without_largest_stop_winner_mean": -2.3684210526315788,
+      "stop_outcomes": {
+        "target": 31,
+        "stop": 65,
+        "time": 0
+      },
+      "unresolved_same_minute_stop_target": 0,
+      "mean_per_eligible_gap_no_trade_zero": -0.49375,
+      "fixed_1830_mean_per_same_eligible_gap": -0.9395833333333333,
+      "paired_mean_difference": 0.44583333333333336,
+      "periods": {
+        "first_year": {
+          "trades": 47,
+          "net_no_stop": {
+            "events": 47,
+            "mean": -1.7553191489361701,
+            "median": 5.75,
+            "sum": -82.5,
+            "positive_events": 34,
+            "flat_events": 0,
+            "positive_pct": 72.3404255319149,
+            "minimum": -108.0,
+            "maximum": 207.75
+          },
+          "net_with_stop": {
+            "events": 47,
+            "mean": -2.047872340425532,
+            "median": -5.75,
+            "sum": -96.25,
+            "positive_events": 11,
+            "flat_events": 0,
+            "positive_pct": 23.404255319148938,
+            "minimum": -45.0,
+            "maximum": 207.75
+          }
+        },
+        "second_year": {
+          "trades": 49,
+          "net_no_stop": {
+            "events": 49,
+            "mean": 0.4744897959183674,
+            "median": 7.25,
+            "sum": 23.25,
+            "positive_events": 36,
+            "flat_events": 0,
+            "positive_pct": 73.46938775510205,
+            "minimum": -81.5,
+            "maximum": 101.75
+          },
+          "net_with_stop": {
+            "events": 49,
+            "mean": 1.6122448979591837,
+            "median": -3.75,
+            "sum": 79.0,
+            "positive_events": 20,
+            "flat_events": 0,
+            "positive_pct": 40.816326530612244,
+            "minimum": -26.5,
+            "maximum": 81.75
+          }
+        }
+      }
+    },
+    "overnight_both": {
+      "trades": 82,
+      "eligible_measurable_gaps": 120,
+      "signal_pct": 68.33333333333333,
+      "overnight_entries": 82,
+      "daytime_entries": 0,
+      "target_exits": 60,
+      "net_no_stop": {
+        "events": 82,
+        "mean": -1.548780487804878,
+        "median": 6.375,
+        "sum": -127.0,
+        "positive_events": 62,
+        "flat_events": 0,
+        "positive_pct": 75.60975609756098,
+        "minimum": -110.25,
+        "maximum": 182.75
+      },
+      "net_with_stop": {
+        "events": 82,
+        "mean": 0.5091463414634146,
+        "median": -5.375,
+        "sum": 41.75,
+        "positive_events": 35,
+        "flat_events": 0,
+        "positive_pct": 42.68292682926829,
+        "minimum": -45.0,
+        "maximum": 182.75
+      },
+      "cost_scenarios_no_stop": {
+        "0.5": {
+          "events": 82,
+          "mean": -1.048780487804878,
+          "median": 6.875,
+          "sum": -86.0,
+          "positive_events": 62,
+          "flat_events": 0,
+          "positive_pct": 75.60975609756098,
+          "minimum": -109.75,
+          "maximum": 183.25
+        },
+        "1.0": {
+          "events": 82,
+          "mean": -1.548780487804878,
+          "median": 6.375,
+          "sum": -127.0,
+          "positive_events": 62,
+          "flat_events": 0,
+          "positive_pct": 75.60975609756098,
+          "minimum": -110.25,
+          "maximum": 182.75
+        },
+        "2.0": {
+          "events": 82,
+          "mean": -2.548780487804878,
+          "median": 5.375,
+          "sum": -209.0,
+          "positive_events": 62,
+          "flat_events": 0,
+          "positive_pct": 75.60975609756098,
+          "minimum": -111.25,
+          "maximum": 181.75
+        },
+        "4.0": {
+          "events": 82,
+          "mean": -4.548780487804878,
+          "median": 3.375,
+          "sum": -373.0,
+          "positive_events": 56,
+          "flat_events": 1,
+          "positive_pct": 68.29268292682927,
+          "minimum": -113.25,
+          "maximum": 179.75
+        }
+      },
+      "without_largest_no_stop_winner_mean": -3.824074074074074,
+      "without_largest_stop_winner_mean": -1.7407407407407407,
+      "stop_outcomes": {
+        "target": 35,
+        "stop": 47,
+        "time": 0
+      },
+      "unresolved_same_minute_stop_target": 0,
+      "mean_per_eligible_gap_no_trade_zero": -1.0583333333333333,
+      "fixed_1830_mean_per_same_eligible_gap": -0.9395833333333333,
+      "paired_mean_difference": -0.11875,
+      "periods": {
+        "first_year": {
+          "trades": 42,
+          "net_no_stop": {
+            "events": 42,
+            "mean": -2.75,
+            "median": 5.625,
+            "sum": -115.5,
+            "positive_events": 32,
+            "flat_events": 0,
+            "positive_pct": 76.19047619047619,
+            "minimum": -110.25,
+            "maximum": 182.75
+          },
+          "net_with_stop": {
+            "events": 42,
+            "mean": -1.1607142857142858,
+            "median": -6.125,
+            "sum": -48.75,
+            "positive_events": 14,
+            "flat_events": 0,
+            "positive_pct": 33.33333333333333,
+            "minimum": -45.0,
+            "maximum": 182.75
+          }
+        },
+        "second_year": {
+          "trades": 40,
+          "net_no_stop": {
+            "events": 40,
+            "mean": -0.2875,
+            "median": 6.875,
+            "sum": -11.5,
+            "positive_events": 30,
+            "flat_events": 0,
+            "positive_pct": 75.0,
+            "minimum": -81.5,
+            "maximum": 98.0
+          },
+          "net_with_stop": {
+            "events": 40,
+            "mean": 2.2625,
+            "median": 3.875,
+            "sum": 90.5,
+            "positive_events": 21,
+            "flat_events": 0,
+            "positive_pct": 52.5,
+            "minimum": -31.0,
+            "maximum": 56.0
+          }
+        }
+      }
+    }
+  },
+  "legacy": {
+    "eligible_gaps": 122,
+    "trade_records": 764
+  },
+  "selection_status": {
+    "held_out_dates_tested": false,
+    "reason": "The original exploration already used the entire available minute archive. Chronological halves reuse explored dates; no rule is selected or promoted as validated."
+  },
+  "limitations": [
+    "131 reconstructed signals; 11 lack usable full-day outcomes. Later quality is not a real-time signal filter.",
+    "Overnight scope limits entry time only; every position may remain open until 17:00.",
+    "VWAP is approximated from candle high/low/close and volume, not transaction prices.",
+    "Eight overlapping comparisons on previously explored dates; largest-winner removal is sensitivity, not independent evidence.",
+    "Targets and entries are idealized; unresolved same-minute stop/target ties use stop first after known opening-price checks."
+  ]
+}

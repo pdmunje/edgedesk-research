@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "checked_date": "2026-10-16",
+  "source_sha256": "b9e1acf1ee029db919e6e5feba38bd985d06a84af8193c11ce93722606c6356c",
+  "independent_value_matches": 12400,
+  "made_up_tests_passed": 7,
+  "measurable_full_day_gaps": 120,
+  "current_trade_records": 765,
+  "original_trade_audit": {
+    "performed": true,
+    "saved_trade_records": 764,
+    "legacy_trade_value_matches": 6112,
+    "scope": "Original 122-event sample, all eight rule/window combinations; saved entry/target/stop/reward/risk and both gross outcomes reproduced. Original selection and stop sequencing kept only for this audit."
+  },
+  "scope": "Separate CSV/date qualification plus separately constructed minute/five-minute averages, candle-run signals and price paths. All current event/trade keys and reported trade fields compared. No order-execution audit or untouched-date validation."
+}
