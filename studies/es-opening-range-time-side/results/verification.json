@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "selection_fixtures": 6,
+  "grid_rows_recounted": 1664,
+  "selected_rows": 238,
+  "selection_groups_bruteforce": 119,
+  "numeric_checks": 12724,
+  "selected_interval_rows_recounted": 238,
+  "original_saved_selection_checks": 600,
+  "limits": "Aggregate recount uses temporary replay outcomes, not a second independent vendor-bar implementation. Strict full-matrix hashes separately match the earlier independent replay. Selected intervals independently recounted using one trade per group/session; other candidate intervals not separately checked."
+}

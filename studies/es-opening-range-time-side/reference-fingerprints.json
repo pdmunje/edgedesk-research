@@ -1,0 +1,42 @@
+{
+  "1H|strict_sweep": {
+    "gross": "306750c4614f97ed80b530815f29de9c73a96099be6d6d9be65bba61267ca2b5",
+    "eligible": "66faf73be799e18454be6c4694a2f1519eb23e1e6345271f57a47c5d83c6e486",
+    "stopped": "ea204fa9c5c8a2d0e63f04f82b25d26748659e7162a1370a0be90cf471cbfe12"
+  },
+  "1H|strict_plain": {
+    "gross": "e54fd842ca4fcb96f6c4ad0c6d9af8146c57d92e267044e9ff2d721caefa18ca",
+    "eligible": "66faf73be799e18454be6c4694a2f1519eb23e1e6345271f57a47c5d83c6e486",
+    "stopped": "f1790c546bf30b232765354b81d43123e5ed2f782dcc30dd414683d50f7025a0"
+  },
+  "4H|strict_sweep": {
+    "gross": "e16807657c7188870a9ad67da0632e534b3e5aeb07ab22529dece90dc64335e8",
+    "eligible": "c26602211385b4c4aa204d386765b248499b4291e076ad46293f60986df0ea39",
+    "stopped": "f54e345d92a33e86337b736d479d6510f34e1d74d9f76fed27a9387c859248b5"
+  },
+  "4H|strict_plain": {
+    "gross": "17adf2db8c832ab474cd407628f83ef8c3d2f71a5a2e560e0205b50212314e84",
+    "eligible": "c26602211385b4c4aa204d386765b248499b4291e076ad46293f60986df0ea39",
+    "stopped": "56935c36cd9ea6b5c178b1e52f0d656c4c23cf0b0e27d21d51145d67230bed6a"
+  },
+  "930M|strict_sweep": {
+    "gross": "b8062bd72b3a210be96a6e5505df95cabd15b067397c208213bd367ea2af48c7",
+    "eligible": "8b70a519418bdf1f3d9926472145069316d0def8ec32c8143bfbecc20c182bfa",
+    "stopped": "5e560c0ac2a06a3eb0ec795d95ff13ac710ef8542e192251df909ddf72cf3315"
+  },
+  "930M|strict_plain": {
+    "gross": "4e85cebb903c3b61281de3cf4baf22cbe9dcfa7f22a4797e5f7bf09bcc798b97",
+    "eligible": "8b70a519418bdf1f3d9926472145069316d0def8ec32c8143bfbecc20c182bfa",
+    "stopped": "5c80a5f5bde06b044d678475678017a60f844133bb6c4012355e95d793cc5091"
+  },
+  "1D|strict_sweep": {
+    "gross": "6811b60d9694f2884e2d883fb0a3bb4ba8921ff3ca78aa70c65437e874b17faa",
+    "eligible": "837888ea6ef84dff56b1a1ab7ac8495e58698fab68a3f156cf4990515c7966f3",
+    "stopped": "81f3830c0e53d676f9134a27d759f3e0f8649c2931046bb3e7b0b603c6070f99"
+  },
+  "1D|strict_plain": {
+    "gross": "9779cb8c11d0eb87d2f3b830392c4c6c72a2df23180e0c56ffc531d2278912ca",
+    "eligible": "837888ea6ef84dff56b1a1ab7ac8495e58698fab68a3f156cf4990515c7966f3",
+    "stopped": "383fe79f0b2bc617a6885a7fc51f94d7318aaeb362dc022fb81dc6b66db379d2"
+  }
+}

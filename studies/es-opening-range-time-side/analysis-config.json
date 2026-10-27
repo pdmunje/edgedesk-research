@@ -1,0 +1,52 @@
+{
+  "source_sha256": "2a794cbeae8f8fc3022d4079e98c32e8d9dc030ba1d1bda2b457aa857f0fa6f9",
+  "or_lengths": {
+    "1H": [
+      1,
+      2,
+      5
+    ],
+    "4H": [
+      1,
+      2,
+      5,
+      15,
+      30
+    ],
+    "930M": [
+      1,
+      2,
+      5,
+      15,
+      30
+    ],
+    "1D": [
+      1,
+      2,
+      5,
+      15,
+      30
+    ]
+  },
+  "atr_lengths": [
+    9,
+    14
+  ],
+  "cost_points": 0.59,
+  "tick": 0.25,
+  "bootstrap_repetitions": 1000,
+  "seed": 20261021,
+  "periods": [
+    "historical_2010_2015",
+    "development_2016_2022",
+    "later_2023_2026",
+    "all_2010_2026"
+  ],
+  "model_notes": {
+    "legacy_sweep": "Reproduce original: >=90% coverage, confirming-close entry, raw fractional stop, next-bar stop activation; final available close exit; incomplete parents can enter ATR; partial 4H bars enter ATR.",
+    "strict_sweep": "100% minute coverage, observed complete-parent ATR history reset after bad parents/contract changes, no partial 4H ATR bars, next-minute-open entry, tick-rounded stop active on entry minute, earlier opposite touch required.",
+    "strict_plain": "Same strict assumptions, first close beyond OR boundary, no prior-sweep requirement."
+  },
+  "rule_selection": "For every family/start-time/side and model, choose maximum development mean net points among settings with >=100 development trades. Ties: more trades, shorter opening range, shorter ATR. Never select using later results. Later dates were already examined in prior work, not untouched.",
+  "minimum_development_trades": 100
+}

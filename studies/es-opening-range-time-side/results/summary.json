@@ -1,0 +1,53 @@
+{
+  "counts": {
+    "legacy_sweep": {
+      "selected_groups": 60,
+      "positive_development": 5,
+      "positive_later": 7,
+      "positive_both": 1,
+      "later_range_above_zero": 0,
+      "later_trades": 27724,
+      "later_trade_weighted_mean": -0.5716263980682799,
+      "later_equal_group_mean": -0.5629360847506245
+    },
+    "strict_sweep": {
+      "selected_groups": 59,
+      "positive_development": 11,
+      "positive_later": 9,
+      "positive_both": 3,
+      "later_range_above_zero": 0,
+      "later_trades": 20774,
+      "later_trade_weighted_mean": -0.6282449215365364,
+      "later_equal_group_mean": -0.6576420737119798
+    }
+  },
+  "source_audit": {
+    "source_file": "1m_v1.parquet",
+    "sha256": "2a794cbeae8f8fc3022d4079e98c32e8d9dc030ba1d1bda2b457aa857f0fa6f9",
+    "complete_rows": 4931583,
+    "range_utc": [
+      "2010-06-06 22:00:00+00:00",
+      "2026-09-11 00:19:00+00:00"
+    ],
+    "maintenance_rows_removed": 347,
+    "roll_transitions": 65,
+    "duplicates": 0,
+    "quality_states": {
+      "certified": 4906620,
+      "vendor_degraded": 23563,
+      "live_primary": 1400
+    },
+    "price_sources": {
+      "databento": 4930183,
+      "tradingview": 1400
+    },
+    "eligible_session_rows": 4931236
+  },
+  "strict_fingerprint_checks": 12,
+  "strict_outcomes_match_previously_independent_replay": true,
+  "selection": "For every family/start-time/side and model, choose maximum development mean net points among settings with >=100 development trades. Ties: more trades, shorter opening range, shorter ATR. Never select using later results. Later dates were already examined in prior work, not untouched.",
+  "cost_points": 0.59,
+  "resamples": 1000,
+  "seed": 20261021,
+  "later_dates_not_untouched": true
+}
