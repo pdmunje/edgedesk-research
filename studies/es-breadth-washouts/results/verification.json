@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "checked_date": "2026-10-16",
+  "source_sha256": {
+    "es": "44f95b0d4e80305a7c5e19b87aa8f29b222a0c60b3ece8b25871aea1ba58daf4",
+    "b200": "2f89dbf2b120291b69cf3b116df371fe1eec1ea5e73f47b6c799e1af34a50289",
+    "b50": "25910ae25f8c7525351f88394580414ceab3c00c488267d414609cbd48af8c84",
+    "b20": "84d372d91bee78ba3aa6944e95f4e5a9eea91c80ef8e8587bf83b98af6bb4825",
+    "b5": "05377c278f8c6cc8d734a37ca1405ae77f9ced9d4d28ca821d54c3427f7b0c1f"
+  },
+  "independent_value_matches": 11465,
+  "made_up_tests_passed": 9,
+  "common_signal_dates": 2451,
+  "threshold_horizon_method_rows": 128,
+  "prior_claim_check": "166 signals, all four rounded horizon means, and the 40-observation five-spacing ten-session mean reproduce the earlier source narrative. Raw old calculation files were not recovered; this is a fresh implementation checked independently.",
+  "scope": "Independent CSV/date/forward-price/leave-one-out and episode/spacing arithmetic; all 128 result rows, periods and individual forward returns checked. No vendor-constituent, publication-timestamp, contract-roll or order-execution audit."
+}
