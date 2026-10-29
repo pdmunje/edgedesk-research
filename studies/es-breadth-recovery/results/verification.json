@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "made_up_checks": 8,
+  "independent_value_matches": 23237,
+  "aggregate_rows_checked": 192,
+  "all_source_fingerprints_match": true,
+  "source_claim_comparison": "Primary recovery counts/rounded means and 200-day five-spacing means reproduce. 50-day partial 10-session five-spacing mean is 2.50%, not the earlier narrative 2.51%; no old code is available to resolve that difference."
+}

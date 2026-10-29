@@ -1,0 +1,11 @@
+{
+  "source_cutoffs_retained": true,
+  "frozen_before_this_recalculation": "2026-10-16",
+  "not_a_new_preregistration": "These cutoffs and dates were explored in the earlier source research.",
+  "last_complete_ES_date": "2026-10-01",
+  "washouts": {"200_low40": ["b200", 40], "50_low30": ["b50", 30], "200_low30": ["b200", 30]},
+  "recovery_groups": {"poor": "0 <= recovery <= 0.25", "middle": "0.25 < recovery < 0.40", "partial": "0.40 <= recovery < 0.75", "strong": "0.75 <= recovery <= 1"},
+  "horizons_ES_source_sessions": [1, 3, 5, 10],
+  "zero_range": "Undefined recovery: exclude from recovery groups; retain in underlying washout spells.",
+  "episode_policy": "First measurable qualifying recovery-group date per consecutive low-breadth spell, separately for each horizon and group. No future confirmation."
+}
