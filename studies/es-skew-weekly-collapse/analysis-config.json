@@ -1,0 +1,17 @@
+{
+  "recorded_before_this_recalculation":"2026-10-16",
+  "source_ideas_and_dates_previously_explored":true,
+  "last_complete_week_start":"2026-09-21",
+  "week_definition":"Monday through Sunday; map source holiday Tuesday/Wednesday starts into that week's Monday",
+  "fixed_change_cutoffs_points":[-2,-3,-4,-5,-6,-7,-8],
+  "primary_fixed_change":"SKEW weekly close minus weekly open <= -5 points",
+  "normalized_change":"current open-to-close change minus mean of previous 104 calendar-week changes, divided by their sample standard deviation (ddof=1); all 104 must exist; current week excluded",
+  "normalized_cutoff":-1.5,
+  "forward_horizons_calendar_weeks":[1,2,4,8,13],
+  "entry":"first observed ES open in the following Monday-Sunday week",
+  "exit":"last observed ES close in the h-th following week; every forward week must exist and be completed",
+  "counting_policies":["all_signal_weeks","first_consecutive_signal_week","nonoverlapping","four_week_spacing","eight_week_spacing"],
+  "periods":["1997_2009","2010_2019","2020_2026"],
+  "future_probability_or_significance_claim":false,
+  "normalization_history_audit":"Also disclose previous 104 actually reported observations (can cross absent weeks), because the source's treatment of gaps was unspecified; do not select based on outcome"
+}

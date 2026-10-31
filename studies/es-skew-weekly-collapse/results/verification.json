@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "independent_value_matches": 13923,
+  "made_up_checks": 9,
+  "aggregate_rows_checked": 200,
+  "source_fingerprints_match": true,
+  "source_comparison": "Fixed -5-point raw means, four/eight-week spacing and period results reproduce. Normalized old claim of 101 signals/+1.80% four-week mean does not reproduce: 89/+1.97% with complete104 calendar weeks; 111/+1.85% with previous104 reported observations. Old code is unavailable; cause unresolved."
+}
