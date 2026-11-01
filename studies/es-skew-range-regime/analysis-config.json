@@ -1,0 +1,38 @@
+{
+  "frozen_before_this_recalculation": "2026-10-16",
+  "prior_source_exploratory": true,
+  "last_complete_week_start": "2026-09-21",
+  "ranking": "100 * count(previous SKEW closes <= current close) / 104; current excluded; main requires every prior 104 calendar weeks; audit uses last 104 reported observations",
+  "low_rank_max_inclusive": 20,
+  "high_rank_min_inclusive": 80,
+  "forward_calendar_weeks": [
+    1,
+    4
+  ],
+  "range_points": "maximum ES high minus minimum ES low across all following h weeks",
+  "range_percent": "100 * range_points / first observed ES open in next calendar week",
+  "direction_percent": "100 * (last observed ES close in h-th next calendar week / entry open - 1)",
+  "volatility": "sample standard deviation of last 20 observed daily close-to-close percentage returns, including final signal-week close; not annualized",
+  "volatility_band_edges_pct": [
+    0,
+    0.5,
+    1,
+    1.5,
+    2,
+    3
+  ],
+  "volatility_band_boundary": "left inclusive, right exclusive; final band >=3",
+  "matching": "other rank/volatility-eligible signal weeks in same signal calendar year and same volatility band, with complete same-horizon outcome; exclude own week; may include same SKEW group; minimum 1 peer; unmatched excluded only from matched comparison",
+  "counting": [
+    "all_weeks",
+    "first_consecutive_group_week",
+    "nonoverlapping_by_horizon"
+  ],
+  "periods": [
+    "1997_2009",
+    "2010_2019",
+    "2020_2026"
+  ],
+  "threshold_search_this_recalculation": false,
+  "significance_or_future_probability_claim": false
+}

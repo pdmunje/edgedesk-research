@@ -1,0 +1,7 @@
+{
+  "independent_numeric_or_date_comparisons": 14841,
+  "invented_boundary_tests": 9,
+  "aggregate_rows": 48,
+  "source_fingerprints_verified": true,
+  "passed": true
+}
