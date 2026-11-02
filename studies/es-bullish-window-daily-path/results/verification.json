@@ -1,0 +1,9 @@
+{
+  "independent_numeric_or_date_comparisons": 2230,
+  "invented_boundary_tests": 10,
+  "exact_signal_entries_match": true,
+  "no_repeated_held_sessions_in_each_primary_condition": true,
+  "daily_frequency_size_identity_verified": true,
+  "source_fingerprints_verified": true,
+  "passed": true
+}

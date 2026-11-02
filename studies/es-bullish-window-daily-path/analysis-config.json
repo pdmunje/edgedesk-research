@@ -1,0 +1,53 @@
+{
+  "frozen_before_recalculation": "2026-10-16",
+  "earlier_ideas_already_explored": true,
+  "last_complete_ES_date": "2026-10-01",
+  "last_complete_SKEW_week_start": "2026-09-21",
+  "breadth_universe": "Common dates of ES and all four breadth closes, matching earlier source universe; both selected breadth series require valid OHLC",
+  "conditions": {
+    "breadth200_partial": {
+      "breadth_low_max": 40,
+      "recovery_min_inclusive": 0.4,
+      "recovery_max_exclusive": 0.75,
+      "horizon_observed_ES_sessions": 10
+    },
+    "breadth50_partial": {
+      "breadth_low_max": 30,
+      "recovery_min_inclusive": 0.4,
+      "recovery_max_exclusive": 0.75,
+      "horizon_observed_ES_sessions": 10
+    },
+    "skew_drop5": {
+      "weekly_close_minus_open_max": -5,
+      "horizon_observed_ES_sessions": 20
+    },
+    "skew_normalized_calendar": {
+      "weekly_change_z_max": -1.5,
+      "history": "previous104calendar weeks all present; current excluded; sample standard deviation",
+      "horizon_observed_ES_sessions": 20
+    },
+    "skew_normalized_reported": {
+      "weekly_change_z_max": -1.5,
+      "history": "previous104reported observations; current excluded; sample standard deviation",
+      "horizon_observed_ES_sessions": 20
+    }
+  },
+  "entry": "Next ES daily open after completed breadth day; for SKEW first ES daily open in next Monday-Sunday week",
+  "measures": [
+    "close_to_close",
+    "open_to_close",
+    "prior_close_to_open"
+  ],
+  "range": "100 * (daily high - daily low) / daily open",
+  "counting": [
+    "nonoverlapping_primary",
+    "all_signals_audit"
+  ],
+  "nonoverlap": "Chronological earliest qualifying complete window then require next entry at least h source sessions later, separately for each condition",
+  "matching": "For each event use other full ES windows with same entry calendar year and weekday. Exclude any window sharing a held session with this event, then greedily retain earliest nonoverlapping reference windows; need >=1. Each event gets equal weight, each of its references equal weight; their h days equal weight. References may include signal weeks. Retrospective reference, not trading forecast.",
+  "daily_decomposition": "Aggregate positive/negative/zero day weights; conditional positive and negative averages use their own signed-day weights; daily mean = positive_fraction*mean_positive + negative_fraction*mean_negative",
+  "path_cohort": "Require complete h-session outcome first; same cohort at every plotted/reported session",
+  "COT": "Excluded: supplied release timestamps explicitly nominal/unverified; actual historical release availability unresolved. No COT result claimed.",
+  "inference": "No confidence intervals, significance, future probability or independent validation claim",
+  "costs": "No executable strategy; chart changes before fees/slippage; do not treat daily observations as actual trades"
+}

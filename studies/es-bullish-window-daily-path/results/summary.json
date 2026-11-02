@@ -1,0 +1,2963 @@
+{
+  "checked_date": "2026-10-16",
+  "config": {
+    "frozen_before_recalculation": "2026-10-16",
+    "earlier_ideas_already_explored": true,
+    "last_complete_ES_date": "2026-10-01",
+    "last_complete_SKEW_week_start": "2026-09-21",
+    "breadth_universe": "Common dates of ES and all four breadth closes, matching earlier source universe; both selected breadth series require valid OHLC",
+    "conditions": {
+      "breadth200_partial": {
+        "breadth_low_max": 40,
+        "recovery_min_inclusive": 0.4,
+        "recovery_max_exclusive": 0.75,
+        "horizon_observed_ES_sessions": 10
+      },
+      "breadth50_partial": {
+        "breadth_low_max": 30,
+        "recovery_min_inclusive": 0.4,
+        "recovery_max_exclusive": 0.75,
+        "horizon_observed_ES_sessions": 10
+      },
+      "skew_drop5": {
+        "weekly_close_minus_open_max": -5,
+        "horizon_observed_ES_sessions": 20
+      },
+      "skew_normalized_calendar": {
+        "weekly_change_z_max": -1.5,
+        "history": "previous104calendar weeks all present; current excluded; sample standard deviation",
+        "horizon_observed_ES_sessions": 20
+      },
+      "skew_normalized_reported": {
+        "weekly_change_z_max": -1.5,
+        "history": "previous104reported observations; current excluded; sample standard deviation",
+        "horizon_observed_ES_sessions": 20
+      }
+    },
+    "entry": "Next ES daily open after completed breadth day; for SKEW first ES daily open in next Monday-Sunday week",
+    "measures": [
+      "close_to_close",
+      "open_to_close",
+      "prior_close_to_open"
+    ],
+    "range": "100 * (daily high - daily low) / daily open",
+    "counting": [
+      "nonoverlapping_primary",
+      "all_signals_audit"
+    ],
+    "nonoverlap": "Chronological earliest qualifying complete window then require next entry at least h source sessions later, separately for each condition",
+    "matching": "For each event use other full ES windows with same entry calendar year and weekday. Exclude any window sharing a held session with this event, then greedily retain earliest nonoverlapping reference windows; need >=1. Each event gets equal weight, each of its references equal weight; their h days equal weight. References may include signal weeks. Retrospective reference, not trading forecast.",
+    "daily_decomposition": "Aggregate positive/negative/zero day weights; conditional positive and negative averages use their own signed-day weights; daily mean = positive_fraction*mean_positive + negative_fraction*mean_negative",
+    "path_cohort": "Require complete h-session outcome first; same cohort at every plotted/reported session",
+    "COT": "Excluded: supplied release timestamps explicitly nominal/unverified; actual historical release availability unresolved. No COT result claimed.",
+    "inference": "No confidence intervals, significance, future probability or independent validation claim",
+    "costs": "No executable strategy; chart changes before fees/slippage; do not treat daily observations as actual trades"
+  },
+  "source_sha256": {
+    "es": "44f95b0d4e80305a7c5e19b87aa8f29b222a0c60b3ece8b25871aea1ba58daf4",
+    "b200": "2f89dbf2b120291b69cf3b116df371fe1eec1ea5e73f47b6c799e1af34a50289",
+    "b50": "25910ae25f8c7525351f88394580414ceab3c00c488267d414609cbd48af8c84",
+    "b20": "84d372d91bee78ba3aa6944e95f4e5a9eea91c80ef8e8587bf83b98af6bb4825",
+    "b5": "05377c278f8c6cc8d734a37ca1405ae77f9ced9d4d28ca821d54c3427f7b0c1f",
+    "skew": "3758569910b82712d2d7d97732ed2e9a7f718de77dcd637ff933c9d3bb172383"
+  },
+  "checks": {
+    "es": {
+      "rows": 7351,
+      "first_source_date": "1997-09-09",
+      "last_source_date": "2026-10-02"
+    },
+    "b200": {
+      "rows": 5094,
+      "first_source_date": "1990-10-15",
+      "last_source_date": "2026-10-01"
+    },
+    "b50": {
+      "rows": 4992,
+      "first_source_date": "2006-12-29",
+      "last_source_date": "2026-10-01"
+    },
+    "b20": {
+      "rows": 4992,
+      "first_source_date": "2006-12-29",
+      "last_source_date": "2026-10-01"
+    },
+    "b5": {
+      "rows": 2451,
+      "first_source_date": "2017-01-03",
+      "last_source_date": "2026-10-01"
+    },
+    "skew": {
+      "rows": 1915,
+      "first_source_date": "1990-01-01",
+      "last_source_date": "2026-09-28"
+    },
+    "complete_ES_rows": 7350,
+    "excluded_ES_developing_rows": 1,
+    "breadth_common_dates": 2451,
+    "breadth_common_first": "2017-01-03",
+    "breadth_common_last": "2026-10-01",
+    "breadth_zero_range_days": {
+      "b200": 5,
+      "b50": 5
+    },
+    "holiday_SKEW_labels_remapped": 133,
+    "excluded_SKEW_developing_rows": 1,
+    "missing_SKEW_weeks": [
+      "2000-09-25",
+      "2014-03-17",
+      "2014-04-07"
+    ],
+    "signal_entries_before_forward_exclusion": {
+      "breadth200_partial": 83,
+      "breadth50_partial": 72,
+      "skew_drop5": 155,
+      "skew_normalized_calendar": 89,
+      "skew_normalized_reported": 111
+    }
+  },
+  "results": {
+    "breadth200_partial": {
+      "horizon_sessions": 10,
+      "complete_signal_windows": 82,
+      "methods": {
+        "nonoverlapping_primary": {
+          "summary": {
+            "events": 35,
+            "matched_events": 35,
+            "unmatched_events": 0,
+            "event_days": 350,
+            "unique_event_days": 350,
+            "first_entry_date": "2018-10-15",
+            "last_entry_date": "2025-04-29",
+            "last_outcome_date": "2025-05-12",
+            "minimum_reference_windows": 20,
+            "median_reference_windows": 21.0,
+            "reference_window_appearances": 735,
+            "reference_day_appearances": 7350,
+            "unique_reference_days": 1496,
+            "measures": {
+              "close_to_close": {
+                "signal": {
+                  "day_weight": 350.0,
+                  "positive_day_weight": 188.0,
+                  "negative_day_weight": 161.0,
+                  "zero_day_weight": 1.0,
+                  "positive_pct": 53.714285714285715,
+                  "negative_pct": 46.0,
+                  "zero_pct": 0.2857142857142857,
+                  "mean_pct": 0.21475314068705778,
+                  "mean_positive_pct": 1.3540019296999022,
+                  "mean_negative_pct": -1.1142159226280208
+                },
+                "reference": {
+                  "day_weight": 350.00000000000006,
+                  "positive_day_weight": 173.91926406926407,
+                  "negative_day_weight": 174.9465367965368,
+                  "zero_day_weight": 1.1341991341991342,
+                  "positive_pct": 49.69121830550401,
+                  "negative_pct": 49.984724799010515,
+                  "zero_pct": 0.3240568954854669,
+                  "mean_pct": -0.0004066115431112253,
+                  "mean_positive_pct": 1.0067922242924412,
+                  "mean_negative_pct": -1.0016938887078148
+                }
+              },
+              "open_to_close": {
+                "signal": {
+                  "day_weight": 350.0,
+                  "positive_day_weight": 188.0,
+                  "negative_day_weight": 159.0,
+                  "zero_day_weight": 3.0,
+                  "positive_pct": 53.714285714285715,
+                  "negative_pct": 45.42857142857143,
+                  "zero_pct": 0.8571428571428571,
+                  "mean_pct": 0.21558042116024348,
+                  "mean_positive_pct": 1.3296303685547384,
+                  "mean_negative_pct": -1.0975934709572686
+                },
+                "reference": {
+                  "day_weight": 350.00000000000006,
+                  "positive_day_weight": 173.06341991341995,
+                  "negative_day_weight": 175.59826839826843,
+                  "zero_day_weight": 1.3383116883116886,
+                  "positive_pct": 49.446691403834265,
+                  "negative_pct": 50.17093382807669,
+                  "zero_pct": 0.38237476808905385,
+                  "mean_pct": -0.00027299320990875414,
+                  "mean_positive_pct": 0.9935409529111143,
+                  "mean_negative_pct": -0.9797428205163327
+                }
+              },
+              "prior_close_to_open": {
+                "signal": {
+                  "day_weight": 350.0,
+                  "positive_day_weight": 171.0,
+                  "negative_day_weight": 175.0,
+                  "zero_day_weight": 4.0,
+                  "positive_pct": 48.857142857142854,
+                  "negative_pct": 50.0,
+                  "zero_pct": 1.1428571428571428,
+                  "mean_pct": -0.000438692188570396,
+                  "mean_positive_pct": 0.21448815485863387,
+                  "mean_negative_pct": -0.2104629528390059
+                },
+                "reference": {
+                  "day_weight": 350.00000000000006,
+                  "positive_day_weight": 181.65649350649352,
+                  "negative_day_weight": 161.32380952380953,
+                  "zero_day_weight": 7.0196969696969695,
+                  "positive_pct": 51.901855287569575,
+                  "negative_pct": 46.092517006802716,
+                  "zero_pct": 2.005627705627705,
+                  "mean_pct": -2.907678727461985e-05,
+                  "mean_positive_pct": 0.15639867831759355,
+                  "mean_negative_pct": -0.17617369966443544
+                }
+              }
+            },
+            "mean_range_pct": 2.298405761126744,
+            "reference_mean_range_pct": 1.900898549392312,
+            "mean_window_change_pct": 2.1977373205959787,
+            "positive_windows": 27,
+            "positive_windows_pct": 77.14285714285715,
+            "reference_mean_window_change_pct": -0.024697155128311738
+          },
+          "daily_path": [
+            {
+              "session_number": 1,
+              "windows": 35,
+              "mean_cumulative_pct": 0.5821989482579064,
+              "reference_mean_cumulative_pct": -0.11183634740831724,
+              "mean_session_open_to_close_pct": 0.5821989482579064,
+              "positive_close_to_close_days": 20,
+              "positive_close_to_close_pct": 57.14285714285714,
+              "reference_positive_close_to_close_pct": 45.79715522572665,
+              "reference_mean_session_open_to_close_pct": -0.11183634740831724
+            },
+            {
+              "session_number": 2,
+              "windows": 35,
+              "mean_cumulative_pct": 1.11680332413884,
+              "reference_mean_cumulative_pct": -0.15976594716202178,
+              "mean_session_open_to_close_pct": 0.5384206975950807,
+              "positive_close_to_close_days": 22,
+              "positive_close_to_close_pct": 62.857142857142854,
+              "reference_positive_close_to_close_pct": 48.5534941249227,
+              "reference_mean_session_open_to_close_pct": -0.04237212217431698
+            },
+            {
+              "session_number": 3,
+              "windows": 35,
+              "mean_cumulative_pct": 1.169005255407169,
+              "reference_mean_cumulative_pct": -0.21355219461329775,
+              "mean_session_open_to_close_pct": 0.03004428272443706,
+              "positive_close_to_close_days": 15,
+              "positive_close_to_close_pct": 42.857142857142854,
+              "reference_positive_close_to_close_pct": 49.3234384662956,
+              "reference_mean_session_open_to_close_pct": -0.0341203014056121
+            },
+            {
+              "session_number": 4,
+              "windows": 35,
+              "mean_cumulative_pct": 1.1733420242030366,
+              "reference_mean_cumulative_pct": -0.23513620669324325,
+              "mean_session_open_to_close_pct": -0.057563997009631836,
+              "positive_close_to_close_days": 17,
+              "positive_close_to_close_pct": 48.57142857142857,
+              "reference_positive_close_to_close_pct": 49.54792826221398,
+              "reference_mean_session_open_to_close_pct": -0.001842396444676338
+            },
+            {
+              "session_number": 5,
+              "windows": 35,
+              "mean_cumulative_pct": 1.7228395451262066,
+              "reference_mean_cumulative_pct": -0.166314963680513,
+              "mean_session_open_to_close_pct": 0.6989300037972608,
+              "positive_close_to_close_days": 21,
+              "positive_close_to_close_pct": 60.0,
+              "reference_positive_close_to_close_pct": 52.74768089053804,
+              "reference_mean_session_open_to_close_pct": 0.08572941267955217
+            },
+            {
+              "session_number": 6,
+              "windows": 35,
+              "mean_cumulative_pct": 1.797871486182562,
+              "reference_mean_cumulative_pct": -0.12063770728851902,
+              "mean_session_open_to_close_pct": 0.10349398177642963,
+              "positive_close_to_close_days": 17,
+              "positive_close_to_close_pct": 48.57142857142857,
+              "reference_positive_close_to_close_pct": 49.73407544836117,
+              "reference_mean_session_open_to_close_pct": 0.046381931715958204
+            },
+            {
+              "session_number": 7,
+              "windows": 35,
+              "mean_cumulative_pct": 1.565107834243959,
+              "reference_mean_cumulative_pct": -0.0729495190837002,
+              "mean_session_open_to_close_pct": -0.19929827750459755,
+              "positive_close_to_close_days": 20,
+              "positive_close_to_close_pct": 57.14285714285714,
+              "reference_positive_close_to_close_pct": 51.455782312925166,
+              "reference_mean_session_open_to_close_pct": 0.03893227314700017
+            },
+            {
+              "session_number": 8,
+              "windows": 35,
+              "mean_cumulative_pct": 1.756648784885599,
+              "reference_mean_cumulative_pct": -0.12776737187653375,
+              "mean_session_open_to_close_pct": 0.0990356015530642,
+              "positive_close_to_close_days": 18,
+              "positive_close_to_close_pct": 51.42857142857142,
+              "reference_positive_close_to_close_pct": 48.053184910327765,
+              "reference_mean_session_open_to_close_pct": -0.07353346586774741
+            },
+            {
+              "session_number": 9,
+              "windows": 35,
+              "mean_cumulative_pct": 1.9081206003893718,
+              "reference_mean_cumulative_pct": -0.15316839993867992,
+              "mean_session_open_to_close_pct": 0.15356150925457074,
+              "positive_close_to_close_days": 19,
+              "positive_close_to_close_pct": 54.285714285714285,
+              "reference_positive_close_to_close_pct": 47.24304267161409,
+              "reference_mean_session_open_to_close_pct": -0.03139828663928268
+            },
+            {
+              "session_number": 10,
+              "windows": 35,
+              "mean_cumulative_pct": 2.1977373205959787,
+              "reference_mean_cumulative_pct": -0.024697155128311738,
+              "mean_session_open_to_close_pct": 0.20698146115791383,
+              "positive_close_to_close_days": 19,
+              "positive_close_to_close_pct": 54.285714285714285,
+              "reference_positive_close_to_close_pct": 54.456400742115044,
+              "reference_mean_session_open_to_close_pct": 0.12132937029835486
+            }
+          ]
+        },
+        "all_signals_audit": {
+          "summary": {
+            "events": 82,
+            "matched_events": 82,
+            "unmatched_events": 0,
+            "event_days": 820,
+            "unique_event_days": 414,
+            "first_entry_date": "2018-10-15",
+            "last_entry_date": "2025-05-08",
+            "last_outcome_date": "2025-05-21",
+            "minimum_reference_windows": 20,
+            "median_reference_windows": 21.0,
+            "reference_window_appearances": 1718,
+            "reference_day_appearances": 17180,
+            "unique_reference_days": 1518,
+            "measures": {
+              "close_to_close": {
+                "signal": {
+                  "day_weight": 820.0,
+                  "positive_day_weight": 449.0,
+                  "negative_day_weight": 368.0,
+                  "zero_day_weight": 3.0,
+                  "positive_pct": 54.75609756097561,
+                  "negative_pct": 44.8780487804878,
+                  "zero_pct": 0.36585365853658536,
+                  "mean_pct": 0.22091726003623136,
+                  "mean_positive_pct": 1.2598249335390783,
+                  "mean_negative_pct": -1.0448620704601534
+                },
+                "reference": {
+                  "day_weight": 820.0,
+                  "positive_day_weight": 409.6465367965368,
+                  "negative_day_weight": 408.075974025974,
+                  "zero_day_weight": 2.2774891774891772,
+                  "positive_pct": 49.956894731284976,
+                  "negative_pct": 49.76536268609439,
+                  "zero_pct": 0.2777425826206314,
+                  "mean_pct": 0.0015436646613739165,
+                  "mean_positive_pct": 1.031514603111578,
+                  "mean_negative_pct": -1.0323827096239937
+                }
+              },
+              "open_to_close": {
+                "signal": {
+                  "day_weight": 820.0,
+                  "positive_day_weight": 450.0,
+                  "negative_day_weight": 362.0,
+                  "zero_day_weight": 8.0,
+                  "positive_pct": 54.8780487804878,
+                  "negative_pct": 44.146341463414636,
+                  "zero_pct": 0.975609756097561,
+                  "mean_pct": 0.2133942016921487,
+                  "mean_positive_pct": 1.2266414113171942,
+                  "mean_negative_pct": -1.0414513527767273
+                },
+                "reference": {
+                  "day_weight": 820.0,
+                  "positive_day_weight": 407.6028138528139,
+                  "negative_day_weight": 409.291341991342,
+                  "zero_day_weight": 3.1058441558441556,
+                  "positive_pct": 49.70766022595291,
+                  "negative_pct": 49.91357829162707,
+                  "zero_pct": 0.378761482420019,
+                  "mean_pct": 0.007548045330964561,
+                  "mean_positive_pct": 1.0238956188543458,
+                  "mean_negative_pct": -1.004549317278023
+                }
+              },
+              "prior_close_to_open": {
+                "signal": {
+                  "day_weight": 820.0,
+                  "positive_day_weight": 408.0,
+                  "negative_day_weight": 404.0,
+                  "zero_day_weight": 8.0,
+                  "positive_pct": 49.75609756097561,
+                  "negative_pct": 49.26829268292683,
+                  "zero_pct": 0.975609756097561,
+                  "mean_pct": 0.007731010305890513,
+                  "mean_positive_pct": 0.20686880499972282,
+                  "mean_negative_pct": -0.19322535640855626
+                },
+                "reference": {
+                  "day_weight": 820.0,
+                  "positive_day_weight": 425.42402597402594,
+                  "negative_day_weight": 377.8742424242425,
+                  "zero_day_weight": 16.701731601731602,
+                  "positive_pct": 51.88097877732024,
+                  "negative_pct": 46.082224685883226,
+                  "zero_pct": 2.036796536796537,
+                  "mean_pct": -0.005833340935963372,
+                  "mean_positive_pct": 0.15659787487500387,
+                  "mean_negative_pct": -0.18896190832617077
+                }
+              }
+            },
+            "mean_range_pct": 2.1895008821646798,
+            "reference_mean_range_pct": 1.9495883020582125,
+            "mean_window_change_pct": 2.2625542162551966,
+            "positive_windows": 64,
+            "positive_windows_pct": 78.04878048780488,
+            "reference_mean_window_change_pct": -0.0026616710607117663
+          },
+          "daily_path": [
+            {
+              "session_number": 1,
+              "windows": 82,
+              "mean_cumulative_pct": 0.5270646819988429,
+              "reference_mean_cumulative_pct": -0.07281554812783704,
+              "mean_session_open_to_close_pct": 0.5270646819988429,
+              "positive_close_to_close_days": 46,
+              "positive_close_to_close_pct": 56.09756097560976,
+              "reference_positive_close_to_close_pct": 48.8224580297751,
+              "reference_mean_session_open_to_close_pct": -0.07281554812783704
+            },
+            {
+              "session_number": 2,
+              "windows": 82,
+              "mean_cumulative_pct": 0.9285275684458008,
+              "reference_mean_cumulative_pct": -0.09922065523659929,
+              "mean_session_open_to_close_pct": 0.39712812965493255,
+              "positive_close_to_close_days": 46,
+              "positive_close_to_close_pct": 56.09756097560976,
+              "reference_positive_close_to_close_pct": 47.99730757047831,
+              "reference_mean_session_open_to_close_pct": -0.013417484359013387
+            },
+            {
+              "session_number": 3,
+              "windows": 82,
+              "mean_cumulative_pct": 1.1298782808022407,
+              "reference_mean_cumulative_pct": -0.13206855892021377,
+              "mean_session_open_to_close_pct": 0.17891112842381104,
+              "positive_close_to_close_days": 41,
+              "positive_close_to_close_pct": 50.0,
+              "reference_positive_close_to_close_pct": 49.28597824939288,
+              "reference_mean_session_open_to_close_pct": -0.00038129837978209745
+            },
+            {
+              "session_number": 4,
+              "windows": 82,
+              "mean_cumulative_pct": 1.3419543243591217,
+              "reference_mean_cumulative_pct": -0.1806760826712748,
+              "mean_session_open_to_close_pct": 0.16384636723757495,
+              "positive_close_to_close_days": 48,
+              "positive_close_to_close_pct": 58.536585365853654,
+              "reference_positive_close_to_close_pct": 49.04286770140429,
+              "reference_mean_session_open_to_close_pct": -0.032413555115609935
+            },
+            {
+              "session_number": 5,
+              "windows": 82,
+              "mean_cumulative_pct": 1.612682787224559,
+              "reference_mean_cumulative_pct": -0.1861810003169381,
+              "mean_session_open_to_close_pct": 0.2827684974132375,
+              "positive_close_to_close_days": 43,
+              "positive_close_to_close_pct": 52.4390243902439,
+              "reference_positive_close_to_close_pct": 50.739098300073906,
+              "reference_mean_session_open_to_close_pct": 0.014002813521099054
+            },
+            {
+              "session_number": 6,
+              "windows": 82,
+              "mean_cumulative_pct": 1.8324598823258054,
+              "reference_mean_cumulative_pct": -0.14698076992774137,
+              "mean_session_open_to_close_pct": 0.2117622293499837,
+              "positive_close_to_close_days": 44,
+              "positive_close_to_close_pct": 53.65853658536586,
+              "reference_positive_close_to_close_pct": 50.79347481786506,
+              "reference_mean_session_open_to_close_pct": 0.044556446616866974
+            },
+            {
+              "session_number": 7,
+              "windows": 82,
+              "mean_cumulative_pct": 1.670718770651078,
+              "reference_mean_cumulative_pct": -0.09963075209998548,
+              "mean_session_open_to_close_pct": -0.15885344461451037,
+              "positive_close_to_close_days": 43,
+              "positive_close_to_close_pct": 52.4390243902439,
+              "reference_positive_close_to_close_pct": 51.19786717347693,
+              "reference_mean_session_open_to_close_pct": 0.04557671533665974
+            },
+            {
+              "session_number": 8,
+              "windows": 82,
+              "mean_cumulative_pct": 1.7584159550927598,
+              "reference_mean_cumulative_pct": -0.0824809705669177,
+              "mean_session_open_to_close_pct": 0.08341177807310884,
+              "positive_close_to_close_days": 45,
+              "positive_close_to_close_pct": 54.87804878048781,
+              "reference_positive_close_to_close_pct": 50.69660014781966,
+              "reference_mean_session_open_to_close_pct": 0.01873702326340631
+            },
+            {
+              "session_number": 9,
+              "windows": 82,
+              "mean_cumulative_pct": 1.9759751084958113,
+              "reference_mean_cumulative_pct": -0.04480125175661092,
+              "mean_session_open_to_close_pct": 0.1788161341084098,
+              "positive_close_to_close_days": 46,
+              "positive_close_to_close_pct": 56.09756097560976,
+              "reference_positive_close_to_close_pct": 49.56472389399219,
+              "reference_mean_session_open_to_close_pct": 0.027083166414997507
+            },
+            {
+              "session_number": 10,
+              "windows": 82,
+              "mean_cumulative_pct": 2.2625542162551966,
+              "reference_mean_cumulative_pct": -0.0026616710607117663,
+              "mean_session_open_to_close_pct": 0.26908651527609617,
+              "positive_close_to_close_days": 47,
+              "positive_close_to_close_pct": 57.3170731707317,
+              "reference_positive_close_to_close_pct": 51.42857142857142,
+              "reference_mean_session_open_to_close_pct": 0.04455217413885843
+            }
+          ]
+        }
+      }
+    },
+    "breadth50_partial": {
+      "horizon_sessions": 10,
+      "complete_signal_windows": 71,
+      "methods": {
+        "nonoverlapping_primary": {
+          "summary": {
+            "events": 32,
+            "matched_events": 32,
+            "unmatched_events": 0,
+            "event_days": 320,
+            "unique_event_days": 320,
+            "first_entry_date": "2018-02-12",
+            "last_entry_date": "2026-03-20",
+            "last_outcome_date": "2026-04-02",
+            "minimum_reference_windows": 15,
+            "median_reference_windows": 21.0,
+            "reference_window_appearances": 671,
+            "reference_day_appearances": 6710,
+            "unique_reference_days": 2060,
+            "measures": {
+              "close_to_close": {
+                "signal": {
+                  "day_weight": 320.0,
+                  "positive_day_weight": 177.0,
+                  "negative_day_weight": 141.0,
+                  "zero_day_weight": 2.0,
+                  "positive_pct": 55.3125,
+                  "negative_pct": 44.0625,
+                  "zero_pct": 0.625,
+                  "mean_pct": 0.22341045262497664,
+                  "mean_positive_pct": 1.2386607815311208,
+                  "mean_negative_pct": -1.0478837836242259
+                },
+                "reference": {
+                  "day_weight": 320.0,
+                  "positive_day_weight": 167.3735930735931,
+                  "negative_day_weight": 151.3082251082251,
+                  "zero_day_weight": 1.3181818181818183,
+                  "positive_pct": 52.30424783549785,
+                  "negative_pct": 47.28382034632034,
+                  "zero_pct": 0.41193181818181823,
+                  "mean_pct": 0.02972676173038768,
+                  "mean_positive_pct": 0.867541376503621,
+                  "mean_negative_pct": -0.8967850457213624
+                }
+              },
+              "open_to_close": {
+                "signal": {
+                  "day_weight": 320.0,
+                  "positive_day_weight": 174.0,
+                  "negative_day_weight": 145.0,
+                  "zero_day_weight": 1.0,
+                  "positive_pct": 54.375,
+                  "negative_pct": 45.3125,
+                  "zero_pct": 0.3125,
+                  "mean_pct": 0.23138464614704385,
+                  "mean_positive_pct": 1.246236155328655,
+                  "mean_negative_pct": -0.9848414086905654
+                },
+                "reference": {
+                  "day_weight": 320.0,
+                  "positive_day_weight": 167.1952380952381,
+                  "negative_day_weight": 151.50216450216448,
+                  "zero_day_weight": 1.3025974025974028,
+                  "positive_pct": 52.248511904761905,
+                  "negative_pct": 47.344426406926395,
+                  "zero_pct": 0.4070616883116884,
+                  "mean_pct": 0.03312013959888038,
+                  "mean_positive_pct": 0.8541578699703652,
+                  "mean_negative_pct": -0.8726785138907108
+                }
+              },
+              "prior_close_to_open": {
+                "signal": {
+                  "day_weight": 320.0,
+                  "positive_day_weight": 171.0,
+                  "negative_day_weight": 144.0,
+                  "zero_day_weight": 5.0,
+                  "positive_pct": 53.4375,
+                  "negative_pct": 45.0,
+                  "zero_pct": 1.5625,
+                  "mean_pct": -0.007680104318008446,
+                  "mean_positive_pct": 0.17111578134237124,
+                  "mean_negative_pct": -0.22026688882852913
+                },
+                "reference": {
+                  "day_weight": 320.0,
+                  "positive_day_weight": 160.30129870129872,
+                  "negative_day_weight": 150.84502164502163,
+                  "zero_day_weight": 8.853679653679652,
+                  "positive_pct": 50.09415584415585,
+                  "negative_pct": 47.139069264069256,
+                  "zero_pct": 2.766774891774891,
+                  "mean_pct": -0.00334134510989623,
+                  "mean_positive_pct": 0.14351601737067063,
+                  "mean_negative_pct": -0.15960112002090726
+                }
+              }
+            },
+            "mean_range_pct": 2.23345515149061,
+            "reference_mean_range_pct": 1.6784443816946304,
+            "mean_window_change_pct": 2.1907544286096523,
+            "positive_windows": 24,
+            "positive_windows_pct": 75.0,
+            "reference_mean_window_change_pct": 0.28875459167579587
+          },
+          "daily_path": [
+            {
+              "session_number": 1,
+              "windows": 32,
+              "mean_cumulative_pct": 0.2953058760899397,
+              "reference_mean_cumulative_pct": -0.15699884467769626,
+              "mean_session_open_to_close_pct": 0.2953058760899397,
+              "positive_close_to_close_days": 19,
+              "positive_close_to_close_pct": 59.375,
+              "reference_positive_close_to_close_pct": 45.716991341991346,
+              "reference_mean_session_open_to_close_pct": -0.15699884467769626
+            },
+            {
+              "session_number": 2,
+              "windows": 32,
+              "mean_cumulative_pct": 0.44555976162557154,
+              "reference_mean_cumulative_pct": -0.10101416238879236,
+              "mean_session_open_to_close_pct": 0.27183909020560215,
+              "positive_close_to_close_days": 20,
+              "positive_close_to_close_pct": 62.5,
+              "reference_positive_close_to_close_pct": 52.08062770562771,
+              "reference_mean_session_open_to_close_pct": 0.06362386213683162
+            },
+            {
+              "session_number": 3,
+              "windows": 32,
+              "mean_cumulative_pct": 0.8323896340077453,
+              "reference_mean_cumulative_pct": -0.10301860120689076,
+              "mean_session_open_to_close_pct": 0.40243166112443574,
+              "positive_close_to_close_days": 17,
+              "positive_close_to_close_pct": 53.125,
+              "reference_positive_close_to_close_pct": 52.202380952380956,
+              "reference_mean_session_open_to_close_pct": 0.036627670300080906
+            },
+            {
+              "session_number": 4,
+              "windows": 32,
+              "mean_cumulative_pct": 0.7870997590231756,
+              "reference_mean_cumulative_pct": -0.05028556941310924,
+              "mean_session_open_to_close_pct": -0.05214622499076399,
+              "positive_close_to_close_days": 17,
+              "positive_close_to_close_pct": 53.125,
+              "reference_positive_close_to_close_pct": 54.135551948051955,
+              "reference_mean_session_open_to_close_pct": 0.05165792143336773
+            },
+            {
+              "session_number": 5,
+              "windows": 32,
+              "mean_cumulative_pct": 0.8276714725114747,
+              "reference_mean_cumulative_pct": 0.02477516884039708,
+              "mean_session_open_to_close_pct": 0.1480383959711444,
+              "positive_close_to_close_days": 15,
+              "positive_close_to_close_pct": 46.875,
+              "reference_positive_close_to_close_pct": 53.96374458874459,
+              "reference_mean_session_open_to_close_pct": 0.09684770574907249
+            },
+            {
+              "session_number": 6,
+              "windows": 32,
+              "mean_cumulative_pct": 1.247012759376239,
+              "reference_mean_cumulative_pct": 0.09315361848072709,
+              "mean_session_open_to_close_pct": 0.3151494759023744,
+              "positive_close_to_close_days": 13,
+              "positive_close_to_close_pct": 40.625,
+              "reference_positive_close_to_close_pct": 53.82711038961039,
+              "reference_mean_session_open_to_close_pct": 0.07600302886797407
+            },
+            {
+              "session_number": 7,
+              "windows": 32,
+              "mean_cumulative_pct": 1.008181335877966,
+              "reference_mean_cumulative_pct": 0.12406273067191931,
+              "mean_session_open_to_close_pct": -0.19768958363625755,
+              "positive_close_to_close_days": 16,
+              "positive_close_to_close_pct": 50.0,
+              "reference_positive_close_to_close_pct": 54.08549783549783,
+              "reference_mean_session_open_to_close_pct": 0.021264105318120233
+            },
+            {
+              "session_number": 8,
+              "windows": 32,
+              "mean_cumulative_pct": 1.8296218873932315,
+              "reference_mean_cumulative_pct": 0.13076281830082964,
+              "mean_session_open_to_close_pct": 0.7817640408911808,
+              "positive_close_to_close_days": 22,
+              "positive_close_to_close_pct": 68.75,
+              "reference_positive_close_to_close_pct": 47.9099025974026,
+              "reference_mean_session_open_to_close_pct": 0.003828676775758103
+            },
+            {
+              "session_number": 9,
+              "windows": 32,
+              "mean_cumulative_pct": 2.1237685585362334,
+              "reference_mean_cumulative_pct": 0.23377429382484252,
+              "mean_session_open_to_close_pct": 0.25192689108251115,
+              "positive_close_to_close_days": 21,
+              "positive_close_to_close_pct": 65.625,
+              "reference_positive_close_to_close_pct": 54.998647186147174,
+              "reference_mean_session_open_to_close_pct": 0.08507899370778994
+            },
+            {
+              "session_number": 10,
+              "windows": 32,
+              "mean_cumulative_pct": 2.1907544286096523,
+              "reference_mean_cumulative_pct": 0.28875459167579587,
+              "mean_session_open_to_close_pct": 0.0972268388302718,
+              "positive_close_to_close_days": 17,
+              "positive_close_to_close_pct": 53.125,
+              "reference_positive_close_to_close_pct": 54.12202380952381,
+              "reference_mean_session_open_to_close_pct": 0.05326827637750507
+            }
+          ]
+        },
+        "all_signals_audit": {
+          "summary": {
+            "events": 71,
+            "matched_events": 71,
+            "unmatched_events": 0,
+            "event_days": 710,
+            "unique_event_days": 379,
+            "first_entry_date": "2018-02-12",
+            "last_entry_date": "2026-03-26",
+            "last_outcome_date": "2026-04-08",
+            "minimum_reference_windows": 14,
+            "median_reference_windows": 21.0,
+            "reference_window_appearances": 1484,
+            "reference_day_appearances": 14840,
+            "unique_reference_days": 2144,
+            "measures": {
+              "close_to_close": {
+                "signal": {
+                  "day_weight": 710.0,
+                  "positive_day_weight": 398.0,
+                  "negative_day_weight": 309.0,
+                  "zero_day_weight": 3.0,
+                  "positive_pct": 56.056338028169016,
+                  "negative_pct": 43.521126760563384,
+                  "zero_pct": 0.4225352112676056,
+                  "mean_pct": 0.27143074586371113,
+                  "mean_positive_pct": 1.264682243037733,
+                  "mean_negative_pct": -1.005267647785705
+                },
+                "reference": {
+                  "day_weight": 710.0000000000001,
+                  "positive_day_weight": 369.26515151515156,
+                  "negative_day_weight": 337.84956709956714,
+                  "zero_day_weight": 2.8852813852813846,
+                  "positive_pct": 52.009176269739655,
+                  "negative_pct": 47.58444607036156,
+                  "zero_pct": 0.4063776598987865,
+                  "mean_pct": 0.028002326868076795,
+                  "mean_positive_pct": 0.887309762697296,
+                  "mean_negative_pct": -0.9109703011584825
+                }
+              },
+              "open_to_close": {
+                "signal": {
+                  "day_weight": 710.0,
+                  "positive_day_weight": 397.0,
+                  "negative_day_weight": 310.0,
+                  "zero_day_weight": 3.0,
+                  "positive_pct": 55.91549295774648,
+                  "negative_pct": 43.66197183098591,
+                  "zero_pct": 0.4225352112676056,
+                  "mean_pct": 0.2717288199925176,
+                  "mean_positive_pct": 1.2467991263494307,
+                  "mean_negative_pct": -0.9743606160194723
+                },
+                "reference": {
+                  "day_weight": 710.0000000000001,
+                  "positive_day_weight": 367.95606060606065,
+                  "negative_day_weight": 339.1474025974027,
+                  "zero_day_weight": 2.8965367965367967,
+                  "positive_pct": 51.824797268459236,
+                  "negative_pct": 47.76723980245107,
+                  "zero_pct": 0.4079629290896896,
+                  "mean_pct": 0.030738853479744813,
+                  "mean_positive_pct": 0.8756290806421613,
+                  "mean_negative_pct": -0.8856575011165295
+                }
+              },
+              "prior_close_to_open": {
+                "signal": {
+                  "day_weight": 710.0,
+                  "positive_day_weight": 384.0,
+                  "negative_day_weight": 315.0,
+                  "zero_day_weight": 11.0,
+                  "positive_pct": 54.08450704225352,
+                  "negative_pct": 44.36619718309859,
+                  "zero_pct": 1.5492957746478873,
+                  "mean_pct": 0.00022047214502230407,
+                  "mean_positive_pct": 0.18189006164310498,
+                  "mean_negative_pct": -0.22123570935868725
+                },
+                "reference": {
+                  "day_weight": 710.0000000000001,
+                  "positive_day_weight": 358.1716450216451,
+                  "negative_day_weight": 332.4720779220779,
+                  "zero_day_weight": 19.356277056277055,
+                  "positive_pct": 50.44671056642888,
+                  "negative_pct": 46.827053228461665,
+                  "zero_pct": 2.7262362051094438,
+                  "mean_pct": -0.002663652215147985,
+                  "mean_positive_pct": 0.14434845252475834,
+                  "mean_negative_pct": -0.16119463656866012
+                }
+              }
+            },
+            "mean_range_pct": 2.2221555425327923,
+            "reference_mean_range_pct": 1.7030282581426732,
+            "mean_window_change_pct": 2.6751085601341016,
+            "positive_windows": 58,
+            "positive_windows_pct": 81.69014084507043,
+            "reference_mean_window_change_pct": 0.2592452210522599
+          },
+          "daily_path": [
+            {
+              "session_number": 1,
+              "windows": 71,
+              "mean_cumulative_pct": 0.3146886861227459,
+              "reference_mean_cumulative_pct": -0.07585034630061496,
+              "mean_session_open_to_close_pct": 0.3146886861227459,
+              "positive_close_to_close_days": 40,
+              "positive_close_to_close_pct": 56.33802816901409,
+              "reference_positive_close_to_close_pct": 49.03511980976771,
+              "reference_mean_session_open_to_close_pct": -0.07585034630061496
+            },
+            {
+              "session_number": 2,
+              "windows": 71,
+              "mean_cumulative_pct": 0.5353142931775676,
+              "reference_mean_cumulative_pct": -0.04683692937562043,
+              "mean_session_open_to_close_pct": 0.21684215658271355,
+              "positive_close_to_close_days": 42,
+              "positive_close_to_close_pct": 59.154929577464785,
+              "reference_positive_close_to_close_pct": 50.79873178464729,
+              "reference_mean_session_open_to_close_pct": 0.0524349342759312
+            },
+            {
+              "session_number": 3,
+              "windows": 71,
+              "mean_cumulative_pct": 0.9764404319215132,
+              "reference_mean_cumulative_pct": -0.0034591234876879783,
+              "mean_session_open_to_close_pct": 0.4722848582806514,
+              "positive_close_to_close_days": 39,
+              "positive_close_to_close_pct": 54.929577464788736,
+              "reference_positive_close_to_close_pct": 53.194317419669545,
+              "reference_mean_session_open_to_close_pct": 0.069681299450807
+            },
+            {
+              "session_number": 4,
+              "windows": 71,
+              "mean_cumulative_pct": 1.2991120267444163,
+              "reference_mean_cumulative_pct": 0.0342055223166788,
+              "mean_session_open_to_close_pct": 0.2954911420817372,
+              "positive_close_to_close_days": 44,
+              "positive_close_to_close_pct": 61.97183098591549,
+              "reference_positive_close_to_close_pct": 52.68215352722395,
+              "reference_mean_session_open_to_close_pct": 0.04656396432070053
+            },
+            {
+              "session_number": 5,
+              "windows": 71,
+              "mean_cumulative_pct": 1.5502002579213534,
+              "reference_mean_cumulative_pct": 0.09030209744331669,
+              "mean_session_open_to_close_pct": 0.3492944432458265,
+              "positive_close_to_close_days": 38,
+              "positive_close_to_close_pct": 53.52112676056338,
+              "reference_positive_close_to_close_pct": 53.50009145783794,
+              "reference_mean_session_open_to_close_pct": 0.07043487672623779
+            },
+            {
+              "session_number": 6,
+              "windows": 71,
+              "mean_cumulative_pct": 1.8306642364068775,
+              "reference_mean_cumulative_pct": 0.1661967186933939,
+              "mean_session_open_to_close_pct": 0.20065538995515653,
+              "positive_close_to_close_days": 36,
+              "positive_close_to_close_pct": 50.70422535211267,
+              "reference_positive_close_to_close_pct": 53.67995853911345,
+              "reference_mean_session_open_to_close_pct": 0.07371802028580715
+            },
+            {
+              "session_number": 7,
+              "windows": 71,
+              "mean_cumulative_pct": 1.7472465977924634,
+              "reference_mean_cumulative_pct": 0.15603627746527932,
+              "mean_session_open_to_close_pct": -0.06286335940999739,
+              "positive_close_to_close_days": 35,
+              "positive_close_to_close_pct": 49.29577464788733,
+              "reference_positive_close_to_close_pct": 52.43033961343819,
+              "reference_mean_session_open_to_close_pct": -0.014451491538795495
+            },
+            {
+              "session_number": 8,
+              "windows": 71,
+              "mean_cumulative_pct": 2.2066243531178813,
+              "reference_mean_cumulative_pct": 0.20327121827316974,
+              "mean_session_open_to_close_pct": 0.48811844173155405,
+              "positive_close_to_close_days": 40,
+              "positive_close_to_close_pct": 56.33802816901409,
+              "reference_positive_close_to_close_pct": 50.826778854947875,
+              "reference_mean_session_open_to_close_pct": 0.039712598978439456
+            },
+            {
+              "session_number": 9,
+              "windows": 71,
+              "mean_cumulative_pct": 2.4373653883832747,
+              "reference_mean_cumulative_pct": 0.2852470734125079,
+              "mean_session_open_to_close_pct": 0.21218897408829596,
+              "positive_close_to_close_days": 44,
+              "positive_close_to_close_pct": 61.97183098591549,
+              "reference_positive_close_to_close_pct": 52.95988049509176,
+              "reference_mean_session_open_to_close_pct": 0.06718598127122569
+            },
+            {
+              "session_number": 10,
+              "windows": 71,
+              "mean_cumulative_pct": 2.6751085601341016,
+              "reference_mean_cumulative_pct": 0.2592452210522599,
+              "mean_session_open_to_close_pct": 0.23058746724649243,
+              "positive_close_to_close_days": 40,
+              "positive_close_to_close_pct": 56.33802816901409,
+              "reference_positive_close_to_close_pct": 50.984391195658795,
+              "reference_mean_session_open_to_close_pct": -0.02204130267229024
+            }
+          ]
+        }
+      }
+    },
+    "skew_drop5": {
+      "horizon_sessions": 20,
+      "complete_signal_windows": 155,
+      "methods": {
+        "nonoverlapping_primary": {
+          "summary": {
+            "events": 100,
+            "matched_events": 100,
+            "unmatched_events": 0,
+            "event_days": 2000,
+            "unique_event_days": 2000,
+            "first_entry_date": "1998-02-09",
+            "last_entry_date": "2026-08-03",
+            "last_outcome_date": "2026-08-28",
+            "minimum_reference_windows": 7,
+            "median_reference_windows": 10.0,
+            "reference_window_appearances": 1020,
+            "reference_day_appearances": 20400,
+            "unique_reference_days": 5541,
+            "measures": {
+              "close_to_close": {
+                "signal": {
+                  "day_weight": 2000.0,
+                  "positive_day_weight": 1125.0,
+                  "negative_day_weight": 859.0,
+                  "zero_day_weight": 16.0,
+                  "positive_pct": 56.25,
+                  "negative_pct": 42.95,
+                  "zero_pct": 0.8,
+                  "mean_pct": 0.10177291771796482,
+                  "mean_positive_pct": 0.7474764326477832,
+                  "mean_negative_pct": -0.7419850422500891
+                },
+                "reference": {
+                  "day_weight": 1999.9999999999998,
+                  "positive_day_weight": 1085.1132756132756,
+                  "negative_day_weight": 894.5639971139972,
+                  "zero_day_weight": 20.32272727272727,
+                  "positive_pct": 54.25566378066379,
+                  "negative_pct": 44.72819985569986,
+                  "zero_pct": 1.0161363636363636,
+                  "mean_pct": 0.04363630839575855,
+                  "mean_positive_pct": 0.6747653491143094,
+                  "mean_negative_pct": -0.7209369296516215
+                }
+              },
+              "open_to_close": {
+                "signal": {
+                  "day_weight": 2000.0,
+                  "positive_day_weight": 1128.0,
+                  "negative_day_weight": 848.0,
+                  "zero_day_weight": 24.0,
+                  "positive_pct": 56.4,
+                  "negative_pct": 42.4,
+                  "zero_pct": 1.2,
+                  "mean_pct": 0.10473366346741471,
+                  "mean_positive_pct": 0.7374128960320643,
+                  "mean_negative_pct": -0.7338849289968622
+                },
+                "reference": {
+                  "day_weight": 1999.9999999999998,
+                  "positive_day_weight": 1093.9987734487734,
+                  "negative_day_weight": 884.8201298701299,
+                  "zero_day_weight": 21.181096681096683,
+                  "positive_pct": 54.69993867243868,
+                  "negative_pct": 44.2410064935065,
+                  "zero_pct": 1.0590548340548342,
+                  "mean_pct": 0.04946337316863409,
+                  "mean_positive_pct": 0.6645103822177257,
+                  "mean_negative_pct": -0.7098016597396828
+                }
+              },
+              "prior_close_to_open": {
+                "signal": {
+                  "day_weight": 2000.0,
+                  "positive_day_weight": 893.0,
+                  "negative_day_weight": 913.0,
+                  "zero_day_weight": 194.0,
+                  "positive_pct": 44.65,
+                  "negative_pct": 45.65,
+                  "zero_pct": 9.7,
+                  "mean_pct": -0.0029680196866083363,
+                  "mean_positive_pct": 0.11404761709825034,
+                  "mean_negative_pct": -0.11805099829348766
+                },
+                "reference": {
+                  "day_weight": 1999.9999999999998,
+                  "positive_day_weight": 852.2149350649349,
+                  "negative_day_weight": 923.6425685425686,
+                  "zero_day_weight": 224.14249639249638,
+                  "positive_pct": 42.61074675324675,
+                  "negative_pct": 46.18212842712844,
+                  "zero_pct": 11.207124819624822,
+                  "mean_pct": -0.0058131057394037,
+                  "mean_positive_pct": 0.11304299808366555,
+                  "mean_negative_pct": -0.1168884441094795
+                }
+              }
+            },
+            "mean_range_pct": 1.4158998255471824,
+            "reference_mean_range_pct": 1.37118539066532,
+            "mean_window_change_pct": 2.0685822011891117,
+            "positive_windows": 74,
+            "positive_windows_pct": 74.0,
+            "reference_mean_window_change_pct": 0.8579171376672918
+          },
+          "daily_path": [
+            {
+              "session_number": 1,
+              "windows": 100,
+              "mean_cumulative_pct": 0.001904945694003457,
+              "reference_mean_cumulative_pct": 0.10832838636089807,
+              "mean_session_open_to_close_pct": 0.001904945694003457,
+              "positive_close_to_close_days": 51,
+              "positive_close_to_close_pct": 51.0,
+              "reference_positive_close_to_close_pct": 57.751154401154395,
+              "reference_mean_session_open_to_close_pct": 0.10832838636089807
+            },
+            {
+              "session_number": 2,
+              "windows": 100,
+              "mean_cumulative_pct": 0.4469728773495725,
+              "reference_mean_cumulative_pct": 0.12370791671927778,
+              "mean_session_open_to_close_pct": 0.4232586091981772,
+              "positive_close_to_close_days": 60,
+              "positive_close_to_close_pct": 60.0,
+              "reference_positive_close_to_close_pct": 51.45663780663781,
+              "reference_mean_session_open_to_close_pct": 0.01498906975011089
+            },
+            {
+              "session_number": 3,
+              "windows": 100,
+              "mean_cumulative_pct": 0.6652808410661133,
+              "reference_mean_cumulative_pct": 0.17917034438674867,
+              "mean_session_open_to_close_pct": 0.2185706655861798,
+              "positive_close_to_close_days": 52,
+              "positive_close_to_close_pct": 52.0,
+              "reference_positive_close_to_close_pct": 56.677056277056295,
+              "reference_mean_session_open_to_close_pct": 0.06327269864993325
+            },
+            {
+              "session_number": 4,
+              "windows": 100,
+              "mean_cumulative_pct": 0.8437427279399858,
+              "reference_mean_cumulative_pct": 0.18602207650059216,
+              "mean_session_open_to_close_pct": 0.1529456731091653,
+              "positive_close_to_close_days": 58,
+              "positive_close_to_close_pct": 57.99999999999999,
+              "reference_positive_close_to_close_pct": 53.56861471861472,
+              "reference_mean_session_open_to_close_pct": 0.0004936494864382491
+            },
+            {
+              "session_number": 5,
+              "windows": 100,
+              "mean_cumulative_pct": 0.8026808420417728,
+              "reference_mean_cumulative_pct": 0.13840659027292226,
+              "mean_session_open_to_close_pct": -0.03446969604378811,
+              "positive_close_to_close_days": 48,
+              "positive_close_to_close_pct": 48.0,
+              "reference_positive_close_to_close_pct": 53.62388167388168,
+              "reference_mean_session_open_to_close_pct": -0.04851725079284491
+            },
+            {
+              "session_number": 6,
+              "windows": 100,
+              "mean_cumulative_pct": 1.0827924992853235,
+              "reference_mean_cumulative_pct": 0.18772668247327645,
+              "mean_session_open_to_close_pct": 0.28542621181251565,
+              "positive_close_to_close_days": 67,
+              "positive_close_to_close_pct": 67.0,
+              "reference_positive_close_to_close_pct": 55.02366522366523,
+              "reference_mean_session_open_to_close_pct": 0.06604152231588287
+            },
+            {
+              "session_number": 7,
+              "windows": 100,
+              "mean_cumulative_pct": 1.1329089564788417,
+              "reference_mean_cumulative_pct": 0.27405270481084615,
+              "mean_session_open_to_close_pct": 0.034007843718770976,
+              "positive_close_to_close_days": 49,
+              "positive_close_to_close_pct": 49.0,
+              "reference_positive_close_to_close_pct": 52.63102453102453,
+              "reference_mean_session_open_to_close_pct": 0.08006520398749674
+            },
+            {
+              "session_number": 8,
+              "windows": 100,
+              "mean_cumulative_pct": 0.9661297943444355,
+              "reference_mean_cumulative_pct": 0.35148211542859703,
+              "mean_session_open_to_close_pct": -0.16386770281315,
+              "positive_close_to_close_days": 50,
+              "positive_close_to_close_pct": 50.0,
+              "reference_positive_close_to_close_pct": 54.9082251082251,
+              "reference_mean_session_open_to_close_pct": 0.073457109331976
+            },
+            {
+              "session_number": 9,
+              "windows": 100,
+              "mean_cumulative_pct": 0.9762123681071561,
+              "reference_mean_cumulative_pct": 0.4253378957558376,
+              "mean_session_open_to_close_pct": 0.0008435700704614213,
+              "positive_close_to_close_days": 57,
+              "positive_close_to_close_pct": 56.99999999999999,
+              "reference_positive_close_to_close_pct": 56.08160173160173,
+              "reference_mean_session_open_to_close_pct": 0.07817276807306371
+            },
+            {
+              "session_number": 10,
+              "windows": 100,
+              "mean_cumulative_pct": 1.125065914574021,
+              "reference_mean_cumulative_pct": 0.4633515453437386,
+              "mean_session_open_to_close_pct": 0.18253993603759822,
+              "positive_close_to_close_days": 59,
+              "positive_close_to_close_pct": 59.0,
+              "reference_positive_close_to_close_pct": 56.515800865800855,
+              "reference_mean_session_open_to_close_pct": 0.05412105700934045
+            },
+            {
+              "session_number": 11,
+              "windows": 100,
+              "mean_cumulative_pct": 1.2538030155124742,
+              "reference_mean_cumulative_pct": 0.5310582961413448,
+              "mean_session_open_to_close_pct": 0.13456513587509136,
+              "positive_close_to_close_days": 57,
+              "positive_close_to_close_pct": 56.99999999999999,
+              "reference_positive_close_to_close_pct": 56.425036075036076,
+              "reference_mean_session_open_to_close_pct": 0.09135559385116569
+            },
+            {
+              "session_number": 12,
+              "windows": 100,
+              "mean_cumulative_pct": 1.3200019158001037,
+              "reference_mean_cumulative_pct": 0.6183228264463169,
+              "mean_session_open_to_close_pct": 0.07795030657691351,
+              "positive_close_to_close_days": 58,
+              "positive_close_to_close_pct": 57.99999999999999,
+              "reference_positive_close_to_close_pct": 57.11767676767677,
+              "reference_mean_session_open_to_close_pct": 0.08266628217681901
+            },
+            {
+              "session_number": 13,
+              "windows": 100,
+              "mean_cumulative_pct": 1.4446892348490668,
+              "reference_mean_cumulative_pct": 0.6442830337351463,
+              "mean_session_open_to_close_pct": 0.12766727133730682,
+              "positive_close_to_close_days": 60,
+              "positive_close_to_close_pct": 60.0,
+              "reference_positive_close_to_close_pct": 54.22813852813852,
+              "reference_mean_session_open_to_close_pct": 0.02953219498907607
+            },
+            {
+              "session_number": 14,
+              "windows": 100,
+              "mean_cumulative_pct": 1.5736254385665436,
+              "reference_mean_cumulative_pct": 0.6643298554831094,
+              "mean_session_open_to_close_pct": 0.13815038283590067,
+              "positive_close_to_close_days": 50,
+              "positive_close_to_close_pct": 50.0,
+              "reference_positive_close_to_close_pct": 48.17987012987013,
+              "reference_mean_session_open_to_close_pct": 0.05336431246435178
+            },
+            {
+              "session_number": 15,
+              "windows": 100,
+              "mean_cumulative_pct": 1.618947964601474,
+              "reference_mean_cumulative_pct": 0.6378599824388327,
+              "mean_session_open_to_close_pct": 0.03295442991137189,
+              "positive_close_to_close_days": 58,
+              "positive_close_to_close_pct": 57.99999999999999,
+              "reference_positive_close_to_close_pct": 52.18585858585858,
+              "reference_mean_session_open_to_close_pct": -0.002155036912112099
+            },
+            {
+              "session_number": 16,
+              "windows": 100,
+              "mean_cumulative_pct": 1.793194849442651,
+              "reference_mean_cumulative_pct": 0.7477897710628127,
+              "mean_session_open_to_close_pct": 0.16882944045255055,
+              "positive_close_to_close_days": 57,
+              "positive_close_to_close_pct": 56.99999999999999,
+              "reference_positive_close_to_close_pct": 56.868398268398266,
+              "reference_mean_session_open_to_close_pct": 0.11468574852116471
+            },
+            {
+              "session_number": 17,
+              "windows": 100,
+              "mean_cumulative_pct": 1.9519690230122797,
+              "reference_mean_cumulative_pct": 0.741481405973631,
+              "mean_session_open_to_close_pct": 0.19630148107764106,
+              "positive_close_to_close_days": 63,
+              "positive_close_to_close_pct": 63.0,
+              "reference_positive_close_to_close_pct": 49.03095238095238,
+              "reference_mean_session_open_to_close_pct": 0.004642209081344368
+            },
+            {
+              "session_number": 18,
+              "windows": 100,
+              "mean_cumulative_pct": 1.9101280460417092,
+              "reference_mean_cumulative_pct": 0.8107549818184902,
+              "mean_session_open_to_close_pct": -0.03475935096977866,
+              "positive_close_to_close_days": 49,
+              "positive_close_to_close_pct": 49.0,
+              "reference_positive_close_to_close_pct": 56.781746031746025,
+              "reference_mean_session_open_to_close_pct": 0.07485939974166349
+            },
+            {
+              "session_number": 19,
+              "windows": 100,
+              "mean_cumulative_pct": 1.9557385817191715,
+              "reference_mean_cumulative_pct": 0.8038481911633398,
+              "mean_session_open_to_close_pct": 0.06131639684241352,
+              "positive_close_to_close_days": 61,
+              "positive_close_to_close_pct": 61.0,
+              "reference_positive_close_to_close_pct": 51.41637806637805,
+              "reference_mean_session_open_to_close_pct": -0.001518732628428131
+            },
+            {
+              "session_number": 20,
+              "windows": 100,
+              "mean_cumulative_pct": 2.0685822011891117,
+              "reference_mean_cumulative_pct": 0.8579171376672918,
+              "mean_session_open_to_close_pct": 0.0905377190389499,
+              "positive_close_to_close_days": 61,
+              "positive_close_to_close_pct": 61.0,
+              "reference_positive_close_to_close_pct": 54.64155844155844,
+              "reference_mean_session_open_to_close_pct": 0.05141127791534169
+            }
+          ]
+        },
+        "all_signals_audit": {
+          "summary": {
+            "events": 155,
+            "matched_events": 155,
+            "unmatched_events": 0,
+            "event_days": 3100,
+            "unique_event_days": 2426,
+            "first_entry_date": "1998-02-09",
+            "last_entry_date": "2026-08-10",
+            "last_outcome_date": "2026-09-04",
+            "minimum_reference_windows": 6,
+            "median_reference_windows": 10.0,
+            "reference_window_appearances": 1570,
+            "reference_day_appearances": 31400,
+            "unique_reference_days": 5796,
+            "measures": {
+              "close_to_close": {
+                "signal": {
+                  "day_weight": 3100.0,
+                  "positive_day_weight": 1720.0,
+                  "negative_day_weight": 1361.0,
+                  "zero_day_weight": 19.0,
+                  "positive_pct": 55.483870967741936,
+                  "negative_pct": 43.903225806451616,
+                  "zero_pct": 0.6129032258064516,
+                  "mean_pct": 0.08988850968881627,
+                  "mean_positive_pct": 0.767400273206214,
+                  "mean_negative_pct": -0.7650801542096674
+                },
+                "reference": {
+                  "day_weight": 3100.0,
+                  "positive_day_weight": 1679.7614718614718,
+                  "negative_day_weight": 1392.3481240981241,
+                  "zero_day_weight": 27.89040404040404,
+                  "positive_pct": 54.185853931015224,
+                  "negative_pct": 44.91445561606852,
+                  "zero_pct": 0.8996904529162594,
+                  "mean_pct": 0.04152118148737454,
+                  "mean_positive_pct": 0.6906578839925497,
+                  "mean_negative_pct": -0.7407808602645883
+                }
+              },
+              "open_to_close": {
+                "signal": {
+                  "day_weight": 3100.0,
+                  "positive_day_weight": 1723.0,
+                  "negative_day_weight": 1343.0,
+                  "zero_day_weight": 34.0,
+                  "positive_pct": 55.58064516129032,
+                  "negative_pct": 43.32258064516129,
+                  "zero_pct": 1.096774193548387,
+                  "mean_pct": 0.09436835124040358,
+                  "mean_positive_pct": 0.7595021831125507,
+                  "mean_negative_pct": -0.7565751099461459
+                },
+                "reference": {
+                  "day_weight": 3100.0,
+                  "positive_day_weight": 1692.497041847042,
+                  "negative_day_weight": 1376.0094516594518,
+                  "zero_day_weight": 31.49350649350649,
+                  "positive_pct": 54.59667876925942,
+                  "negative_pct": 44.38740166643393,
+                  "zero_pct": 1.015919564306661,
+                  "mean_pct": 0.04759366849017991,
+                  "mean_positive_pct": 0.6801314481024725,
+                  "mean_negative_pct": -0.7293409870482473
+                }
+              },
+              "prior_close_to_open": {
+                "signal": {
+                  "day_weight": 3100.0,
+                  "positive_day_weight": 1387.0,
+                  "negative_day_weight": 1443.0,
+                  "zero_day_weight": 270.0,
+                  "positive_pct": 44.74193548387097,
+                  "negative_pct": 46.54838709677419,
+                  "zero_pct": 8.709677419354838,
+                  "mean_pct": -0.0045174355747992405,
+                  "mean_positive_pct": 0.12121123932631915,
+                  "mean_negative_pct": -0.12621208539673065
+                },
+                "reference": {
+                  "day_weight": 3100.0,
+                  "positive_day_weight": 1351.5012265512266,
+                  "negative_day_weight": 1433.7919191919193,
+                  "zero_day_weight": 314.70685425685423,
+                  "positive_pct": 43.59681375971699,
+                  "negative_pct": 46.2513522319974,
+                  "zero_pct": 10.15183400828562,
+                  "mean_pct": -0.006058643631161959,
+                  "mean_positive_pct": 0.11785961628165106,
+                  "mean_negative_pct": -0.12419459814117911
+                }
+              }
+            },
+            "mean_range_pct": 1.488608572719967,
+            "reference_mean_range_pct": 1.402869583541826,
+            "mean_window_change_pct": 1.7817148293467004,
+            "positive_windows": 111,
+            "positive_windows_pct": 71.61290322580646,
+            "reference_mean_window_change_pct": 0.8167173039637685
+          },
+          "daily_path": [
+            {
+              "session_number": 1,
+              "windows": 155,
+              "mean_cumulative_pct": -0.03153275803361022,
+              "reference_mean_cumulative_pct": 0.11347118198890746,
+              "mean_session_open_to_close_pct": -0.03153275803361022,
+              "positive_close_to_close_days": 77,
+              "positive_close_to_close_pct": 49.67741935483871,
+              "reference_positive_close_to_close_pct": 58.22720290462225,
+              "reference_mean_session_open_to_close_pct": 0.11347118198890746
+            },
+            {
+              "session_number": 2,
+              "windows": 155,
+              "mean_cumulative_pct": 0.30240563359159056,
+              "reference_mean_cumulative_pct": 0.13386672034791625,
+              "mean_session_open_to_close_pct": 0.327585562404031,
+              "positive_close_to_close_days": 88,
+              "positive_close_to_close_pct": 56.774193548387096,
+              "reference_positive_close_to_close_pct": 52.139040171298234,
+              "reference_mean_session_open_to_close_pct": 0.018569736073602593
+            },
+            {
+              "session_number": 3,
+              "windows": 155,
+              "mean_cumulative_pct": 0.42009112946587096,
+              "reference_mean_cumulative_pct": 0.1486699155146273,
+              "mean_session_open_to_close_pct": 0.1158728885879342,
+              "positive_close_to_close_days": 79,
+              "positive_close_to_close_pct": 50.967741935483865,
+              "reference_positive_close_to_close_pct": 54.84857794535214,
+              "reference_mean_session_open_to_close_pct": 0.025060969354123948
+            },
+            {
+              "session_number": 4,
+              "windows": 155,
+              "mean_cumulative_pct": 0.4186159806748283,
+              "reference_mean_cumulative_pct": 0.17874707084796268,
+              "mean_session_open_to_close_pct": -0.03127565964099788,
+              "positive_close_to_close_days": 83,
+              "positive_close_to_close_pct": 53.5483870967742,
+              "reference_positive_close_to_close_pct": 54.06921752083043,
+              "reference_mean_session_open_to_close_pct": 0.020964144347635737
+            },
+            {
+              "session_number": 5,
+              "windows": 155,
+              "mean_cumulative_pct": 0.4526173187217789,
+              "reference_mean_cumulative_pct": 0.08476230549674725,
+              "mean_session_open_to_close_pct": 0.03975834610813454,
+              "positive_close_to_close_days": 79,
+              "positive_close_to_close_pct": 50.967741935483865,
+              "reference_positive_close_to_close_pct": 51.684541265186425,
+              "reference_mean_session_open_to_close_pct": -0.09610377100443027
+            },
+            {
+              "session_number": 6,
+              "windows": 155,
+              "mean_cumulative_pct": 0.5939863375258329,
+              "reference_mean_cumulative_pct": 0.16251940828414424,
+              "mean_session_open_to_close_pct": 0.14408416100372534,
+              "positive_close_to_close_days": 95,
+              "positive_close_to_close_pct": 61.29032258064516,
+              "reference_positive_close_to_close_pct": 56.34268956849603,
+              "reference_mean_session_open_to_close_pct": 0.09218086172538892
+            },
+            {
+              "session_number": 7,
+              "windows": 155,
+              "mean_cumulative_pct": 0.6857746864819582,
+              "reference_mean_cumulative_pct": 0.2553345590454513,
+              "mean_session_open_to_close_pct": 0.07799613371074052,
+              "positive_close_to_close_days": 81,
+              "positive_close_to_close_pct": 52.25806451612903,
+              "reference_positive_close_to_close_pct": 52.19364148396406,
+              "reference_mean_session_open_to_close_pct": 0.07697646034546357
+            },
+            {
+              "session_number": 8,
+              "windows": 155,
+              "mean_cumulative_pct": 0.5850142202351506,
+              "reference_mean_cumulative_pct": 0.3529348308111539,
+              "mean_session_open_to_close_pct": -0.09710879357535014,
+              "positive_close_to_close_days": 79,
+              "positive_close_to_close_pct": 50.967741935483865,
+              "reference_positive_close_to_close_pct": 55.16482800353768,
+              "reference_mean_session_open_to_close_pct": 0.09061678089614122
+            },
+            {
+              "session_number": 9,
+              "windows": 155,
+              "mean_cumulative_pct": 0.5602384404448932,
+              "reference_mean_cumulative_pct": 0.4065099643728747,
+              "mean_session_open_to_close_pct": -0.028971158898211283,
+              "positive_close_to_close_days": 83,
+              "positive_close_to_close_pct": 53.5483870967742,
+              "reference_positive_close_to_close_pct": 54.18959177023692,
+              "reference_mean_session_open_to_close_pct": 0.05838617575600408
+            },
+            {
+              "session_number": 10,
+              "windows": 155,
+              "mean_cumulative_pct": 0.662679445537294,
+              "reference_mean_cumulative_pct": 0.4239832360819815,
+              "mean_session_open_to_close_pct": 0.15103658369683332,
+              "positive_close_to_close_days": 91,
+              "positive_close_to_close_pct": 58.70967741935483,
+              "reference_positive_close_to_close_pct": 57.87213145277661,
+              "reference_mean_session_open_to_close_pct": 0.03484250954475302
+            },
+            {
+              "session_number": 11,
+              "windows": 155,
+              "mean_cumulative_pct": 0.732336959711723,
+              "reference_mean_cumulative_pct": 0.49084186234374133,
+              "mean_session_open_to_close_pct": 0.08835551402256248,
+              "positive_close_to_close_days": 84,
+              "positive_close_to_close_pct": 54.19354838709678,
+              "reference_positive_close_to_close_pct": 56.05758041241913,
+              "reference_mean_session_open_to_close_pct": 0.09195919812565316
+            },
+            {
+              "session_number": 12,
+              "windows": 155,
+              "mean_cumulative_pct": 0.8486973402844998,
+              "reference_mean_cumulative_pct": 0.5954242165606628,
+              "mean_session_open_to_close_pct": 0.12097923350064603,
+              "positive_close_to_close_days": 89,
+              "positive_close_to_close_pct": 57.41935483870968,
+              "reference_positive_close_to_close_pct": 57.12260857422148,
+              "reference_mean_session_open_to_close_pct": 0.09948166650381608
+            },
+            {
+              "session_number": 13,
+              "windows": 155,
+              "mean_cumulative_pct": 0.93377981203052,
+              "reference_mean_cumulative_pct": 0.6175986214630471,
+              "mean_session_open_to_close_pct": 0.09561494924728378,
+              "positive_close_to_close_days": 94,
+              "positive_close_to_close_pct": 60.64516129032258,
+              "reference_positive_close_to_close_pct": 55.12442396313364,
+              "reference_mean_session_open_to_close_pct": 0.023145204905355165
+            },
+            {
+              "session_number": 14,
+              "windows": 155,
+              "mean_cumulative_pct": 1.0977456885023487,
+              "reference_mean_cumulative_pct": 0.6417710697632405,
+              "mean_session_open_to_close_pct": 0.18525761050496456,
+              "positive_close_to_close_days": 81,
+              "positive_close_to_close_pct": 52.25806451612903,
+              "reference_positive_close_to_close_pct": 48.41414141414141,
+              "reference_mean_session_open_to_close_pct": 0.06689149676658086
+            },
+            {
+              "session_number": 15,
+              "windows": 155,
+              "mean_cumulative_pct": 1.164084414232622,
+              "reference_mean_cumulative_pct": 0.6003399089972078,
+              "mean_session_open_to_close_pct": 0.08362181250900248,
+              "positive_close_to_close_days": 91,
+              "positive_close_to_close_pct": 58.70967741935483,
+              "reference_positive_close_to_close_pct": 51.40911418330772,
+              "reference_mean_session_open_to_close_pct": -0.008074436313633198
+            },
+            {
+              "session_number": 16,
+              "windows": 155,
+              "mean_cumulative_pct": 1.4218896058058696,
+              "reference_mean_cumulative_pct": 0.7351160414135094,
+              "mean_session_open_to_close_pct": 0.2460616640377003,
+              "positive_close_to_close_days": 92,
+              "positive_close_to_close_pct": 59.354838709677416,
+              "reference_positive_close_to_close_pct": 56.94307126565191,
+              "reference_mean_session_open_to_close_pct": 0.1371498011531602
+            },
+            {
+              "session_number": 17,
+              "windows": 155,
+              "mean_cumulative_pct": 1.5199313680079674,
+              "reference_mean_cumulative_pct": 0.7287229060113036,
+              "mean_session_open_to_close_pct": 0.11207010803072784,
+              "positive_close_to_close_days": 89,
+              "positive_close_to_close_pct": 57.41935483870968,
+              "reference_positive_close_to_close_pct": 49.254992319508446,
+              "reference_mean_session_open_to_close_pct": 0.00346377464855971
+            },
+            {
+              "session_number": 18,
+              "windows": 155,
+              "mean_cumulative_pct": 1.568996606182918,
+              "reference_mean_cumulative_pct": 0.8051976453050491,
+              "mean_session_open_to_close_pct": 0.07079424075877455,
+              "positive_close_to_close_days": 85,
+              "positive_close_to_close_pct": 54.83870967741935,
+              "reference_positive_close_to_close_pct": 57.121863799283155,
+              "reference_mean_session_open_to_close_pct": 0.08807213137492617
+            },
+            {
+              "session_number": 19,
+              "windows": 155,
+              "mean_cumulative_pct": 1.6524092207253507,
+              "reference_mean_cumulative_pct": 0.7609032312844157,
+              "mean_session_open_to_close_pct": 0.09255430930356316,
+              "positive_close_to_close_days": 89,
+              "positive_close_to_close_pct": 57.41935483870968,
+              "reference_positive_close_to_close_pct": 50.90224828934507,
+              "reference_mean_session_open_to_close_pct": -0.04343315010713913
+            },
+            {
+              "session_number": 20,
+              "windows": 155,
+              "mean_cumulative_pct": 1.7817148293467004,
+              "reference_mean_cumulative_pct": 0.8167173039637685,
+              "mean_session_open_to_close_pct": 0.12461227752961744,
+              "positive_close_to_close_days": 91,
+              "positive_close_to_close_pct": 58.70967741935483,
+              "reference_positive_close_to_close_pct": 54.63557231299166,
+              "reference_mean_session_open_to_close_pct": 0.058252633718729
+            }
+          ]
+        }
+      }
+    },
+    "skew_normalized_calendar": {
+      "horizon_sessions": 20,
+      "complete_signal_windows": 89,
+      "methods": {
+        "nonoverlapping_primary": {
+          "summary": {
+            "events": 69,
+            "matched_events": 69,
+            "unmatched_events": 0,
+            "event_days": 1380,
+            "unique_event_days": 1380,
+            "first_entry_date": "1997-09-29",
+            "last_entry_date": "2026-04-20",
+            "last_outcome_date": "2026-05-15",
+            "minimum_reference_windows": 3,
+            "median_reference_windows": 10.0,
+            "reference_window_appearances": 700,
+            "reference_day_appearances": 14000,
+            "unique_reference_days": 5074,
+            "measures": {
+              "close_to_close": {
+                "signal": {
+                  "day_weight": 1380.0,
+                  "positive_day_weight": 777.0,
+                  "negative_day_weight": 593.0,
+                  "zero_day_weight": 10.0,
+                  "positive_pct": 56.30434782608695,
+                  "negative_pct": 42.971014492753625,
+                  "zero_pct": 0.7246376811594203,
+                  "mean_pct": 0.12489361874782763,
+                  "mean_positive_pct": 0.8456102264950244,
+                  "mean_negative_pct": -0.8173456190803237
+                },
+                "reference": {
+                  "day_weight": 1380.0,
+                  "positive_day_weight": 752.642784992785,
+                  "negative_day_weight": 610.687518037518,
+                  "zero_day_weight": 16.669696969696968,
+                  "positive_pct": 54.539332245853984,
+                  "negative_pct": 44.25271869837086,
+                  "zero_pct": 1.2079490557751427,
+                  "mean_pct": 0.04684177723261408,
+                  "mean_positive_pct": 0.714389277693432,
+                  "mean_negative_pct": -0.7745995602977092
+                }
+              },
+              "open_to_close": {
+                "signal": {
+                  "day_weight": 1380.0,
+                  "positive_day_weight": 775.0,
+                  "negative_day_weight": 586.0,
+                  "zero_day_weight": 19.0,
+                  "positive_pct": 56.15942028985507,
+                  "negative_pct": 42.46376811594203,
+                  "zero_pct": 1.3768115942028984,
+                  "mean_pct": 0.12698811219037434,
+                  "mean_positive_pct": 0.8345894276665053,
+                  "mean_negative_pct": -0.8047153781891213
+                },
+                "reference": {
+                  "day_weight": 1380.0,
+                  "positive_day_weight": 751.7968253968254,
+                  "negative_day_weight": 608.6958152958154,
+                  "zero_day_weight": 19.5073593073593,
+                  "positive_pct": 54.47803082585692,
+                  "negative_pct": 44.108392412740244,
+                  "zero_pct": 1.413576761402848,
+                  "mean_pct": 0.051237319545211976,
+                  "mean_positive_pct": 0.7089302119489154,
+                  "mean_negative_pct": -0.759433480866051
+                }
+              },
+              "prior_close_to_open": {
+                "signal": {
+                  "day_weight": 1380.0,
+                  "positive_day_weight": 578.0,
+                  "negative_day_weight": 615.0,
+                  "zero_day_weight": 187.0,
+                  "positive_pct": 41.88405797101449,
+                  "negative_pct": 44.56521739130435,
+                  "zero_pct": 13.55072463768116,
+                  "mean_pct": -0.0023010589886458726,
+                  "mean_positive_pct": 0.12727867472650717,
+                  "mean_negative_pct": -0.12478461040041051
+                },
+                "reference": {
+                  "day_weight": 1380.0,
+                  "positive_day_weight": 546.244227994228,
+                  "negative_day_weight": 622.4635642135643,
+                  "zero_day_weight": 211.2922077922078,
+                  "positive_pct": 39.58291507204551,
+                  "negative_pct": 45.10605537779451,
+                  "zero_pct": 15.311029550159983,
+                  "mean_pct": -0.004388831893184722,
+                  "mean_positive_pct": 0.11645983642775783,
+                  "mean_negative_pct": -0.11192960593996377
+                }
+              }
+            },
+            "mean_range_pct": 1.5558739918451778,
+            "reference_mean_range_pct": 1.446075600739341,
+            "mean_window_change_pct": 2.49421539901582,
+            "positive_windows": 53,
+            "positive_windows_pct": 76.81159420289855,
+            "reference_mean_window_change_pct": 0.9053281216814231
+          },
+          "daily_path": [
+            {
+              "session_number": 1,
+              "windows": 69,
+              "mean_cumulative_pct": 0.21221639885441396,
+              "reference_mean_cumulative_pct": 0.08494784823719742,
+              "mean_session_open_to_close_pct": 0.21221639885441396,
+              "positive_close_to_close_days": 34,
+              "positive_close_to_close_pct": 49.275362318840585,
+              "reference_positive_close_to_close_pct": 58.8128698998264,
+              "reference_mean_session_open_to_close_pct": 0.08494784823719742
+            },
+            {
+              "session_number": 2,
+              "windows": 69,
+              "mean_cumulative_pct": 0.5837565993859445,
+              "reference_mean_cumulative_pct": 0.1702889071149884,
+              "mean_session_open_to_close_pct": 0.3457228238839122,
+              "positive_close_to_close_days": 41,
+              "positive_close_to_close_pct": 59.42028985507246,
+              "reference_positive_close_to_close_pct": 52.95240186544534,
+              "reference_mean_session_open_to_close_pct": 0.09434318908766451
+            },
+            {
+              "session_number": 3,
+              "windows": 69,
+              "mean_cumulative_pct": 0.5532070978271316,
+              "reference_mean_cumulative_pct": 0.1939067765573723,
+              "mean_session_open_to_close_pct": -0.023124462174481317,
+              "positive_close_to_close_days": 34,
+              "positive_close_to_close_pct": 49.275362318840585,
+              "reference_positive_close_to_close_pct": 54.668423364075544,
+              "reference_mean_session_open_to_close_pct": 0.0331455651685501
+            },
+            {
+              "session_number": 4,
+              "windows": 69,
+              "mean_cumulative_pct": 0.7014562100730162,
+              "reference_mean_cumulative_pct": 0.19973469933993793,
+              "mean_session_open_to_close_pct": 0.1339450299794383,
+              "positive_close_to_close_days": 44,
+              "positive_close_to_close_pct": 63.76811594202898,
+              "reference_positive_close_to_close_pct": 53.47125499299413,
+              "reference_mean_session_open_to_close_pct": 0.0027557433407921243
+            },
+            {
+              "session_number": 5,
+              "windows": 69,
+              "mean_cumulative_pct": 0.7095818887849241,
+              "reference_mean_cumulative_pct": 0.23588908552428345,
+              "mean_session_open_to_close_pct": 0.009230449624088376,
+              "positive_close_to_close_days": 29,
+              "positive_close_to_close_pct": 42.028985507246375,
+              "reference_positive_close_to_close_pct": 57.096011878620565,
+              "reference_mean_session_open_to_close_pct": 0.04068794925256961
+            },
+            {
+              "session_number": 6,
+              "windows": 69,
+              "mean_cumulative_pct": 1.0948320120885424,
+              "reference_mean_cumulative_pct": 0.2771519025487778,
+              "mean_session_open_to_close_pct": 0.3586355676924603,
+              "positive_close_to_close_days": 45,
+              "positive_close_to_close_pct": 65.21739130434783,
+              "reference_positive_close_to_close_pct": 55.131961436309254,
+              "reference_mean_session_open_to_close_pct": 0.03857027650901488
+            },
+            {
+              "session_number": 7,
+              "windows": 69,
+              "mean_cumulative_pct": 1.097260308171251,
+              "reference_mean_cumulative_pct": 0.3450755002646328,
+              "mean_session_open_to_close_pct": -0.013978221580905474,
+              "positive_close_to_close_days": 34,
+              "positive_close_to_close_pct": 49.275362318840585,
+              "reference_positive_close_to_close_pct": 52.54982537591233,
+              "reference_mean_session_open_to_close_pct": 0.06463771941041162
+            },
+            {
+              "session_number": 8,
+              "windows": 69,
+              "mean_cumulative_pct": 0.9095927360040104,
+              "reference_mean_cumulative_pct": 0.37174767546526544,
+              "mean_session_open_to_close_pct": -0.16314219485393028,
+              "positive_close_to_close_days": 32,
+              "positive_close_to_close_pct": 46.3768115942029,
+              "reference_positive_close_to_close_pct": 53.016186711838884,
+              "reference_mean_session_open_to_close_pct": 0.03273775352137557
+            },
+            {
+              "session_number": 9,
+              "windows": 69,
+              "mean_cumulative_pct": 1.039818935585406,
+              "reference_mean_cumulative_pct": 0.41632379592375945,
+              "mean_session_open_to_close_pct": 0.11300774098670816,
+              "positive_close_to_close_days": 39,
+              "positive_close_to_close_pct": 56.52173913043478,
+              "reference_positive_close_to_close_pct": 58.389066649936204,
+              "reference_mean_session_open_to_close_pct": 0.050287883177038105
+            },
+            {
+              "session_number": 10,
+              "windows": 69,
+              "mean_cumulative_pct": 0.9814947406892458,
+              "reference_mean_cumulative_pct": 0.4864166579994537,
+              "mean_session_open_to_close_pct": -0.0007050885446914186,
+              "positive_close_to_close_days": 41,
+              "positive_close_to_close_pct": 59.42028985507246,
+              "reference_positive_close_to_close_pct": 56.50396302570216,
+              "reference_mean_session_open_to_close_pct": 0.09488691671460278
+            },
+            {
+              "session_number": 11,
+              "windows": 69,
+              "mean_cumulative_pct": 1.079247828536796,
+              "reference_mean_cumulative_pct": 0.5619999393957524,
+              "mean_session_open_to_close_pct": 0.14404847793493109,
+              "positive_close_to_close_days": 39,
+              "positive_close_to_close_pct": 56.52173913043478,
+              "reference_positive_close_to_close_pct": 56.719576719576736,
+              "reference_mean_session_open_to_close_pct": 0.09027109711429238
+            },
+            {
+              "session_number": 12,
+              "windows": 69,
+              "mean_cumulative_pct": 1.5268997187830997,
+              "reference_mean_cumulative_pct": 0.6986265498278585,
+              "mean_session_open_to_close_pct": 0.4601991099364739,
+              "positive_close_to_close_days": 47,
+              "positive_close_to_close_pct": 68.11594202898551,
+              "reference_positive_close_to_close_pct": 57.132609741305394,
+              "reference_mean_session_open_to_close_pct": 0.14829066266513577
+            },
+            {
+              "session_number": 13,
+              "windows": 69,
+              "mean_cumulative_pct": 1.6387917510188548,
+              "reference_mean_cumulative_pct": 0.6811373796330741,
+              "mean_session_open_to_close_pct": 0.1325376798051454,
+              "positive_close_to_close_days": 37,
+              "positive_close_to_close_pct": 53.62318840579711,
+              "reference_positive_close_to_close_pct": 51.11424807076982,
+              "reference_mean_session_open_to_close_pct": -0.01771203050120062
+            },
+            {
+              "session_number": 14,
+              "windows": 69,
+              "mean_cumulative_pct": 1.8293860193570022,
+              "reference_mean_cumulative_pct": 0.7624370394865905,
+              "mean_session_open_to_close_pct": 0.1996851438614717,
+              "positive_close_to_close_days": 38,
+              "positive_close_to_close_pct": 55.072463768115945,
+              "reference_positive_close_to_close_pct": 51.26043039086519,
+              "reference_mean_session_open_to_close_pct": 0.10904922645996712
+            },
+            {
+              "session_number": 15,
+              "windows": 69,
+              "mean_cumulative_pct": 1.9114581040122254,
+              "reference_mean_cumulative_pct": 0.7764189721025294,
+              "mean_session_open_to_close_pct": 0.049914977448318604,
+              "positive_close_to_close_days": 38,
+              "positive_close_to_close_pct": 55.072463768115945,
+              "reference_positive_close_to_close_pct": 52.09674383587427,
+              "reference_mean_session_open_to_close_pct": 0.012149146310318052
+            },
+            {
+              "session_number": 16,
+              "windows": 69,
+              "mean_cumulative_pct": 2.157305683527978,
+              "reference_mean_cumulative_pct": 0.8346008280349618,
+              "mean_session_open_to_close_pct": 0.20833456007774523,
+              "positive_close_to_close_days": 47,
+              "positive_close_to_close_pct": 68.11594202898551,
+              "reference_positive_close_to_close_pct": 56.340109166196115,
+              "reference_mean_session_open_to_close_pct": 0.06498841333001798
+            },
+            {
+              "session_number": 17,
+              "windows": 69,
+              "mean_cumulative_pct": 2.401067879117188,
+              "reference_mean_cumulative_pct": 0.8648244641267454,
+              "mean_session_open_to_close_pct": 0.2829179820346532,
+              "positive_close_to_close_days": 45,
+              "positive_close_to_close_pct": 65.21739130434783,
+              "reference_positive_close_to_close_pct": 51.359872012045926,
+              "reference_mean_session_open_to_close_pct": 0.04194691130233212
+            },
+            {
+              "session_number": 18,
+              "windows": 69,
+              "mean_cumulative_pct": 2.2656469226796445,
+              "reference_mean_cumulative_pct": 0.817930992137925,
+              "mean_session_open_to_close_pct": -0.1282630903773393,
+              "positive_close_to_close_days": 32,
+              "positive_close_to_close_pct": 46.3768115942029,
+              "reference_positive_close_to_close_pct": 55.24844720496893,
+              "reference_mean_session_open_to_close_pct": -0.04998948382604084
+            },
+            {
+              "session_number": 19,
+              "windows": 69,
+              "mean_cumulative_pct": 2.3986455710976378,
+              "reference_mean_cumulative_pct": 0.8253215624011697,
+              "mean_session_open_to_close_pct": 0.16015531546583525,
+              "positive_close_to_close_days": 43,
+              "positive_close_to_close_pct": 62.31884057971014,
+              "reference_positive_close_to_close_pct": 54.3293180249702,
+              "reference_mean_session_open_to_close_pct": 0.019845289246279815
+            },
+            {
+              "session_number": 20,
+              "windows": 69,
+              "mean_cumulative_pct": 2.49421539901582,
+              "reference_mean_cumulative_pct": 0.9053281216814231,
+              "mean_session_open_to_close_pct": 0.05842404375323896,
+              "positive_close_to_close_days": 38,
+              "positive_close_to_close_pct": 55.072463768115945,
+              "reference_positive_close_to_close_pct": 52.59332454984629,
+              "reference_mean_session_open_to_close_pct": 0.06890631438392099
+            }
+          ]
+        },
+        "all_signals_audit": {
+          "summary": {
+            "events": 89,
+            "matched_events": 89,
+            "unmatched_events": 0,
+            "event_days": 1780,
+            "unique_event_days": 1578,
+            "first_entry_date": "1997-09-29",
+            "last_entry_date": "2026-04-20",
+            "last_outcome_date": "2026-05-15",
+            "minimum_reference_windows": 3,
+            "median_reference_windows": 10.0,
+            "reference_window_appearances": 906,
+            "reference_day_appearances": 18120,
+            "unique_reference_days": 5493,
+            "measures": {
+              "close_to_close": {
+                "signal": {
+                  "day_weight": 1780.0,
+                  "positive_day_weight": 990.0,
+                  "negative_day_weight": 777.0,
+                  "zero_day_weight": 13.0,
+                  "positive_pct": 55.61797752808989,
+                  "negative_pct": 43.651685393258425,
+                  "zero_pct": 0.7303370786516854,
+                  "mean_pct": 0.10301199005027645,
+                  "mean_positive_pct": 0.8840083348362748,
+                  "mean_negative_pct": -0.8903563824947494
+                },
+                "reference": {
+                  "day_weight": 1780.0,
+                  "positive_day_weight": 968.5836940836941,
+                  "negative_day_weight": 791.0420634920636,
+                  "zero_day_weight": 20.374242424242425,
+                  "positive_pct": 54.414814274364836,
+                  "negative_pct": 44.44056536472267,
+                  "zero_pct": 1.1446203609124959,
+                  "mean_pct": 0.040687500502875174,
+                  "mean_positive_pct": 0.7285971757707602,
+                  "mean_negative_pct": -0.8005687969565534
+                }
+              },
+              "open_to_close": {
+                "signal": {
+                  "day_weight": 1780.0,
+                  "positive_day_weight": 985.0,
+                  "negative_day_weight": 770.0,
+                  "zero_day_weight": 25.0,
+                  "positive_pct": 55.337078651685395,
+                  "negative_pct": 43.258426966292134,
+                  "zero_pct": 1.404494382022472,
+                  "mean_pct": 0.10915169959185662,
+                  "mean_positive_pct": 0.8817979438555924,
+                  "mean_negative_pct": -0.8756895447068229
+                },
+                "reference": {
+                  "day_weight": 1780.0,
+                  "positive_day_weight": 969.0680375180375,
+                  "negative_day_weight": 786.1079365079365,
+                  "zero_day_weight": 24.82402597402597,
+                  "positive_pct": 54.44202457966502,
+                  "negative_pct": 44.163367219547,
+                  "zero_pct": 1.3946082007879759,
+                  "mean_pct": 0.04654722345909107,
+                  "mean_positive_pct": 0.7218003171634599,
+                  "mean_negative_pct": -0.7843955396449339
+                }
+              },
+              "prior_close_to_open": {
+                "signal": {
+                  "day_weight": 1780.0,
+                  "positive_day_weight": 727.0,
+                  "negative_day_weight": 814.0,
+                  "zero_day_weight": 239.0,
+                  "positive_pct": 40.842696629213485,
+                  "negative_pct": 45.73033707865169,
+                  "zero_pct": 13.426966292134832,
+                  "mean_pct": -0.006327982475369589,
+                  "mean_positive_pct": 0.13034949309886973,
+                  "mean_negative_pct": -0.13025539347547438
+                },
+                "reference": {
+                  "day_weight": 1780.0,
+                  "positive_day_weight": 701.9260461760462,
+                  "negative_day_weight": 811.2681096681097,
+                  "zero_day_weight": 266.80584415584417,
+                  "positive_pct": 39.43404753798013,
+                  "negative_pct": 45.576860093714025,
+                  "zero_pct": 14.989092368305853,
+                  "mean_pct": -0.005870012804963312,
+                  "mean_positive_pct": 0.1163419097460203,
+                  "mean_negative_pct": -0.1135408114872312
+                }
+              }
+            },
+            "mean_range_pct": 1.6754245214340806,
+            "reference_mean_range_pct": 1.4799608257355414,
+            "mean_window_change_pct": 2.0149861492395367,
+            "positive_windows": 65,
+            "positive_windows_pct": 73.03370786516854,
+            "reference_mean_window_change_pct": 0.7974329152062255
+          },
+          "daily_path": [
+            {
+              "session_number": 1,
+              "windows": 89,
+              "mean_cumulative_pct": 0.12000214178233876,
+              "reference_mean_cumulative_pct": 0.0887059274894304,
+              "mean_session_open_to_close_pct": 0.12000214178233876,
+              "positive_close_to_close_days": 43,
+              "positive_close_to_close_pct": 48.31460674157304,
+              "reference_positive_close_to_close_pct": 58.76639590122736,
+              "reference_mean_session_open_to_close_pct": 0.0887059274894304
+            },
+            {
+              "session_number": 2,
+              "windows": 89,
+              "mean_cumulative_pct": 0.5392472838739267,
+              "reference_mean_cumulative_pct": 0.1622122312120822,
+              "mean_session_open_to_close_pct": 0.39966117807597745,
+              "positive_close_to_close_days": 50,
+              "positive_close_to_close_pct": 56.17977528089888,
+              "reference_positive_close_to_close_pct": 53.91474942036739,
+              "reference_mean_session_open_to_close_pct": 0.07864932310466428
+            },
+            {
+              "session_number": 3,
+              "windows": 89,
+              "mean_cumulative_pct": 0.4993733736454018,
+              "reference_mean_cumulative_pct": 0.1729317818959616,
+              "mean_session_open_to_close_pct": -0.026192298519512533,
+              "positive_close_to_close_days": 44,
+              "positive_close_to_close_pct": 49.43820224719101,
+              "reference_positive_close_to_close_pct": 54.24753149472251,
+              "reference_mean_session_open_to_close_pct": 0.021133932386691666
+            },
+            {
+              "session_number": 4,
+              "windows": 89,
+              "mean_cumulative_pct": 0.5848782129558056,
+              "reference_mean_cumulative_pct": 0.21028210234483752,
+              "mean_session_open_to_close_pct": 0.06934099778799004,
+              "positive_close_to_close_days": 53,
+              "positive_close_to_close_pct": 59.55056179775281,
+              "reference_positive_close_to_close_pct": 54.85837508309419,
+              "reference_mean_session_open_to_close_pct": 0.033482754543035946
+            },
+            {
+              "session_number": 5,
+              "windows": 89,
+              "mean_cumulative_pct": 0.7128505364454061,
+              "reference_mean_cumulative_pct": 0.17969129195590366,
+              "mean_session_open_to_close_pct": 0.12332598694667815,
+              "positive_close_to_close_days": 45,
+              "positive_close_to_close_pct": 50.56179775280899,
+              "reference_positive_close_to_close_pct": 54.08158632877734,
+              "reference_mean_session_open_to_close_pct": -0.023609988345605768
+            },
+            {
+              "session_number": 6,
+              "windows": 89,
+              "mean_cumulative_pct": 0.9340799183000938,
+              "reference_mean_cumulative_pct": 0.21817954369364265,
+              "mean_session_open_to_close_pct": 0.19665253765960128,
+              "positive_close_to_close_days": 56,
+              "positive_close_to_close_pct": 62.92134831460674,
+              "reference_positive_close_to_close_pct": 55.24531024531024,
+              "reference_mean_session_open_to_close_pct": 0.043181033079800375
+            },
+            {
+              "session_number": 7,
+              "windows": 89,
+              "mean_cumulative_pct": 0.9673377258008169,
+              "reference_mean_cumulative_pct": 0.27367693908945434,
+              "mean_session_open_to_close_pct": 0.016674970730164086,
+              "positive_close_to_close_days": 43,
+              "positive_close_to_close_pct": 48.31460674157304,
+              "reference_positive_close_to_close_pct": 51.74359972112781,
+              "reference_mean_session_open_to_close_pct": 0.05375449899209681
+            },
+            {
+              "session_number": 8,
+              "windows": 89,
+              "mean_cumulative_pct": 0.6825507776804759,
+              "reference_mean_cumulative_pct": 0.32527895746336055,
+              "mean_session_open_to_close_pct": -0.2681764224601053,
+              "positive_close_to_close_days": 41,
+              "positive_close_to_close_pct": 46.06741573033708,
+              "reference_positive_close_to_close_pct": 53.73096940512671,
+              "reference_mean_session_open_to_close_pct": 0.05611803874071891
+            },
+            {
+              "session_number": 9,
+              "windows": 89,
+              "mean_cumulative_pct": 0.6674886537389423,
+              "reference_mean_cumulative_pct": 0.3710688677884357,
+              "mean_session_open_to_close_pct": -0.01313266990297897,
+              "positive_close_to_close_days": 47,
+              "positive_close_to_close_pct": 52.80898876404494,
+              "reference_positive_close_to_close_pct": 57.81133972145208,
+              "reference_mean_session_open_to_close_pct": 0.053532094632848415
+            },
+            {
+              "session_number": 10,
+              "windows": 89,
+              "mean_cumulative_pct": 0.7429348105266068,
+              "reference_mean_cumulative_pct": 0.43442303894713624,
+              "mean_session_open_to_close_pct": 0.12341573235112832,
+              "positive_close_to_close_days": 53,
+              "positive_close_to_close_pct": 59.55056179775281,
+              "reference_positive_close_to_close_pct": 58.09823759261962,
+              "reference_mean_session_open_to_close_pct": 0.08579665320370583
+            },
+            {
+              "session_number": 11,
+              "windows": 89,
+              "mean_cumulative_pct": 0.6982506173697742,
+              "reference_mean_cumulative_pct": 0.4970544502301113,
+              "mean_session_open_to_close_pct": 0.0008717728931741069,
+              "positive_close_to_close_days": 48,
+              "positive_close_to_close_pct": 53.93258426966292,
+              "reference_positive_close_to_close_pct": 56.10843588371678,
+              "reference_mean_session_open_to_close_pct": 0.08474855329353463
+            },
+            {
+              "session_number": 12,
+              "windows": 89,
+              "mean_cumulative_pct": 1.0549736866886226,
+              "reference_mean_cumulative_pct": 0.6144590767263546,
+              "mean_session_open_to_close_pct": 0.3811846611891166,
+              "positive_close_to_close_days": 56,
+              "positive_close_to_close_pct": 62.92134831460674,
+              "reference_positive_close_to_close_pct": 56.425247661202725,
+              "reference_mean_session_open_to_close_pct": 0.12789824990211632
+            },
+            {
+              "session_number": 13,
+              "windows": 89,
+              "mean_cumulative_pct": 1.1138523829074443,
+              "reference_mean_cumulative_pct": 0.5945742427532367,
+              "mean_session_open_to_close_pct": 0.08198707231669904,
+              "positive_close_to_close_days": 50,
+              "positive_close_to_close_pct": 56.17977528089888,
+              "reference_positive_close_to_close_pct": 51.321805535288675,
+              "reference_mean_session_open_to_close_pct": -0.01785833207870862
+            },
+            {
+              "session_number": 14,
+              "windows": 89,
+              "mean_cumulative_pct": 1.3787278840907204,
+              "reference_mean_cumulative_pct": 0.6695050937142798,
+              "mean_session_open_to_close_pct": 0.3035875691531171,
+              "positive_close_to_close_days": 50,
+              "positive_close_to_close_pct": 56.17977528089888,
+              "reference_positive_close_to_close_pct": 50.00510725229827,
+              "reference_mean_session_open_to_close_pct": 0.10032265528247483
+            },
+            {
+              "session_number": 15,
+              "windows": 89,
+              "mean_cumulative_pct": 1.4158955164791793,
+              "reference_mean_cumulative_pct": 0.6884462276341412,
+              "mean_session_open_to_close_pct": 0.02754072832294344,
+              "positive_close_to_close_days": 51,
+              "positive_close_to_close_pct": 57.30337078651685,
+              "reference_positive_close_to_close_pct": 52.645313488010125,
+              "reference_mean_session_open_to_close_pct": 0.029717486931520685
+            },
+            {
+              "session_number": 16,
+              "windows": 89,
+              "mean_cumulative_pct": 1.6777985415139214,
+              "reference_mean_cumulative_pct": 0.7773413652607639,
+              "mean_session_open_to_close_pct": 0.2616969423711784,
+              "positive_close_to_close_days": 59,
+              "positive_close_to_close_pct": 66.29213483146067,
+              "reference_positive_close_to_close_pct": 57.60007782479693,
+              "reference_mean_session_open_to_close_pct": 0.08708354159065633
+            },
+            {
+              "session_number": 17,
+              "windows": 89,
+              "mean_cumulative_pct": 1.8630287140231114,
+              "reference_mean_cumulative_pct": 0.8198958185765811,
+              "mean_session_open_to_close_pct": 0.19963267758030764,
+              "positive_close_to_close_days": 54,
+              "positive_close_to_close_pct": 60.67415730337079,
+              "reference_positive_close_to_close_pct": 51.07471180504889,
+              "reference_mean_session_open_to_close_pct": 0.06453583719195832
+            },
+            {
+              "session_number": 18,
+              "windows": 89,
+              "mean_cumulative_pct": 1.8062853845798927,
+              "reference_mean_cumulative_pct": 0.7596233404905752,
+              "mean_session_open_to_close_pct": -0.021476822081447283,
+              "positive_close_to_close_days": 45,
+              "positive_close_to_close_pct": 50.56179775280899,
+              "reference_positive_close_to_close_pct": 55.26752273943286,
+              "reference_mean_session_open_to_close_pct": -0.062359010514074095
+            },
+            {
+              "session_number": 19,
+              "windows": 89,
+              "mean_cumulative_pct": 1.889680847250973,
+              "reference_mean_cumulative_pct": 0.7623517833020567,
+              "mean_session_open_to_close_pct": 0.08358717068942086,
+              "positive_close_to_close_days": 55,
+              "positive_close_to_close_pct": 61.79775280898876,
+              "reference_positive_close_to_close_pct": 53.390485918575806,
+              "reference_mean_session_open_to_close_pct": 0.006034509556831631
+            },
+            {
+              "session_number": 20,
+              "windows": 89,
+              "mean_cumulative_pct": 2.0149861492395367,
+              "reference_mean_cumulative_pct": 0.7974329152062255,
+              "mean_session_open_to_close_pct": 0.12285006495134175,
+              "positive_close_to_close_days": 47,
+              "positive_close_to_close_pct": 52.80898876404494,
+              "reference_positive_close_to_close_pct": 51.959482465100436,
+              "reference_mean_session_open_to_close_pct": 0.020076710198124497
+            }
+          ]
+        }
+      }
+    },
+    "skew_normalized_reported": {
+      "horizon_sessions": 20,
+      "complete_signal_windows": 111,
+      "methods": {
+        "nonoverlapping_primary": {
+          "summary": {
+            "events": 83,
+            "matched_events": 83,
+            "unmatched_events": 0,
+            "event_days": 1660,
+            "unique_event_days": 1660,
+            "first_entry_date": "1997-09-29",
+            "last_entry_date": "2026-04-20",
+            "last_outcome_date": "2026-05-15",
+            "minimum_reference_windows": 3,
+            "median_reference_windows": 10.0,
+            "reference_window_appearances": 846,
+            "reference_day_appearances": 16920,
+            "unique_reference_days": 5850,
+            "measures": {
+              "close_to_close": {
+                "signal": {
+                  "day_weight": 1660.0,
+                  "positive_day_weight": 914.0,
+                  "negative_day_weight": 735.0,
+                  "zero_day_weight": 11.0,
+                  "positive_pct": 55.06024096385542,
+                  "negative_pct": 44.27710843373494,
+                  "zero_pct": 0.6626506024096386,
+                  "mean_pct": 0.10789972902158528,
+                  "mean_positive_pct": 0.8846728684007346,
+                  "mean_negative_pct": -0.8564319068604624
+                },
+                "reference": {
+                  "day_weight": 1660.0,
+                  "positive_day_weight": 894.4155122655122,
+                  "negative_day_weight": 744.9784271284271,
+                  "zero_day_weight": 20.60606060606061,
+                  "positive_pct": 53.880452546115194,
+                  "negative_pct": 44.87821850171248,
+                  "zero_pct": 1.2413289521723259,
+                  "mean_pct": 0.03906502323384107,
+                  "mean_positive_pct": 0.7322689446365456,
+                  "mean_negative_pct": -0.792109869462457
+                }
+              },
+              "open_to_close": {
+                "signal": {
+                  "day_weight": 1660.0,
+                  "positive_day_weight": 911.0,
+                  "negative_day_weight": 727.0,
+                  "zero_day_weight": 22.0,
+                  "positive_pct": 54.87951807228916,
+                  "negative_pct": 43.795180722891565,
+                  "zero_pct": 1.3253012048192772,
+                  "mean_pct": 0.10972001589747112,
+                  "mean_positive_pct": 0.8748481044244443,
+                  "mean_negative_pct": -0.8457378222020173
+                },
+                "reference": {
+                  "day_weight": 1660.0,
+                  "positive_day_weight": 895.0240981240981,
+                  "negative_day_weight": 741.5503607503608,
+                  "zero_day_weight": 23.425541125541123,
+                  "positive_pct": 53.91711434482519,
+                  "negative_pct": 44.671708478937404,
+                  "zero_pct": 1.411177176237417,
+                  "mean_pct": 0.04400554275986274,
+                  "mean_positive_pct": 0.7262052682713733,
+                  "mean_negative_pct": -0.7779943815581254
+                }
+              },
+              "prior_close_to_open": {
+                "signal": {
+                  "day_weight": 1660.0,
+                  "positive_day_weight": 711.0,
+                  "negative_day_weight": 739.0,
+                  "zero_day_weight": 210.0,
+                  "positive_pct": 42.83132530120482,
+                  "negative_pct": 44.51807228915663,
+                  "zero_pct": 12.650602409638553,
+                  "mean_pct": -0.0020172616067531627,
+                  "mean_positive_pct": 0.12283436564733251,
+                  "mean_negative_pct": -0.12271162143770456
+                },
+                "reference": {
+                  "day_weight": 1660.0,
+                  "positive_day_weight": 673.4715007215008,
+                  "negative_day_weight": 745.0999278499279,
+                  "zero_day_weight": 241.42857142857142,
+                  "positive_pct": 40.57057233262053,
+                  "negative_pct": 44.88553782228482,
+                  "zero_pct": 14.543889845094663,
+                  "mean_pct": -0.004931210623342288,
+                  "mean_positive_pct": 0.11153995900305554,
+                  "mean_negative_pct": -0.11180351802655027
+                }
+              }
+            },
+            "mean_range_pct": 1.6216662765551684,
+            "reference_mean_range_pct": 1.4770173098398898,
+            "mean_window_change_pct": 2.1369185637274137,
+            "positive_windows": 61,
+            "positive_windows_pct": 73.49397590361446,
+            "reference_mean_window_change_pct": 0.7545294665827508
+          },
+          "daily_path": [
+            {
+              "session_number": 1,
+              "windows": 83,
+              "mean_cumulative_pct": 0.022136360538082035,
+              "reference_mean_cumulative_pct": 0.09159713642216727,
+              "mean_session_open_to_close_pct": 0.022136360538082035,
+              "positive_close_to_close_days": 37,
+              "positive_close_to_close_pct": 44.57831325301205,
+              "reference_positive_close_to_close_pct": 58.46546358594552,
+              "reference_mean_session_open_to_close_pct": 0.09159713642216727
+            },
+            {
+              "session_number": 2,
+              "windows": 83,
+              "mean_cumulative_pct": 0.320710684307395,
+              "reference_mean_cumulative_pct": 0.17053266155713853,
+              "mean_session_open_to_close_pct": 0.26635811557100153,
+              "positive_close_to_close_days": 47,
+              "positive_close_to_close_pct": 56.62650602409639,
+              "reference_positive_close_to_close_pct": 52.27915992976234,
+              "reference_mean_session_open_to_close_pct": 0.09293716839799893
+            },
+            {
+              "session_number": 3,
+              "windows": 83,
+              "mean_cumulative_pct": 0.34592235360892604,
+              "reference_mean_cumulative_pct": 0.22444659543995987,
+              "mean_session_open_to_close_pct": 0.03866755134536879,
+              "positive_close_to_close_days": 41,
+              "positive_close_to_close_pct": 49.39759036144578,
+              "reference_positive_close_to_close_pct": 55.37057320189851,
+              "reference_mean_session_open_to_close_pct": 0.0654684885864591
+            },
+            {
+              "session_number": 4,
+              "windows": 83,
+              "mean_cumulative_pct": 0.48696070762944227,
+              "reference_mean_cumulative_pct": 0.23666816603160787,
+              "mean_session_open_to_close_pct": 0.12292427334918385,
+              "positive_close_to_close_days": 51,
+              "positive_close_to_close_pct": 61.44578313253012,
+              "reference_positive_close_to_close_pct": 53.06098854291626,
+              "reference_mean_session_open_to_close_pct": 0.00834157933652557
+            },
+            {
+              "session_number": 5,
+              "windows": 83,
+              "mean_cumulative_pct": 0.4664489710760015,
+              "reference_mean_cumulative_pct": 0.2554666502439408,
+              "mean_session_open_to_close_pct": -0.02377772595487861,
+              "positive_close_to_close_days": 35,
+              "positive_close_to_close_pct": 42.168674698795186,
+              "reference_positive_close_to_close_pct": 56.621985778612284,
+              "reference_mean_session_open_to_close_pct": 0.02400743153153652
+            },
+            {
+              "session_number": 6,
+              "windows": 83,
+              "mean_cumulative_pct": 0.8865590144681126,
+              "reference_mean_cumulative_pct": 0.294199882189396,
+              "mean_session_open_to_close_pct": 0.3975420802408094,
+              "positive_close_to_close_days": 54,
+              "positive_close_to_close_pct": 65.06024096385542,
+              "reference_positive_close_to_close_pct": 54.540151949790506,
+              "reference_mean_session_open_to_close_pct": 0.033869300492223926
+            },
+            {
+              "session_number": 7,
+              "windows": 83,
+              "mean_cumulative_pct": 0.9040406816701438,
+              "reference_mean_cumulative_pct": 0.33784873160569195,
+              "mean_session_open_to_close_pct": -0.0025564817230597074,
+              "positive_close_to_close_days": 40,
+              "positive_close_to_close_pct": 48.19277108433735,
+              "reference_positive_close_to_close_pct": 50.77252733879241,
+              "reference_mean_session_open_to_close_pct": 0.0375104993879345
+            },
+            {
+              "session_number": 8,
+              "windows": 83,
+              "mean_cumulative_pct": 0.7233454441054912,
+              "reference_mean_cumulative_pct": 0.3761328348416992,
+              "mean_session_open_to_close_pct": -0.1570872401731145,
+              "positive_close_to_close_days": 41,
+              "positive_close_to_close_pct": 49.39759036144578,
+              "reference_positive_close_to_close_pct": 52.715537474573615,
+              "reference_mean_session_open_to_close_pct": 0.04334569793129442
+            },
+            {
+              "session_number": 9,
+              "windows": 83,
+              "mean_cumulative_pct": 0.727287191866255,
+              "reference_mean_cumulative_pct": 0.40041716410579886,
+              "mean_session_open_to_close_pct": -0.01217351396902497,
+              "positive_close_to_close_days": 43,
+              "positive_close_to_close_pct": 51.80722891566265,
+              "reference_positive_close_to_close_pct": 56.2730575983588,
+              "reference_mean_session_open_to_close_pct": 0.027135734877598832
+            },
+            {
+              "session_number": 10,
+              "windows": 83,
+              "mean_cumulative_pct": 0.5865086658330178,
+              "reference_mean_cumulative_pct": 0.44644632875216717,
+              "mean_session_open_to_close_pct": -0.07786272601897082,
+              "positive_close_to_close_days": 46,
+              "positive_close_to_close_pct": 55.42168674698795,
+              "reference_positive_close_to_close_pct": 55.45072063144352,
+              "reference_mean_session_open_to_close_pct": 0.07165391166033584
+            },
+            {
+              "session_number": 11,
+              "windows": 83,
+              "mean_cumulative_pct": 0.5782549224471425,
+              "reference_mean_cumulative_pct": 0.4934529097525704,
+              "mean_session_open_to_close_pct": 0.021916727616378664,
+              "positive_close_to_close_days": 44,
+              "positive_close_to_close_pct": 53.01204819277109,
+              "reference_positive_close_to_close_pct": 55.695683165562684,
+              "reference_mean_session_open_to_close_pct": 0.06412731341788558
+            },
+            {
+              "session_number": 12,
+              "windows": 83,
+              "mean_cumulative_pct": 1.0149752926585904,
+              "reference_mean_cumulative_pct": 0.6063417281946196,
+              "mean_session_open_to_close_pct": 0.45253544121436684,
+              "positive_close_to_close_days": 56,
+              "positive_close_to_close_pct": 67.46987951807229,
+              "reference_positive_close_to_close_pct": 56.09381247935465,
+              "reference_mean_session_open_to_close_pct": 0.1199290258345929
+            },
+            {
+              "session_number": 13,
+              "windows": 83,
+              "mean_cumulative_pct": 1.0847430604169588,
+              "reference_mean_cumulative_pct": 0.6108848643113451,
+              "mean_session_open_to_close_pct": 0.08569420690909481,
+              "positive_close_to_close_days": 43,
+              "positive_close_to_close_pct": 51.80722891566265,
+              "reference_positive_close_to_close_pct": 51.80253481458301,
+              "reference_mean_session_open_to_close_pct": 0.0044385211243261205
+            },
+            {
+              "session_number": 14,
+              "windows": 83,
+              "mean_cumulative_pct": 1.3513426909179829,
+              "reference_mean_cumulative_pct": 0.6573308050318275,
+              "mean_session_open_to_close_pct": 0.28198952009895584,
+              "positive_close_to_close_days": 47,
+              "positive_close_to_close_pct": 56.62650602409639,
+              "reference_positive_close_to_close_pct": 49.58013873676525,
+              "reference_mean_session_open_to_close_pct": 0.06874939040317425
+            },
+            {
+              "session_number": 15,
+              "windows": 83,
+              "mean_cumulative_pct": 1.5139245619879254,
+              "reference_mean_cumulative_pct": 0.674388984901641,
+              "mean_session_open_to_close_pct": 0.14011544723455993,
+              "positive_close_to_close_days": 47,
+              "positive_close_to_close_pct": 56.62650602409639,
+              "reference_positive_close_to_close_pct": 51.775934908465025,
+              "reference_mean_session_open_to_close_pct": 0.018375754236310694
+            },
+            {
+              "session_number": 16,
+              "windows": 83,
+              "mean_cumulative_pct": 1.7460736739472953,
+              "reference_mean_cumulative_pct": 0.7075459949918638,
+              "mean_session_open_to_close_pct": 0.20816783550494922,
+              "positive_close_to_close_days": 56,
+              "positive_close_to_close_pct": 67.46987951807229,
+              "reference_positive_close_to_close_pct": 55.29259896729776,
+              "reference_mean_session_open_to_close_pct": 0.040699021611805386
+            },
+            {
+              "session_number": 17,
+              "windows": 83,
+              "mean_cumulative_pct": 1.9412006196080813,
+              "reference_mean_cumulative_pct": 0.7273278562756991,
+              "mean_session_open_to_close_pct": 0.2307029735925041,
+              "positive_close_to_close_days": 50,
+              "positive_close_to_close_pct": 60.24096385542169,
+              "reference_positive_close_to_close_pct": 51.71099984352997,
+              "reference_mean_session_open_to_close_pct": 0.034333662830406356
+            },
+            {
+              "session_number": 18,
+              "windows": 83,
+              "mean_cumulative_pct": 1.8489511239523382,
+              "reference_mean_cumulative_pct": 0.71329374494037,
+              "mean_session_open_to_close_pct": -0.07026085265026491,
+              "positive_close_to_close_days": 38,
+              "positive_close_to_close_pct": 45.78313253012048,
+              "reference_positive_close_to_close_pct": 55.567986230636826,
+              "reference_mean_session_open_to_close_pct": -0.01370161994849713
+            },
+            {
+              "session_number": 19,
+              "windows": 83,
+              "mean_cumulative_pct": 2.0683218143659063,
+              "reference_mean_cumulative_pct": 0.7051254626202362,
+              "mean_session_open_to_close_pct": 0.2422995815541812,
+              "positive_close_to_close_days": 52,
+              "positive_close_to_close_pct": 62.65060240963856,
+              "reference_positive_close_to_close_pct": 52.97475616752726,
+              "reference_mean_session_open_to_close_pct": 0.002524998400560028
+            },
+            {
+              "session_number": 20,
+              "windows": 83,
+              "mean_cumulative_pct": 2.1369185637274137,
+              "reference_mean_cumulative_pct": 0.7545294665827508,
+              "mean_session_open_to_close_pct": 0.027068743669300427,
+              "positive_close_to_close_days": 46,
+              "positive_close_to_close_pct": 55.42168674698795,
+              "reference_positive_close_to_close_pct": 51.564439576487764,
+              "reference_mean_session_open_to_close_pct": 0.044767838662615675
+            }
+          ]
+        },
+        "all_signals_audit": {
+          "summary": {
+            "events": 111,
+            "matched_events": 111,
+            "unmatched_events": 0,
+            "event_days": 2220,
+            "unique_event_days": 1940,
+            "first_entry_date": "1997-09-29",
+            "last_entry_date": "2026-04-20",
+            "last_outcome_date": "2026-05-15",
+            "minimum_reference_windows": 3,
+            "median_reference_windows": 10.0,
+            "reference_window_appearances": 1136,
+            "reference_day_appearances": 22720,
+            "unique_reference_days": 6289,
+            "measures": {
+              "close_to_close": {
+                "signal": {
+                  "day_weight": 2220.0,
+                  "positive_day_weight": 1209.0,
+                  "negative_day_weight": 996.0,
+                  "zero_day_weight": 15.0,
+                  "positive_pct": 54.45945945945946,
+                  "negative_pct": 44.86486486486486,
+                  "zero_pct": 0.6756756756756757,
+                  "mean_pct": 0.09541630226883256,
+                  "mean_positive_pct": 0.922717687212664,
+                  "mean_negative_pct": -0.9073709767101428
+                },
+                "reference": {
+                  "day_weight": 2220.0,
+                  "positive_day_weight": 1191.1746031746031,
+                  "negative_day_weight": 1002.2193362193361,
+                  "zero_day_weight": 26.60606060606061,
+                  "positive_pct": 53.65651365651365,
+                  "negative_pct": 45.14501514501514,
+                  "zero_pct": 1.1984711984711987,
+                  "mean_pct": 0.031142709712255707,
+                  "mean_positive_pct": 0.7381425166524248,
+                  "mean_negative_pct": -0.8083258569471986
+                }
+              },
+              "open_to_close": {
+                "signal": {
+                  "day_weight": 2220.0,
+                  "positive_day_weight": 1205.0,
+                  "negative_day_weight": 985.0,
+                  "zero_day_weight": 30.0,
+                  "positive_pct": 54.27927927927928,
+                  "negative_pct": 44.369369369369366,
+                  "zero_pct": 1.3513513513513513,
+                  "mean_pct": 0.10164976339130995,
+                  "mean_positive_pct": 0.9199345738409934,
+                  "mean_negative_pct": -0.8963032352788721
+                },
+                "reference": {
+                  "day_weight": 2220.0,
+                  "positive_day_weight": 1193.7680375180375,
+                  "negative_day_weight": 995.0943001443002,
+                  "zero_day_weight": 31.137662337662338,
+                  "positive_pct": 53.77333502333503,
+                  "negative_pct": 44.82406757406758,
+                  "zero_pct": 1.4025974025974026,
+                  "mean_pct": 0.03751288195903376,
+                  "mean_positive_pct": 0.731289528548681,
+                  "mean_negative_pct": -0.7936046536388337
+                }
+              },
+              "prior_close_to_open": {
+                "signal": {
+                  "day_weight": 2220.0,
+                  "positive_day_weight": 926.0,
+                  "negative_day_weight": 1019.0,
+                  "zero_day_weight": 275.0,
+                  "positive_pct": 41.711711711711715,
+                  "negative_pct": 45.9009009009009,
+                  "zero_pct": 12.387387387387387,
+                  "mean_pct": -0.006412364724208867,
+                  "mean_positive_pct": 0.12405111261165608,
+                  "mean_negative_pct": -0.12669948966254876
+                },
+                "reference": {
+                  "day_weight": 2220.0,
+                  "positive_day_weight": 904.5063492063491,
+                  "negative_day_weight": 1003.1059884559884,
+                  "zero_day_weight": 312.38766233766233,
+                  "positive_pct": 40.74352924352924,
+                  "negative_pct": 45.184954434954435,
+                  "zero_pct": 14.071516321516322,
+                  "mean_pct": -0.0063709941112845845,
+                  "mean_positive_pct": 0.10979250578859735,
+                  "mean_negative_pct": -0.11310033716650539
+                }
+              }
+            },
+            "mean_range_pct": 1.719983707845894,
+            "reference_mean_range_pct": 1.4948553789372623,
+            "mean_window_change_pct": 1.8536725836097154,
+            "positive_windows": 78,
+            "positive_windows_pct": 70.27027027027027,
+            "reference_mean_window_change_pct": 0.6099619878409839
+          },
+          "daily_path": [
+            {
+              "session_number": 1,
+              "windows": 111,
+              "mean_cumulative_pct": -0.01630141075002051,
+              "reference_mean_cumulative_pct": 0.0919767327087677,
+              "mean_session_open_to_close_pct": -0.01630141075002051,
+              "positive_close_to_close_days": 51,
+              "positive_close_to_close_pct": 45.94594594594595,
+              "reference_positive_close_to_close_pct": 57.97076297076297,
+              "reference_mean_session_open_to_close_pct": 0.0919767327087677
+            },
+            {
+              "session_number": 2,
+              "windows": 111,
+              "mean_cumulative_pct": 0.3092162140002379,
+              "reference_mean_cumulative_pct": 0.15558544906910693,
+              "mean_session_open_to_close_pct": 0.3059720037479297,
+              "positive_close_to_close_days": 58,
+              "positive_close_to_close_pct": 52.25225225225225,
+              "reference_positive_close_to_close_pct": 52.75938275938275,
+              "reference_mean_session_open_to_close_pct": 0.07432827412851796
+            },
+            {
+              "session_number": 3,
+              "windows": 111,
+              "mean_cumulative_pct": 0.3303006548119779,
+              "reference_mean_cumulative_pct": 0.18758983880088434,
+              "mean_session_open_to_close_pct": 0.04747271996697378,
+              "positive_close_to_close_days": 55,
+              "positive_close_to_close_pct": 49.549549549549546,
+              "reference_positive_close_to_close_pct": 54.78842478842479,
+              "reference_mean_session_open_to_close_pct": 0.04874929369942873
+            },
+            {
+              "session_number": 4,
+              "windows": 111,
+              "mean_cumulative_pct": 0.4364959759655818,
+              "reference_mean_cumulative_pct": 0.2250712885134495,
+              "mean_session_open_to_close_pct": 0.08505700169230357,
+              "positive_close_to_close_days": 65,
+              "positive_close_to_close_pct": 58.55855855855856,
+              "reference_positive_close_to_close_pct": 54.31041431041431,
+              "reference_mean_session_open_to_close_pct": 0.03246311008308165
+            },
+            {
+              "session_number": 5,
+              "windows": 111,
+              "mean_cumulative_pct": 0.48732365568309466,
+              "reference_mean_cumulative_pct": 0.17556726956144927,
+              "mean_session_open_to_close_pct": 0.05293128823665287,
+              "positive_close_to_close_days": 55,
+              "positive_close_to_close_pct": 49.549549549549546,
+              "reference_positive_close_to_close_pct": 53.182533182533184,
+              "reference_mean_session_open_to_close_pct": -0.04268307490006421
+            },
+            {
+              "session_number": 6,
+              "windows": 111,
+              "mean_cumulative_pct": 0.6685671850156728,
+              "reference_mean_cumulative_pct": 0.20360631572551113,
+              "mean_session_open_to_close_pct": 0.16490097166041798,
+              "positive_close_to_close_days": 67,
+              "positive_close_to_close_pct": 60.36036036036037,
+              "reference_positive_close_to_close_pct": 54.598819598819595,
+              "reference_mean_session_open_to_close_pct": 0.030668602506402513
+            },
+            {
+              "session_number": 7,
+              "windows": 111,
+              "mean_cumulative_pct": 0.6399490147845058,
+              "reference_mean_cumulative_pct": 0.2366904191500614,
+              "mean_session_open_to_close_pct": -0.04833029911427582,
+              "positive_close_to_close_days": 52,
+              "positive_close_to_close_pct": 46.846846846846844,
+              "reference_positive_close_to_close_pct": 50.18726518726518,
+              "reference_mean_session_open_to_close_pct": 0.028257693838334368
+            },
+            {
+              "session_number": 8,
+              "windows": 111,
+              "mean_cumulative_pct": 0.4275790500029583,
+              "reference_mean_cumulative_pct": 0.2932913269152567,
+              "mean_session_open_to_close_pct": -0.19867676739349038,
+              "positive_close_to_close_days": 54,
+              "positive_close_to_close_pct": 48.64864864864865,
+              "reference_positive_close_to_close_pct": 52.90823290823291,
+              "reference_mean_session_open_to_close_pct": 0.05999567471529264
+            },
+            {
+              "session_number": 9,
+              "windows": 111,
+              "mean_cumulative_pct": 0.3994441806444756,
+              "reference_mean_cumulative_pct": 0.3197323527739108,
+              "mean_session_open_to_close_pct": -0.026698712502738847,
+              "positive_close_to_close_days": 57,
+              "positive_close_to_close_pct": 51.35135135135135,
+              "reference_positive_close_to_close_pct": 55.73898573898573,
+              "reference_mean_session_open_to_close_pct": 0.030001520537853984
+            },
+            {
+              "session_number": 10,
+              "windows": 111,
+              "mean_cumulative_pct": 0.4155851094079282,
+              "reference_mean_cumulative_pct": 0.3566645492698624,
+              "mean_session_open_to_close_pct": 0.0660724368399,
+              "positive_close_to_close_days": 62,
+              "positive_close_to_close_pct": 55.85585585585585,
+              "reference_positive_close_to_close_pct": 56.899951899951894,
+              "reference_mean_session_open_to_close_pct": 0.05908693691116932
+            },
+            {
+              "session_number": 11,
+              "windows": 111,
+              "mean_cumulative_pct": 0.3958600349258599,
+              "reference_mean_cumulative_pct": 0.38870920635551526,
+              "mean_session_open_to_close_pct": 0.011172713079910648,
+              "positive_close_to_close_days": 61,
+              "positive_close_to_close_pct": 54.95495495495496,
+              "reference_positive_close_to_close_pct": 55.355030355030365,
+              "reference_mean_session_open_to_close_pct": 0.05741345903046111
+            },
+            {
+              "session_number": 12,
+              "windows": 111,
+              "mean_cumulative_pct": 0.7616029407830198,
+              "reference_mean_cumulative_pct": 0.48183713175360876,
+              "mean_session_open_to_close_pct": 0.3962812503956794,
+              "positive_close_to_close_days": 69,
+              "positive_close_to_close_pct": 62.16216216216216,
+              "reference_positive_close_to_close_pct": 55.53807053807054,
+              "reference_mean_session_open_to_close_pct": 0.09877179859000086
+            },
+            {
+              "session_number": 13,
+              "windows": 111,
+              "mean_cumulative_pct": 0.8154517011814414,
+              "reference_mean_cumulative_pct": 0.496862386410034,
+              "mean_session_open_to_close_pct": 0.07096094437483619,
+              "positive_close_to_close_days": 61,
+              "positive_close_to_close_pct": 54.95495495495496,
+              "reference_positive_close_to_close_pct": 52.480792480792495,
+              "reference_mean_session_open_to_close_pct": 0.020885130494104655
+            },
+            {
+              "session_number": 14,
+              "windows": 111,
+              "mean_cumulative_pct": 1.166134278679223,
+              "reference_mean_cumulative_pct": 0.5380640365168167,
+              "mean_session_open_to_close_pct": 0.38379669672181066,
+              "positive_close_to_close_days": 64,
+              "positive_close_to_close_pct": 57.65765765765766,
+              "reference_positive_close_to_close_pct": 48.067158067158076,
+              "reference_mean_session_open_to_close_pct": 0.06095747390421644
+            },
+            {
+              "session_number": 15,
+              "windows": 111,
+              "mean_cumulative_pct": 1.260070519277745,
+              "reference_mean_cumulative_pct": 0.5621425770523201,
+              "mean_session_open_to_close_pct": 0.09537329309401583,
+              "positive_close_to_close_days": 65,
+              "positive_close_to_close_pct": 58.55855855855856,
+              "reference_positive_close_to_close_pct": 52.482742482742474,
+              "reference_mean_session_open_to_close_pct": 0.03525170182169819
+            },
+            {
+              "session_number": 16,
+              "windows": 111,
+              "mean_cumulative_pct": 1.4895898972763562,
+              "reference_mean_cumulative_pct": 0.6316232600686861,
+              "mean_session_open_to_close_pct": 0.2392532705131496,
+              "positive_close_to_close_days": 71,
+              "positive_close_to_close_pct": 63.96396396396396,
+              "reference_positive_close_to_close_pct": 56.566046566046566,
+              "reference_mean_session_open_to_close_pct": 0.06926171144437203
+            },
+            {
+              "session_number": 17,
+              "windows": 111,
+              "mean_cumulative_pct": 1.6729785647474382,
+              "reference_mean_cumulative_pct": 0.6471172583392404,
+              "mean_session_open_to_close_pct": 0.1905671943831674,
+              "positive_close_to_close_days": 63,
+              "positive_close_to_close_pct": 56.75675675675676,
+              "reference_positive_close_to_close_pct": 50.55458055458056,
+              "reference_mean_session_open_to_close_pct": 0.03570950986877642
+            },
+            {
+              "session_number": 18,
+              "windows": 111,
+              "mean_cumulative_pct": 1.6176131978124004,
+              "reference_mean_cumulative_pct": 0.6279058637131761,
+              "mean_session_open_to_close_pct": -0.016430820458037863,
+              "positive_close_to_close_days": 54,
+              "positive_close_to_close_pct": 48.64864864864865,
+              "reference_positive_close_to_close_pct": 55.66904566904567,
+              "reference_mean_session_open_to_close_pct": -0.018828205658006504
+            },
+            {
+              "session_number": 19,
+              "windows": 111,
+              "mean_cumulative_pct": 1.7837895188267792,
+              "reference_mean_cumulative_pct": 0.5988832969707693,
+              "mean_session_open_to_close_pct": 0.16670801564947596,
+              "positive_close_to_close_days": 67,
+              "positive_close_to_close_pct": 60.36036036036037,
+              "reference_positive_close_to_close_pct": 51.77255177255176,
+              "reference_mean_session_open_to_close_pct": -0.026292421101989583
+            },
+            {
+              "session_number": 20,
+              "windows": 111,
+              "mean_cumulative_pct": 1.8536725836097154,
+              "reference_mean_cumulative_pct": 0.6099619878409839,
+              "mean_session_open_to_close_pct": 0.06291347768853955,
+              "positive_close_to_close_days": 58,
+              "positive_close_to_close_pct": 52.25225225225225,
+              "reference_positive_close_to_close_pct": 51.2994812994813,
+              "reference_mean_session_open_to_close_pct": 0.0042827165582569006
+            }
+          ]
+        }
+      }
+    }
+  },
+  "distribution_rows": 30,
+  "path_rows": 160
+}
