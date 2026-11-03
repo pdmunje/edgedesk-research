@@ -1,0 +1,34 @@
+{
+  "long_60": {
+    "ma_type": "SMA",
+    "length": 2760,
+    "slope_horizon": 15,
+    "candidate": "SMA2760_slope15_bull",
+    "discovery_excess_bp": 0.042939350670798786,
+    "validation_excess_bp": 0.043829038662436474
+  },
+  "long_240": {
+    "ma_type": "SMA",
+    "length": 2070,
+    "slope_horizon": 30,
+    "candidate": "SMA2070_slope30_bull",
+    "discovery_excess_bp": -0.10357368584036057,
+    "validation_excess_bp": -0.0793559379961477
+  },
+  "short_60": {
+    "ma_type": "WMA",
+    "length": 480,
+    "slope_horizon": 15,
+    "candidate": "WMA480_slope15_bear",
+    "discovery_excess_bp": 0.003937268173698843,
+    "validation_excess_bp": 0.02476175507902399
+  },
+  "short_240": {
+    "ma_type": "SMA",
+    "length": 930,
+    "slope_horizon": 240,
+    "candidate": "SMA930_slope240_bear",
+    "discovery_excess_bp": -0.1698483802146178,
+    "validation_excess_bp": -0.19505763552945396
+  }
+}

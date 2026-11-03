@@ -1,0 +1,26 @@
+{
+  "long_60": {
+    "ma_type": "SMA",
+    "length": 2760,
+    "slope_horizon": 15,
+    "candidate": "SMA2760_slope15_bull"
+  },
+  "long_240": {
+    "ma_type": "SMA",
+    "length": 2070,
+    "slope_horizon": 30,
+    "candidate": "SMA2070_slope30_bull"
+  },
+  "short_60": {
+    "ma_type": "WMA",
+    "length": 480,
+    "slope_horizon": 15,
+    "candidate": "WMA480_slope15_bear"
+  },
+  "short_240": {
+    "ma_type": "SMA",
+    "length": 930,
+    "slope_horizon": 240,
+    "candidate": "SMA930_slope240_bear"
+  }
+}

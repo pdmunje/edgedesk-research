@@ -1,0 +1,72 @@
+{
+  "checked_date": "2026-10-17",
+  "source_sha256": "2a794cbeae8f8fc3022d4079e98c32e8d9dc030ba1d1bda2b457aa857f0fa6f9",
+  "method": "Corrected full grid; original four diagnostic rules unchanged; later period already examined.",
+  "candidate_rows": 2928,
+  "bucket_rows": 908,
+  "later_intended_side": [
+    {
+      "rule": "long_60",
+      "raw_observations": 285377,
+      "distinct_trading_days": 331,
+      "matched_excess_mean_bp": -0.198473535,
+      "day_balanced_mean_excess_bp": -2.424179721,
+      "positive_pct": 51.97650827,
+      "matched_baseline_positive_pct": 51.57436095
+    },
+    {
+      "rule": "short_60",
+      "raw_observations": 235337,
+      "distinct_trading_days": 439,
+      "matched_excess_mean_bp": 0.01763550547,
+      "day_balanced_mean_excess_bp": -2.02891071,
+      "positive_pct": 46.74275613,
+      "matched_baseline_positive_pct": 46.85049869
+    },
+    {
+      "rule": "long_240",
+      "raw_observations": 277546,
+      "distinct_trading_days": 343,
+      "matched_excess_mean_bp": -1.744668333,
+      "day_balanced_mean_excess_bp": -7.8958319,
+      "positive_pct": 52.37293998,
+      "matched_baseline_positive_pct": 53.52194373
+    },
+    {
+      "rule": "short_240",
+      "raw_observations": 191688,
+      "distinct_trading_days": 370,
+      "matched_excess_mean_bp": -0.6890589629,
+      "day_balanced_mean_excess_bp": -7.243359825,
+      "positive_pct": 44.28550561,
+      "matched_baseline_positive_pct": 45.72920419
+    }
+  ],
+  "all_four_later_day_comparisons_negative": true,
+  "corrections": [
+    "Remove the 17:00-18:00 New York maintenance rows before every feature and forward horizon; preserve original roll-segment identities.",
+    "Fix rolling regression index origin: prices weighted with indices 1..n require subtracting (window_start+1)*sum_prices before centering against 0..n-1.",
+    "Require all stack averages and slopes available before classifying stack states; missing is not neutral.",
+    "Clamp favorable/adverse excursion magnitudes at zero.",
+    "Rename bucket-index Pearson correlation rather than imply a rank/Spearman test; unresolved-or-no-touch labels include same-bar ambiguity.",
+    "Exclude forward windows crossing the predefined evaluation-period boundaries. The earlier code let a final development/validation decision use prices from the next period; the reused rules cannot become untouched evidence retrospectively."
+  ],
+  "invented_regression_audit": {
+    "invented_example": true,
+    "old_rolling_regression_slope": 56.93999999999998,
+    "independent_least_squares_slope": 1.930000000000006,
+    "issue": "Weighted sums use indices 1..n while mean index uses 0..n-1; subtracting one extra window sum fixes origin mismatch.",
+    "old_code_sha256": "72cb342a140f0a8edc6996d21c396a585293fd6231fbae0fe6e501d9d59738c8"
+  },
+  "verification": {
+    "passed": true,
+    "invented_mathematical_checks": 10,
+    "independent_fixed_rule_period_side_rows": 32,
+    "independent_metric_comparisons": 672,
+    "candidate_grid_rows": 2928,
+    "bucket_rows": 908,
+    "target_stop_aggregate_rows": 48,
+    "same_input_sha256": true,
+    "note": "Full grid rerun in reproduce.py; all 32 fixed-rule period/side distributions independently recounted for 21 metrics each, including whole-session bootstrap centers/intervals. Grid outcomes themselves are not 32 independent market samples. Target/stop table partition checked; not separately recounted for every source path."
+  }
+}

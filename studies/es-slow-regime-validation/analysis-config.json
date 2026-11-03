@@ -1,0 +1,91 @@
+{
+  "tick_size": 0.25,
+  "horizons": [
+    60,
+    240
+  ],
+  "ma_types": [
+    "SMA",
+    "EMA",
+    "WMA"
+  ],
+  "ma_lengths": [
+    480,
+    690,
+    930,
+    1100,
+    1200,
+    1380,
+    1500,
+    1650,
+    2070,
+    2760,
+    4140,
+    6900
+  ],
+  "slope_horizons": [
+    15,
+    30,
+    60,
+    120,
+    240
+  ],
+  "regression_lengths": [
+    480,
+    690,
+    930,
+    1380,
+    2070,
+    2760,
+    4140,
+    6900
+  ],
+  "primary_stack": [
+    480,
+    1380,
+    2760
+  ],
+  "secondary_stack": [
+    1380,
+    2760,
+    6900
+  ],
+  "stack_slope_horizon": 60,
+  "bootstrap_repetitions": 500,
+  "random_seed": 20261002,
+  "periods": {
+    "HISTORICAL_ROBUSTNESS": [
+      "2010-01-01",
+      "2014-12-31"
+    ],
+    "DISCOVERY": [
+      "2015-01-01",
+      "2022-12-31"
+    ],
+    "VALIDATION": [
+      "2023-01-01",
+      "2024-12-31"
+    ],
+    "HOLDOUT": [
+      "2025-01-01",
+      "2099-12-31"
+    ]
+  },
+  "roll_policy": "reset features at roll_transition and exclude outcomes crossing a roll",
+  "time_policy": "UTC source; America/New_York session labels; session begins 18:00 ET; valid-bar horizons",
+  "checked_date": "2026-10-17",
+  "source_sha256": "2a794cbeae8f8fc3022d4079e98c32e8d9dc030ba1d1bda2b457aa857f0fa6f9",
+  "prior_test_period_already_examined": true,
+  "corrections_frozen_before_rerun": [
+    "Remove the 17:00-18:00 New York maintenance rows before every feature and forward horizon; preserve original roll-segment identities.",
+    "Fix rolling regression index origin: prices weighted with indices 1..n require subtracting (window_start+1)*sum_prices before centering against 0..n-1.",
+    "Require all stack averages and slopes available before classifying stack states; missing is not neutral.",
+    "Clamp favorable/adverse excursion magnitudes at zero.",
+    "Rename bucket-index Pearson correlation rather than imply a rank/Spearman test; unresolved-or-no-touch labels include same-bar ambiguity.",
+    "Exclude forward windows crossing the predefined evaluation-period boundaries. The earlier code let a final development/validation decision use prices from the next period; the reused rules cannot become untouched evidence retrospectively."
+  ],
+  "frozen_rule_policy": "Reuse earlier four diagnostic definitions unchanged. No selection or retuning from this rerun. Previously examined 2025-latest is a later-period recheck, not a fresh untouched holdout.",
+  "same_clock_reference": "All eligible decisions at the same New York session-minute in the same evaluation period; includes qualifying decisions, retrospective benchmark, no year/volatility matching.",
+  "result_precision": "Aggregate CSVs saved with 10 significant digits; full precision retained while calculating.",
+  "scope": "All saved moving-average, slope, regression-bucket and stack grid definitions rerun; no claim every hypothetical slow filter fails."
+}

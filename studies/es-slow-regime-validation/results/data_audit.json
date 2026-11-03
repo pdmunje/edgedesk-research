@@ -1,0 +1,74 @@
+{
+  "source_file": "1m_v1.parquet",
+  "sha256": "2a794cbeae8f8fc3022d4079e98c32e8d9dc030ba1d1bda2b457aa857f0fa6f9",
+  "rows": 4931236,
+  "first_timestamp_utc": "2010-06-06 22:00:00+00:00",
+  "last_timestamp_utc": "2026-09-11 00:19:00+00:00",
+  "timezone": "UTC (session labels America/New_York)",
+  "fields": [
+    "timestamp_utc",
+    "open",
+    "high",
+    "low",
+    "close",
+    "volume",
+    "underlying_contract",
+    "price_source",
+    "volume_source",
+    "quality_state",
+    "roll_session",
+    "roll_transition",
+    "is_complete"
+  ],
+  "duplicate_timestamps": 0,
+  "roll_transitions": 65,
+  "price_sources": {
+    "databento": 4929836,
+    "tradingview": 1400
+  },
+  "volume_sources": {
+    "databento": 4929836,
+    "tradingview": 1400
+  },
+  "quality_states": {
+    "certified": 4906274,
+    "vendor_degraded": 23562,
+    "live_primary": 1400
+  },
+  "eligible_session_rows": 4931236,
+  "maintenance_window_rows_excluded": 347,
+  "session_minute_coverage": 1380,
+  "session_bar_count_distribution": {
+    "count": 4215.0,
+    "mean": 1169.9255041518386,
+    "std": 421.51857494009806,
+    "min": 1.0,
+    "25%": 1262.0,
+    "50%": 1363.0,
+    "75%": 1379.0,
+    "max": 1380.0
+  },
+  "original_audit": {
+    "complete_source_rows": 4931583,
+    "first_timestamp_utc": "2010-06-06 22:00:00+00:00",
+    "last_timestamp_utc": "2026-09-11 00:19:00+00:00",
+    "maintenance_rows_removed": 347,
+    "roll_transitions_before_removal": 65,
+    "price_source_counts": {
+      "databento": 4930183,
+      "tradingview": 1400
+    },
+    "volume_source_counts": {
+      "databento": 4930183,
+      "tradingview": 1400
+    },
+    "quality_state_counts": {
+      "certified": 4906620,
+      "vendor_degraded": 23563,
+      "live_primary": 1400
+    }
+  },
+  "timestamp_gaps_over_1m": 27214,
+  "largest_gap_minutes": 6356,
+  "missing_wallclock_minutes_between_observations": 3622504
+}

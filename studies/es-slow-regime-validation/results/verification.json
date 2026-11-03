@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "invented_mathematical_checks": 10,
+  "independent_fixed_rule_period_side_rows": 32,
+  "independent_metric_comparisons": 672,
+  "candidate_grid_rows": 2928,
+  "bucket_rows": 908,
+  "target_stop_aggregate_rows": 48,
+  "same_input_sha256": true,
+  "note": "Full grid rerun in reproduce.py; all 32 fixed-rule period/side distributions independently recounted for 21 metrics each, including whole-session bootstrap centers/intervals. Grid outcomes themselves are not 32 independent market samples. Target/stop table partition checked; not separately recounted for every source path."
+}
