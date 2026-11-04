@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "invented_mathematical_checks": 11,
+  "independent_fixed_and_annual_rows": 84,
+  "independent_metric_comparisons": 2100,
+  "candidate_states": 480,
+  "full_scan_rows": 1920,
+  "quintile_rows": 240,
+  "ordered_barriers_independently_recounted": true,
+  "same_input_sha256": true,
+  "note": "All four unchanged rules, every period and year independently recounted for 25 metrics, including bootstrap intervals and first-barrier ordering. Full-grid aggregate counts and category partitions also checked. Search rows are overlapping measurements, not independent market samples."
+}

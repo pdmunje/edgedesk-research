@@ -1,0 +1,194 @@
+{
+  "checked_date": "2026-10-18",
+  "later_period": "January 2025\u2013September 11, 2026 trading dates; already examined; partial final session/year",
+  "later_240_rules": [
+    {
+      "rule": "SMA120_slope60_bear",
+      "observations": 185596.0,
+      "trading_days": 439.0,
+      "positive_pct": 53.824435871462754,
+      "baseline_positive_pct": 53.58939683276521,
+      "excess_positive_pp": 0.2350390386975376,
+      "excess_mean_bp": -0.0838383597484104,
+      "day_balanced_excess_bp": 4.32688599638976,
+      "day_block_ci_low_bp": 2.070974120135132,
+      "day_block_ci_high_bp": 6.582296439536232
+    },
+    {
+      "rule": "SMA120_slope30_bear",
+      "observations": 204026.0,
+      "trading_days": 439.0,
+      "positive_pct": 53.74167998196309,
+      "baseline_positive_pct": 53.589726521440376,
+      "excess_positive_pp": 0.1519534605227135,
+      "excess_mean_bp": -0.0221633713976026,
+      "day_balanced_excess_bp": 3.779311414980133,
+      "day_block_ci_low_bp": 1.2691653046026572,
+      "day_block_ci_high_bp": 5.813661260574591
+    },
+    {
+      "rule": "SMA180_slope60_bear",
+      "observations": 196539.0,
+      "trading_days": 437.0,
+      "positive_pct": 54.03304178814384,
+      "baseline_positive_pct": 53.5657884444768,
+      "excess_positive_pp": 0.467253343667029,
+      "excess_mean_bp": 0.0198112473665545,
+      "day_balanced_excess_bp": 5.112704010151004,
+      "day_block_ci_low_bp": 2.883971962725886,
+      "day_block_ci_high_bp": 8.011253628365582
+    }
+  ],
+  "source_sha256": "2a794cbeae8f8fc3022d4079e98c32e8d9dc030ba1d1bda2b457aa857f0fa6f9",
+  "verification": {
+    "passed": true,
+    "invented_mathematical_checks": 11,
+    "independent_fixed_and_annual_rows": 84,
+    "independent_metric_comparisons": 2100,
+    "candidate_states": 480,
+    "full_scan_rows": 1920,
+    "quintile_rows": 240,
+    "ordered_barriers_independently_recounted": true,
+    "same_input_sha256": true,
+    "note": "All four unchanged rules, every period and year independently recounted for 25 metrics, including bootstrap intervals and first-barrier ordering. Full-grid aggregate counts and category partitions also checked. Search rows are overlapping measurements, not independent market samples."
+  },
+  "corrections": [
+    "Remove maintenance rows before features and outcomes, preserving original roll identity.",
+    "Require each future endpoint in the same evaluation period and contract segment as its anchor.",
+    "Clamp favourable/adverse excursions at zero.",
+    "Separate no barrier touch from unresolved first-bar double touch.",
+    "Use integer session-date grouping and deterministic per-row bootstrap seeds.",
+    "Keep the original three 240-bar rules and one rejected 60-bar diagnostic unchanged; gate rescan is descriptive only."
+  ],
+  "original_rules_unchanged": true,
+  "source_gate_rescan_top_three_only": {
+    "60": {
+      "qualified": [],
+      "top_diagnostics": [
+        {
+          "candidate": "MOM480_negative",
+          "family": "momentum_negative",
+          "average_type": "MOM",
+          "window": 480,
+          "slope_horizon": 0,
+          "positive_neighbors": 2,
+          "score": 0.15242276503644667
+        },
+        {
+          "candidate": "SMA480_slope60_bear",
+          "family": "average_level_slope_bear",
+          "average_type": "SMA",
+          "window": 480,
+          "slope_horizon": 60,
+          "positive_neighbors": 2,
+          "score": 0.14546948096128345
+        },
+        {
+          "candidate": "MOM360_negative",
+          "family": "momentum_negative",
+          "average_type": "MOM",
+          "window": 360,
+          "slope_horizon": 0,
+          "positive_neighbors": 2,
+          "score": 0.14003834945220986
+        },
+        {
+          "candidate": "SMA480_slope30_bear",
+          "family": "average_level_slope_bear",
+          "average_type": "SMA",
+          "window": 480,
+          "slope_horizon": 30,
+          "positive_neighbors": 1,
+          "score": 0.13965289829013028
+        },
+        {
+          "candidate": "EMA480_slope60_bear",
+          "family": "average_level_slope_bear",
+          "average_type": "EMA",
+          "window": 480,
+          "slope_horizon": 60,
+          "positive_neighbors": 1,
+          "score": 0.1391630404507518
+        }
+      ]
+    },
+    "240": {
+      "qualified": [
+        {
+          "candidate": "SMA120_slope60_bear",
+          "family": "average_level_slope_bear",
+          "average_type": "SMA",
+          "window": 120,
+          "slope_horizon": 60,
+          "positive_neighbors": 3,
+          "score": 0.31169694186551844
+        },
+        {
+          "candidate": "SMA120_slope30_bear",
+          "family": "average_level_slope_bear",
+          "average_type": "SMA",
+          "window": 120,
+          "slope_horizon": 30,
+          "positive_neighbors": 3,
+          "score": 0.28154163249693953
+        },
+        {
+          "candidate": "SMA180_slope60_bear",
+          "family": "average_level_slope_bear",
+          "average_type": "SMA",
+          "window": 180,
+          "slope_horizon": 60,
+          "positive_neighbors": 3,
+          "score": 0.25406630667078933
+        }
+      ],
+      "top_diagnostics": [
+        {
+          "candidate": "SMA120_slope60_bear",
+          "family": "average_level_slope_bear",
+          "average_type": "SMA",
+          "window": 120,
+          "slope_horizon": 60,
+          "positive_neighbors": 3,
+          "score": 0.31169694186551844
+        },
+        {
+          "candidate": "SMA120_slope30_bear",
+          "family": "average_level_slope_bear",
+          "average_type": "SMA",
+          "window": 120,
+          "slope_horizon": 30,
+          "positive_neighbors": 3,
+          "score": 0.28154163249693953
+        },
+        {
+          "candidate": "SMA180_slope60_bear",
+          "family": "average_level_slope_bear",
+          "average_type": "SMA",
+          "window": 180,
+          "slope_horizon": 60,
+          "positive_neighbors": 3,
+          "score": 0.25406630667078933
+        },
+        {
+          "candidate": "MOM120_negative",
+          "family": "momentum_negative",
+          "average_type": "MOM",
+          "window": 120,
+          "slope_horizon": 0,
+          "positive_neighbors": 2,
+          "score": 0.24942950676317951
+        },
+        {
+          "candidate": "SMA120_slope15_bear",
+          "family": "average_level_slope_bear",
+          "average_type": "SMA",
+          "window": 120,
+          "slope_horizon": 15,
+          "positive_neighbors": 3,
+          "score": 0.22630034900633597
+        }
+      ]
+    }
+  }
+}

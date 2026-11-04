@@ -1,0 +1,130 @@
+{
+  "60": {
+    "qualified": [],
+    "top_diagnostics": [
+      {
+        "candidate": "MOM480_negative",
+        "family": "momentum_negative",
+        "average_type": "MOM",
+        "window": 480,
+        "slope_horizon": 0,
+        "positive_neighbors": 2,
+        "score": 0.15242276503644667
+      },
+      {
+        "candidate": "SMA480_slope60_bear",
+        "family": "average_level_slope_bear",
+        "average_type": "SMA",
+        "window": 480,
+        "slope_horizon": 60,
+        "positive_neighbors": 2,
+        "score": 0.14546948096128345
+      },
+      {
+        "candidate": "MOM360_negative",
+        "family": "momentum_negative",
+        "average_type": "MOM",
+        "window": 360,
+        "slope_horizon": 0,
+        "positive_neighbors": 2,
+        "score": 0.14003834945220986
+      },
+      {
+        "candidate": "SMA480_slope30_bear",
+        "family": "average_level_slope_bear",
+        "average_type": "SMA",
+        "window": 480,
+        "slope_horizon": 30,
+        "positive_neighbors": 1,
+        "score": 0.13965289829013028
+      },
+      {
+        "candidate": "EMA480_slope60_bear",
+        "family": "average_level_slope_bear",
+        "average_type": "EMA",
+        "window": 480,
+        "slope_horizon": 60,
+        "positive_neighbors": 1,
+        "score": 0.1391630404507518
+      }
+    ]
+  },
+  "240": {
+    "qualified": [
+      {
+        "candidate": "SMA120_slope60_bear",
+        "family": "average_level_slope_bear",
+        "average_type": "SMA",
+        "window": 120,
+        "slope_horizon": 60,
+        "positive_neighbors": 3,
+        "score": 0.31169694186551844
+      },
+      {
+        "candidate": "SMA120_slope30_bear",
+        "family": "average_level_slope_bear",
+        "average_type": "SMA",
+        "window": 120,
+        "slope_horizon": 30,
+        "positive_neighbors": 3,
+        "score": 0.28154163249693953
+      },
+      {
+        "candidate": "SMA180_slope60_bear",
+        "family": "average_level_slope_bear",
+        "average_type": "SMA",
+        "window": 180,
+        "slope_horizon": 60,
+        "positive_neighbors": 3,
+        "score": 0.25406630667078933
+      }
+    ],
+    "top_diagnostics": [
+      {
+        "candidate": "SMA120_slope60_bear",
+        "family": "average_level_slope_bear",
+        "average_type": "SMA",
+        "window": 120,
+        "slope_horizon": 60,
+        "positive_neighbors": 3,
+        "score": 0.31169694186551844
+      },
+      {
+        "candidate": "SMA120_slope30_bear",
+        "family": "average_level_slope_bear",
+        "average_type": "SMA",
+        "window": 120,
+        "slope_horizon": 30,
+        "positive_neighbors": 3,
+        "score": 0.28154163249693953
+      },
+      {
+        "candidate": "SMA180_slope60_bear",
+        "family": "average_level_slope_bear",
+        "average_type": "SMA",
+        "window": 180,
+        "slope_horizon": 60,
+        "positive_neighbors": 3,
+        "score": 0.25406630667078933
+      },
+      {
+        "candidate": "MOM120_negative",
+        "family": "momentum_negative",
+        "average_type": "MOM",
+        "window": 120,
+        "slope_horizon": 0,
+        "positive_neighbors": 2,
+        "score": 0.24942950676317951
+      },
+      {
+        "candidate": "SMA120_slope15_bear",
+        "family": "average_level_slope_bear",
+        "average_type": "SMA",
+        "window": 120,
+        "slope_horizon": 15,
+        "positive_neighbors": 3,
+        "score": 0.22630034900633597
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "windows": [
+    3,
+    5,
+    8,
+    10,
+    15,
+    20,
+    30,
+    45,
+    60,
+    90,
+    120,
+    180,
+    240,
+    360,
+    480
+  ],
+  "average_types": [
+    "SMA",
+    "EMA",
+    "WMA"
+  ],
+  "slope_horizons": [
+    5,
+    15,
+    30,
+    60
+  ],
+  "forward_horizons": [
+    60,
+    240
+  ],
+  "tick_size": 0.25,
+  "target_ticks": 32,
+  "stop_ticks": 25,
+  "bootstrap_repetitions": 300,
+  "random_seed": 20261002,
+  "materiality_gates": {
+    "minimum_excess_probability_pp": 0.25,
+    "minimum_excess_mean_bp": 0.1,
+    "minimum_coverage_pct": 5.0,
+    "minimum_positive_neighbor_windows": 2,
+    "require_positive_discovery_and_validation": true,
+    "require_positive_validation_day_balanced_mean": true
+  },
+  "source_sha256": "2a794cbeae8f8fc3022d4079e98c32e8d9dc030ba1d1bda2b457aa857f0fa6f9",
+  "periods": {
+    "HISTORICAL": "2010\u20132014",
+    "DISCOVERY": "2015\u20132022",
+    "VALIDATION": "2023\u20132024",
+    "HOLDOUT": "2025\u2013latest available (already examined)"
+  },
+  "corrections": [
+    "Remove maintenance rows before features and outcomes, preserving original roll identity.",
+    "Require each future endpoint in the same evaluation period and contract segment as its anchor.",
+    "Clamp favourable/adverse excursions at zero.",
+    "Separate no barrier touch from unresolved first-bar double touch.",
+    "Use integer session-date grouping and deterministic per-row bootstrap seeds.",
+    "Keep the original three 240-bar rules and one rejected 60-bar diagnostic unchanged; gate rescan is descriptive only."
+  ]
+}
