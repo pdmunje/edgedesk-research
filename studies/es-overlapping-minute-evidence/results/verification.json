@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "mathematical_examples": 9,
+  "independent_rows": 8,
+  "independent_metric_comparisons": 176,
+  "same_source_sha256": true,
+  "note": "Independent features, clock references, day groups, weighting/covariance identity, both day-block intervals, overlap counts and greedy disjoint-window geometry. No effective-independent-sample-size claim."
+}

@@ -1,0 +1,46 @@
+{
+  "comparisons": 32,
+  "rows": [
+    {
+      "case": "slow_short_60",
+      "period": "HISTORICAL",
+      "counts_and_both_centers_agree": true
+    },
+    {
+      "case": "slow_short_60",
+      "period": "DISCOVERY",
+      "counts_and_both_centers_agree": true
+    },
+    {
+      "case": "slow_short_60",
+      "period": "VALIDATION",
+      "counts_and_both_centers_agree": true
+    },
+    {
+      "case": "slow_short_60",
+      "period": "LATER",
+      "counts_and_both_centers_agree": true
+    },
+    {
+      "case": "rebound_long_240",
+      "period": "HISTORICAL",
+      "counts_and_both_centers_agree": true
+    },
+    {
+      "case": "rebound_long_240",
+      "period": "DISCOVERY",
+      "counts_and_both_centers_agree": true
+    },
+    {
+      "case": "rebound_long_240",
+      "period": "VALIDATION",
+      "counts_and_both_centers_agree": true
+    },
+    {
+      "case": "rebound_long_240",
+      "period": "LATER",
+      "counts_and_both_centers_agree": true
+    }
+  ],
+  "note": "Counts and both averages agree with earlier corrected research. New intervals use this package\u2019s documented 1000 resamples and seed; old intervals are not claimed identical."
+}

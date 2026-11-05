@@ -1,0 +1,34 @@
+{
+  "source_sha256": "2a794cbeae8f8fc3022d4079e98c32e8d9dc030ba1d1bda2b457aa857f0fa6f9",
+  "bootstrap_repetitions": 1000,
+  "random_seed": 20261019,
+  "periods": {
+    "HISTORICAL": "2010\u20132014",
+    "DISCOVERY": "2015\u20132022",
+    "VALIDATION": "2023\u20132024",
+    "LATER": "2025\u2013September 11, 2026 trading dates (already examined)"
+  },
+  "cases": [
+    {
+      "id": "slow_short_60",
+      "average": "WMA",
+      "length": 480,
+      "slope_bars": 15,
+      "horizon": 60,
+      "direction": -1,
+      "source_study": "es-slow-regime-validation",
+      "source_candidate": "short_60"
+    },
+    {
+      "id": "rebound_long_240",
+      "average": "SMA",
+      "length": 120,
+      "slope_bars": 60,
+      "horizon": 240,
+      "direction": 1,
+      "source_study": "es-short-window-rebound",
+      "source_candidate": "SMA120_slope60_bear"
+    }
+  ],
+  "selection_note": "Two contrasting, already examined examples chosen for a methods explanation after seeing the earlier results. No new trading-rule search or untouched market validation."
+}
