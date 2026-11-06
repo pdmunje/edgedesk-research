@@ -1,0 +1,19 @@
+{
+  "source_sha256": "ac031d40130b429d1e500ce4ffa8d91cbf975540db12e52adfc893dfb21e9424",
+  "timezone": "America/New_York",
+  "window_start_minute": 570,
+  "window_minutes": 405,
+  "spacing_points": 25,
+  "control_shifts_points": [6.25, 12.5, 18.75],
+  "main_control_shift_points": 12.5,
+  "horizons_minutes": [15, 30, 60, 120],
+  "radii_points": [1, 2, 4, 6, 8, 10, 12],
+  "main_horizon_minutes": 60,
+  "main_radius_points": 8,
+  "prior_range_minutes": 30,
+  "time_bin_minutes": 15,
+  "prior_range_bin_points": 5,
+  "bootstrap_repetitions": 2000,
+  "seed": 20261022,
+  "interpretation": "Historical descriptive two-sided range extent, not order, returns, a strategy or independent validation of the earlier explored sample. Parameters recorded before this rerun; the main horizon/radius comes from prior exploration."
+}

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "mathematical_fixtures": 11,
+  "independent_event_rows": 2511,
+  "event_fingerprint_match": true,
+  "raw_summary_rows": 64,
+  "matched_summary_rows": 48,
+  "independent_numeric_checks": 1531,
+  "earlier_reported_aggregate_matches": 27,
+  "independent_matching_groups": 48,
+  "source_sha256_unchanged": true,
+  "limitations": "Independent event extraction and matching identities; all raw summary measures and selected matched counts/means recounted. Bootstrap intervals are not independently reimplemented, and tiny matched samples are inadequate for reliable inference. Original class-specific control matching and range-midpoint/recrossing calculations are not reproduced."
+}

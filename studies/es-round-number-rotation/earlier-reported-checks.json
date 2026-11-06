@@ -1,0 +1,15 @@
+{
+  "note": "Safe aggregate projection of the earlier exploratory write-up, checked against the same recovered attachment. This is a source recount, not independent market evidence. Original implementation and original per-event log were not recovered. Earlier class-specific control matching was insufficiently specified and is not claimed as reproduced.",
+  "round_all": [
+    {"horizon":15,"events":162,"median_points":3.25,"q25_points":1.5,"q75_points":7.75},
+    {"horizon":30,"events":160,"median_points":4.25,"q25_points":2.0,"q75_points":9.5},
+    {"horizon":60,"events":156,"median_points":7.88,"q25_points":3.0,"q75_points":13.25},
+    {"horizon":120,"events":148,"median_points":11.13,"q25_points":4.25,"q75_points":18.25}
+  ],
+  "round_60_classes": [
+    {"kind":"25-only","events":80,"median_points":8.5,"both8_pct":56.3},
+    {"kind":"50-only","events":38,"median_points":6.38,"both8_pct":47.4},
+    {"kind":"100","events":38,"median_points":5.25,"both8_pct":39.5}
+  ],
+  "pooled_control_60": {"median_points":7.5,"both8_pct":46.7}
+}
