@@ -1,0 +1,11 @@
+{
+  "scope": "Invented arithmetic examples only; zero observed market opportunities",
+  "tick_points": 0.25,
+  "total_round_trip_cost_ticks": 3,
+  "examples": [
+    {"case":"Fast rebound","limit_entry":100,"limit_exit":104,"confirmation_entry":102,"confirmation_exit":104,"explanation":"Both fills and the shared exit are stipulated. Waiting costs two points of entry price."},
+    {"case":"Continued decline","limit_entry":100,"limit_exit":95.5,"confirmation_entry":null,"confirmation_exit":null,"explanation":"The passive position is stipulated to stop at an adverse opening gap below96. No confirmation occurs."},
+    {"case":"Rebound then failure","limit_entry":100,"limit_exit":96,"confirmation_entry":101.5,"confirmation_exit":96,"explanation":"Both entries fill, then the same fixed stop is reached. Waiting loses more here."},
+    {"case":"Touch without passive fill","limit_entry":null,"limit_exit":null,"confirmation_entry":101,"confirmation_exit":104,"explanation":"The passive order is stipulated not to fill at its touch; a later confirmation does fill. No queue probability is inferred."}
+  ]
+}

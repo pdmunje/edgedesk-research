@@ -1,0 +1,19 @@
+{
+  "warning": "Only these four invented cases, equally weighted to demonstrate denominators. Not market estimates, forecasts, probabilities or evidence for either entry rule.",
+  "arithmetic": {
+    "limit": {
+      "invented_opportunities": 4,
+      "stipulated_fills": 3,
+      "net_total_points": -6.75,
+      "net_points_per_invented_opportunity": -1.6875,
+      "net_points_per_stipulated_fill": -2.25
+    },
+    "confirmation": {
+      "invented_opportunities": 4,
+      "stipulated_fills": 3,
+      "net_total_points": -2.75,
+      "net_points_per_invented_opportunity": -0.6875,
+      "net_points_per_stipulated_fill": -0.9166666666666666
+    }
+  }
+}

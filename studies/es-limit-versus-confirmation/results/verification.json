@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "invented_cases": 4,
+  "actual_market_observations": 0,
+  "arithmetic_and_boundary_checks": 53,
+  "method": "Exact Decimal case calculations, hand-specified net/paired outcomes, zero-fill/flat/empty denominators and approach-path boundaries. Not verification of a market backtest or execution engine."
+}
