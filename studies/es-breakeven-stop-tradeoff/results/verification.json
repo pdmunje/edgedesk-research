@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "synthetic_case_groups": 15,
+  "cases": [
+    "completed-bar activation begins next bar",
+    "same-bar reversal cannot use a newly raised stop",
+    "adverse gap below entry is not flat",
+    "opening equality is a touch, not adverse-gap loss",
+    "high trigger and close trigger differ",
+    "pre-entry low excluded under low-first path",
+    "post-entry low included under high-first path",
+    "two explicit paths disagree on a both-hit bar",
+    "initial stop also gaps at observed open",
+    "trigger equality qualifies",
+    "cutoff open excludes later cutoff-bar extremes",
+    "target exit precedes any future stop activation",
+    "five completed closes arm only next-bar entry",
+    "no fresh entry at cutoff open",
+    "price-flat and gap exits lose after costs"
+  ],
+  "independent_numeric_checks": 1010,
+  "full_event_fingerprints": 18,
+  "matched_variants": 12,
+  "eligible_windows": 14,
+  "method": "Independent five-bar candidate order scan, first-exit range/event logic and separate summary/session arithmetic; source loader/window selection shared. Two specified intrabar paths are scenarios, not rigorous bounds or real execution."
+}

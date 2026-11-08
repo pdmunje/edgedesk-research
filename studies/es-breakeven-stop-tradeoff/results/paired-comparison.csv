@@ -1,0 +1,13 @@
+path,target_ticks,policy,matched_entries,mean_change_ticks,total_change_ticks,improved,worse,unchanged,baseline_target_to_entry_stop,baseline_loss_to_exact_zero
+low_first,32,entry_stop_after_high16,108,-0.19444444444444445,-21,21,20,67,19,20
+low_first,32,entry_stop_after_close16,108,-1.3240740740740742,-143,13,16,79,15,13
+low_first,64,entry_stop_after_high16,96,-0.052083333333333336,-5,34,19,43,13,33
+low_first,64,entry_stop_after_close16,96,-0.46875,-45,26,15,55,10,26
+low_first,96,entry_stop_after_high16,90,-3.411111111111111,-307,36,19,35,12,35
+low_first,96,entry_stop_after_close16,90,-3.8666666666666667,-348,27,16,47,10,27
+high_first,32,entry_stop_after_high16,110,0.1,11,21,19,70,18,20
+high_first,32,entry_stop_after_close16,110,-1.009090909090909,-111,13,15,82,14,13
+high_first,64,entry_stop_after_high16,98,-0.05102040816326531,-5,34,19,45,13,33
+high_first,64,entry_stop_after_close16,98,-0.45918367346938777,-45,26,15,57,10,26
+high_first,96,entry_stop_after_high16,92,-3.3369565217391304,-307,36,19,37,12,35
+high_first,96,entry_stop_after_close16,92,-3.782608695652174,-348,27,16,49,10,27

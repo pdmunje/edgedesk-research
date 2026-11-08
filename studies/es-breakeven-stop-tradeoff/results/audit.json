@@ -1,0 +1,43 @@
+{
+  "source_rows": 20460,
+  "first": "2026-06-28T18:00:00-04:00",
+  "last": "2026-07-17T16:59:00-04:00",
+  "source_sha256": "6e27d99f34e299896d2273199d7bdcf9c07ba1009e3ce76df5493e00e94b0918",
+  "missing_source_FVG": 21,
+  "unavailable_lagged_FVG": 36,
+  "eligible_dates": [
+    "2026-06-29",
+    "2026-06-30",
+    "2026-07-01",
+    "2026-07-02",
+    "2026-07-06",
+    "2026-07-07",
+    "2026-07-08",
+    "2026-07-09",
+    "2026-07-10",
+    "2026-07-13",
+    "2026-07-14",
+    "2026-07-15",
+    "2026-07-16",
+    "2026-07-17"
+  ],
+  "excluded_candidates": [
+    {
+      "date": "2026-06-28",
+      "status": "missing_boundary"
+    },
+    {
+      "date": "2026-07-03",
+      "status": "missing_boundary"
+    },
+    {
+      "date": "2026-07-05",
+      "status": "missing_boundary"
+    },
+    {
+      "date": "2026-07-12",
+      "status": "missing_boundary"
+    }
+  ],
+  "scope": "Historical saved-reference reconstruction, not old-code replication or live-availability validation; management variants reuse each fixed-stop target/path entry ledger. Two chosen intrabar paths, not rigorous performance bounds."
+}

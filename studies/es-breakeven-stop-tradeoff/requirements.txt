@@ -1,0 +1,2 @@
+# Tested Python3.12.14 standard library. Windows timezone data:
+tzdata==2026.5
