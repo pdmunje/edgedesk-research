@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "summary_rows": 81,
+  "independent_numeric_and_fingerprint_checks": 972,
+  "baseline_rows_matching_recovered_workbook": 9,
+  "synthetic_mechanics_assertions": 12,
+  "independent_method": "Decimal parsing and vector flags; integer comparisons to rolling sums; separate event filtering and summary arithmetic. Fixtures also call production mechanics. No production loader, transition filter or condition loop used for the full-file check.",
+  "scope": "Stated historical color rules only; not original broad-search p/q-values, actual execution or unseen-date validation."
+}

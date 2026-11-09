@@ -1,0 +1,21 @@
+{
+  "input_sha256": "2c403934eceb01b5615e99c8b2ab01461c075ff09e41a537c32b7d0e9803344d",
+  "period_start_years": [
+    2000,
+    2010,
+    2020
+  ],
+  "timezone": "America/New_York",
+  "min_display_count": 50,
+  "conditions": [
+    "current_red",
+    "current_green",
+    "three_red",
+    "three_green",
+    "five_lower_lows",
+    "five_higher_highs",
+    "cross_above_sma20",
+    "cross_below_sma20"
+  ],
+  "note": "Focused descriptive recheck of previously explored historical data; not the original 521-condition or combination search."
+}

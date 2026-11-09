@@ -1,0 +1,3 @@
+# Python 3.12.14; standard library calculations
+# Time-zone database needed on Windows:
+tzdata==2026.5
