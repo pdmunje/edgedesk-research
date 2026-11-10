@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "summary_rows": 39,
+  "independent_numeric_date_identity_fingerprint_checks": 975,
+  "synthetic_boundary_assertions": 9,
+  "independent_method": "Own Decimal parser, cumulative streak arrays and summary calculation; no production loader, pattern-window loop or full-file summarizer reused. Fixtures exercise production functions.",
+  "scope": "Previously explored source counts and chart changes only; original full search/inference, later-date validation and actual fills unverified."
+}

@@ -1,0 +1,18 @@
+{
+  "rows": 7285,
+  "input_sha256": "aa50dad895c5698ae35e24333cf093b682736a4d8477e53563ca7607ef7037eb",
+  "first_date": "1997-09-09",
+  "last_date": "2026-06-30",
+  "adjacent_pairs": 7284,
+  "no_following_target": 1,
+  "non_quarter_point_rows_preserved": 4,
+  "weekend_rows": 0,
+  "full_file_target_dojis": 89,
+  "summary_rows": 39,
+  "primary_patterns": 12,
+  "overlapping_periods_and_nested_lengths": true,
+  "new_validation_dates": false,
+  "broad_original_search_reproduced": false,
+  "missing_dates_filled": false,
+  "date_only_vendor_labels": true
+}

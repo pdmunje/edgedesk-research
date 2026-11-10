@@ -1,0 +1,23 @@
+{
+  "input_sha256": "aa50dad895c5698ae35e24333cf093b682736a4d8477e53563ca7607ef7037eb",
+  "period_starts": [
+    "1997-09-09",
+    "2010-01-01",
+    "2020-01-01"
+  ],
+  "families": [
+    "lower_closes",
+    "lower_highs",
+    "red_candles"
+  ],
+  "lengths": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "period_assignment": "completed predictor vendor date",
+  "color_excludes_target_doji": true,
+  "price_changes_include_target_doji": true,
+  "scope": "Descriptive recheck on previously explored source only; no new validation dates or certified broad-search inference."
+}
