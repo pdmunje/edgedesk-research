@@ -1,0 +1,25 @@
+{
+  "daily_sha256": "aa50dad895c5698ae35e24333cf093b682736a4d8477e53563ca7607ef7037eb",
+  "weekly_sha256": "7532b21c4307c79e4bcac9598e5611e37d8109d1dd737a13e73950bfbf5bccfc",
+  "week_key": "Monday calendar date from supplied date-only trading-session labels",
+  "primary": "exactly five supplied daily rows in one calendar week, matched to weekly OHLC",
+  "prefix_lengths": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "colors": {
+    "G": "close > open",
+    "R": "close < open",
+    "D": "close == open"
+  },
+  "periods": {
+    "full": null,
+    "2010_onward": 2010,
+    "2020_onward": 2020
+  },
+  "execution": "none; close marks and next supplied session opens are descriptive reference measurements",
+  "dependencies": "Python 3.12.14 standard library only",
+  "archive_sha256": "ef5072723e7f1b993f0ce444f213a22160b2d6c4f0646fbe64fa7d384fc8b2be"
+}

@@ -1,0 +1,665 @@
+{
+  "archived_prefix_rows_compared": 82,
+  "fields_per_row": 3,
+  "all_matched": true,
+  "high_low_timing_percentages_matched": 10,
+  "scope": "Counts, final green shares and mean whole-week change for every observed daily-color prefix of length 1-4. No claim to reproduce other workbook factors, exact five-day patterns or statistical inference.",
+  "comparisons": [
+    {
+      "stage": 1,
+      "prefix": "G",
+      "count": 695,
+      "green_weeks": 448,
+      "mean_week_points": 15.98115107913669,
+      "matched": true
+    },
+    {
+      "stage": 1,
+      "prefix": "R",
+      "count": 563,
+      "green_weeks": 252,
+      "mean_week_points": -9.72513321492007,
+      "matched": true
+    },
+    {
+      "stage": 1,
+      "prefix": "D",
+      "count": 16,
+      "green_weeks": 11,
+      "mean_week_points": 0.265625,
+      "matched": true
+    },
+    {
+      "stage": 2,
+      "prefix": "GR",
+      "count": 355,
+      "green_weeks": 180,
+      "mean_week_points": -0.08394366197183098,
+      "matched": true
+    },
+    {
+      "stage": 2,
+      "prefix": "GG",
+      "count": 335,
+      "green_weeks": 266,
+      "mean_week_points": 33.35507462686567,
+      "matched": true
+    },
+    {
+      "stage": 2,
+      "prefix": "RG",
+      "count": 315,
+      "green_weeks": 187,
+      "mean_week_points": 4.029365079365079,
+      "matched": true
+    },
+    {
+      "stage": 2,
+      "prefix": "RR",
+      "count": 240,
+      "green_weeks": 62,
+      "mean_week_points": -27.617708333333333,
+      "matched": true
+    },
+    {
+      "stage": 2,
+      "prefix": "DR",
+      "count": 8,
+      "green_weeks": 4,
+      "mean_week_points": -10.125,
+      "matched": true
+    },
+    {
+      "stage": 2,
+      "prefix": "RD",
+      "count": 8,
+      "green_weeks": 3,
+      "mean_week_points": -14.53125,
+      "matched": true
+    },
+    {
+      "stage": 2,
+      "prefix": "DG",
+      "count": 7,
+      "green_weeks": 6,
+      "mean_week_points": 11.928571428571429,
+      "matched": true
+    },
+    {
+      "stage": 2,
+      "prefix": "GD",
+      "count": 5,
+      "green_weeks": 2,
+      "mean_week_points": -7.45,
+      "matched": true
+    },
+    {
+      "stage": 2,
+      "prefix": "DD",
+      "count": 1,
+      "green_weeks": 1,
+      "mean_week_points": 1.75,
+      "matched": true
+    },
+    {
+      "stage": 3,
+      "prefix": "GRG",
+      "count": 187,
+      "green_weeks": 121,
+      "mean_week_points": 14.323262032085562,
+      "matched": true
+    },
+    {
+      "stage": 3,
+      "prefix": "GGG",
+      "count": 182,
+      "green_weeks": 165,
+      "mean_week_points": 48.98351648351648,
+      "matched": true
+    },
+    {
+      "stage": 3,
+      "prefix": "GRR",
+      "count": 162,
+      "green_weeks": 55,
+      "mean_week_points": -17.006172839506174,
+      "matched": true
+    },
+    {
+      "stage": 3,
+      "prefix": "RGG",
+      "count": 158,
+      "green_weeks": 116,
+      "mean_week_points": 19.629746835443036,
+      "matched": true
+    },
+    {
+      "stage": 3,
+      "prefix": "RGR",
+      "count": 150,
+      "green_weeks": 69,
+      "mean_week_points": -12.055,
+      "matched": true
+    },
+    {
+      "stage": 3,
+      "prefix": "GGR",
+      "count": 146,
+      "green_weeks": 94,
+      "mean_week_points": 13.405479452054795,
+      "matched": true
+    },
+    {
+      "stage": 3,
+      "prefix": "RRG",
+      "count": 135,
+      "green_weeks": 53,
+      "mean_week_points": -14.014814814814814,
+      "matched": true
+    },
+    {
+      "stage": 3,
+      "prefix": "RRR",
+      "count": 101,
+      "green_weeks": 9,
+      "mean_week_points": -46.30940594059406,
+      "matched": true
+    },
+    {
+      "stage": 3,
+      "prefix": "GGD",
+      "count": 7,
+      "green_weeks": 7,
+      "mean_week_points": 43.107142857142854,
+      "matched": true
+    },
+    {
+      "stage": 3,
+      "prefix": "RGD",
+      "count": 7,
+      "green_weeks": 2,
+      "mean_week_points": -3.4285714285714284,
+      "matched": true
+    },
+    {
+      "stage": 3,
+      "prefix": "GRD",
+      "count": 6,
+      "green_weeks": 4,
+      "mean_week_points": 7.791666666666667,
+      "matched": true
+    },
+    {
+      "stage": 3,
+      "prefix": "RDG",
+      "count": 6,
+      "green_weeks": 3,
+      "mean_week_points": -10.666666666666666,
+      "matched": true
+    },
+    {
+      "stage": 3,
+      "prefix": "DGG",
+      "count": 5,
+      "green_weeks": 5,
+      "mean_week_points": 21.0,
+      "matched": true
+    },
+    {
+      "stage": 3,
+      "prefix": "DRG",
+      "count": 5,
+      "green_weeks": 3,
+      "mean_week_points": -10.65,
+      "matched": true
+    },
+    {
+      "stage": 3,
+      "prefix": "RRD",
+      "count": 4,
+      "green_weeks": 0,
+      "mean_week_points": -14.75,
+      "matched": true
+    },
+    {
+      "stage": 3,
+      "prefix": "DGR",
+      "count": 2,
+      "green_weeks": 1,
+      "mean_week_points": -10.75,
+      "matched": true
+    },
+    {
+      "stage": 3,
+      "prefix": "DRR",
+      "count": 2,
+      "green_weeks": 0,
+      "mean_week_points": -34.0,
+      "matched": true
+    },
+    {
+      "stage": 3,
+      "prefix": "GDG",
+      "count": 2,
+      "green_weeks": 1,
+      "mean_week_points": -1.125,
+      "matched": true
+    },
+    {
+      "stage": 3,
+      "prefix": "GDR",
+      "count": 2,
+      "green_weeks": 1,
+      "mean_week_points": -2.25,
+      "matched": true
+    },
+    {
+      "stage": 3,
+      "prefix": "RDR",
+      "count": 2,
+      "green_weeks": 0,
+      "mean_week_points": -26.125,
+      "matched": true
+    },
+    {
+      "stage": 3,
+      "prefix": "DDG",
+      "count": 1,
+      "green_weeks": 1,
+      "mean_week_points": 1.75,
+      "matched": true
+    },
+    {
+      "stage": 3,
+      "prefix": "DRD",
+      "count": 1,
+      "green_weeks": 1,
+      "mean_week_points": 40.25,
+      "matched": true
+    },
+    {
+      "stage": 3,
+      "prefix": "GDD",
+      "count": 1,
+      "green_weeks": 0,
+      "mean_week_points": -30.5,
+      "matched": true
+    },
+    {
+      "stage": 4,
+      "prefix": "GRGR",
+      "count": 103,
+      "green_weeks": 52,
+      "mean_week_points": 2.883009708737864,
+      "matched": true
+    },
+    {
+      "stage": 4,
+      "prefix": "GGGG",
+      "count": 101,
+      "green_weeks": 101,
+      "mean_week_points": 71.86633663366337,
+      "matched": true
+    },
+    {
+      "stage": 4,
+      "prefix": "RGGG",
+      "count": 97,
+      "green_weeks": 83,
+      "mean_week_points": 32.79896907216495,
+      "matched": true
+    },
+    {
+      "stage": 4,
+      "prefix": "GRRG",
+      "count": 91,
+      "green_weeks": 43,
+      "mean_week_points": -1.1813186813186813,
+      "matched": true
+    },
+    {
+      "stage": 4,
+      "prefix": "GRGG",
+      "count": 81,
+      "green_weeks": 68,
+      "mean_week_points": 29.90432098765432,
+      "matched": true
+    },
+    {
+      "stage": 4,
+      "prefix": "RGRG",
+      "count": 81,
+      "green_weeks": 53,
+      "mean_week_points": 6.583333333333333,
+      "matched": true
+    },
+    {
+      "stage": 4,
+      "prefix": "GGGR",
+      "count": 79,
+      "green_weeks": 63,
+      "mean_week_points": 20.43354430379747,
+      "matched": true
+    },
+    {
+      "stage": 4,
+      "prefix": "GGRG",
+      "count": 79,
+      "green_weeks": 63,
+      "mean_week_points": 27.445569620253163,
+      "matched": true
+    },
+    {
+      "stage": 4,
+      "prefix": "RRGG",
+      "count": 74,
+      "green_weeks": 42,
+      "mean_week_points": 3.581081081081081,
+      "matched": true
+    },
+    {
+      "stage": 4,
+      "prefix": "RGRR",
+      "count": 69,
+      "green_weeks": 16,
+      "mean_week_points": -33.93478260869565,
+      "matched": true
+    },
+    {
+      "stage": 4,
+      "prefix": "GRRR",
+      "count": 68,
+      "green_weeks": 11,
+      "mean_week_points": -38.49264705882353,
+      "matched": true
+    },
+    {
+      "stage": 4,
+      "prefix": "GGRR",
+      "count": 65,
+      "green_weeks": 29,
+      "mean_week_points": -3.8923076923076922,
+      "matched": true
+    },
+    {
+      "stage": 4,
+      "prefix": "RGGR",
+      "count": 60,
+      "green_weeks": 32,
+      "mean_week_points": -1.7208333333333334,
+      "matched": true
+    },
+    {
+      "stage": 4,
+      "prefix": "RRGR",
+      "count": 60,
+      "green_weeks": 10,
+      "mean_week_points": -35.958333333333336,
+      "matched": true
+    },
+    {
+      "stage": 4,
+      "prefix": "RRRG",
+      "count": 57,
+      "green_weeks": 9,
+      "mean_week_points": -28.54824561403509,
+      "matched": true
+    },
+    {
+      "stage": 4,
+      "prefix": "RRRR",
+      "count": 44,
+      "green_weeks": 0,
+      "mean_week_points": -69.31818181818181,
+      "matched": true
+    },
+    {
+      "stage": 4,
+      "prefix": "GGDG",
+      "count": 5,
+      "green_weeks": 5,
+      "mean_week_points": 32.15,
+      "matched": true
+    },
+    {
+      "stage": 4,
+      "prefix": "RGDR",
+      "count": 5,
+      "green_weeks": 0,
+      "mean_week_points": -15.5,
+      "matched": true
+    },
+    {
+      "stage": 4,
+      "prefix": "GRDR",
+      "count": 4,
+      "green_weeks": 2,
+      "mean_week_points": 0.75,
+      "matched": true
+    },
+    {
+      "stage": 4,
+      "prefix": "RDGG",
+      "count": 4,
+      "green_weeks": 3,
+      "mean_week_points": 14.8125,
+      "matched": true
+    },
+    {
+      "stage": 4,
+      "prefix": "DGGG",
+      "count": 3,
+      "green_weeks": 3,
+      "mean_week_points": 26.333333333333332,
+      "matched": true
+    },
+    {
+      "stage": 4,
+      "prefix": "DRGG",
+      "count": 3,
+      "green_weeks": 2,
+      "mean_week_points": 0.5833333333333334,
+      "matched": true
+    },
+    {
+      "stage": 4,
+      "prefix": "GRGD",
+      "count": 3,
+      "green_weeks": 1,
+      "mean_week_points": -13.583333333333334,
+      "matched": true
+    },
+    {
+      "stage": 4,
+      "prefix": "GRRD",
+      "count": 3,
+      "green_weeks": 1,
+      "mean_week_points": -10.0,
+      "matched": true
+    },
+    {
+      "stage": 4,
+      "prefix": "RRDG",
+      "count": 3,
+      "green_weeks": 0,
+      "mean_week_points": -18.0,
+      "matched": true
+    },
+    {
+      "stage": 4,
+      "prefix": "DGGR",
+      "count": 2,
+      "green_weeks": 2,
+      "mean_week_points": 13.0,
+      "matched": true
+    },
+    {
+      "stage": 4,
+      "prefix": "DGRR",
+      "count": 2,
+      "green_weeks": 1,
+      "mean_week_points": -10.75,
+      "matched": true
+    },
+    {
+      "stage": 4,
+      "prefix": "DRGR",
+      "count": 2,
+      "green_weeks": 1,
+      "mean_week_points": -27.5,
+      "matched": true
+    },
+    {
+      "stage": 4,
+      "prefix": "GDRR",
+      "count": 2,
+      "green_weeks": 1,
+      "mean_week_points": -2.25,
+      "matched": true
+    },
+    {
+      "stage": 4,
+      "prefix": "GGDR",
+      "count": 2,
+      "green_weeks": 2,
+      "mean_week_points": 70.5,
+      "matched": true
+    },
+    {
+      "stage": 4,
+      "prefix": "GGGD",
+      "count": 2,
+      "green_weeks": 1,
+      "mean_week_points": 21.125,
+      "matched": true
+    },
+    {
+      "stage": 4,
+      "prefix": "GGRD",
+      "count": 2,
+      "green_weeks": 2,
+      "mean_week_points": 21.0,
+      "matched": true
+    },
+    {
+      "stage": 4,
+      "prefix": "GRDG",
+      "count": 2,
+      "green_weeks": 2,
+      "mean_week_points": 21.875,
+      "matched": true
+    },
+    {
+      "stage": 4,
+      "prefix": "RDRR",
+      "count": 2,
+      "green_weeks": 0,
+      "mean_week_points": -26.125,
+      "matched": true
+    },
+    {
+      "stage": 4,
+      "prefix": "RGDG",
+      "count": 2,
+      "green_weeks": 2,
+      "mean_week_points": 26.75,
+      "matched": true
+    },
+    {
+      "stage": 4,
+      "prefix": "DDGR",
+      "count": 1,
+      "green_weeks": 1,
+      "mean_week_points": 1.75,
+      "matched": true
+    },
+    {
+      "stage": 4,
+      "prefix": "DRDG",
+      "count": 1,
+      "green_weeks": 1,
+      "mean_week_points": 40.25,
+      "matched": true
+    },
+    {
+      "stage": 4,
+      "prefix": "DRRG",
+      "count": 1,
+      "green_weeks": 0,
+      "mean_week_points": -28.0,
+      "matched": true
+    },
+    {
+      "stage": 4,
+      "prefix": "DRRR",
+      "count": 1,
+      "green_weeks": 0,
+      "mean_week_points": -40.0,
+      "matched": true
+    },
+    {
+      "stage": 4,
+      "prefix": "GDDR",
+      "count": 1,
+      "green_weeks": 0,
+      "mean_week_points": -30.5,
+      "matched": true
+    },
+    {
+      "stage": 4,
+      "prefix": "GDGG",
+      "count": 1,
+      "green_weeks": 1,
+      "mean_week_points": 7.25,
+      "matched": true
+    },
+    {
+      "stage": 4,
+      "prefix": "GDGR",
+      "count": 1,
+      "green_weeks": 0,
+      "mean_week_points": -9.5,
+      "matched": true
+    },
+    {
+      "stage": 4,
+      "prefix": "RDGD",
+      "count": 1,
+      "green_weeks": 0,
+      "mean_week_points": -27.0,
+      "matched": true
+    },
+    {
+      "stage": 4,
+      "prefix": "RDGR",
+      "count": 1,
+      "green_weeks": 0,
+      "mean_week_points": -96.25,
+      "matched": true
+    },
+    {
+      "stage": 4,
+      "prefix": "RGGD",
+      "count": 1,
+      "green_weeks": 1,
+      "mean_week_points": 23.25,
+      "matched": true
+    },
+    {
+      "stage": 4,
+      "prefix": "RRDR",
+      "count": 1,
+      "green_weeks": 0,
+      "mean_week_points": -5.0,
+      "matched": true
+    },
+    {
+      "stage": 4,
+      "prefix": "RRGD",
+      "count": 1,
+      "green_weeks": 1,
+      "mean_week_points": 0.5,
+      "matched": true
+    }
+  ]
+}

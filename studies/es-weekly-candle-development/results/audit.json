@@ -1,0 +1,46 @@
+{
+  "daily_rows": 7285,
+  "weekly_rows": 1504,
+  "daily_dates": [
+    "1997-09-09",
+    "2026-06-30"
+  ],
+  "weekly_labels": [
+    "1997-09-08",
+    "2026-06-29"
+  ],
+  "calendar_weeks": 1504,
+  "weekly_ohlc_matches": 1504,
+  "weekly_non_monday_labels": 88,
+  "daily_rows_per_week": {
+    "2": 2,
+    "3": 1,
+    "4": 227,
+    "5": 1274
+  },
+  "exactly_five_row_weeks": 1274,
+  "other_row_count_weeks": 230,
+  "first_complete_week": "1997-09-15",
+  "last_complete_week": "2026-06-22",
+  "last_complete_session_date": "2026-06-26",
+  "week_green": 711,
+  "week_red": 558,
+  "week_doji": 5,
+  "high_tied_weeks": 34,
+  "low_tied_weeks": 21,
+  "nonquarter_ohlc_rows": {
+    "daily": 4,
+    "weekly": 2
+  },
+  "period_weeks": {
+    "full": 1274,
+    "2010_onward": 715,
+    "2020_onward": 279
+  },
+  "summary_rows": 195,
+  "limitations": [
+    "Five rows is a retrospective source-count rule, not proof of full-length holiday sessions or live week eligibility.",
+    "Date-only session labels; exchange close and fill timing not verified.",
+    "All dates previously explored; overlapping periods are not new validation."
+  ]
+}

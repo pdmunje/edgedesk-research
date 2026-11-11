@@ -1,0 +1,9 @@
+{
+  "summary_rows": 195,
+  "independent_numeric_and_event_checks": 5470,
+  "weekly_ohlc_exact_matches": 1504,
+  "partition_groups_checked": 12,
+  "boundary_groups": 7,
+  "coverage": "Own Decimal loader, ISO-week grouping, prefix selection, outcome arithmetic, medians, percentages and ordered event hashes. Production called only by made-up fixtures.",
+  "limitations": "Agreement with these definitions does not verify exchange timestamps, future eligibility, vendor adjustments, executable fills or unseen-date performance."
+}
