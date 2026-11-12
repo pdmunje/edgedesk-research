@@ -1,0 +1,13 @@
+{
+  "input_sha256": "5f51e6094c6ce0b0a3e2bc6395a8a4894d5e12e5dc6ccd974c56f5ed49174990",
+  "invented_observations": 13,
+  "invented_decision_checks": 18,
+  "metadata_exclusions": 4,
+  "repetition_panels": 2,
+  "validity": "These exact known/expiry timestamps are invented input contracts, not an inferred ES session calendar.",
+  "not_tested": [
+    "Historical features or protected checkpoints",
+    "Actual feed/receipt latency or source completion schedules",
+    "Trading performance, similarity thresholds or statistical independence"
+  ]
+}

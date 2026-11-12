@@ -1,0 +1,24 @@
+{
+  "invented_decision_rows": 18,
+  "explicit_output_and_fraction_checks": 76,
+  "property_groups": 15,
+  "properties": [
+    "Before, at and after exact completion retain correct source identities",
+    "Delayed receipt blocks use until known time",
+    "Changing a later observation cannot alter earlier decisions",
+    "Input order cannot select a future observation",
+    "Latest missing value stays missing instead of falling back to an older value",
+    "False and numeric zero remain valid, distinct values",
+    "No previous observation and expiry boundary stay unavailable",
+    "Equivalent UTC and fixed-offset times select the same observation",
+    "Duplicate source identities are rejected",
+    "Unresolved latest-source ties stay unavailable",
+    "Invalid time order, validity and offset-free timestamps fail explicitly",
+    "Repeated views and input order do not change earliest distinct-pair rows",
+    "Different observation identities remain separate when values happen to match",
+    "Session is retained in the distinct-pair key",
+    "Completed selector rejects developing or unknown-completion observations"
+  ],
+  "inputs": "Only invented dated examples, no market observations.",
+  "limits": "Checks establish the stated teaching contract, not private-engine correctness, actual source timing, independent sample size or trading value."
+}

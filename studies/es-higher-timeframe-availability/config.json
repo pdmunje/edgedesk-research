@@ -1,0 +1,15 @@
+{
+  "input_sha256": "5f51e6094c6ce0b0a3e2bc6395a8a4894d5e12e5dc6ccd974c56f5ed49174990",
+  "sample": "Synthetic timing and counting examples only",
+  "completed_mode_only": true,
+  "clock_condition": "completed_at <= decision_at AND known_at <= decision_at < valid_until",
+  "choice": "latest completed_at, then known_at; ambiguous latest candidates are unavailable",
+  "missing_value": "preserve null at selected observation, exclude from valid-value comparisons; no fallback to an older value",
+  "pair_count_key": [
+    "session",
+    "observation_id_A",
+    "observation_id_B"
+  ],
+  "pair_keep": "earliest eligible decision timestamp",
+  "runtime": "Python 3.12.14 standard library"
+}

@@ -1,0 +1,3 @@
+panel,view_rows,matching_view_rows,view_agreement_pct,distinct_A,distinct_B,distinct_pairs,matching_pairs,pair_agreement_pct,distinct_sessions
+one_view_per_pair,2,1,50.0,1,2,2,1,50.0,1
+sixty_views_then_one,61,60,98.36065573770492,1,2,2,1,50.0,1

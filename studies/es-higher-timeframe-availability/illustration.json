@@ -1,0 +1,270 @@
+{
+  "warning": "ALL observations, dates, values, sessions and delays are invented teaching inputs. No market data or ES historical performance.",
+  "clock": "Synthetic New York-style fixed -05:00 offset. No exchange-session or daylight-saving schedule is derived.",
+  "observations": [
+    {
+      "feature": "H",
+      "session": "invented-session-A",
+      "observation_id": "H0",
+      "source_start": "2026-01-06T08:00:00-05:00",
+      "completed_at": "2026-01-06T09:00:00-05:00",
+      "known_at": "2026-01-06T09:00:00-05:00",
+      "valid_until": "2026-01-06T10:00:00-05:00",
+      "value": false,
+      "mode": "completed"
+    },
+    {
+      "feature": "H",
+      "session": "invented-session-A",
+      "observation_id": "H1",
+      "source_start": "2026-01-06T09:00:00-05:00",
+      "completed_at": "2026-01-06T10:00:00-05:00",
+      "known_at": "2026-01-06T10:00:00-05:00",
+      "valid_until": "2026-01-06T11:00:00-05:00",
+      "value": true,
+      "mode": "completed"
+    },
+    {
+      "feature": "H",
+      "session": "invented-session-A",
+      "observation_id": "H2",
+      "source_start": "2026-01-06T10:00:00-05:00",
+      "completed_at": "2026-01-06T11:00:00-05:00",
+      "known_at": "2026-01-06T11:00:00-05:00",
+      "valid_until": "2026-01-06T12:00:00-05:00",
+      "value": false,
+      "mode": "completed"
+    },
+    {
+      "feature": "L",
+      "session": "invented-session-A",
+      "observation_id": "L1",
+      "source_start": "2026-01-06T09:00:00-05:00",
+      "completed_at": "2026-01-06T10:00:00-05:00",
+      "known_at": "2026-01-06T10:00:02-05:00",
+      "valid_until": "2026-01-06T11:00:00-05:00",
+      "value": true,
+      "mode": "completed"
+    },
+    {
+      "feature": "U",
+      "session": "invented-session-A",
+      "observation_id": "U1",
+      "source_start": "2026-01-06T09:00:00-05:00",
+      "completed_at": null,
+      "known_at": "2026-01-06T10:00:00-05:00",
+      "valid_until": "2026-01-06T11:00:00-05:00",
+      "value": true,
+      "mode": "completed"
+    },
+    {
+      "feature": "A",
+      "session": "invented-session-A",
+      "observation_id": "A1",
+      "source_start": "2026-01-06T09:00:00-05:00",
+      "completed_at": "2026-01-06T10:00:00-05:00",
+      "known_at": "2026-01-06T10:00:00-05:00",
+      "valid_until": "2026-01-06T11:00:00-05:00",
+      "value": true,
+      "mode": "completed",
+      "completion_ambiguous": true
+    },
+    {
+      "feature": "M",
+      "session": "invented-session-A",
+      "observation_id": "M1",
+      "source_start": "2026-01-06T09:00:00-05:00",
+      "completed_at": "2026-01-06T10:00:00-05:00",
+      "known_at": "2026-01-06T10:00:00-05:00",
+      "valid_until": "2026-01-06T11:00:00-05:00",
+      "value": null,
+      "mode": "completed"
+    },
+    {
+      "feature": "Z",
+      "session": "invented-session-A",
+      "observation_id": "Z1",
+      "source_start": "2026-01-06T09:00:00-05:00",
+      "completed_at": "2026-01-06T10:00:00-05:00",
+      "known_at": "2026-01-06T10:00:00-05:00",
+      "valid_until": "2026-01-06T11:00:00-05:00",
+      "value": 0,
+      "mode": "completed"
+    },
+    {
+      "feature": "D",
+      "session": "invented-session-A",
+      "observation_id": "D1",
+      "source_start": "2026-01-06T09:00:00-05:00",
+      "completed_at": null,
+      "known_at": "2026-01-06T09:30:00-05:00",
+      "valid_until": "2026-01-06T11:00:00-05:00",
+      "value": true,
+      "mode": "developing"
+    },
+    {
+      "feature": "K",
+      "session": "invented-session-A",
+      "observation_id": "K1",
+      "source_start": "2026-01-06T09:00:00-05:00",
+      "completed_at": "2026-01-06T10:00:00-05:00",
+      "known_at": null,
+      "valid_until": "2026-01-06T11:00:00-05:00",
+      "value": true,
+      "mode": "completed"
+    },
+    {
+      "feature": "P",
+      "session": "invented-session-A",
+      "observation_id": "P0",
+      "source_start": "2026-01-06T09:00:00-05:00",
+      "completed_at": "2026-01-06T10:00:00-05:00",
+      "known_at": "2026-01-06T10:00:00-05:00",
+      "valid_until": "2026-01-06T12:00:00-05:00",
+      "value": true,
+      "mode": "completed"
+    },
+    {
+      "feature": "Q",
+      "session": "invented-session-A",
+      "observation_id": "Q0",
+      "source_start": "2026-01-06T09:00:00-05:00",
+      "completed_at": "2026-01-06T10:00:00-05:00",
+      "known_at": "2026-01-06T10:00:00-05:00",
+      "valid_until": "2026-01-06T11:00:00-05:00",
+      "value": true,
+      "mode": "completed"
+    },
+    {
+      "feature": "Q",
+      "session": "invented-session-A",
+      "observation_id": "Q1",
+      "source_start": "2026-01-06T10:00:00-05:00",
+      "completed_at": "2026-01-06T11:00:00-05:00",
+      "known_at": "2026-01-06T11:00:00-05:00",
+      "valid_until": "2026-01-06T12:00:00-05:00",
+      "value": false,
+      "mode": "completed"
+    }
+  ],
+  "queries": [
+    {
+      "id": "before",
+      "feature": "H",
+      "decision_at": "2026-01-06T09:59:59.999-05:00",
+      "required_id": null
+    },
+    {
+      "id": "at_completion",
+      "feature": "H",
+      "decision_at": "2026-01-06T10:00:00-05:00",
+      "required_id": null
+    },
+    {
+      "id": "after_completion",
+      "feature": "H",
+      "decision_at": "2026-01-06T10:00:00.001-05:00",
+      "required_id": null
+    },
+    {
+      "id": "no_previous",
+      "feature": "H",
+      "decision_at": "2026-01-06T08:59:59.999-05:00",
+      "required_id": null
+    },
+    {
+      "id": "delayed_at_close",
+      "feature": "L",
+      "decision_at": "2026-01-06T10:00:00-05:00",
+      "required_id": null
+    },
+    {
+      "id": "delayed_before_ready",
+      "feature": "L",
+      "decision_at": "2026-01-06T10:00:01.999-05:00",
+      "required_id": null
+    },
+    {
+      "id": "delayed_ready",
+      "feature": "L",
+      "decision_at": "2026-01-06T10:00:02-05:00",
+      "required_id": null
+    },
+    {
+      "id": "missing_completion",
+      "feature": "U",
+      "decision_at": "2026-01-06T10:00:00-05:00",
+      "required_id": null
+    },
+    {
+      "id": "ambiguous_completion",
+      "feature": "A",
+      "decision_at": "2026-01-06T10:00:00-05:00",
+      "required_id": null
+    },
+    {
+      "id": "missing_value",
+      "feature": "M",
+      "decision_at": "2026-01-06T10:00:00-05:00",
+      "required_id": null
+    },
+    {
+      "id": "valid_numeric_zero",
+      "feature": "Z",
+      "decision_at": "2026-01-06T10:00:00-05:00",
+      "required_id": null
+    },
+    {
+      "id": "developing_rejected",
+      "feature": "D",
+      "decision_at": "2026-01-06T10:00:00-05:00",
+      "required_id": null
+    },
+    {
+      "id": "missing_known_time",
+      "feature": "K",
+      "decision_at": "2026-01-06T10:00:00-05:00",
+      "required_id": null
+    },
+    {
+      "id": "next_completion",
+      "feature": "H",
+      "decision_at": "2026-01-06T11:00:00-05:00",
+      "required_id": null
+    },
+    {
+      "id": "expired",
+      "feature": "H",
+      "decision_at": "2026-01-06T12:00:00-05:00",
+      "required_id": null
+    },
+    {
+      "id": "target_before",
+      "feature": "H",
+      "decision_at": "2026-01-06T09:59:59.999-05:00",
+      "required_id": "H1"
+    },
+    {
+      "id": "valid_false",
+      "feature": "H",
+      "decision_at": "2026-01-06T09:00:00-05:00",
+      "required_id": null
+    },
+    {
+      "id": "equivalent_utc",
+      "feature": "H",
+      "decision_at": "2026-01-06T15:00:00+00:00",
+      "required_id": null
+    }
+  ],
+  "repetition": {
+    "features": [
+      "P",
+      "Q"
+    ],
+    "start": "2026-01-06T10:00:00-05:00",
+    "last": "2026-01-06T11:00:00-05:00",
+    "repeat_minutes": 60,
+    "session": "invented-session-A"
+  }
+}
