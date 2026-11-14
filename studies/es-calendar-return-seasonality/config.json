@@ -1,0 +1,16 @@
+{
+  "input_sha256": "aa50dad895c5698ae35e24333cf093b682736a4d8477e53563ca7607ef7037eb",
+  "horizons_stored_sessions": [
+    1,
+    2,
+    3,
+    5,
+    21
+  ],
+  "split": "2020-01-01",
+  "grouping": "Month or weekday of starting close label. Ending close may cross month or weekday. All groups retained.",
+  "primary_return": "100*(close[t+h]/close[t]-1), a descriptive close-mark change, not an achievable same-close order.",
+  "execution_sensitivity": "100*(close[t+h]-open[t+1]-cost)/open[t+1], cost0 or1 total point per hypothetical round trip. No actual fill, margin or account return.",
+  "phase_rule": "All: any complete forward horizon. Before2020: both start and end before2020. Later: start>=2020. Crossing horizons omitted only from two-phase comparison, retained in All.",
+  "limits": "Date-only continuous-series history, originally explored. No intraday 30-minute source recovery, cash-index reproduction, independent-trial inference or native session/roll proof."
+}

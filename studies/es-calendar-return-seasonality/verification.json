@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "independent_forward_windows": 36393,
+  "independent_summary_cells": 270,
+  "partition_checks": 30,
+  "split_coverage_checks": 5,
+  "invented_arithmetic_checks": 3,
+  "scope": "Summarized overlapping price-mark changes; no independent-trial inference, untouched holdout or actual fill."
+}
