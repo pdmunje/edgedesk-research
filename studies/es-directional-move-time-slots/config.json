@@ -1,0 +1,16 @@
+{
+  "input_sha256": "2a794cbeae8f8fc3022d4079e98c32e8d9dc030ba1d1bda2b457aa857f0fa6f9",
+  "tick_points": 0.25,
+  "source_bar_minutes": 10,
+  "large_rule": "Current TR >= 2 times arithmetic mean of previous six valid completed 10-minute TRs. Require uninterrupted bars; reset at gap or roll. No Wilder smoothing.",
+  "event_rule": "One maximal uninterrupted non-doji same-colour run; qualify at second close if first two are large, otherwise third close if present. Count once. Boundaries: doji/opposite colour/gap/roll/file edge.",
+  "hour_rule": "Confirmation timestamp = qualifying bar opening +10 minutes; allocate to clock hour containing confirmation. Denominator = six exact complete ten-minute bars in that UTC hour, same roll segment; label with New York clock hour. Full run can start before or end after that hour.",
+  "phases": [
+    "All",
+    "Before 2020",
+    "2020 onward"
+  ],
+  "period_rule": "New York 18:00\u201317:00 session; trading date is local date +1 after18:00; phase from confirmation hour trading date. Remove17:00\u201318:00 before aggregation.",
+  "scope": "New declared long-history reconstruction, not original unrecovered 10-minute export/window-rank replication. Retrospective observed run size, not executable trade profit.",
+  "contract_exclusion": "Exclude missing contract identities rather than guess them. Retain provided roll flags before filtering; require every adjacent known identity change to have a roll flag."
+}

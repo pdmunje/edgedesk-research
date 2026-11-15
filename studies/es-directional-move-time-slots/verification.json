@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "independent_ten_minute_OHLC_values": 1911792,
+  "independent_large_bar_checks": 477948,
+  "streaming_confirmed_runs": 46754,
+  "retained_streaming_runs": 44655,
+  "independent_event_summary_rows": 9,
+  "independent_hour_rows": 68,
+  "invented_mechanics": 3,
+  "scope": "Aggregate data arithmetic and causal pattern-recognition timing; observed end-of-run marks are not executable exits or profits."
+}
