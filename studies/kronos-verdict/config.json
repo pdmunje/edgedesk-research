@@ -1,0 +1,114 @@
+{
+  "input_sha256": "6d14f9b278472669891d6c9e20d8076ed00407a44d6f552919477d86108f077b",
+  "timing_sha256": "41e5d128a8611b5c58dd6a5e54e11d41f61da3470af3724655a4ab8d154ee80e",
+  "historical_first": "2025-07-02",
+  "historical_last": "2026-10-16",
+  "forward_dates": [
+    "2026-10-20",
+    "2026-10-21"
+  ],
+  "seeds": [
+    "seed_42",
+    "seed_123",
+    "seed_2026"
+  ],
+  "specs": {
+    "ES": [
+      0.25,
+      50
+    ],
+    "NQ": [
+      0.25,
+      20
+    ],
+    "GC": [
+      0.1,
+      100
+    ],
+    "CL": [
+      0.01,
+      1000
+    ]
+  },
+  "settings": [
+    [
+      "mini",
+      128
+    ],
+    [
+      "mini",
+      256
+    ],
+    [
+      "mini",
+      512
+    ],
+    [
+      "mini",
+      1024
+    ],
+    [
+      "mini",
+      2048
+    ],
+    [
+      "small",
+      128
+    ],
+    [
+      "small",
+      256
+    ],
+    [
+      "small",
+      512
+    ],
+    [
+      "base",
+      128
+    ],
+    [
+      "base",
+      256
+    ],
+    [
+      "base",
+      512
+    ]
+  ],
+  "bootstrap": {
+    "seed": 20261021,
+    "samples": 10000,
+    "block_lengths": [
+      5,
+      20
+    ],
+    "selected_settings": [
+      [
+        "CL",
+        "mini",
+        2048
+      ],
+      [
+        "CL",
+        "base",
+        512
+      ],
+      [
+        "GC",
+        "mini",
+        1024
+      ]
+    ]
+  },
+  "scope": "Archive-only recalculation of saved daily forecasts; no inference, model download, training, service start or trading. Owner closed project2026-10-22. Historical extension2026-10-19 excluded; forward and unfinished full-session experiments separate.",
+  "forecast_protocol": {
+    "version": "daily_per_prediction_v2",
+    "temperature": 0.6,
+    "top_p": 0.9,
+    "top_k": 0,
+    "sample_count": 1,
+    "batch_size": 1,
+    "seed_reset": "before each individual prediction"
+  }
+}

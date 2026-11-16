@@ -1,0 +1,51 @@
+{
+  "snapshot_rows": 43494,
+  "history_rows": 43098,
+  "excluded_history_extension_rows": 132,
+  "history_dates": [
+    "2025-07-02",
+    "2026-10-16"
+  ],
+  "settings": 44,
+  "seed_series": 132,
+  "forward_rows": 264,
+  "forward_dates": [
+    "2026-10-20",
+    "2026-10-21"
+  ],
+  "forward_before_open": 264,
+  "unanimous_groups": 8647,
+  "matched_groups": 14366,
+  "invalid_candles": 8109,
+  "worse_price_series": 132,
+  "market_quality": [
+    {
+      "symbol": "CL",
+      "worse_series": 33,
+      "series": 33,
+      "forecast_rows": 10758,
+      "invalid_candles": 693
+    },
+    {
+      "symbol": "ES",
+      "worse_series": 33,
+      "series": 33,
+      "forecast_rows": 10791,
+      "invalid_candles": 2967
+    },
+    {
+      "symbol": "GC",
+      "worse_series": 33,
+      "series": 33,
+      "forecast_rows": 10758,
+      "invalid_candles": 1965
+    },
+    {
+      "symbol": "NQ",
+      "worse_series": 33,
+      "series": 33,
+      "forecast_rows": 10791,
+      "invalid_candles": 2484
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "raw_rows_scalar_checked": 43494,
+  "historical_series_independently_checked": 132,
+  "forward_series_independently_checked": 132,
+  "historical_groups": 14366,
+  "archive_seed_comparisons": 132,
+  "archive_settings": 44,
+  "archive_interval_rows": 12,
+  "before_open_timings": 264,
+  "invented_mechanics": 3,
+  "checked_source_files_unchanged": 6
+}
