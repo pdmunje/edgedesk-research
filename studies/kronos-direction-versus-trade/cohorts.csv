@@ -1,0 +1,13 @@
+symbol,cohort,rows,net_wins,net_losses,entered_breakeven,no_trade
+CL,Correct nonflat direction,5430,4771,659,0,0
+CL,Incorrect nonflat direction,5295,707,4588,0,0
+CL,Actual close-to-close flat,33,26,7,0,0
+ES,Correct nonflat direction,5291,4905,386,0,0
+ES,Incorrect nonflat direction,5500,298,5202,0,0
+ES,Actual close-to-close flat,0,0,0,0,0
+GC,Correct nonflat direction,5276,4831,445,0,0
+GC,Incorrect nonflat direction,5416,503,4913,0,0
+GC,Actual close-to-close flat,66,30,36,0,0
+NQ,Correct nonflat direction,5286,4894,392,0,0
+NQ,Incorrect nonflat direction,5505,367,5138,0,0
+NQ,Actual close-to-close flat,0,0,0,0,0

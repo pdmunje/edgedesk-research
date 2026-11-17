@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "scalar_forecasts": 43098,
+  "gap_identity_rows": 43098,
+  "independent_series": 132,
+  "archived_series_count_checks": 132,
+  "market_summaries": 4,
+  "cohort_rows": 12,
+  "invented_mechanics": 4,
+  "source_fingerprints_unchanged": 2
+}

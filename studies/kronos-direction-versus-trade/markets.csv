@@ -1,0 +1,5 @@
+symbol,forecast_rows,nonflat_direction_rows,correct_direction_rows,correct_net_losses,correct_losses_negative_gross,correct_losses_zero_gross,correct_losses_positive_gross,actual_flat_rows,entered_trades,no_trade_rows,net_wins,net_losses,entered_breakeven,incorrect_net_wins
+CL,10758,10725,5430,659,601,19,39,33,10758,0,5504,5254,0,707
+ES,10791,10791,5291,386,329,40,17,0,10791,0,5203,5588,0,298
+GC,10758,10692,5276,445,421,0,24,66,10758,0,5364,5394,0,503
+NQ,10791,10791,5286,392,392,0,0,0,10791,0,5261,5530,0,367

@@ -1,0 +1,75 @@
+{
+  "input_sha256": "6d14f9b278472669891d6c9e20d8076ed00407a44d6f552919477d86108f077b",
+  "historical_first": "2025-07-02",
+  "historical_last": "2026-10-16",
+  "specs": {
+    "ES": [
+      0.25,
+      50
+    ],
+    "NQ": [
+      0.25,
+      20
+    ],
+    "GC": [
+      0.1,
+      100
+    ],
+    "CL": [
+      0.01,
+      1000
+    ]
+  },
+  "seeds": [
+    "seed_42",
+    "seed_123",
+    "seed_2026"
+  ],
+  "settings": [
+    [
+      "mini",
+      128
+    ],
+    [
+      "mini",
+      256
+    ],
+    [
+      "mini",
+      512
+    ],
+    [
+      "mini",
+      1024
+    ],
+    [
+      "mini",
+      2048
+    ],
+    [
+      "small",
+      128
+    ],
+    [
+      "small",
+      256
+    ],
+    [
+      "small",
+      512
+    ],
+    [
+      "base",
+      128
+    ],
+    [
+      "base",
+      256
+    ],
+    [
+      "base",
+      512
+    ]
+  ],
+  "scope": "Archive-only same forecasts as Kronos verdict; count direction correctness versus daily open-to-close simulated outcome. No inference or new trading rule. Project closed2026-10-22."
+}
